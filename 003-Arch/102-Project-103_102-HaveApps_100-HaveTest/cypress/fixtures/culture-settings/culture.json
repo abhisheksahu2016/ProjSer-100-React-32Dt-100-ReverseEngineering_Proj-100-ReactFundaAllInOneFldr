@@ -1,0 +1,19 @@
+{
+  "isoCurrencySymbol": "GBP",
+  "currencyGroupSeparator": ",",
+  "currencyDecimalSeparator": ".",
+  "currencyPositivePattern": "$n",
+  "currencyNegativePattern": "($n)",
+  "cultureName": "en-GB",
+  "shortDateFormat": "yyyy/MM/dd",
+  "shortTimeFormat": "HH:mm",
+  "volumeUnitOfMeasure": "LTR",
+  "volumeUnitOfMeasurePrecision": 2,
+  "volumePricePrecision": 1,
+  "temperatureUnitOfMeasure": "CEL",
+  "lengthUnitOfMeasure": "CMT",
+  "dimensionsPrecision": "0",
+  "pricePrecision": "2",
+  "weightPrecision": "0",
+  "quantityPrecision": "0"
+}

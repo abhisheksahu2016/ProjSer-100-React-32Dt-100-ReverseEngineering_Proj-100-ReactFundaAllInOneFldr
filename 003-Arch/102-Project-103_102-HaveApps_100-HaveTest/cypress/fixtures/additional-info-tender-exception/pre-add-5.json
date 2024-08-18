@@ -1,0 +1,47 @@
+{
+    "cartId": "39P8Q4WI9Z",
+    "sequenceNumber": 250,
+    "cartInfo": {
+        "businessDate": "2024-03-18",
+        "beginDateTime": "2024-03-18T11:46:59.929",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 12,
+            "netAmount": 12,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 7,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "itemLink": 6,
+            "status": "Cancelled",
+            "sequenceNumber": 7
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

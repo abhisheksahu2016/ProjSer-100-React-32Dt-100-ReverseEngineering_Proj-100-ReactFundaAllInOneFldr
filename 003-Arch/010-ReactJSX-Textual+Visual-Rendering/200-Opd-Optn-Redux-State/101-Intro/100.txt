@@ -1,0 +1,17 @@
+React Redux is the official 
+react binding for redux.
+ It provides a 
+ 
+ 13
+ Have Store->App->Comp List
+ HaveContext->Comp->State List
+ predictable state container by
+ 
+ 14
+ App->Optimization
+ Component->connecting React components 
+ DAL->to a centralized store, 
+  simplifying data flow 
+  enabling efficient management of application state across components.
+
+State-Predicting

@@ -1,0 +1,96 @@
+{
+    "transaction": {
+        "cartId": "1UWTVHB7J6",
+        "sequenceNumber": 123,
+        "cartInfo": {
+            "businessDate": "2023-11-27",
+            "beginDateTime": "2023-11-27T16:41:58.218",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 12,
+                "netAmount": 12,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 12,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "3",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Long Banana",
+                "description": "Banana",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 12,
+                "extendedAmount": 12,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "netAmount": 12,
+                "regularPrice": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "formsData": [
+            {
+                "formName": "Configurable Form",
+                "fields": [
+                    {
+                        "fieldName": "key1",
+                        "value": "25"
+                    },
+                    {
+                        "fieldName": "key2",
+                        "value": "26"
+                    },
+                    {
+                        "fieldName": "key3",
+                        "value": "27"
+                    }
+                ]
+            }
+        ],
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

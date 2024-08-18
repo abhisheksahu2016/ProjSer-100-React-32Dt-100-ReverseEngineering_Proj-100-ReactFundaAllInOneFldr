@@ -1,0 +1,168 @@
+{
+    "cartInfo": {
+        "status": "Tender",
+        "totals": {
+            "netAmount": 31,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 30,
+            "cashbackAmount": 0,
+            "discountAmount": 1,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "jRU0zfEcqUKvmyvIeHZZA",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 3580,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "4",
+                    "value": "1231214",
+                    "id": "00000012312146"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 31,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "Asprin Long Description",
+            "description": "Aspirin",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 31,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 31
+            },
+            "amount": 31,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638368695380363572",
+            "indicators": {}
+        }
+    ],
+    "payments": [
+        {
+            "sequenceNumber": 2,
+            "sequence": "638368707240849137",
+            "lineId": 2,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 30,
+            "cashBackAmount": 0,
+            "status": "preTender",
+            "usage": "Payment"
+        }
+    ],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "565758-3",
+            "promotionDescription": "RewardAsTender",
+            "rewardAmount": 1,
+            "rewardType": "GS1_MANUFACTURER_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 1,
+                    "rewardRefundAmount": 1,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 1,
+                            "rewardRefundAmount": 1
+                        }
+                    ],
+                    "itemId": "00000012312146"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "81100666667565758310011015390001",
+                "rewardAsTender": true,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardedTenderLineId": "3",
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "81100666667565758310011015390001",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638368690956990641",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "565758-3"
+            ]
+        },
+        {
+            "sequenceNumber": 2,
+            "couponId": "81100666667565758310011015390001",
+            "status": "Active",
+            "lineId": 2,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638368693337709360",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 0,
+                "unused": 1
+            },
+            "couponRedemptionIds": []
+        }
+    ],
+    "restrictions": [
+        {
+            "lineId": "1",
+            "restrictionType": "UnusedCoupon",
+            "restrictionOn": "Coupons",
+            "restrictedLines": [
+                "2"
+            ],
+            "priority": 0,
+            "additionalData": {},
+            "delayable": false
+        }
+    ],
+    "customerPrograms": [],
+    "identifiers": {}
+}

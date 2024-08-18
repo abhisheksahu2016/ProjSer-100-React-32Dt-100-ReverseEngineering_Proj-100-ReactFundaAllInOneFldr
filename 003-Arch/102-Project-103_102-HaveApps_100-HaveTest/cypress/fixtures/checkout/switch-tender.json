@@ -1,0 +1,18 @@
+{
+    "wic":null,
+    "lineId":"1",
+    "tenderId":"5",
+    "tenderType":"Check",
+    "description":"CashCheque",
+    "status":"preTender","entryMethod":"Automatic",
+    "amount":10,"readyToAuthorize":true,
+    "authorization":{
+        "electronicPayment": {
+            "epsProvider":{}
+        },
+        "checkPayment":{
+            "isEndorsed":false,
+        "isECCConverted":false}
+    },
+    "sequence":"637992855959102948","usage":"Payment","cashBackAmount":0
+}

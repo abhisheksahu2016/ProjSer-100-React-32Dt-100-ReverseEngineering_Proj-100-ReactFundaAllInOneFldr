@@ -1,0 +1,300 @@
+[
+  {
+    "documents": [
+      {
+        "commands": [
+          {
+            "bitmapId": "1"
+          },
+          {
+            "text": "                Brooklyn                ",
+            "printAttributes": {
+              "bold": true
+            },
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "            Nostrand Av 1324            ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "                New York                ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "                NY",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": ",",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "11216                ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "               6787323274               ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "      WIC EBT Proposed Utilization      ",
+            "printAttributes": {
+              "bold": true
+            },
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "                                        ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "PAN: ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "************2011    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "State: ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "MN",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "Ref/Seq # ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "        ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "                                        ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "QTY    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "UOM    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "Description              ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "----------------------------------------",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "1      ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "CON   ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "Peanut Butter            ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "CREAMY PB EWIC ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "1 @ 2.49/CON   ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "2.24     ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Center",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "1      ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "LB    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "Cheese (lbs)             ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "Crystal Farms W",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "2 @ 3.75/LB    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "7.5      ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": " ",
+            "printAttributes": {},
+            "align": "Center",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "   Total WIC EBT Amount: ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42
+          },
+          {
+            "text": "    9.74    ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "            (kurt) Brooklyn             ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "text": "          02/15/2023 02:54 PM           ",
+            "printAttributes": {},
+            "align": "Left",
+            "cpl": 42,
+            "feedLines": 1
+          },
+          {
+            "feedLines": 6
+          },
+          {
+            "cutPaper": true,
+            "cutPercent": 50
+          },
+          {
+            "feedLines": 1
+          }
+        ]
+      }
+    ]
+  }
+]

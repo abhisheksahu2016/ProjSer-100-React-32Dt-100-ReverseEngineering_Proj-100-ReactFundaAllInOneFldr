@@ -1,0 +1,18 @@
+{
+    "sessionId": "ff41d827-2a23-4a45-892f-13cdb875367c",
+    "status": "Started",
+    "action": "EFTSwipePay",
+    "actionDate": "2024-03-18T15:51:59.6123129+02:00",
+    "payload": {
+        "amount": "12",
+        "preTenderAmount": "12",
+        "paymentTranId": "",
+        "cardDetails": {
+            "cardId": "VS",
+            "entryMethod": "",
+            "accountNumber": "nullnull",
+            "cardType": ""
+        },
+        "tenderId": "10"
+    }
+}

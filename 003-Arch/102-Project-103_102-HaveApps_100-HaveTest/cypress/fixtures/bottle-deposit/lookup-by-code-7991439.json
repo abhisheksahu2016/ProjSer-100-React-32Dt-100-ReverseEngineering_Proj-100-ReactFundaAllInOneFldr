@@ -1,0 +1,34 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "7991439",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "1"
+                }
+            ],
+            "sellable": true,
+            "alternativeItemIds": [
+                "7991439"
+            ],
+            "description": "Deposit Bottle Bottle 75cc",
+            "longDescription": "Long Deposit Bottle Bottle 75cc",
+            "requiredPrice": false,
+            "hasPrice": true,
+            "unitPrice": 1.2,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 1.2,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "unitsOfMeasure": "EA",
+            "isManualTarePercentageEnabled": false,
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": []
+        }
+    ]
+}

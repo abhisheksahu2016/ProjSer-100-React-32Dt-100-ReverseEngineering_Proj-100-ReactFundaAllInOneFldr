@@ -1,0 +1,131 @@
+{
+    "transaction": {
+        "cartId": "EKRX15DJGR",
+        "sequenceNumber": 103,
+        "cartInfo": {
+            "businessDate": "2023-12-20",
+            "beginDateTime": "2023-12-20T19:53:18.936",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 2660,
+                "netAmount": 2300,
+                "taxAmounts": {
+                    "taxAmount": 360,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 2,
+                "balanceDue": 2660,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "888",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "LG TV",
+                "description": "LG TV",
+                "itemType": "Stock",
+                "lineId": 3,
+                "amount": 2300,
+                "extendedAmount": 2000,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 2000,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "netAmount": 2000,
+                "regularPrice": {
+                    "unitPrice": 2000,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [
+                    {
+                        "lineId": 1,
+                        "authorityId": "First Authority",
+                        "amount": 200,
+                        "taxableAmount": 2000,
+                        "exemptAmount": 0
+                    },
+                    {
+                        "lineId": 2,
+                        "authorityId": "First Authority",
+                        "amount": 160,
+                        "taxableAmount": 2000,
+                        "exemptAmount": 0
+                    }
+                ],
+                "itemIndicators": [
+                    "C"
+                ],
+                "linkedLines": [
+                    {
+                        "lineItem": {
+                            "EntryMethod": "Automatic",
+                            "itemId": {
+                                "value": "99900077",
+                                "type": "SKU"
+                            },
+                            "quantity": {
+                                "value": 1,
+                                "entryMethod": "Automatic"
+                            }
+                        },
+                        "fullDescription": "Three Year Warranty",
+                        "description": "Three Year Warranty",
+                        "itemType": "Warranty",
+                        "lineId": 4,
+                        "amount": 300,
+                        "extendedAmount": 300,
+                        "securityScale": true,
+                        "imageUrl": "",
+                        "price": {
+                            "unitPrice": 300,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "netAmount": 300,
+                        "regularPrice": {
+                            "unitPrice": 300,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "status": "Active",
+                        "taxes": []
+                    }
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

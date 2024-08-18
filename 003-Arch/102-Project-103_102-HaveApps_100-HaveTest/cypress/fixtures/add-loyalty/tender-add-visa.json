@@ -1,0 +1,133 @@
+{
+    "cartId": "666NXGVIOB",
+    "sequenceNumber": 333,
+    "cartInfo": {
+        "businessDate": "2024-03-01",
+        "beginDateTime": "2024-03-01T12:51:01.789",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 141.51,
+            "netAmount": 116.2,
+            "taxAmounts": {
+                "taxAmount": 25.31,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 40.51,
+            "discountAmount": 5,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 10,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                3,
+                1
+            ],
+            "rewardAmount": -5,
+            "promotionId": "2216",
+            "rewardedItems": [
+                {
+                    "lineId": 3,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 120,
+                    "sequences": [
+                        {
+                            "sequence": 3,
+                            "rewardContributionAmount": 4.95
+                        }
+                    ],
+                    "description": "Bedding Set"
+                },
+                {
+                    "lineId": 1,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 1.2,
+                    "sequences": [
+                        {
+                            "sequence": 1,
+                            "rewardContributionAmount": 0.05
+                        }
+                    ],
+                    "description": "color pencils"
+                }
+            ],
+            "netPrice": 121.2,
+            "status": "Active",
+            "rewardType": "PercentageOff",
+            "promotionDescription": "5%off for visa ",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": false,
+                "isManualPromotion": false,
+                "isTriggeredByTender": true,
+                "isSingleLineDiscount": false
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [],
+    "payments": [
+        {
+            "amount": 100,
+            "currencyCode": "USD",
+            "localAmount": 100,
+            "currencySymbol": "$",
+            "tenderName": "Visa_AutoReconcile",
+            "tenderId": "10",
+            "sequenceNumber": 11,
+            "isProcessedByAtm": false,
+            "isProcessedByEps": true,
+            "thirdPartySessionId": "4417ef0b-7152-4465-8fd9-4a14ee5d268f",
+            "loyaltyRedemptionInfo": {},
+            "epsData": {
+                "paymentTranId": "000127",
+                "authCode": "21232838",
+                "providerData": "full payment"
+            }
+        }
+    ],
+    "returns": [],
+    "customer": {
+        "consumerAccountNumber": "12343333",
+        "firstName": "Tal",
+        "lastName": "Bar",
+        "points": 228,
+        "isAuthenticatedOffline": false,
+        "programBalances": [
+            {
+                "id": "100",
+                "programId": "account 100",
+                "name": "account 100",
+                "earnedPoints": 228,
+                "originalPoints": 228
+            }
+        ],
+        "emailAddress": "Wira.Nolly@retalix.com",
+        "eligibleForPayment": false
+    },
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

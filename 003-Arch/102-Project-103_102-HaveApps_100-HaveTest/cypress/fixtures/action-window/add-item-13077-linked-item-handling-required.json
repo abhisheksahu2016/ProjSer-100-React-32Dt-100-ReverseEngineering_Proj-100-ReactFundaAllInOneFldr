@@ -1,0 +1,72 @@
+{
+    "code": "LinkedItemHandlingRequired",
+    "message": "Additional action needs to be performed",
+    "severity": "Error",
+    "data": {
+        "itemLookups": [
+            {
+                "hasPrice": true,
+                "unitPrice": 34.6,
+                "regularSalesUnitPrice": {
+                    "price": {
+                        "value": 34.6,
+                        "currency": "USD"
+                    }
+                },
+                "unitsOfMeasure": "Kg",
+                "description": "Filled Cookies",
+                "longDescription": "Long Filled Cookies",
+                "itemId": "13077",
+                "requiredPrice": false,
+                "linkedItemsGroup": {
+                    "groupCategory": "Tare",
+                    "requiredForSale": true,
+                    "linkedItems": [
+                        {
+                            "itemId": "99900045",
+                            "description": "Tare"
+                        },
+                        {
+                            "itemId": "99900052",
+                            "description": "Tare"
+                        },
+                        {
+                            "itemId": "99900054",
+                            "description": "Tare"
+                        },
+                        {
+                            "itemId": "99900069",
+                            "description": "Tare"
+                        },
+                        {
+                            "itemId": "99900076",
+                            "description": "Tare"
+                        }
+                    ]
+                },
+                "depositItems": [],
+                "merchandiseHierarchy": [
+                    {
+                        "hierarchyType": "Merchandise",
+                        "nodeId": "Unknown"
+                    }
+                ],
+                "sellable": true,
+                "itemMeasurements": {
+                    "weight": 0,
+                    "unitsOfMeasure": "EA"
+                },
+                "isManualTarePercentageEnabled": true,
+                "tarePercentage": [
+                    10,
+                    17.5,
+                    22
+                ],
+                "inVariety": false,
+                "alternativeItemIds": [
+                    "13077"
+                ]
+            }
+        ]
+    }
+}

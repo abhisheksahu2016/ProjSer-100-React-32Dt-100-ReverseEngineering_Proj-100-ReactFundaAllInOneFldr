@@ -1,0 +1,526 @@
+{
+  "receipts": [
+    {
+      "documents": [
+        {
+          "commands": [
+            {
+              "text": "               Your Store               ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "               Your Street              ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "           City, State zipcode          ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "            (555) 555-1212              ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " 2022-08-31 12:09:35",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Subtotal:  USD $90.95",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Tip:       USD $______",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Total:     USD $______",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Check Personal",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Entry Method: CheckMICR",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Check #: *****3300",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Purchase   - APPROVED",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " AUTH CODE: ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " TraceId:       1000000000013142356",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " MID: 123456   TID: 001   RRN: 31208",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " When you provide a check as payment,",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "you authorize us to use check",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "information to process a one-time",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "Electronic Fund Transfer (EFT) or",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "draft drawn from your your payment",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "is returned unpaid, you authorize",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "us to collect your payment and a",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "Return Fee of: $0 by EFT or draft.",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "       Questions? Call 1-800-366-2425",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": " Signature:______________________________",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "             THANK YOU FOR              ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "            SHOPPING WITH US!           ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "feedLines": 6
+            },
+            {
+              "cutPaper": true,
+              "cutPercent": 50
+            },
+            {
+              "feedLines": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

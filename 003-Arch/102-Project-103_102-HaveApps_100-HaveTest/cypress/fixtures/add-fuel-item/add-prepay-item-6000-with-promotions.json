@@ -1,0 +1,136 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 40,
+                "grossReturnsAmount": 0,
+                "balanceDue": 40,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "lcLCjtNvqkGOAa7yxilckA",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 115,
+        "items": [
+            {
+                "lineItem": {
+                    "quantity": {
+                        "unitOfMeasure": "GLL"
+                    }
+                },
+                "extendedAmount": 40,
+                "itemType": "Fuel",
+                "lineId": 2,
+                "fullDescription": "Fuel Prepay",
+                "description": "PREPAY",
+                "regularPrice": {},
+                "amount": 40,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "prepayFuelItem": {
+                        "controllerSequenceNumber": "1234567890",
+                        "prepayType": "AMOUNT",
+                        "serviceType": "SELF",
+                        "fuelingPointId": "4",
+                        "fuelShiftId": "10",
+                        "fuelSale": [
+                            {
+                                "itemId": "6000",
+                                "description": "Regular",                  
+                                "unitPrice": 3.959,
+                                "unitPriceForRewards": 3.950,
+                                "netUnitPrice": 3.859,
+                                "unitOfMeasure": "GLL"
+                            },
+                            {
+                                "itemId": "6001",
+                                "description": "Unleaded 89",                  
+                                "unitPrice": 3.459,
+                                "netUnitPrice": 3.450,
+                                "unitOfMeasure": "GLL"
+                            },
+                            {
+                                "itemId": "5001",
+                                "description": "delek",
+                                "unitPrice": 3.959,
+                                "unitPriceForRewards": 3.950,
+                                "netUnitPrice": 3.869,
+                                "unitOfMeasure": "GLL"
+                            }
+                        ],
+                        "prepayValue": 40
+                    },
+                    "ItemSaleType": "PREPAY"
+                },
+                "entryMethod": "Automatic",
+                "sequence": "638410609136647017",
+                "indicators": {
+                    "eligibilityIndicators": []
+                }
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [
+            {
+              "lineId": 0,
+              "promotionId": "139",
+              "promotionDescription": "Happy promotion",
+              "rewardAmount": 0.09,
+              "rewardType": "STANDARD",
+              "rewardedItems": [
+                  {
+                      "lineId": 2,
+                      "itemId":"6000",
+                      "rewardAmount": 0.09,
+                      "rewardUnits": [
+                        {
+                            "unitId": 1,
+                            "rewardAmount": 0.09
+                        }
+                      ],
+                      "quantity": {
+                            "unitOfMeasure": "GLL",
+                            "value": 10
+                      }
+                  },
+                  {
+                    "lineId": 2,
+                    "itemId":"5001",
+                    "quantity": {
+                        "unitOfMeasure": "GLL",
+                        "value": 10
+                    },
+                    "rewardAmount": 0.9,
+                    "rewardUnits": [
+                      {
+                        "unitId": 1,
+                        "rewardAmount": 0.9
+                      }
+                    ]
+                }
+              ],
+              "triggeredCoupons": [],
+              "promotionDetails": {
+                "promotionLevel": "ITEM_LEVEL",
+                "rewardAsTender": false
+              },
+              "message": {},
+              "rewardDisplay": "Separate line"
+            }                  
+        ],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

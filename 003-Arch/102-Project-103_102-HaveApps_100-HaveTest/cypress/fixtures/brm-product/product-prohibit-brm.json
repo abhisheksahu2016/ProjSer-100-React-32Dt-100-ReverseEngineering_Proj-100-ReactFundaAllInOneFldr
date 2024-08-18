@@ -1,0 +1,17 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "ruleId": "ProductProhibit",
+            "type": "ProhibitAction",
+            "message": {
+                "caption": "Prohibit",
+                "message": "Prohibit - Product is sale or return is not allowed."
+            },
+            "requiresAttendant": false,
+            "isDelayedSolution": false
+        }
+    ]
+}

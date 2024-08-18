@@ -1,0 +1,85 @@
+{
+  "cartId": "YDLHN6JWTB",
+  "sequenceNumber": 1738,
+  "cartInfo": {
+    "businessDate": "2023-06-05",
+    "beginDateTime": "2023-06-05T11:31:54.093",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 313.29,
+      "netAmount": 265.5,
+      "taxAmounts": {
+        "taxAmount": 47.79,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 313.29,
+      "discountAmount": 34.5,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "manualSegments": [],
+  "items": [],
+  "rewards": [
+    {
+      "lineId": 2,
+      "entryMethod": "Automatic",
+      "triggeredProducts": [
+        1
+      ],
+      "rewardAmount": -5,
+      "promotionId": "1600",
+      "status": "Active",
+      "rewardType": "AmountOffPerTicket",
+      "promotionDescription": "Amount off  $5 for  total ticket  $150",
+      "promotionDetails": {
+        "isEndOfTicketPromotion": true,
+        "rewardAsTender": false,
+        "isManualPromotion": false,
+        "isTriggeredByTender": false,
+        "isSingleLineDiscount": false
+      },
+      "approval": {
+        "status": "NotRequired"
+      }
+    },
+    {
+      "lineId": 3,
+      "entryMethod": "Automatic",
+      "triggeredProducts": [
+        1
+      ],
+      "rewardAmount": -29.5,
+      "promotionId": "1601",
+      "status": "Active",
+      "rewardType": "PercentOffPerTicket",
+      "promotionDescription": "Percent off 10% for  total ticket  $170",
+      "promotionDetails": {
+        "isEndOfTicketPromotion": true,
+        "rewardAsTender": false,
+        "isManualPromotion": false,
+        "isTriggeredByTender": false,
+        "isSingleLineDiscount": false
+      },
+      "approval": {
+        "status": "NotRequired"
+      }
+    }
+  ],
+  "coupons": [],
+  "payments": [],
+  "returns": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

@@ -1,0 +1,42 @@
+{
+  "code": "LinkedItemHandlingRequired",
+  "message": "Additional action needs to be performed",
+  "severity": "Error",
+  "data": {
+    "itemLookups": [
+      {
+        "hasPrice": true,
+        "unitPrice": 15,
+        "regularSalesUnitPrice": {
+          "price": {
+            "value": 15,
+            "currency": "USD"
+          }
+        },
+        "unitsOfMeasure": "LTR",
+        "description": "Goldstar beer",
+        "longDescription": "Goldstar beer",
+        "itemId": "5001",
+        "requiredPrice": false,
+        "depositItems": [],
+        "merchandiseHierarchy": [
+          {
+            "hierarchyType": "Merchandise",
+            "nodeId": "1"
+          }
+        ],
+        "sellable": true,
+        "itemMeasurements": {
+          "weight": 0,
+          "unitsOfMeasure": "EA"
+        },
+        "isManualTarePercentageEnabled": false,
+        "tarePercentage": [],
+        "inVariety": false,
+        "alternativeItemIds": [
+          "5001"
+        ]
+      }
+    ]
+  }
+}

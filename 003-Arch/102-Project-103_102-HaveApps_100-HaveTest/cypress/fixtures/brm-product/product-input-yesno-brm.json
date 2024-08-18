@@ -1,0 +1,20 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "input": {
+        "type": "YesNo",
+        "name": "Test Name",
+        "label": "Test Label"
+      },
+      "ruleId": "ProductBrmInputYesNo",
+      "type": "InputDataAction",
+      "message": {
+        "caption": "BRM Input Yes/No",
+        "message": "Would you like to receive recipes for this product?"
+      }
+    }
+  ]
+}

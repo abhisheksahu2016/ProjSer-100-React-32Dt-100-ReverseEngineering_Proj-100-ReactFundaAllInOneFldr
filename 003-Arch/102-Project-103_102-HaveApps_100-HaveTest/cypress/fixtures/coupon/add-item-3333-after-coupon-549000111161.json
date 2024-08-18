@@ -1,0 +1,142 @@
+{
+    "transaction": {
+        "cartId": "YSL5JFC5S1",
+        "sequenceNumber": 249,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T17:26:15.928",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 11.33,
+                "netAmount": 11.33,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 3,
+                "balanceDue": 7.83,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "3333",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Long Dress",
+                "description": "Dress",
+                "itemType": "Stock",
+                "lineId": 4,
+                "amount": 3.5,
+                "extendedAmount": 3.5,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 3.5,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 3.5,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 7,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    2,
+                    1,
+                    4,
+                    6
+                ],
+                "rewardAmount": 3.5,
+                "promotionId": "UPC5.637768204414200122",
+                "rewardedItems": [
+                    {
+                        "lineId": 4,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 3.5,
+                        "description": "Dress"
+                    }
+                ],
+                "netPrice": 3.5,
+                "status": "Active",
+                "rewardType": "FreeItem",
+                "promotionDescription": "UPC5 Coupon",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "32"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [
+            {
+                "redeptionStates": {
+                    "redeemed": 1
+                },
+                "quantity": 1,
+                "couponRedemptionIds": [],
+                "couponId": "549000111161",
+                "entryMethod": "Scanned",
+                "sequenceNumber": 5,
+                "status": "Cancelled",
+                "isVirtualCoupon": false,
+                "itemLink": 3,
+                "rewardType": "Amount"
+            },
+            {
+                "redeptionStates": {
+                    "redeemed": 1
+                },
+                "quantity": 1,
+                "couponRedemptionIds": [],
+                "couponId": "549000111161",
+                "entryMethod": "Scanned",
+                "sequenceNumber": 6,
+                "status": "Updated",
+                "isVirtualCoupon": false,
+                "itemLink": 3,
+                "rewardType": "Amount"
+            }
+        ],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

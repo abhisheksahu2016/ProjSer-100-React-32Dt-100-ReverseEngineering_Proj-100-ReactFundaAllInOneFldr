@@ -1,0 +1,56 @@
+{
+    "code": "LinkedItemHandlingRequired",
+    "message": "Additional action needs to be performed",
+    "severity": "Error",
+    "data": {
+        "itemLookups": [{
+            "hasPrice": true,
+            "unitPrice": 34.6,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 34.6,
+                    "currency": "USD"
+                }
+            },
+            "unitsOfMeasure": "Kg",
+            "description": "Filled Cookies",
+            "longDescription": "Long Filled Cookies",
+            "itemId": "13077",
+            "requiredPrice": false,
+            "linkedItemsGroup": {
+                "groupCategory": "Tare",
+                "requiredForSale": true,
+                "linkedItems": [{
+                    "itemId": "399900045",
+                    "description": "Tare"
+                }, {
+                    "itemId": "399900052",
+                    "description": "Tare"
+                }, {
+                    "itemId": "399900054",
+                    "description": "Tare"
+                }, {
+                    "itemId": "399900069",
+                    "description": "Tare"
+                }, {
+                    "itemId": "399900076",
+                    "description": "Tare"
+                }]
+            },
+            "depositItems": [],
+            "merchandiseHierarchy": [{
+                "hierarchyType": "Merchandise",
+                "nodeId": "1"
+            }],
+            "sellable": true,
+            "itemMeasurements": {
+                "weight": 0,
+                "unitsOfMeasure": "EA"
+            },
+            "isManualTarePercentageEnabled": true,
+            "tarePercentage": [10,17.5,22],
+            "inVariety": false,
+            "alternativeItemIds": ["13077"]
+        }]
+    }
+}

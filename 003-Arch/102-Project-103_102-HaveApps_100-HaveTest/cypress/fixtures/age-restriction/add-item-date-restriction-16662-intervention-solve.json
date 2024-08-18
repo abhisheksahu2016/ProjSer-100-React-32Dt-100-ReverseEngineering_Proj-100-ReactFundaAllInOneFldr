@@ -1,0 +1,12 @@
+{
+  "interventionInfo": [{
+    "type": "RestrictedByRule",
+    "isDelayed": true,
+    "transactionId": "WHUGYY79V3",
+    "operationName": "Date Restriction",
+    "interventionId": "53",
+    "itemId": "16662",
+    "approvable": false,
+    "itemSequenceNumber": 2
+  }]
+}

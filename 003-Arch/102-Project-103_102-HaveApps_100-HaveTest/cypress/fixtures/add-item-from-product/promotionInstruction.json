@@ -1,0 +1,18 @@
+{
+  "LineItems": [],
+  "LinePromotions": [],
+  "SequenceNumber": 1262,
+  "TransactionExternalId": "066feb80-8d50-403e-ac94-409841bf649a",
+  "BeginDateTime": "2020-09-11T12:57:06.7234784",
+  "BusinessDayDate": "2020-09-11",
+  "TypeCode": "SaleTransaction",
+  "Status": "InProcess",
+  "Total": {
+    "subTotal": 27.2,
+    "tax": 0,
+    "total": 10,
+    "savings": 0,
+    "currencyCode": "USD",
+    "quantity": 5
+  }
+}

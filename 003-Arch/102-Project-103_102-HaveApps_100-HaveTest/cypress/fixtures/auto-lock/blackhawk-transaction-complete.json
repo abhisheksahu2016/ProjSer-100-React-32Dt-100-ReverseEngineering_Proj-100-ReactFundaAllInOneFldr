@@ -1,0 +1,6 @@
+{
+    "id": "BlackhawkSVTransactionComplete",
+    "behaviorType": "OnlineProduct",
+    "authorizationTrigger": "TransactionComplete",
+    "authorizationExternalIdType": "InBarcode"
+}

@@ -1,0 +1,170 @@
+[
+    {
+        "documents": [
+            {
+                "commands": [
+                    {
+                        "bitmapId": "1"
+                    },
+                    {
+                        "text": "Brooklyn",
+                        "printAttributes": {
+                            "bold": true
+                        },
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "King Cross",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "216-664-234",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "--- No Sale Mode ---",
+                        "printAttributes": {
+                            "bold": true
+                        },
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "TENDER LOAN No.972",
+                        "printAttributes": {
+                            "bold": true,
+                            "doubleHeight": true
+                        },
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "NCR Change Safe",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "Tender Name                 ",
+                        "printAttributes": {
+                            "underline": true
+                        }
+                    },
+                    {
+                        "text": "Total Amount",
+                        "printAttributes": {
+                            "underline": true
+                        },
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": " ",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "VoucherS2                    ",
+                        "printAttributes": {}
+                    },
+                    {
+                        "text": "     £15.43",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": " ",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Left",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "1 1(1) Brooklyn",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "text": "2 972 05/02/2024 11:36",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "barcode": {
+                            "data": "6290001002097202052024",
+                            "symbology": "Code128",
+                            "height": 100,
+                            "width": 1,
+                            "alignment": "Center"
+                        }
+                    },
+                    {
+                        "text": "6290001002097202052024",
+                        "printAttributes": {},
+                        "feedLines": 1,
+                        "align": "Center",
+                        "cpl": 42
+                    },
+                    {
+                        "feedLines": 6
+                    },
+                    {
+                        "cutPaper": true,
+                        "cutPercent": 50
+                    },
+                    {
+                        "feedLines": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

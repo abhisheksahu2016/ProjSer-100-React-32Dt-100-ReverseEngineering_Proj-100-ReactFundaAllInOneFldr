@@ -1,0 +1,396 @@
+{
+    "cart": {
+        "cartInfo": {
+            "status": "Tender",
+            "totals": {
+                "netAmount": 1.79,
+                "grossReturnsAmount": 0,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": -0.71,
+                "cashbackAmount": 0,
+                "discountAmount": 3.2,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "HZNtRATE60ObRHiLmrFUhg",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 15450,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "466",
+                        "id": "00000000004660"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 4.99,
+                "extendedAmountWithInlineDiscount": 3.79,
+                "priceWithInlineDiscount": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 3.79,
+                    "quantity": 1
+                },
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Long ONION_T",
+                "description": "ONION",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 4.99,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 4.99,
+                    "quantity": 1
+                },
+                "amount": 4.99,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES",
+                    "catalogDynamicAttributes": []
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638469825080964787",
+                "indicators": {
+                    "eligibilityIndicators": []
+                }
+            }
+        ],
+        "payments": [
+            {
+                "sequenceNumber": 3,
+                "sequence": "638469825830398050",
+                "lineId": 3,
+                "tenderId": "52",
+                "tenderType": "Check",
+                "tenderName": "Non ECC Check",
+                "amount": 10,
+                "cashBackAmount": 0,
+                "feeAmount": 7.5,
+                "feeMethod": "OverTenderAmount",
+                "status": "authorized",
+                "epsData": {
+                    "paymentTranId": "3-17631"
+                },
+                "usage": "Payment",
+                "authorization": {
+                    "electronicPayment": {
+                        "authorizationType": "Online",
+                        "authorizationCode": "CheckPurchaseAuthCode",
+                        "referenceNumber": "3-17631",
+                        "responseCode": "NonECCapproval",
+                        "traceId": "1000000000013142356",
+                        "requestedAmount": 4.99,
+                        "maskedAccountNumber": "****0231",
+                        "customerReceipt": [
+                            "",
+                            "",
+                            " 2022-08-31 12:09:35",
+                            " Subtotal:  USD $90.95",
+                            " Tip:       USD $______",
+                            " Total:     USD $______",
+                            " Check Personal",
+                            " Entry Method: CheckMICR",
+                            " Check #: *****3300",
+                            " Purchase   - APPROVED",
+                            " AUTH CODE: ",
+                            " TraceId:       1000000000013142356",
+                            "",
+                            "",
+                            " ",
+                            " MID: 123456   TID: 001   RRN: 31208",
+                            "",
+                            " When you provide a check as payment,",
+                            "you authorize us to use check",
+                            "information to process a one-time",
+                            "Electronic Fund Transfer (EFT) or",
+                            "draft drawn from your your payment",
+                            "is returned unpaid, you authorize",
+                            "us to collect your payment and a",
+                            "Return Fee of: $0 by EFT or draft.",
+                            "",
+                            "       Questions? Call 1-800-366-2425",
+                            "",
+                            " Signature:______________________________",
+                            ""
+                        ],
+                        "drawerReceipt": [
+                            "",
+                            "",
+                            " 2022-08-31 12:09:35",
+                            " Subtotal:  USD $90.95",
+                            " Tip:       USD $______",
+                            " Total:     USD $______",
+                            " Check Personal",
+                            " Entry Method: CheckMICR",
+                            " Check #: *****3300",
+                            " Purchase   - APPROVED",
+                            " AUTH CODE: ",
+                            " TraceId:       1000000000013142356",
+                            "",
+                            "",
+                            " ",
+                            " MID: 123456   TID: 001   RRN: 31208",
+                            "",
+                            " When you provide a check as payment,",
+                            "you authorize us to use check",
+                            "information to process a one-time",
+                            "Electronic Fund Transfer (EFT) or",
+                            "draft drawn from your your payment",
+                            "is returned unpaid, you authorize",
+                            "us to collect your payment and a",
+                            "Return Fee of: $0 by EFT or draft.",
+                            "",
+                            "       Questions? Call 1-800-366-2425",
+                            "",
+                            " Signature:______________________________",
+                            ""
+                        ],
+                        "epsProvider": {}
+                    },
+                    "checkPayment": {
+                        "isEndorsed": true,
+                        "isECCConverted": false
+                    },
+                    "paymentsInfo": [
+                        {
+                            "key": "RawData",
+                            "value": ""
+                        },
+                        {
+                            "key": "TransitNumber",
+                            "value": "349175705"
+                        },
+                        {
+                            "key": "AccountNumber",
+                            "value": "46300231"
+                        },
+                        {
+                            "key": "ChequeNumber",
+                            "value": "4367"
+                        },
+                        {
+                            "key": "paymentTranId",
+                            "value": "3-17631"
+                        },
+                        {
+                            "key": "sessionId",
+                            "value": "17630"
+                        },
+                        {
+                            "key": "entryMethod",
+                            "value": "Automatic"
+                        },
+                        {
+                            "key": "referenceNumber",
+                            "value": "3-17631"
+                        },
+                        {
+                            "key": "authorizationCode",
+                            "value": "CheckPurchaseAuthCode"
+                        },
+                        {
+                            "key": "tenderId",
+                            "value": "52"
+                        },
+                        {
+                            "key": "processedByEps",
+                            "value": "true"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "false"
+                        },
+                        {
+                            "key": "cancelReason",
+                            "value": ""
+                        },
+                        {
+                            "key": "preTenderAmount",
+                            "value": "4.99"
+                        },
+                        {
+                            "key": "amount",
+                            "value": "10"
+                        },
+                        {
+                            "key": "cashBack",
+                            "value": "0"
+                        }
+                    ]
+                }
+            },
+            {
+                "sequenceNumber": 1,
+                "sequence": "638469825591652521",
+                "lineId": 1,
+                "tenderId": "52",
+                "tenderType": "Check",
+                "tenderName": "Non ECC Check",
+                "amount": 1.79,
+                "voidedLineId": "1",
+                "status": "preTender"
+            },
+            {
+                "sequenceNumber": 2,
+                "sequence": "638469825678366158",
+                "lineId": 2,
+                "tenderId": "52",
+                "tenderType": "Check",
+                "tenderName": "Non ECC Check",
+                "amount": 4.99,
+                "voidedLineId": "2",
+                "status": "preTender"
+            }
+        ],
+        "taxExemptions": [],
+        "surcharges": [
+            {
+                "lineId": "1",
+                "amount": 7.5,
+                "id": "checkFee",
+                "relatedLineId": "3",
+                "surchargeType": "TENDER"
+            }
+        ],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "refundVoidTenders": [],
+        "rewards": [
+            {
+                "lineId": null,
+                "promotionId": "42",
+                "promotionDescription": "Banana Off",
+                "rewardAmount": 1,
+                "rewardType": "STANDARD",
+                "rewardedItems": [
+                    {
+                        "lineId": "1",
+                        "quantity": {
+                            "unitOfMeasure": "EA",
+                            "value": 1
+                        },
+                        "rewardAmount": 1,
+                        "rewardRefundAmount": 1,
+                        "rewardUnits": [
+                            {
+                                "unitId": "1",
+                                "rewardAmount": 1,
+                                "rewardRefundAmount": 1
+                            }
+                        ],
+                        "itemId": "00000000004660"
+                    }
+                ],
+                "triggeredCoupons": [],
+                "promotionDetails": {
+                    "promotionLevel": "ITEM_LEVEL",
+                    "rewardAsTender": false
+                },
+                "message": {},
+                "rewardDisplay": "Inline"
+            },
+            {
+                "lineId": null,
+                "promotionId": "41",
+                "promotionDescription": "Bananen",
+                "rewardAmount": 2,
+                "rewardType": "STANDARD",
+                "rewardedItems": [
+                    {
+                        "lineId": "1",
+                        "quantity": {
+                            "unitOfMeasure": "EA",
+                            "value": 1
+                        },
+                        "rewardAmount": 2,
+                        "rewardRefundAmount": 2,
+                        "rewardUnits": [
+                            {
+                                "unitId": "1",
+                                "rewardAmount": 2,
+                                "rewardRefundAmount": 2
+                            }
+                        ],
+                        "itemId": "00000000004660"
+                    }
+                ],
+                "triggeredCoupons": [],
+                "promotionDetails": {
+                    "promotionLevel": "ITEM_LEVEL",
+                    "rewardAsTender": false
+                },
+                "message": {},
+                "rewardDisplay": "Separate line"
+            },
+            {
+                "lineId": null,
+                "promotionId": "69",
+                "promotionDescription": "Banana Off",
+                "rewardAmount": 0.2,
+                "rewardType": "STANDARD",
+                "rewardedItems": [
+                    {
+                        "lineId": "1",
+                        "quantity": {
+                            "unitOfMeasure": "EA",
+                            "value": 1
+                        },
+                        "rewardAmount": 0.2,
+                        "rewardRefundAmount": 0.2,
+                        "rewardUnits": [
+                            {
+                                "unitId": "1",
+                                "rewardAmount": 0.2,
+                                "rewardRefundAmount": 0.2
+                            }
+                        ],
+                        "itemId": "00000000004660"
+                    }
+                ],
+                "triggeredCoupons": [],
+                "promotionDetails": {
+                    "promotionLevel": "ITEM_LEVEL",
+                    "rewardAsTender": false
+                },
+                "message": {},
+                "rewardDisplay": "Inline"
+            }
+        ],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    },
+    "balance": {
+        "cartAlreadyBalanced": false,
+        "cartCanBeBalanced": true,
+        "balanceInstructions": [
+            {
+                "tenderType": "Cash",
+                "tenderId": "1",
+                "description": "Cash",
+                "usage": "Change",
+                "amount": 0.71
+            }
+        ]
+    }
+}

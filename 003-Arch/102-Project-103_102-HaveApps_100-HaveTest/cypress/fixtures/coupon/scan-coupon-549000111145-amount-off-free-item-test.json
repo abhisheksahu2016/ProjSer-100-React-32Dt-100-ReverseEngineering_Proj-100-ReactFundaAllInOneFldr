@@ -1,0 +1,145 @@
+{
+    "cartId": "O5DYRYBZAH",
+    "sequenceNumber": 224,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-02T22:31:39.92",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 149.9,
+            "netAmount": 123.5,
+            "taxAmounts": {
+                "taxAmount": 26.4,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 146.4,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 8,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2,
+                5
+            ],
+            "rewardAmount": 3.5,
+            "promotionId": "UPC5.637767523184462765",
+            "rewardedItems": [
+                {
+                    "lineId": 2,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 3.5,
+                    "description": "Coffee"
+                }
+            ],
+            "netPrice": 3.5,
+            "status": "Active",
+            "rewardType": "FreeItem",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        },
+        {
+            "lineId": 9,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2,
+                7
+            ],
+            "rewardAmount": 0,
+            "promotionId": "UPC5.637767523093443370",
+            "itemLink": 4,
+            "status": "Cancelled",
+            "rewardType": "AmountOff",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "549000111145",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 5,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        },
+        {
+            "redeptionStates": {
+                "unused": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "549000111235",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 6,
+            "lastRedeemedId": "UPC5.637767523093443370",
+            "status": "Cancelled",
+            "isVirtualCoupon": false,
+            "itemLink": 3
+        },
+        {
+            "redeptionStates": {
+                "unused": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "549000111235",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 7,
+            "lastRedeemedId": "UPC5.637767523093443370",
+            "status": "Updated",
+            "isVirtualCoupon": false,
+            "itemLink": 3
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

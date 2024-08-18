@@ -1,0 +1,254 @@
+{
+  "transaction": {
+    "cartId": "FC6THGXVGW",
+    "sequenceNumber": 730,
+    "cartInfo": {
+      "businessDate": "2022-03-10",
+      "beginDateTime": "2022-03-10T15:52:11.464",
+      "totals": {
+        "grandAmount": 0.25,
+        "netAmount": 0.25,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 0,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction",
+      "openTillDrawer": true
+    },
+    "ewicReceipts": [],
+    "receipts": [{
+      "documents": [{
+        "commands": [{
+          "bitmapId": "1"
+        }, {
+          "text": "Brooklyn",
+          "printAttributes": {
+            "bold": true
+          },
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "text": "King Cross",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "text": "216-664-234",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "text": "Take Out",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "text": " ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "Red Bamba                ",
+          "printAttributes": {}
+        }, {
+          "text": "    ",
+          "printAttributes": {}
+        }, {
+          "text": "   ",
+          "printAttributes": {}
+        }, {
+          "text": "   $0.25",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "PRICE REDUCED BY $5.75                  ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": " ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Subtotal:         ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.25",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Total Savings:    ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.00",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Net Sales:        ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.25",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Tax:              ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.00",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Total:            ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.25",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Sold Items:       ",
+          "printAttributes": {}
+        }, {
+          "text": "         1",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": " ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "Paid:                       ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "            ",
+          "printAttributes": {}
+        }, {
+          "text": "coupon            ",
+          "printAttributes": {}
+        }, {
+          "text": "     $0.25",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": " ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": " ",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Left",
+          "cpl": 42
+        }, {
+          "text": "1 1(1) Brooklyn",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "text": "1 730 10/03/2022 15:52",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "barcode": {
+            "data": "6290001001073003102022",
+            "symbology": "Code128",
+            "height": 100,
+            "width": 1,
+            "alignment": "Center"
+          }
+        }, {
+          "text": "6290001001073003102022",
+          "printAttributes": {},
+          "feedLines": 1,
+          "align": "Center",
+          "cpl": 42
+        }, {
+          "feedLines": 6
+        }, {
+          "cutPaper": true,
+          "cutPercent": 50
+        }, {
+          "feedLines": 1
+        }]
+      }]
+    }]
+  }
+}

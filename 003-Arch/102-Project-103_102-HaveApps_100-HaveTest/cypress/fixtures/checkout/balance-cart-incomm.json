@@ -1,0 +1,173 @@
+{
+    "cart": {
+        "cartInfo": {
+            "status": "Tender",
+            "totals": {
+                "netAmount": -240,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 0,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 0,
+                "tenderEligibleAmounts": [
+                    {
+                        "tenderId": "95",
+                        "amount": 0
+                    },
+                    {
+                        "tenderId": "7",
+                        "amount": 0
+                    },
+                    {
+                        "tenderId": "31",
+                        "amount": 0
+                    }
+                ]
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "B7oiUyHgEqw-kSDeKpViA",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 6511,
+        "items": [],
+        "payments": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "1111",
+                        "id": "1111"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 2
+                    },
+                    "priceModifier": {
+                        "amount": null,
+                        "newPrice": 120,
+                        "newTotalPrice": 240,
+                        "totalPriceDifference": null,
+                        "percentage": null
+                    }
+                },
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Ensemble de literie",
+                "description": "Bedding Set",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 120,
+                    "quantity": 1
+                },
+                "amount": 240,
+                "extendedAmount": 240,
+                "securityScale": true,
+                "exchangeRequired": false,
+                "originalPurchasedLineId": 1,
+                "sequence": "638060069268233887"
+            }
+        ],
+        "refunds": [
+            {
+                "sequenceNumber": 1,
+                "sequence": "638060069415419318",
+                "lineId": 1,
+                "tenderId": "14",
+                "tenderType": "CreditDebit",
+                "tenderName": "InComm",
+                "amount": 240,
+                "status": "authorized",
+                "epsData": {
+                    "paymentTranId": "74-11"
+                },
+                "usage": "Refund",
+                "authorization": {
+                    "electronicPayment": {
+                        "authorizationType": "Online",
+                        "authorizationCode": "779889",
+                        "referenceNumber": "74-11",
+                        "maskedAccountNumber": "610281*********3718",
+                        "epsProvider": {}
+                    },
+                    "customerProgramPayment": {
+                        "inComm": {
+                            "customerProgramLineId": "1",
+                            "authorizedAmount": 240,
+                            "purses": [
+                                {
+                                    "purseId": "001",
+                                    "description": "CakePurse",
+                                    "balanceAmount": 1.7,
+                                    "authorizedAmount": 240,
+                                    "responseCode": "00"
+                                }
+                            ],
+                            "eligibleItems": [
+                                {
+                                    "purseId": "001",
+                                    "itemReferenceNumber": "1",
+                                    "itemCode": "1111",
+                                    "quantity": 2,
+                                    "coverageAmount": 240
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [
+            {
+                "lineId": "1",
+                "type": "IN_COMM",
+                "accountId": "******3718"
+            }
+        ],
+        "identifiers": {},
+        "paymentsInformation": {
+            "inComm": [
+                {
+                    "customerProgramLineId": "1",
+                    "itemQualifications": [],
+                    "qualifiedItems": [],
+                    "purses": [
+                        {
+                            "purseId": "001",
+                            "description": "CakePurse",
+                            "balanceAmount": 1.7,
+                            "authorizedAmount": 240,
+                            "responseCode": "00"
+                        }
+                    ],
+                    "limitedSpendItems": [
+                        {
+                            "purseId": "001",
+                            "itemCode": "1111",
+                            "quantity": 2,
+                            "coverageAmount": 240,
+                            "itemLineNumber": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "balance": {
+        "cartAlreadyBalanced": true,
+        "cartCanBeBalanced": false,
+        "balanceInstructions": []
+    }
+}

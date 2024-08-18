@@ -1,0 +1,38 @@
+{
+  "cartId": "441d387f-09d7-474e-bb87-545e5464165b",
+  "sequenceNumber": 25,
+  "cartInfo": {
+    "businessDate": "2021-02-10",
+    "beginDateTime": "2021-02-10T02:48:09.880457",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 2.5,
+      "netAmount": 2.5,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "excluded": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": -0.1,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  },
+  "receipts": []
+}

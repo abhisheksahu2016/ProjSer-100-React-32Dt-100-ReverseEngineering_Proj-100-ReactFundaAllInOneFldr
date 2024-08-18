@@ -1,0 +1,586 @@
+{
+    "cart": {
+        "cartInfo": {
+        "status": "Finalization",
+        "totals": {
+            "netAmount": 10,
+            "taxAmounts": {
+            "taxAmount": 0,
+            "included": 0,
+            "itemFee": 0,
+            "transactionFee": 0,
+            "taxExemptAmount": 0
+            },
+            "balanceDue": 0,
+            "cashbackAmount": 0,
+            "discountAmount": 0,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+        },
+        "cartId": "CN6LXFCiCUyd7JvIRWKXg",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 8156,
+        "items": [
+        {
+            "lineItem": {
+            "itemId": { "type": "0", "value": "101", "id": "00000000001010" },
+            "quantity": { "unitOfMeasure": "EA", "value": 1 }
+            },
+            "extendedAmount": 10,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "cola",
+            "description": "cola",
+            "price": { "unitOfMeasure": "EA", "specialPrice": false, "unitPrice": 10, "quantity": 1 },
+            "regularPrice": { "unitPrice": 10 },
+            "amount": 10,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": { "ItemSaleType": "SALES" },
+            "entryMethod": "Keyed",
+            "sequence": "638061077702578486"
+        }
+        ],
+        "payments": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "638061082753364982",
+            "lineId": 1,
+            "tenderId": "12",
+            "tenderType": "CreditDebit",
+            "tenderName": "American Express",
+            "amount": 10,
+            "cashBackAmount": 0,
+            "status": "authorized",
+            "epsData": { "paymentTranId": "1" },
+            "usage": "Payment",
+            "authorization": {
+            "electronicPayment": {
+                "authorizationType": "Online",
+                "authorizationCode": "117434",
+                "referenceNumber": "1",
+                "requestedAmount": 10,
+                "maskedAccountNumber": "123456******5678",
+                "epsProvider": {}
+            }
+            },
+            "change": 0
+        }
+        ],
+        "surcharges": [],
+        "receipts": [
+        {
+            "documents": [
+            {
+                "commands": [
+                { "bitmapId": "1" },
+                {
+                    "text": "                Brooklyn                ",
+                    "printAttributes": { "fontStyle": "medium", "bold": true, "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "               King Cross               ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "                 London                 ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "                UK",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": ",",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "34356                ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "              -216-664-234              ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "cola           ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "101           ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "   $10.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Subtotal:         ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "    $10.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Total Savings:    ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "     $0.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Net Sales:        ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "    $10.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Tax:              ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "     $0.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Total:            ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "    $10.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Sold Items:       ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "         1",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "Paid:                       ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "American Express  ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "          ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "    $10.00",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "Store Hours: 10AM to 10PM     ",
+                    "printAttributes": {
+                    "fontStyle": "medium",
+                    "italic": false,
+                    "bold": false,
+                    "underline": false,
+                    "doubleHeight": false,
+                    "doubleWidth": false,
+                    "invert": false,
+                    "fontSize": 42
+                    },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "Friday 12:00 to 18:00         ",
+                    "printAttributes": {
+                    "fontStyle": "medium",
+                    "italic": false,
+                    "bold": false,
+                    "underline": false,
+                    "doubleHeight": false,
+                    "doubleWidth": false,
+                    "invert": false,
+                    "fontSize": 42
+                    },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "(mr250782) Brooklyn",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "1 8156 12/08/2022 03:00 PM",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "barcode": {
+                    "data": "629352950018156120820220",
+                    "symbology": "Code128",
+                    "height": 100,
+                    "width": 1,
+                    "alignment": "Center"
+                    }
+                },
+                {
+                    "text": "629352950018156120820220",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                { "feedLines": 6 },
+                { "cutPaper": true, "cutPercent": 50 },
+                { "feedLines": 1 }
+                ]
+            },
+            {
+                "commands": [
+                { "bitmapId": "1" },
+                {
+                    "text": "                Brooklyn                ",
+                    "printAttributes": { "fontStyle": "medium", "bold": true, "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "               King Cross               ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "                 London                 ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "                UK",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": ",",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42
+                },
+                {
+                    "text": "34356                ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "              -216-664-234              ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "                                        ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "   EFT Slip No. 629352950018156120820220",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": " ",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Left",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "(mr250782) Brooklyn",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                {
+                    "text": "1 8156 12/08/2022 03:00 PM",
+                    "printAttributes": { "fontStyle": "medium", "fontSize": 42 },
+                    "align": "Center",
+                    "cpl": 42,
+                    "feedLines": 1
+                },
+                { "feedLines": 6 },
+                { "cutPaper": true, "cutPercent": 50 },
+                { "feedLines": 1 }
+                ]
+            }
+            ]
+        }
+        ],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    },
+    "balance": {
+        "cartAlreadyBalanced": false,
+        "cartCanBeBalanced": false,
+        "balanceInstructions": []
+    }
+}
+  

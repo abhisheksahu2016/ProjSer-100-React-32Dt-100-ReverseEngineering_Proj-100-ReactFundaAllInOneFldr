@@ -1,0 +1,226 @@
+[
+    {
+        "id": "1",
+        "description": "CashEng",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "1337",
+        "description": "CashEngRemodNotAccForSale",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "1338",
+        "description": "CashEngRemodVoidBlock",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "1343",
+        "description": "VoucherEngRemodNotAccForSale",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "1344",
+        "description": "VoucherEngRemodVoidBlock",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "15",
+        "description": "OverTenderAllowed",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "1548",
+        "description": "VoucherS",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "1549",
+        "description": "VoucherS2",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "2",
+        "description": "CashForSafeTransfer",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "25",
+        "description": "OverTenderNotAllowed",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "26",
+        "description": "Cachedollar",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": true,
+        "type": "Cash"
+    },
+    {
+        "id": "3",
+        "description": "VoucherS3",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "333",
+        "description": "Points",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "PointsTender"
+    },
+    {
+        "id": "95",
+        "description": "RewardAsTender",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": false,
+        "type": "Reward"
+    }
+]

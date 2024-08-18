@@ -1,0 +1,318 @@
+{
+  "cartId": "RBE3DYB3CK",
+  "sequenceNumber": 245,
+  "cartInfo": {
+    "businessDate": "2022-12-17",
+    "beginDateTime": "2022-12-18T08:46:02.24",
+    "totals": {
+      "grandAmount": 0.95,
+      "netAmount": 0.95,
+      "taxAmounts": { "taxAmount": 0, "itemFee": 0, "transactionFee": 0 },
+      "itemsCount": 1,
+      "balanceDue": 0,
+      "discountAmount": 0.24,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [
+    {
+      "amount": 0.95,
+      "localAmount": 1.52,
+      "currencySymbol": "£",
+      "exchangeRate": 1.6,
+      "tenderName": "Points",
+      "tenderId": "333",
+      "sequenceNumber": 4,
+      "isProcessedByAtm": false,
+      "isProcessedByEps": false,
+      "change": 0.57,
+      "tenderChangeId": "1",
+      "tenderChangeName": "CashEng",
+      "loyaltyRedemptionInfo": {}
+    }
+  ],
+  "returns": [],
+  "customer": {
+    "consumerAccountNumber": "0420200000333",
+    "firstName": "Tony",
+    "lastName": "Jaa",
+    "points": 490,
+    "isAuthenticatedOffline": false,
+    "programBalances": [
+      {
+        "id": "100",
+        "programId": "account 100",
+        "name": "account 100",
+        "earnedPoints": 490,
+        "originalPoints": 500
+      },
+      {
+        "id": "2000",
+        "programId": "account 2000",
+        "name": "account 2000",
+        "earnedPoints": 500,
+        "originalPoints": 500
+      }
+    ],
+    "message": "<table><th><td>ExpiryDate</td><td>LinkPoints($)</td></th><tr><td>31/12/22</td><td>50</td></tr><tr><td>31/1/23</td><td>60</td></tr><tr><td>31/4/23</td><td>40</td></tr></table>",
+    "emailAddress": "3@3",
+    "mobilePhoneNumber": "string"
+  },
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": true
+  },
+  "ewicReceipts": [],
+  "receipts": [
+    {
+      "documents": [
+        {
+          "commands": [
+            { "bitmapId": "1" },
+            {
+              "text": "Brooklyn",
+              "printAttributes": { "bold": true },
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "King Cross",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "216-664-234",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Take Out",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "Candy                    ", "printAttributes": {} },
+            { "text": "    ", "printAttributes": {} },
+            { "text": "   ", "printAttributes": {} },
+            {
+              "text": "   $1.19",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "PrecentOff off 20%       ", "printAttributes": {} },
+            { "text": "    ", "printAttributes": {} },
+            {
+              "text": "     -0.24$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Subtotal:         ", "printAttributes": {} },
+            {
+              "text": "     $1.19",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Total Savings:    ", "printAttributes": {} },
+            {
+              "text": "    -0.24$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Net Sales:        ", "printAttributes": {} },
+            {
+              "text": "     $0.95",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Tax:              ", "printAttributes": {} },
+            {
+              "text": "     $0.00",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Total:            ", "printAttributes": {} },
+            {
+              "text": "     $0.95",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Sold Items:       ", "printAttributes": {} },
+            {
+              "text": "         1",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            {
+              "text": "Paid:                       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            {
+              "text": "Points                      ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "0.95 GBP x 1.600  ", "printAttributes": {} },
+            {
+              "text": "     $1.52",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Change:           ", "printAttributes": {} },
+            {
+              "text": "    -0.57$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "----------------------------------------",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Member account details:",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Tony Jaa 100",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Points Earned:   0.00                   ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Points Reedemed: 10.00                  ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Open Balance:    500.00                 ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Closing Balance: 490.00                 ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "----------------------------------------",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "1 1(1) Brooklyn",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "1 245 18/12/2022 08:47",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "barcode": {
+                "data": "6290001001024512182022",
+                "symbology": "Code128",
+                "height": 100,
+                "width": 1,
+                "alignment": "Center"
+              }
+            },
+            {
+              "text": "6290001001024512182022",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "feedLines": 6 },
+            { "cutPaper": true, "cutPercent": 50 },
+            { "feedLines": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}

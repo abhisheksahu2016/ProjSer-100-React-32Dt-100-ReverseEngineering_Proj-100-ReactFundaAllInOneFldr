@@ -1,0 +1,154 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 20,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 20,
+                "cashbackAmount": 0,
+                "discountAmount": 2,
+                "itemsCount": 2,
+                "tenderEligibleAmounts": [
+                    {
+                        "tenderId": "26",
+                        "amount": 20
+                    }
+                ]
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "MfVx6fgWXEqdlGpdjBTbw",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 672,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "ItemId",
+                        "value": "101",
+                        "id": "00000000001010"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 10,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "cola",
+                "description": "cola",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10
+                },
+                "amount": 10,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638342097578106730"
+            },
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "103",
+                        "id": "00000000001030"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 12,
+                "extendedAmountWithInlineDiscount": 10,
+                "priceWithInlineDiscount": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "itemType": "Normal",
+                "lineId": 2,
+                "fullDescription": "sprite",
+                "description": "sprite",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 12,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 12
+                },
+                "amount": 12,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638342097621701933"
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [
+            {
+                "lineId": null,
+                "promotionId": "A6",
+                "promotionDescription": "Non Loyalty Discount",
+                "rewardAmount": 2,
+                "rewardType": "TEMP_PRICE_REDUCTION",
+                "rewardedItems": [
+                    {
+                        "lineId": "2",
+                        "quantity": {
+                            "unitOfMeasure": "EA",
+                            "value": 1
+                        },
+                        "rewardAmount": 2,
+                        "rewardRefundAmount": 2,
+                        "rewardUnits": [
+                            {
+                                "unitId": "1",
+                                "rewardAmount": 2,
+                                "rewardRefundAmount": 2
+                            }
+                        ]
+                    }
+                ],
+                "triggeredCoupons": [],
+                "promotionDetails": {
+                    "promotionLevel": "ITEM_LEVEL",
+                    "rewardAsTender": false
+                },
+                "message": {},
+                "rewardDisplay": "Inline"
+            }
+        ],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

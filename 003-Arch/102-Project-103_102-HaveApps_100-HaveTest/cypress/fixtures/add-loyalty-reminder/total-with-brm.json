@@ -1,0 +1,126 @@
+{
+    "response": {
+        "cartId": "VP7VBUKR4Y",
+        "sequenceNumber": 576,
+        "cartInfo": {
+            "businessDate": "2024-04-21",
+            "beginDateTime": "2024-04-22T11:07:41.41",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 146.4,
+                "netAmount": 120,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 125.6,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [],
+        "rewards": [
+            {
+                "lineId": 2,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    1
+                ],
+                "rewardAmount": 10,
+                "promotionId": "1123",
+                "status": "Active",
+                "rewardType": "AmountOffPerTicket",
+                "promotionDescription": "Reward as tender",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": true,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "90"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            },
+            {
+                "lineId": 3,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    1
+                ],
+                "rewardAmount": 3,
+                "promotionId": "1124",
+                "status": "Active",
+                "rewardType": "PercentOffPerTicket",
+                "promotionDescription": "Staff Reward as tender",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": true,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "90"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "customer": {
+            "consumerAccountNumber": "89898",
+            "firstName": "Tal",
+            "lastName": "Bar",
+            "points": 1416,
+            "isAuthenticatedOffline": false,
+            "programBalances": [
+                {
+                    "id": "100",
+                    "programId": "account 100",
+                    "name": "account 100",
+                    "earnedPoints": 1416,
+                    "originalPoints": 1416
+                }
+            ],
+            "emailAddress": "Wira.Nolly@retalix.com",
+            "eligibleForPayment": false
+        },
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    },
+    "brmNotifications": [
+        {
+            "ruleId": "test",
+            "type": "NotificationAction",
+            "message": {
+                "caption": "BRM",
+                "message": "Are you sure?"
+            },
+            "culturedMessages": [
+                {
+                    "caption": "BRM",
+                    "message": "Are you sure?",
+                    "culture": "en-GB"
+                }
+            ]
+        }
+    ]
+}

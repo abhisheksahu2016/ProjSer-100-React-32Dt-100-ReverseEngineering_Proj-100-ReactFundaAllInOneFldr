@@ -1,0 +1,60 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 8,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "balanceDue": 8,
+                "discountAmount": 0,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "KSzQ-IYYBEecD3HOtrTtA",
+        "sequenceNumber": 123,
+        "isTransactionTotaled": false,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "40",
+                        "id": "00000000000400"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "parentLineId": null,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Marlboro Ultra (Silver) Cigarettes",
+                "description": "Marlboro Ultra Silver",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 8,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 8
+                },
+                "amount": 8,
+                "taxes": [],
+                "securityScale": true
+            }
+        ],
+        "payments": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "identifiers": {}
+    }
+}

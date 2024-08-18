@@ -1,0 +1,169 @@
+{
+    "transaction": {
+        "cartId": "CTD6U4CB4K",
+        "sequenceNumber": 1201,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T20:53:10.211",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 160.6,
+                "netAmount": 134.2,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 6,
+                "balanceDue": 155,
+                "discountAmount": 18.53,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "10",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Aqua Blue Sheet Set",
+                "description": "Sheet Set",
+                "itemType": "Stock",
+                "lineId": 13,
+                "amount": 10.7,
+                "extendedAmount": 10.7,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 14,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    6,
+                    8,
+                    13,
+                    2,
+                    1,
+                    5
+                ],
+                "rewardAmount": -18.53,
+                "promotionId": "47",
+                "itemLink": 12,
+                "rewardedItems": [
+                    {
+                        "lineId": 8,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 10.7,
+                        "description": "Sheet Set"
+                    },
+                    {
+                        "lineId": 2,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 4.33,
+                        "description": "Boy Pants"
+                    },
+                    {
+                        "lineId": 5,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 3.5,
+                        "description": "Dress"
+                    }
+                ],
+                "netPrice": 18.53,
+                "status": "Updated",
+                "rewardType": "FreeItem",
+                "promotionDescription": " 1 + 1 CHEAPEST FREE ",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": false,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            },
+            {
+                "lineId": 15,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    6,
+                    13,
+                    1,
+                    10
+                ],
+                "rewardAmount": 3.5,
+                "promotionId": "UPC5.637768327978851039",
+                "itemLink": 11,
+                "rewardedItems": [
+                    {
+                        "lineId": 1,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 3.5,
+                        "description": "Dress"
+                    }
+                ],
+                "netPrice": 3.5,
+                "status": "Updated",
+                "rewardType": "FreeItem",
+                "promotionDescription": "UPC5 Coupon",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "32"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

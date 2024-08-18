@@ -1,0 +1,5 @@
+{
+    "code": "TenderNotAllowedForChange",
+    "message": "Cannot close transaction with change. No available change options found",
+    "severity": "Error"
+}

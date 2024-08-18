@@ -1,0 +1,17 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+      {
+          "isDelayedSolution": false,
+          "requiresAttendant": false,
+          "ruleId": "PriceOverrideApprovalRequired",
+          "type": "ApprovalAction",
+          "message": {
+              "caption": "Approval Required",
+              "message": "Price Override requires Supervisor approval. Please enter supervisor details."
+          }
+      }
+  ]
+}

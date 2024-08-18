@@ -1,0 +1,1 @@
+{"code":"BRMException","message":"BRM exception","severity":"Error","data":[{"isDelayedSolution":false,"requiresAttendant":false,"ruleId":"Total transaction","type":"ApprovalAction","message":{"caption":"Approval required","message":"Please ask manager approval."}}]}

@@ -1,0 +1,24 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "ruleId": "BrmUnusedCoupon",
+      "type": "ProhibitAction",
+      "message": {
+        "caption": "Coupon Not Recognised",
+        "message": "Please call a supervisor"
+      },
+      "culturedMessages": [
+        {
+          "caption": "Coupon Not Recognised",
+          "message": "Please call a supervisor",
+          "culture": "en-GB"
+        }
+      ],
+      "requiresAttendant": false,
+      "isDelayedSolution": false
+    }
+  ]
+}

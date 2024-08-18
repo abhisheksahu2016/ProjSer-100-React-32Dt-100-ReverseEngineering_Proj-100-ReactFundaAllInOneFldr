@@ -1,0 +1,144 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 9.6,
+            "taxAmounts": {
+                "taxAmount": 0.96,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 10.36,
+            "discountAmount": 0.4,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "pdUeL9zTSUuANriD5JUP8g",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "199131",
+                    "id": "00000001991310"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 10,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "Small Blue Bamba",
+            "description": "Blue Bamba",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 10,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 10
+            },
+            "amount": 10,
+            "taxes": [
+                {
+                    "code": "25101",
+                    "amount": 1,
+                    "exemptAmount": 0,
+                    "authorityId": "CouponTaxTestAuthority"
+                }
+            ],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "637895919850149114"
+        }
+    ],
+    "payments": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": 0,
+            "promotionId": "15220-3-M",
+            "promotionDescription": "Coupon Discount",
+            "rewardAmount": 0.4,
+            "rewardType": "UPC5_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.4
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "message": {},
+            "promotionDetails": {
+                "couponId": "500000152200",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            }
+        },
+        {
+            "lineId": 0,
+            "promotionId": "15220-3",
+            "promotionDescription": "Reward as Tender",
+            "rewardAmount": 0.2,
+            "rewardType": "UPC5_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.2
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "message": {},
+            "promotionDetails": {
+                "couponId": "500000152200",
+                "rewardAsTender": true,
+                "promotionLevel": "ITEM_LEVEL"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "500000152200",
+            "status": "Active",
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "637895922056494328",
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "15220-3-M",
+                "15220-3"
+            ]
+        }
+    ],
+    "restrictions": [],
+    "identifiers": {}
+}

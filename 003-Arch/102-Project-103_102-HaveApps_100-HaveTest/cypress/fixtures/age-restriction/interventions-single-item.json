@@ -1,0 +1,40 @@
+{
+  "interventionInfo": [
+    {
+      "type": "RestrictedByRule",
+      "itemId": "40",
+      "transactionId": "erp6tOr3uEOKqX-1Zx5MQ",
+      "itemSequenceNumber": 2,
+      "amount": 100,
+      "restriction": {
+        "lineId": "1",
+        "restrictionType": "AgeRestriction",
+        "restrictionOn": "Items",
+        "ruleId": "dob",
+        "messages": [
+          {
+            "culture": "en-US",
+            "caption": "Age Restriction Cigarettes",
+            "body": "Age restricted item. Please verify customer age is over 18."
+          }
+        ],
+        "restrictedLines": ["1"],
+        "requiredAction": "AgeConfirmationRequired",
+        "priority": 3,
+        "additionalData": {
+          "restrictionCode": "RuleResultNotSatisfied",
+          "ageConfirmation": {
+            "approveRejectRequired": false,
+            "birthDateRequired": true,
+            "rejectedReason": "MissingInput"
+          }
+        },
+        "restrictionScope": "Cart"
+      },
+      "isDelayed": true,
+      "operationName": "Operation_1",
+      "interventionId": "1",
+      "approvable": false
+    }
+  ]
+}

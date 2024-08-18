@@ -1,0 +1,32 @@
+{
+    "code": "ItemStatusLockedForSaleException",
+    "message": "Item 'Pear' is locked for sale. The reason is Recall.",
+    "severity": "Error",
+    "data": {
+        "$": {
+            "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xmlns": "uri:Retalix_Extension"
+        },
+        "DataEntry": [
+            {
+                "_": "300",
+                "$": {
+                    "Key": "code"
+                }
+            },
+            {
+                "_": "Pear",
+                "$": {
+                    "Key": "description"
+                }
+            },
+            {
+                "_": "1",
+                "$": {
+                    "Key": "quantity"
+                }
+            }
+        ]
+    }
+}

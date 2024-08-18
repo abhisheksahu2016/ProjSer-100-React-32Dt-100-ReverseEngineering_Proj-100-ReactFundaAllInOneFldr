@@ -1,0 +1,110 @@
+{
+  "adjustmentData": null,
+  "amounts": {
+    "activationAmount": 0.0,
+    "amountApproved": 8.94,
+    "amountDue": 8.94,
+    "amountTendered": 8.94,
+    "cardBalance": 0.0,
+    "cashbackAmount": 0.0,
+    "cashbackAmountApproved": 0.0,
+    "reloadAmount": 0.0,
+    "tipAmount": 0.0
+  },
+  "cardDetails": [
+    {
+      "pan": null,
+      "aid": null,
+      "cardBrand": "EBT Cash",
+      "cardCode": "EC",
+      "cardLength": 16,
+      "cardName": "EBT Cash",
+      "cardType": "CreditDebit",
+      "entryMethod": "Swiped",
+      "expiryDate": null,
+      "extendedData": null,
+      "firstSix": "415928",
+      "lastFour": "0009",
+      "paymentTranID": "12",
+      "trackData": null,
+      "trackOneData": null,
+      "trackTwoData": null,
+      "stateCode": null,
+      "altId": null,
+      "upc": null
+    }
+  ],
+  "checkDetails": null,
+  "clientID": "POS1",
+  "configOptions": null,
+  "connectionInfo": null,
+  "deviceData": null,
+  "hostData": null,
+  "paymentDetails": {
+    "authCode": "117434",
+    "needsSignature": false,
+    "offline": false,
+    "partialApproval": false,
+    "paymentTranID": "5",
+    "responseCode": "00",
+    "responseMessage": "Approved 117434",
+    "sessionTranID": "8",
+    "stan": "441228",
+    "verificationMethod": "Signature"
+  },
+  "receipts": [
+    {
+      "receiptLines": [
+        "               Your Store               ",
+        "               Your Street              ",
+        "           City, State zipcode          ",
+        "             (555) 555-1212             "
+      ],
+      "receiptSection": "Header",
+      "receiptType": "Merchant"
+    },
+    {
+      "receiptLines": [
+        "",
+        "",
+        " 2018-05-31 09:16:09",
+        " TOTAL: USD $146.40",
+        " Visa Credit",
+        " Entry Method: Swiped",
+        " CARD #: 0009",
+        " Purchase   - APPROVED",
+        " AUTH CODE: 117434",
+        "",
+        " Mode: ",
+        " MID: 1   TID: 44   RRN: 441228",
+        "",
+        " I agree to pay above total amount",
+        " according to card issuer agreement.",
+        " (Merchant agreement if Credit Voucher)",
+        " Retain this copy for your records",
+        "",
+        " Signature:______________________________"
+      ],
+      "receiptSection": "Body",
+      "receiptType": "Merchant"
+    },
+    {
+      "receiptLines": [
+        "              THANK YOU FOR             ",
+        "            SHOPPING WITH US!           "
+      ],
+      "receiptSection": "Footer",
+      "receiptType": "Merchant"
+    }
+  ],
+  "requestID": "5",
+  "signatureDetails": null,
+  "status": "Success",
+  "statusCode": 0,
+  "statusMessage": null,
+  "version": null,
+  "posTranID": null,
+  "ewicData": null,
+  "promptDetails": null,
+  "trainingMode": null
+}

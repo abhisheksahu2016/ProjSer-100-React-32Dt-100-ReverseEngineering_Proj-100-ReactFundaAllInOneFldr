@@ -1,0 +1,9 @@
+{
+  "code": "TenderAmountExceededEligibilityAmount",
+  "message": "error",
+  "severity": "Error",
+  "data": {
+    "eligibility": { "payedTenderType": "CreditDebit", "maxEligibleAmount": 18.13 },
+    "restrictedLine": "2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "123",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Tax",
+                    "nodeId": "3"
+                },
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "1"
+                }
+            ],
+            "sellable": true,
+            "alternativeItemIds": [
+                "0000000001236",
+                "123"
+            ],
+            "description": "Newspaper",
+            "longDescription": "Long Newspaper",
+            "requiredPrice": true,
+            "hasPrice": false,
+            "isManualTarePercentageEnabled": false,
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": []
+        }
+    ]
+}

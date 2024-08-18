@@ -1,0 +1,102 @@
+{
+    "code": "EpsRefundFailure",
+    "paymentMessage": {
+        "adjustmentDat": null,
+        "amounts": {
+            "activationAmount": null,
+            "amountApproved": 12,
+            "amountDue": null,
+            "amountTendered": null,
+            "cardBalance": null,
+            "cardInitialBalance": null,
+            "cashbackAmount": null,
+            "cashbackAmountApproved": null,
+            "reloadAmount": null,
+            "tipAmount": null
+        },
+        "cardDetails": [
+            {
+                "pan": null,
+                "aid": null,
+                "cardBrand": null,
+                "cardCode": "VS",
+                "cardLength": null,
+                "cardName": "Visa",
+                "cardType": "Visa",
+                "entryMethod": null,
+                "expiryDate": null,
+                "extendedData": null,
+                "firstSix": null,
+                "lastFour": null,
+                "paymentTranID": null,
+                "trackData": null,
+                "trackOneData": null,
+                "trackTwoData": null,
+                "stateCode": null,
+                "merchantNumber": "0171",
+                "loyaltyAccountNumber": null,
+                "upc": null
+            }
+        ],
+        "checkDetails": null,
+        "clientID": null,
+        "configOptions": null,
+        "connectionInfo": null,
+        "deviceData": null,
+        "hostData": null,
+        "paymentDetails": {
+            "authCode": "4124742",
+            "authorizationType": null,
+            "needsSignature": false,
+            "offline": null,
+            "partialApproval": null,
+            "paymentTranID": "000125",
+            "responseCode": null,
+            "responseMessage": null,
+            "sessionTranID": null,
+            "stan": null,
+            "verificationMethod": null,
+            "providerData": "*",
+            "externalProviderMessage": null,
+            "pin": null
+        },
+        "receipts": [
+            {
+                "receiptLines": [],
+                "receiptSection": null,
+                "receiptType": null
+            },
+            {
+                "receiptLines": [
+                    "",
+                    ""
+                ],
+                "receiptSection": null,
+                "receiptType": null
+            }
+        ],
+        "requestID": null,
+        "signatureDetails": null,
+        "status": "Success",
+        "statusCode": 200,
+        "statusMessage": null,
+        "version": null,
+        "posTranID": null,
+        "posTransactionSequenceNumber": 0,
+        "ewicData": null,
+        "trainingMode": false,
+        "code": null,
+        "cashierId": null,
+        "storeId": null,
+        "scanData": null,
+        "expectedCardDetailsContext": "Payment",
+        "confirmationRequired": false,
+        "onlineItemVoid": false,
+        "targetProvider": null,
+        "targetProviderErrorCode": null,
+        "giftCardNumber": null,
+        "nmpMessage": null,
+        "providerCardType": null
+    },
+    "statusCode": 21
+}

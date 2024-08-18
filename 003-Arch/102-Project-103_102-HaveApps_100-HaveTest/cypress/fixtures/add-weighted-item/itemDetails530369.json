@@ -1,0 +1,33 @@
+{
+  "itemLookupData": [{
+    "itemId": "530369",
+    "merchandiseHierarchy": [{
+      "hierarchyType": "Merchandise",
+      "nodeId": "1"
+    }],
+    "sellable": true,
+    "alternativeItemIds": ["530369"],
+    "description": "Sausages",
+    "longDescription": "Cooked Sausages",
+    "inVariety": true,
+    "requiredPrice": false,
+    "hasPrice": true,
+    "unitPrice": 66.9,
+    "regularSalesUnitPrice": {
+      "price": {
+        "value": 66.9,
+        "currency": "USD"
+      },
+      "quantity": 1
+    },
+    "unitsOfMeasure": "Kg",
+    "isManualTarePercentageEnabled": false,
+    "tarePercentage": [],
+    "priceLevels": [{
+      "value": 66.9,
+      "currency": "USD",
+      "levelPrice": "Default"
+    }],
+    "depositItems": []
+  }]
+}

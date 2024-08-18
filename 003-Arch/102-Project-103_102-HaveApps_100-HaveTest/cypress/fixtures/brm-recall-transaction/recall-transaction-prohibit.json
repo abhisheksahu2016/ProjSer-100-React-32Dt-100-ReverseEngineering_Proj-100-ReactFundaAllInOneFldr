@@ -1,0 +1,17 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "ruleId": "recallTransactionProhibit",
+            "type": "ProhibitAction",
+            "message": {
+                "caption": "Prohibit",
+                "message": "Prohibit - End of Day has passed"
+            },
+            "requiresAttendant": false,
+            "isDelayedSolution": false
+        }
+    ]
+}

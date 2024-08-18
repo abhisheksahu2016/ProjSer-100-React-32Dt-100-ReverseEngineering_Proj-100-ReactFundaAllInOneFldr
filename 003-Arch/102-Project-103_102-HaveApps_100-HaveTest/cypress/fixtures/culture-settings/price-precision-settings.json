@@ -1,0 +1,19 @@
+{
+    "isoCurrencySymbol": "USD",
+    "currencyGroupSeparator": ",",
+    "currencyDecimalSeparator": ".",
+    "currencyPositivePattern": "$n",
+    "currencyNegativePattern": "($n)",
+    "cultureName": "en-US",
+    "shortDateFormat": "M/d/yyyy",
+    "shortTimeFormat": "h:mm tt",
+    "volumeUnitOfMeasure": "LTR",
+    "volumeUnitOfMeasurePrecision": 3,
+    "volumePricePrecision": 0,
+    "temperatureUnitOfMeasure": "FAH",
+    "lengthUnitOfMeasure": "CMT",
+    "dimensionsPrecision": "0",
+    "pricePrecision": 3,
+    "weightPrecision": "0",
+    "quantityPrecision": "0"
+}

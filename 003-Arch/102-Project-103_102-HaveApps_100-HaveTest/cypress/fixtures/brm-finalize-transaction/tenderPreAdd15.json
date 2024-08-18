@@ -1,0 +1,41 @@
+{
+  "cartId": "YDLHN6JWTB",
+  "sequenceNumber": 1738,
+  "cartInfo": {
+    "businessDate": "2023-06-05",
+    "beginDateTime": "2023-06-05T11:31:54.093",
+    "status": "Tender",
+    "totals": {
+      "grandAmount": 313.29,
+      "netAmount": 265.5,
+      "taxAmounts": {
+        "taxAmount": 47.79,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 113.29,
+      "discountAmount": 34.5,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "manualSegments": [],
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "returns": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": false
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

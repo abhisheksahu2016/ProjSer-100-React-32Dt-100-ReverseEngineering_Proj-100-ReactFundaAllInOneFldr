@@ -1,0 +1,35 @@
+{
+  "cartInfo": {
+    "status": "Itemization",
+    "totals": {
+      "netAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 0,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "my-new-cart",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 738,
+  "items": [],
+  "payments": [],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {}
+}

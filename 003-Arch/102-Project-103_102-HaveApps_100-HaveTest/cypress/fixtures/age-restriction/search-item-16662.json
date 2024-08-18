@@ -1,0 +1,61 @@
+{
+   "total": 2,
+   "productListings": [
+      {
+         "itemId": "16662",
+         "merchandiseHierarchy": [
+            {
+               "hierarchyType": "Merchandise",
+               "nodeId": "201"
+            }
+         ],
+         "alternativeItemIds": [
+            "16662"
+         ],
+         "description": "Flower",
+         "longDescription": "Flower",
+         "requiredPrice": false,
+         "hasPrice": true,
+         "unitPrice": 4.6,
+         "sellable": true,
+         "regularSalesUnitPrice": {
+            "price": {
+               "value": 4.6,
+               "currency": "USD"
+            },
+            "quantity": 1
+         },
+         "tarePercentage": [],
+         "priceLevels": [],
+         "depositItems": []
+      },
+      {
+         "itemId": "5410",
+         "merchandiseHierarchy": [
+            {
+               "hierarchyType": "Merchandise",
+               "nodeId": "201"
+            }
+         ],
+         "alternativeItemIds": [
+            "5410"
+         ],
+         "description": "Flower",
+         "longDescription": "Flower",
+         "requiredPrice": false,
+         "hasPrice": true,
+         "unitPrice": 18.3,
+         "sellable": true,
+         "regularSalesUnitPrice": {
+            "price": {
+               "value": 18.3,
+               "currency": "GBP"
+            },
+            "quantity": 1
+         },
+         "tarePercentage": [],
+         "priceLevels": [],
+         "depositItems": []
+      }
+   ]
+}

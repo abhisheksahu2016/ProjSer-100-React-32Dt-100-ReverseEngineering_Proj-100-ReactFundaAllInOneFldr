@@ -1,0 +1,75 @@
+{
+  "transaction": {
+    "cartId": "4006eac1-5abd-407c-b6a9-52d1185a0d97",
+    "sequenceNumber": "1389",
+    "cartInfo": {
+      "businessDate": "2021-01-21",
+      "beginDateTime": "2021-01-20T21:24:25.0202328",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 1000,
+        "netAmount": 1000,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "excluded": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 1000,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "11011",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          }
+        },
+        "fullDescription": "Toshiba TV 14af43",
+        "description": "Toshiba TV",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 1000,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 1000,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 1000,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": [],
+        "itemIndicators": [
+          "S"
+        ]
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

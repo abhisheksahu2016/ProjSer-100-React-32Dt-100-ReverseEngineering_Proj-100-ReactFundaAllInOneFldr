@@ -1,0 +1,102 @@
+{
+  "cart": {
+    "cartInfo": {
+      "status": "Tender",
+      "totals": {
+        "netAmount": 10,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 7,
+        "cashbackAmount": 0,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "2x90vLVvyk2uGxokcZ1WHA",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 2432,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "101",
+            "id": "00000000001010"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 10,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "cola",
+        "description": "cola",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 10,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 10
+        },
+        "amount": 10,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "638245982521005045"
+      }
+    ],
+    "payments": [
+      {
+        "sequenceNumber": 2,
+        "sequence": "638245984131663131",
+        "lineId": 2,
+        "tenderId": "1",
+        "tenderType": "Cash",
+        "tenderName": "Cash",
+        "amount": 3,
+        "cashBackAmount": 0,
+        "status": "authorized",
+        "usage": "Payment"
+      },
+      {
+        "sequenceNumber": null,
+        "sequence": "638245982650206270",
+        "lineId": 1,
+        "tenderId": "1",
+        "tenderType": "Cash",
+        "tenderName": "Cash",
+        "amount": 11,
+        "voidedLineId": "1",
+        "status": "preTender"
+      }
+    ],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+  },
+  "balance": {
+    "cartAlreadyBalanced": false,
+    "cartCanBeBalanced": false,
+    "balanceInstructions": []
+  }
+}

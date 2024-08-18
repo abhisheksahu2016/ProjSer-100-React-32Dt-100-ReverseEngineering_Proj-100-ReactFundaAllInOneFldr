@@ -1,0 +1,95 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 8,
+            "taxAmounts": {
+                "taxAmount": 1.6,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 9.6,
+            "cashbackAmount": 0,
+            "discountAmount": 0,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "tx16qznhAUGzEUUl1VxsCw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 166,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "5310073070",
+                    "id": "5310073070"
+                },
+                "quantity": {
+                    "unitOfMeasure": "LBR",
+                    "value": 2,
+                    "weightQuantity": {
+                        "netValue": 2
+                    }
+                }
+            },
+            "extendedAmount": 8,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "PANADOL INFANT",
+            "description": "VOLCANIC OIL",
+            "price": {
+                "unitOfMeasure": "LBR",
+                "specialPrice": false,
+                "unitPrice": 4,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 4
+            },
+            "amount": 8,
+            "taxes": [
+                {
+                    "code": "Rate1",
+                    "amount": 0.8,
+                    "exemptAmount": 0,
+                    "authorityId": "Authority01",
+                    "exemptable": true
+                },
+                {
+                    "code": "Rate2",
+                    "amount": 0.8,
+                    "exemptAmount": 0,
+                    "authorityId": "Authority1",
+                    "exemptable": true
+                }
+            ],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638198387822056639"
+        }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [
+        {
+            "lineId": "1",
+            "type": "SOLUTRAN",
+            "accountId": "******2513"
+        }
+    ],
+    "identifiers": {}
+}

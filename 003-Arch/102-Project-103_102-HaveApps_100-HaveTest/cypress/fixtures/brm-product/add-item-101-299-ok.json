@@ -1,0 +1,70 @@
+{
+  "transaction": {
+      "cartId": "8FPBPQDHPY",
+      "sequenceNumber": 1063,
+      "cartInfo": {
+          "businessDate": "2022-04-17",
+          "beginDateTime": "2022-04-17T16:34:51.955",
+          "status": "Itemization",
+          "totals": {
+              "grandAmount": 14.5,
+              "netAmount": 14.5,
+              "taxAmounts": {
+                  "taxAmount": 0,
+                  "itemFee": 0,
+                  "transactionFee": 0
+              },
+              "itemsCount": 2,
+              "balanceDue": 14.5,
+              "discountAmount": 0,
+              "grossAmount": 0
+          },
+          "defaultCurrency": "USD"
+      },
+      "items": [
+        {
+          "lineItem": {
+              "itemId": {
+                  "type": "0",
+                  "value": "299",
+                  "id": "00000000002990"
+              },
+              "scanData": "299",
+              "quantity": {
+                  "unitOfMeasure": "EA",
+                  "value": 1
+              }
+          },
+          "itemType": "Normal",
+          "lineId": 2,
+          "fullDescription": "Long Lettuce 2017-11-21",
+          "description": "Lettuce",
+          "price": {
+              "unitOfMeasure": "EA",
+              "specialPrice": false,
+              "unitPrice": 4.5,
+              "quantity": 1
+          },
+          "amount": 4.5,
+          "extendedAmount": 4.5,
+          "securityScale": true,
+          "exchangeRequired": false,
+          "sequence": "638190608375076933"
+        }
+      ],
+      "rewards": [],
+      "coupons": [],
+      "payments": [],
+      "identifiers": {
+          "taxExempt": false,
+          "taxDiscount": false,
+          "accessorialFlag": false,
+          "returnType": "NoneReceiptedReturn",
+          "isWic": false,
+          "isWicCvv": false,
+          "typeCode": "SaleTransaction"
+      },
+      "ewicReceipts": [],
+      "receipts": []
+  }
+}

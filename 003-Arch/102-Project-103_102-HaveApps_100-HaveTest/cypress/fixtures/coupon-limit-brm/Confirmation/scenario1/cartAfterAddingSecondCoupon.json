@@ -1,0 +1,93 @@
+{
+	"cartInfo": {
+		"status": "Itemization",
+		"totals": {
+			"netAmount": 20,
+			"taxAmounts": {
+				"taxAmount": 0,
+				"included": 0,
+				"itemFee": 0,
+				"transactionFee": 0,
+				"taxExemptAmount": 0
+			},
+			"balanceDue": 13,
+			"cashbackAmount": 0,
+			"discountAmount": 7,
+			"itemsCount": 1
+		},
+		"defaultCurrency": "USD"
+	},
+	"cartId": "XPENuKYSn0yfPip25mLNiQ",
+	"isTransactionTotaled": false,
+	"sequenceNumber": 4115,
+	"items": [
+		
+	],
+	"payments": [],
+	"taxExemptions": [],
+	"surcharges": [],
+	"receipts": [],
+	"returns": [],
+	"refunds": [],
+	"rewards": [
+		{
+			"lineId": null,
+			"promotionId": "565758-5",
+			"promotionDescription": "Satisfaction Guarantees",
+			"rewardAmount": 1,
+			"rewardType": "GS1_MANUFACTURER_COUPON",
+			"rewardedItems": [
+				{
+					"lineId": "1",
+					"quantity": {
+						"unitOfMeasure": "EA",
+						"value": 1
+					},
+					"rewardAmount": 1,
+					"rewardRefundAmount": 1,
+					"rewardUnits": [
+						{
+							"unitId": "1",
+							"rewardAmount": 1,
+							"rewardRefundAmount": 1
+						}
+					],
+					"itemId": "21245600000"
+				}
+			],
+			"triggeredCoupons": [
+				"2"
+			],
+			"promotionDetails": {
+				"couponId": "81100666667565758310011015390001",
+				"rewardAsTender": true,
+				"promotionLevel": "ITEM_LEVEL"
+			},
+			"message": {},
+			"rewardedTenderLineId": "2",
+			"rewardDisplay": "Separate line"
+		}
+	],
+	"coupons": [
+		{
+			"sequenceNumber": 2,
+			"couponId": "81100666667565758310011015390001",
+			"status": "Active",
+			"lineId": 2,
+			"quantity": 1,
+			"entryMethod": "Keyed",
+			"sequence": "638277695023452857",
+			"voidedLineId": null,
+			"redeptionStates": {
+				"redeemed": 1,
+				"unused": 0
+			},
+			"couponRedemptionIds": [
+				"565758-5"
+			]
+		}
+	],
+	"restrictions": [],
+	"customerPrograms": [],
+	"identifiers": {}
+}

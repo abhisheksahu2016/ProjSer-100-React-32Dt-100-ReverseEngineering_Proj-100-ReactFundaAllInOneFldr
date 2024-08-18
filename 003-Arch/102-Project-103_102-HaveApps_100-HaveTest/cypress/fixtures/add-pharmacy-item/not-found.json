@@ -1,0 +1,5 @@
+{
+    "code": "RxPrescriptionRejected",
+    "message": "Pharmacy Error:Prescription was not found. ",
+    "severity": "Error"
+}

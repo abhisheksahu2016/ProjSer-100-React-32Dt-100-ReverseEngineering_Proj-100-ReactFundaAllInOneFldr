@@ -1,0 +1,6 @@
+{
+  "code": "AlternateIdNotActive",
+  "message": "Identifier is not active",
+  "severity": "Error",
+  "data": null
+}

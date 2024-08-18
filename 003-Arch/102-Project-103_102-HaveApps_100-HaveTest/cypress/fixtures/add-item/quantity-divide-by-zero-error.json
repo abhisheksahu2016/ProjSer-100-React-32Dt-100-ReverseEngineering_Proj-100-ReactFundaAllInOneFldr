@@ -1,0 +1,5 @@
+{
+  "code": "UnitQuantityDivideByZeroException",
+  "message": "Unable to calculate unit quantity, attempting to divide by zero.",
+  "severity": "Error"
+}

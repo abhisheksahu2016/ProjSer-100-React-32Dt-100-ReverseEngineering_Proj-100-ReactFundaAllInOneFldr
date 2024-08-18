@@ -1,0 +1,89 @@
+{
+    "cartId": "5YFEAFZCPF",
+    "sequenceNumber": 233,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-03T12:48:35.4",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 8.5,
+            "netAmount": 8.5,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 0.5,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 7,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                6
+            ],
+            "rewardAmount": 2.5,
+            "promotionId": "UPC5.637768037478061508",
+            "rewardedItems": [
+                {
+                    "lineId": 1,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 2.5,
+                    "description": "Pancake"
+                }
+            ],
+            "netPrice": 2.5,
+            "status": "Active",
+            "rewardType": "AmountOff",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "566666100840",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 6,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

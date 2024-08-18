@@ -1,0 +1,6 @@
+{
+  "message": "The payment service encountered an error.",
+  "code": "PAYMENT_SERVER_ERROR",
+  "statusCode": 0,
+  "response": null
+}

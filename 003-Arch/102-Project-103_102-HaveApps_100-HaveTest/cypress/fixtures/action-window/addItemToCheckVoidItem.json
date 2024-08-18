@@ -1,0 +1,75 @@
+{
+    "transaction": {
+        "cartId": "87a227a6-6673-44d1-9388-f66e5970cf0e",
+        "sequenceNumber": "1353",
+        "cartInfo": {
+            "businessDate": "2021-01-20",
+            "beginDateTime": "2021-01-20T05:45:39.7696248",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 75,
+                "netAmount": 75,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "excluded": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 5,
+                "balanceDue": 75,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "19910",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 5,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Fanta",
+                "description": "Fanta",
+                "itemType": "Stock",
+                "lineId": "1",
+                "amount": 75,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 15,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 15,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "itemIndicators": [
+                    "S"
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "cartId": "CBLP4FBCU3",
+    "sequenceNumber": 229,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-03T11:45:41.192",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 0,
+            "netAmount": 0,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 0,
+            "balanceDue": 0,
+            "discountAmount": 0,
+            "grossAmount": 0
+        }
+    },
+    "items": [],
+    "rewards": [],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "unused": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "566666000020",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 1,
+            "status": "Active",
+            "isVirtualCoupon": false
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

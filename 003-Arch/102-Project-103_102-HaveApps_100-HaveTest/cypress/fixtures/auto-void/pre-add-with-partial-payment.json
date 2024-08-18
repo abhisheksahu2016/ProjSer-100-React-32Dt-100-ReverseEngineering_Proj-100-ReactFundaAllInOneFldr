@@ -1,0 +1,75 @@
+{
+  "cartInfo": {
+    "status": "Itemization",
+    "totals": {
+      "netAmount": 120,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 119.9,
+      "discountAmount": 0,
+      "itemsCount": 1
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "cf378c34-a215-4964-9205-4e43742938d0",
+  "sequenceNumber": 191,
+  "isTransactionTotaled": false,
+  "items": [
+    {
+      "lineItem": {
+        "EntryMethod": "Keyed",
+        "itemId": {
+          "value": "1",
+          "type": "SKU"
+        },
+        "quantity": {
+          "value": 1,
+          "entryMethod": "Automatic"
+        }
+      },
+      "fullDescription": "Exclusive Bedding Set",
+      "description": "Bedding Set",
+      "itemType": "Stock",
+      "lineId": 1,
+      "amount": 120,
+      "securityScale": true,
+      "imageUrl": "",
+      "price": {
+        "unitPrice": 120,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 120,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "status": "Active",
+      "taxes": []
+    }
+  ],
+  "payments": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "637872706453156195",
+      "lineId": 1,
+      "tenderId": "1",
+      "tenderType": "Cash",
+      "tenderName": "Cash",
+      "amount": 0.01,
+      "status": "authorized"
+    }
+  ],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "identifiers": {}
+}

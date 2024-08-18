@@ -1,0 +1,39 @@
+{
+    "cartId": "1X2IZQIS73",
+    "sequenceNumber": 175,
+    "cartInfo": {
+        "businessDate": "2023-03-19",
+        "beginDateTime": "2023-03-19T15:43:36.678",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 0,
+            "netAmount": 0,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 0,
+            "balanceDue": 0,
+            "discountAmount": 0,
+            "grossAmount": 0
+        }
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "ReturnTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

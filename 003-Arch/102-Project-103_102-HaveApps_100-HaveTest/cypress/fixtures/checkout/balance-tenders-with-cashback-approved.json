@@ -1,0 +1,265 @@
+{
+    "cartInfo": {
+        "status": "Tender",
+        "totals": {
+            "netAmount": 10.43,
+            "grossReturnsAmount": 0,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 0,
+            "cashbackAmount": 50,
+            "discountAmount": 0,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "pLFfueHnN0eNnGwNby9pQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 2412,
+    "items": [
+        {
+            "lineItem": {
+              "itemId": {
+                "type": "0",
+                "value": "1",
+                "id": "00000000000001"
+              },
+              "quantity": {
+                "unitOfMeasure": "EA",
+                "value": 1
+              }
+            },
+            "extendedAmount": 10.43,
+            "itemType": "1",
+            "lineId": 1,
+            "fullDescription": "Bedding Set",
+            "description": "Bedding Set",
+            "price": {
+              "unitOfMeasure": "EA",
+              "specialPrice": false,
+              "unitPrice": 10.43,
+              "quantity": 1
+            },
+            "regularPrice": {
+              "unitPrice": 10.43
+            },
+            "amount": 10.43,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+              "onlineItem": {
+                "authorizationExternalId": "6010560000000030",
+                "initialBalance": 0,
+                "currentBalance": 0
+              },
+              "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Scanned",
+            "sequence": "000000000001"
+        }
+    ],
+    "payments": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "638473207920230847",
+            "lineId": 1,
+            "tenderId": "30",
+            "tenderType": "CreditDebit",
+            "tenderName": "Credit Card",
+            "amount": 10.43,
+            "cashBackAmount": 50.00,
+            "status": "authorized",
+            "epsData": {
+                "paymentTranId": "1"
+            },
+            "usage": "Payment",
+            "authorization": {
+                "electronicPayment": {
+                    "authorizationType": "Online",
+                    "authorizationCode": "117434",
+                    "referenceNumber": "1",
+                    "responseCode": "00",
+                    "requestedAmount": 18,
+                    "maskedAccountNumber": "123456******5678",
+                    "customerReceipt": [
+                        "",
+                        "",
+                        " 2018-05-31 09:16:09",
+                        " TOTAL: USD $146.40",
+                        " Visa Credit",
+                        " Entry Method: Swiped",
+                        " CARD #: 0009",
+                        " Purchase   - APPROVED",
+                        " AUTH CODE: 117434",
+                        "",
+                        " Mode: ",
+                        " MID: 1   TID: 44   RRN: 441228",
+                        "",
+                        " I agree to pay above total amount",
+                        " according to card issuer agreement.",
+                        " (Merchant agreement if Credit Voucher)",
+                        " Retain this copy for your records",
+                        "",
+                        " Signature:______________________________"
+                    ],
+                    "drawerReceipt": [
+                        "",
+                        "",
+                        " 2018-05-31 09:16:09",
+                        " TOTAL: USD $146.40",
+                        " Visa Credit",
+                        " Entry Method: Swiped",
+                        " CARD #: 0009",
+                        " Purchase   - APPROVED",
+                        " AUTH CODE: 117434",
+                        "",
+                        " Mode: ",
+                        " MID: 1   TID: 44   RRN: 441228",
+                        "",
+                        " I agree to pay above total amount",
+                        " according to card issuer agreement.",
+                        " (Merchant agreement if Credit Voucher)",
+                        " Retain this copy for your records",
+                        "",
+                        " Signature:______________________________"
+                    ],
+                    "epsProvider": {}
+                },
+                "paymentsInfo": [
+                    {
+                        "key": "paymentTranId",
+                        "value": "1"
+                    },
+                    {
+                        "key": "sessionId",
+                        "value": "8"
+                    },
+                    {
+                        "key": "cardType",
+                        "value": "Debit"
+                    },
+                    {
+                        "key": "entryMethod",
+                        "value": "Swiped"
+                    },
+                    {
+                        "key": "maskedAccountNumber",
+                        "value": "123456******5678"
+                    },
+                    {
+                        "key": "referenceNumber",
+                        "value": "1"
+                    },
+                    {
+                        "key": "authorizationCode",
+                        "value": "117434"
+                    },
+                    {
+                        "key": "tenderId",
+                        "value": "DB"
+                    },
+                    {
+                        "key": "processedByEps",
+                        "value": "true"
+                    },
+                    {
+                        "key": "cancel",
+                        "value": "false"
+                    },
+                    {
+                        "key": "cancelReason",
+                        "value": ""
+                    },
+                    {
+                        "key": "preTenderAmount",
+                        "value": "16"
+                    },
+                    {
+                        "key": "amount",
+                        "value": "18"
+                    },
+                    {
+                        "key": "cashBack",
+                        "value": "2"
+                    },
+                    {
+                        "key": "customerReceipt",
+                        "value": "   2018-05-31 09:16:09  TOTAL: USD $146.40  Visa Credit  Entry Method: Swiped  CARD #: 0009  Purchase   - APPROVED  AUTH CODE: 117434   Mode:   MID: 1   TID: 44   RRN: 441228   I agree to pay above total amount  according to card issuer agreement.  (Merchant agreement if Credit Voucher)  Retain this copy for your records   Signature:______________________________"
+                    },
+                    {
+                        "key": "merchantReceipt",
+                        "value": "   2018-05-31 09:16:09  TOTAL: USD $146.40  Visa Credit  Entry Method: Swiped  CARD #: 0009  Purchase   - APPROVED  AUTH CODE: 117434   Mode:   MID: 1   TID: 44   RRN: 441228   I agree to pay above total amount  according to card issuer agreement.  (Merchant agreement if Credit Voucher)  Retain this copy for your records   Signature:______________________________"
+                    }
+                ]
+            }
+        }
+    ],
+    "taxExemptions": [
+        {
+            "authority": "TaxAuthority1",
+            "reasonCode": ""
+        },
+        {
+            "authority": "universal",
+            "reasonCode": ""
+        },
+        {
+            "authority": "juice",
+            "reasonCode": ""
+        },
+        {
+            "authority": "gov-assist",
+            "reasonCode": ""
+        },
+        {
+            "authority": "TaxAuthority400",
+            "reasonCode": ""
+        },
+        {
+            "authority": "CompoundTaxExempt_Fixed",
+            "reasonCode": ""
+        },
+        {
+            "authority": "lemonade",
+            "reasonCode": ""
+        }
+    ],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "638473208081022822",
+            "lineId": 1,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 50.00,
+            "status": "authorized",
+            "usage": "CashBack",
+            "authorization": {
+                "electronicPayment": {
+                    "epsProvider": {}
+                },
+                "paymentsInfo": [
+                    {
+                        "key": "tenderSequence",
+                        "value": "638473207920230847"
+                    }
+                ]
+            }
+        }
+    ],
+    "refundVoidTenders": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

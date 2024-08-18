@@ -1,0 +1,109 @@
+{
+    "adjustmentData": null,
+    "amounts": {
+        "activationAmount": 0.0,
+        "amountApproved": 90.95,
+        "amountDue": 90.95,
+        "amountTendered": 90.95,
+        "cardBalance": 0.0,
+        "cashbackAmount": 0.0,
+        "cashbackAmountApproved": 0.0,
+        "reloadAmount": 0.0,
+        "tipAmount": 0.0
+    },
+    "cardDetails": null,
+    "checkDetails": {
+        "checkAccountNumber": null,
+        "checkMICRData": "XXXXXXXXXXXXXXXXXXXXXXX",
+        "checkRawMICRData": null,
+        "checkIssueDate": null,
+        "checkRoutingNumber": null,
+        "checkSequenceNumber": null,
+        "loyaltyCardStatus": null,
+        "eccEligible": null,
+        "checkType": "Payroll"
+    },
+    "clientID": "POS1",
+    "configOptions": null,
+    "connectionInfo": null,
+    "deviceData": null,
+    "hostData": {
+        "accountSecurityCodeValid": false,
+        "referenceID": null,
+        "hostType": 0,
+        "traceID": "1000000000013162591"
+    },
+    "paymentDetails": {
+        "authCode": "244258",
+        "needsSignature": false,
+        "offline": false,
+        "partialApproval": false,
+        "paymentTranID": "2-36",
+        "responseCode": "07",
+        "responseMessage": null,
+        "sessionTranID": "34",
+        "stan": "21601",
+        "verificationMethod": "NotRequired"
+    },
+    "receipts": [
+        {
+            "receiptLines": [
+                "               Your Store               ",
+                "               Your Street              ",
+                "           City, State zipcode          ",
+                "            (555) 555-1212              "
+            ],
+            "receiptSection": "Header",
+            "receiptType": "Merchant"
+        },
+        {
+            "receiptLines": [
+                "",
+                "",
+                " 2022-08-19 13:02:17",
+                " Subtotal:  USD $90.95",
+                " Tip:       USD $______",
+                " Total:     USD $______",
+                " Check Personal",
+                " Entry Method: CheckMICR",
+                " Check #: ****5678",
+                " Purchase   - APPROVED",
+                " AUTH CODE: 244258",
+                " TraceId:       1000000000013162591",
+                "",
+                "",
+                " ",
+                " MID: 123456   TID: 001   RRN: 21601",
+                "",
+                " ",
+                "",
+                ""
+            ],
+            "receiptSection": "Body",
+            "receiptType": "Merchant"
+        },
+        {
+            "receiptLines": [
+                "             THANK YOU FOR              ",
+                "            SHOPPING WITH US!           "
+            ],
+            "receiptSection": "Footer",
+            "receiptType": "Merchant"
+        }
+    ],
+    "requestID": "554",
+    "signatureDetails": null,
+    "status": "Success",
+    "statusCode": 0,
+    "statusMessage": null,
+    "version": null,
+    "posTranID": "137",
+    "ewicData": null,
+    "promptDetails": null,
+    "customerData": null,
+    "trainingMode": null,
+    "transactionDateTimeUTC": "2022-09-06 19:00:49",
+    "marketBasketData": null,
+    "customOutputData": null,
+    "customInputData": null
+}

@@ -1,0 +1,87 @@
+{
+  "transaction": {
+    "cartId": "3f9fcc16-656a-4e4c-8402-022c9f0ebf42",
+    "sequenceNumber": "1364",
+    "cartInfo": {
+      "businessDate": "2021-01-20",
+      "beginDateTime": "2021-01-20T07:50:37.2184875",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 49.54,
+        "netAmount": 41.98,
+        "taxAmounts": {
+          "taxAmount": 7.56,
+          "excluded": 7.56,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 49.54,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Scanned",
+          "itemId": {
+            "value": "13088",
+            "type": "SKU"
+          },
+          "quantity": {
+            "unitOfMeasure": "Kg",
+            "units": 1.98,
+            "value": 1,
+            "entryMethod": "Keyed",
+            "weightQuantity": {
+              "tare": {
+                "isTareOverride": true,
+                "tareValue": 0.02,
+                "isManualFixedTare": true,
+                "isManualPercentage": false,
+                "grossWeight": 2
+              }
+            }
+          }
+        },
+        "fullDescription": "Long Chocolate Chip Cookies",
+        "description": "Chocolate Chip Cookies",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 41.98,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 21.2,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 21.2,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": [],
+        "itemIndicators": [
+          "S",
+          "C"
+        ]
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

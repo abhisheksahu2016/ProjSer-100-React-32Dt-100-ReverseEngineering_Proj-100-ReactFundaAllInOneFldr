@@ -1,0 +1,113 @@
+{
+    "transaction": {
+        "cartId": "M9MO5H88J4",
+        "sequenceNumber": 1198,
+        "cartInfo": {
+            "businessDate": "2022-09-21",
+            "beginDateTime": "2022-09-22T12:41:58.748",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 110.14,
+                "netAmount": 94.25,
+                "taxAmounts": {
+                    "taxAmount": 15.89,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 5,
+                "balanceDue": 110.14,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "20",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 5,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Arak",
+                "description": "Arak",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 94.25,
+                "extendedAmount": 88.25,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 17.65,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 17.65,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "itemIndicators": [
+                    "C"
+                ],
+                "linkedLines": [
+                    {
+                        "lineItem": {
+                            "EntryMethod": "Automatic",
+                            "itemId": {
+                                "value": "7991439",
+                                "type": "SKU"
+                            },
+                            "quantity": {
+                                "value": 5,
+                                "entryMethod": "Automatic"
+                            }
+                        },
+                        "fullDescription": "Long Deposit Bottle Bottle 75cc",
+                        "description": "Deposit Bottle Bottle 75cc",
+                        "itemType": "Deposit",
+                        "lineId": 2,
+                        "amount": 6,
+                        "extendedAmount": 6,
+                        "securityScale": true,
+                        "imageUrl": "",
+                        "price": {
+                            "unitPrice": 1.2,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "regularPrice": {
+                            "unitPrice": 1.2,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "status": "Active",
+                        "taxes": []
+                    }
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

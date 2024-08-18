@@ -1,0 +1,33 @@
+{
+  "transactionId": "30e2c7f1-11af-4357-a3c5-2c8e247ecf7a",
+  "sequenceNumber": "2082",
+  "beginDate": "2021-01-07T16:07:36.2375854",
+  "businessDate": "2021-01-07",
+  "typeCode": "SaleTransaction",
+  "status": "Tendered",
+  "amounts": {
+    "grand": 11,
+    "currencyCode": "USD",
+    "net": 11,
+    "tax": 0,
+    "itemFee": 0,
+    "fee": 0,
+    "purchase": 2,
+    "return": 0,
+    "balanceDue": 10.5,
+    "savings": 1,
+    "personal": 0
+  },
+  "items": [],
+  "promotions": [],
+  "coupons": [],
+  "tenders": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  }
+}

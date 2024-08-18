@@ -1,0 +1,107 @@
+{
+  "transaction": {
+    "cartId": "85df8e99-a01a-476c-9a97-a0e2a7789337",
+    "sequenceNumber": "1386",
+    "cartInfo": {
+      "businessDate": "2021-01-21",
+      "beginDateTime": "2021-01-20T21:14:31.996382",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 7.21,
+        "netAmount": 7.21,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "excluded": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 7.21,
+        "discountAmount": 2,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "129900",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          }
+        },
+        "fullDescription": "Long Cocoman",
+        "description": "Cocoman",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 9.21,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 9.21,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 9.21,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": [],
+        "itemIndicators": [
+          "S"
+        ]
+      }
+    ],
+    "rewards": [
+      {
+        "lineId": 2,
+        "entryMethod": "Automatic",
+        "triggeredProducts": [],
+        "rewardAmount": -2,
+        "promotionId": "491",
+        "rewardedItems": [
+          {
+            "lineId": "129900",
+            "quantity": {
+              "value": 1
+            },
+            "rewardAmount": 9.21,
+            "description": "Cocoman"
+          }
+        ],
+        "netPrice": 9.21,
+        "status": "Active",
+        "rewardType": "Discount",
+        "promotionDescription": "You got 2$ Off",
+        "promotionDetails": {
+          "isEndOfTicketPromotion": false,
+          "rewardAsTender": false,
+          "isManualPromotion": false,
+          "isTriggeredByTender": false,
+          "isSingleLineDiscount": false
+        },
+        "approval": {
+          "status": "NotRequired"
+        }
+      }
+    ],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

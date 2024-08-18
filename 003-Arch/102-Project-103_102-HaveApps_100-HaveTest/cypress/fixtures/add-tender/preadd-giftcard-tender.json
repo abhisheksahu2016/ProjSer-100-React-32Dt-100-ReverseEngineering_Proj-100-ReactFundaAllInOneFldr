@@ -1,0 +1,58 @@
+{
+    "cartId": "5IU7INXGCK",
+    "sequenceNumber": 89,
+    "cartInfo": {
+        "businessDate": "2023-03-03",
+        "beginDateTime": "2023-03-03T10:51:04.437",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 146.4,
+            "netAmount": 120,
+            "taxAmounts": {
+                "taxAmount": 26.4,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 146.4,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "638423132195644419",
+            "lineId": 1,
+            "tenderId": "20",
+            "tenderType": "CreditDebit",
+            "tenderName": "GiftCard",
+            "amount": 146.4,
+            "cashBackAmount": 0,
+            "status": "preTender",
+            "usage": "Payment",
+            "authorization": {
+                "electronicPayment": {
+                    "epsProvider": {}
+                }
+            }
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

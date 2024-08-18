@@ -1,0 +1,30 @@
+{
+    "state": "All",
+    "receiptLookupPeriod": 10,
+    "bestForGuest": false,
+    "reasonCodes": [
+        {
+            "isEnabled": true,
+            "value": "1",
+            "description": "Deposit"
+        },
+        {
+            "isEnabled": true,
+            "value": "2",
+            "description": "PRICE ERROR"
+        },
+        {
+            "isEnabled": true,
+            "value": "5",
+            "description": "Recall"
+        }
+    ],
+    "customerDetailsFields": {
+        "firstNameRequired": true,
+        "lastNameRequired": false,
+        "addressRequired": false,
+        "cityRequired": false,
+        "provinceRequired": false,
+        "postalCodeRequired": false
+    }
+}

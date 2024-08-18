@@ -1,0 +1,40 @@
+{
+  "cartId": "PZSM1Q86W9",
+  "sequenceNumber": 1583,
+  "cartInfo": {
+    "businessDate": "2023-05-31",
+    "beginDateTime": "2023-05-31T17:57:22.506",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 17.36,
+      "netAmount": 17,
+      "taxAmounts": {
+        "taxAmount": 0.36,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 2,
+      "balanceDue": 17.36,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "manualSegments": [],
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "returns": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

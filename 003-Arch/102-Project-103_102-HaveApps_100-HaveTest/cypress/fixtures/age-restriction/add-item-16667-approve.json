@@ -1,0 +1,72 @@
+{
+  "transaction": {
+    "cartId": "YKXX29FD5C",
+    "sequenceNumber": 623,
+    "cartInfo": {
+      "businessDate": "2021-12-01",
+      "beginDateTime": "2021-12-01T16:53:27.751",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 29.99,
+        "netAmount": 29.99,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 29.99,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [{
+      "lineItem": {
+        "EntryMethod": "Keyed",
+        "itemId": {
+          "value": "16667",
+          "type": "SKU"
+        },
+        "quantity": {
+          "value": 1,
+          "entryMethod": "Automatic"
+        }
+      },
+      "fullDescription": "Rose",
+      "description": "Rose",
+      "itemType": "Stock",
+      "lineId": 1,
+      "amount": 29.99,
+      "extendedAmount": 29.99,
+      "securityScale": true,
+      "imageUrl": "",
+      "price": {
+        "unitPrice": 29.99,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 29.99,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "status": "Active",
+      "taxes": []
+    }],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

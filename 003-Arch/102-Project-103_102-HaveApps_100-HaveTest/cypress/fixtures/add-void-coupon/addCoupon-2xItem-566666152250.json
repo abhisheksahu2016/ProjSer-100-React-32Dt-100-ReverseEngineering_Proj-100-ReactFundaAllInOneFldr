@@ -1,0 +1,105 @@
+{
+  "cartId": "3c33cdc9-792d-4ad9-994a-d6f1d31d0f87",
+  "sequenceNumber": "1513",
+  "cartInfo": {
+    "businessDate": "2021-02-02",
+    "beginDateTime": "2021-02-03T06:17:15.8006461",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 12,
+      "netAmount": 12,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "excluded": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 2,
+      "balanceDue": 9.25,
+      "discountAmount": 0.25,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [{
+    "lineId": 5,
+    "entryMethod": "Automatic",
+    "triggeredProducts": [1, 4],
+    "status": "Active",
+    "promotionDescription": "Bonus Coupon",
+    "promotionDetails": {
+      "isEndOfTicketPromotion": false,
+      "rewardAsTender": false,
+      "isManualPromotion": false,
+      "isTriggeredByTender": false,
+      "isSingleLineDiscount": false,
+      "couponId": "566666152250"
+    },
+    "rewardedItems": [{
+      "lineId": 1,
+      "quantity": {
+        "value": 1
+      },
+      "rewardAmount": 0.25,
+      "description": "Red Bamba"
+    }],
+    "rewardType": "Discount",
+    "rewardAmount": -0.25,
+    "promotionId": "6666615225-3-M"
+  }, {
+    "lineId": 6,
+    "entryMethod": "Automatic",
+    "triggeredProducts": [1, 4],
+    "rewardAmount": 0.25,
+    "promotionId": "6666615225-3",
+    "rewardedItems": [{
+      "lineId": 1,
+      "quantity": {
+        "value": 1
+      },
+      "rewardAmount": 0.25,
+      "description": "Red Bamba"
+    }],
+    "netPrice": 6,
+    "status": "Active",
+    "rewardType": "Tender",
+    "promotionDescription": "",
+    "promotionDetails": {
+      "isEndOfTicketPromotion": false,
+      "rewardAsTender": true,
+      "isManualPromotion": false,
+      "isTriggeredByTender": false,
+      "isSingleLineDiscount": false,
+      "tenderName": "RewardAsTender",
+      "couponId": "566666152250"
+    },
+    "approval": {
+      "status": "NotRequired"
+    }
+  }],
+  "coupons": [{
+    "redeptionStates": {
+      "redeemed": 1
+    },
+    "quantity": 1,
+    "couponRedemptionIds": ["6666615225-5-M", "6666615225-5"],
+    "couponId": "566666152250",
+    "entryMethod": "Scanned",
+    "sequenceNumber": 4,
+    "status": "Updated",
+    "isVirtualCoupon": false,
+    "rewardType": "Amount"
+  }],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  },
+  "receipts": []
+}

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "1",
+    "description": "Cash",
+    "isProcessedByEps": false,
+    "exchangeRate": 1,
+    "amountEntryRequired": "YesWithDefault",
+    "requestForTendering": true,
+    "tenderReferences": [],
+    "isByDenomination": false,
+    "isMobile": false,
+    "currency": {
+      "symbol": "$",
+      "isoSymbol": "USD"
+    },
+    "isForeignCurrency": false,
+    "type": "Cash",
+    "configSettings": {
+      "activities": {
+          "PAY_IN": true,
+          "PAY_OUT": true
+      },
+      "autoReconciled": false
+    }
+  },
+  {
+    "id": "2",
+    "description": "DenomCash",
+    "isProcessedByEps": false,
+    "exchangeRate": 1,
+    "amountEntryRequired": "YesWithDefault",
+    "requestForTendering": true,
+    "tenderReferences": [],
+    "isByDenomination": true,
+    "isMobile": false,
+    "currency": {
+      "symbol": "$",
+      "isoSymbol": "USD"
+    },
+    "isForeignCurrency": false,
+    "type": "Cash",
+    "configSettings": {
+      "activities": {
+          "PAY_IN": true,
+          "PAY_OUT": true
+      },
+      "autoReconciled": false
+    },
+    "denomination": [
+      {
+        "id": "1",
+        "amount": "1.000",
+        "description": "One Dollar Note",
+        "type": "Note"
+      },
+      {
+        "id": "2",
+        "amount": "5.000",
+        "description": "Five Dollar Note",
+        "type": "Note"
+      },
+      {
+        "id": "3",
+        "amount": "10.000",
+        "description": "Ten Dollar Note",
+        "type": "Note"
+      },
+      {
+        "id": "4",
+        "amount": "20.000",
+        "description": "Twenty Dollar Note",
+        "type": "Note"
+      },
+      {
+        "id": "5",
+        "amount": "10.000",
+        "description": "Quarters",
+        "type": "Roll"
+      },
+      {
+        "id": "6",
+        "amount": "1.000",
+        "description": "One Dollar",
+        "type": "Coin"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "description": "Vouchers",
+    "isProcessedByEps": false,
+    "exchangeRate": 1,
+    "amountEntryRequired": "YesWithDefault",
+    "requestForTendering": true,
+    "tenderReferences": [],
+    "isByDenomination": false,
+    "isMobile": false,
+    "currency": {
+      "symbol": "$",
+      "isoSymbol": "USD"
+    },
+    "isForeignCurrency": false,
+    "type": "Voucher",
+    "configSettings": {
+      "activities": {
+          "PAY_IN": true,
+          "PAY_OUT": true
+      },
+      "autoReconciled": false
+    }
+  },
+  {
+    "id": "4",
+    "description": "MasterCard",
+    "isProcessedByEps": false,
+    "exchangeRate": 1,
+    "amountEntryRequired": "YesWithDefault",
+    "requestForTendering": true,
+    "tenderReferences": [],
+    "isByDenomination": false,
+    "isMobile": false,
+    "currency": {
+      "symbol": "$",
+      "isoSymbol": "USD"
+    },
+    "isForeignCurrency": false,
+    "type": "Credit",
+    "configSettings": {
+      "activities": {
+          "PAY_IN": true,
+          "PAY_OUT": true
+      },
+      "autoReconciled": false
+    }
+  }
+]

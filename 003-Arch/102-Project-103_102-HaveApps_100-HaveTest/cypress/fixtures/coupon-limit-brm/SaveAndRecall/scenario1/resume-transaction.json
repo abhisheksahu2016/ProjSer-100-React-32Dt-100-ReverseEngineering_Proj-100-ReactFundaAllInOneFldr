@@ -1,0 +1,276 @@
+{
+    "cartInfo": {
+        "status": "Suspended",
+        "totals": {
+            "netAmount": 72.8,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 72.8,
+            "cashbackAmount": 0,
+            "discountAmount": 3.7,
+            "itemsCount": 3
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "1Y-5ReU1x0GH6qyISBC-Hw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 4551,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "989898614",
+                    "id": "989898614"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 2,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "Black tea",
+            "description": "tea",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 2,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 2
+            },
+            "amount": 2,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638289737646801456"
+        },
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "9898116678",
+                    "id": "9898116678"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 70,
+            "itemType": "Normal",
+            "lineId": 2,
+            "fullDescription": "Travel Backpack Black",
+            "description": "Travel Backpack",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 70,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 70
+            },
+            "amount": 70,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638289737747539112"
+        },
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "000001540080783",
+                    "id": "000001540080783"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 4.5,
+            "itemType": "Normal",
+            "lineId": 3,
+            "fullDescription": "Shurfine Cheddar Shredde",
+            "description": "Shurfine Cheddar Shredde",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 4.5,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 4.5
+            },
+            "amount": 4.5,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638289738276121828"
+        }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "12",
+            "promotionDescription": "Selling 10% coupon",
+            "rewardAmount": 0.2,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.2,
+                    "rewardRefundAmount": 0.2,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 0.2,
+                            "rewardRefundAmount": 0.2
+                        }
+                    ],
+                    "itemId": "989898614"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "770000555123",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        },
+        {
+            "lineId": null,
+            "promotionId": "107",
+            "promotionDescription": "5% on Trael Backpa",
+            "rewardAmount": 3.5,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "2",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 3.5,
+                    "rewardRefundAmount": 3.5,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 3.5,
+                            "rewardRefundAmount": 3.5
+                        }
+                    ],
+                    "itemId": "9898116678"
+                }
+            ],
+            "triggeredCoupons": [
+                "2"
+            ],
+            "promotionDetails": {
+                "couponId": "776500111992",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "770000555123",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638289738541991725",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "12"
+            ]
+        },
+        {
+            "sequenceNumber": 2,
+            "couponId": "776500111992",
+            "status": "Active",
+            "lineId": 2,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638289738798481018",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "107"
+            ]
+        },
+        {
+            "sequenceNumber": 3,
+            "couponId": "81100666667565758310011015390001",
+            "status": "Active",
+            "lineId": 3,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638289739338512260",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 0,
+                "unused": 1
+            },
+            "couponRedemptionIds": []
+        }
+    ],
+    "restrictions": [
+        {
+            "lineId": "1",
+            "restrictionType": "UnusedCoupon",
+            "restrictionOn": "Coupons",
+            "restrictedLines": [
+                "3"
+            ],
+            "priority": 0,
+            "additionalData": {},
+            "delayable": false
+        }
+    ],
+    "customerPrograms": [],
+    "identifiers": {}
+}

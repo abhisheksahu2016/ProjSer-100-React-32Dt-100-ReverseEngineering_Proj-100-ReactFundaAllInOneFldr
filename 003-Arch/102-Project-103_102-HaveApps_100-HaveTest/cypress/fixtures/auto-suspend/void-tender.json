@@ -1,0 +1,51 @@
+{
+    "cartId": "5VJKE3RH7G",
+    "sequenceNumber": 166,
+    "cartInfo": {
+        "businessDate": "2023-08-04",
+        "beginDateTime": "2023-08-04T18:03:41.767",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 24,
+            "netAmount": 24,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 24,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "itemLink": 4,
+            "status": "Cancelled",
+            "sequenceNumber": 7
+        },
+        {
+            "itemLink": 5,
+            "status": "Cancelled",
+            "sequenceNumber": 8
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

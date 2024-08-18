@@ -1,0 +1,90 @@
+{
+    "cartId": "GI1R3FELXX",
+    "sequenceNumber": 238,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-03T13:47:01.343",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 146.4,
+            "netAmount": 120,
+            "taxAmounts": {
+                "taxAmount": 26.4,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 135.7,
+            "discountAmount": 10.7,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 5,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2,
+                4
+            ],
+            "rewardAmount": 10.7,
+            "promotionId": "UPC5.637768072331499392",
+            "rewardedItems": [
+                {
+                    "lineId": 2,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 10.7,
+                    "description": "Sheet Set"
+                }
+            ],
+            "netPrice": 10.7,
+            "status": "Active",
+            "rewardType": "FreeItem",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "549000111140",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 4,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

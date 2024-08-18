@@ -1,0 +1,75 @@
+{
+  "transaction": {
+    "cartId": "5423d0b7-f872-4c26-bde8-86c87641cce3",
+    "sequenceNumber": "1376",
+    "cartInfo": {
+      "businessDate": "2021-01-21",
+      "beginDateTime": "2021-01-20T20:42:57.8480562",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 5.5,
+        "netAmount": 5.5,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "excluded": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 5.5,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "19909",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          }
+        },
+        "fullDescription": "Coca-Cola zero",
+        "description": "Cola zero",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 5.5,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 5.5,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 5.5,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": [],
+        "itemIndicators": [
+          "S"
+        ]
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "cart": {
+    "cartInfo": {
+      "status": "Tender",
+      "totals": {
+        "netAmount": 10,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 0,
+        "cashbackAmount": 0,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "CN6LXFCiCUyd7JvIRWKXg",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 8156,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": { "type": "0", "value": "101", "id": "00000000001010" },
+          "quantity": { "unitOfMeasure": "EA", "value": 1 }
+        },
+        "extendedAmount": 10,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "cola",
+        "description": "cola",
+        "price": { "unitOfMeasure": "EA", "specialPrice": false, "unitPrice": 10, "quantity": 1 },
+        "regularPrice": { "unitPrice": 10 },
+        "amount": 10,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": { "ItemSaleType": "SALES" },
+        "entryMethod": "Keyed",
+        "sequence": "638061077702578486"
+      }
+    ],
+    "payments": [
+      {
+        "sequenceNumber": 1,
+        "sequence": "638061082753364982",
+        "lineId": 1,
+        "tenderId": "12",
+        "tenderType": "CreditDebit",
+        "tenderName": "American Express",
+        "amount": 10,
+        "cashBackAmount": 0,
+        "status": "authorized",
+        "epsData": { "paymentTranId": "1" },
+        "usage": "Payment",
+        "authorization": {
+          "electronicPayment": {
+            "authorizationType": "Online",
+            "authorizationCode": "117434",
+            "referenceNumber": "1",
+            "requestedAmount": 10,
+            "maskedAccountNumber": "123456******5678",
+            "epsProvider": {}
+          }
+        }
+      }
+    ],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+  },
+  "balance": { "cartAlreadyBalanced": true, "cartCanBeBalanced": false, "balanceInstructions": [] }
+}

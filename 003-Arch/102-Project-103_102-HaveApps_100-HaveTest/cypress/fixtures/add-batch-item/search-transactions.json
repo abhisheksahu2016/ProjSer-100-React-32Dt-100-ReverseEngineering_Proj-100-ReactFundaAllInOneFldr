@@ -1,0 +1,30 @@
+{
+    "lastPage": true,
+    "pageContent": [
+        {
+            "businessDayUtc": "2023-03-13T17:18:38",
+            "closeDateTimeUtc": "2023-03-13T17:18:38",
+            "destinationAccount": "",
+            "employeeIds": [],
+            "employeeNames": [
+                "1 1"
+            ],
+            "endTransactionDateTimeUtc": "2023-03-13T17:18:38",
+            "grandAmount": "122.000",
+            "isSuspended": false,
+            "isTrainingMode": false,
+            "itemCount": 0,
+            "receivedDateTimeUtc": "2023-03-13T17:18:38",
+            "siteInfoId": "1",
+            "sourceAccount": "",
+            "tlogId": "59",
+            "touchPointId": "1",
+            "transactionCategory": "SALE_OR_RETURN",
+            "transactionNumber": "59"
+        }
+    ],
+    "pageNumber": 1,
+    "totalPages": 1,
+    "totalResults": 1,
+    "customerId": null
+}

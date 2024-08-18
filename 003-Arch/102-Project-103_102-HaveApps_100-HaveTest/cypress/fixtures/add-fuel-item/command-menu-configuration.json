@@ -1,0 +1,2117 @@
+{
+  "commandMenu": {
+    "AddLoyaltyState": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "AddLoyaltyByIdentifierCommand",
+          "description": "AddLoyaltyByIdentifier_Command",
+          "parameters": []
+        },
+        {
+          "name": "AddLoyaltyEPSCommand",
+          "description": "AddLoyaltyEPS_Command",
+          "parameters": []
+        },
+        {
+          "name": "AddLoyaltyByNumericIdentifierCommand",
+          "description": "AddLoyaltyByNumericIdentifier_Command",
+          "parameters": [
+            {
+              "name": "MethodType",
+              "value": "PHONE"
+            }
+          ]
+        },
+        {
+          "name": "AddLoyaltyByAlphaNumericIdentifierCommand",
+          "description": "AddLoyaltyByAlphaNumericIdentifier_Command",
+          "parameters": [
+            {
+              "name": "MethodTypeAndRegex",
+              "value": "EMAIL;^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}"
+            }
+          ]
+        }
+      ]
+    },
+    "BottleDepositQuantityCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "BottleDepositAddCommand",
+          "description": "BottleDeposit_Add"
+        },
+        {
+          "name": "ClearQuantityCommand",
+          "description": "BottleDeposit_Clear"
+        }
+      ]
+    },
+    "CashViewCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "NavigateBackToTenderModeCommand",
+          "description": "Back_to_Payment_Command"
+        }
+      ]
+    },
+    "CouponModeCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CancelCouponLineCommand",
+          "description": "Void_Coupon_Line"
+        },
+        {
+          "name": "CouponRewardOverrideCommand",
+          "description": "Override_Coupon_Reward"
+        }
+      ]
+    },
+    "CustomerDepositTenderTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "RemoveCustomerFromTransactionCommand",
+          "description": "Remove_Customer_Command"
+        }
+      ]
+    },
+    "EnhancedReprintSearchOptionsCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "SearchByPOSParametersCommand",
+          "description": "SearchByPOSParametersCommand"
+        },
+        {
+          "name": "SearchByCreditCardCommand",
+          "description": "SearchByCreditCardCommand"
+        },
+        {
+          "name": "SearchBySerialNoCommand",
+          "description": "SearchBySerialNoCommand"
+        }
+      ]
+    },
+    "ForceExchangeError": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "GoToSaleModeCommand",
+          "description": "Go_To_Sale_Mode_Command"
+        },
+        {
+          "name": "CloseCommand",
+          "description": "Close"
+        }
+      ]
+    },
+    "GiftReceiptError": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseCommand",
+          "description": "Close"
+        }
+      ]
+    },
+    "GiftReceiptSearchTransaction": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "CancelCommand",
+          "description": "CancelCommand"
+        }
+      ]
+    },
+    "GiftReceiptTransactionSearchOptionsCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "SearchByPOSParametersCommand",
+          "description": "SearchByPOSParametersCommand"
+        },
+        {
+          "name": "SearchByCreditCardCommand",
+          "description": "SearchByCreditCardCommand"
+        },
+        {
+          "name": "SearchBySerialNoCommand",
+          "description": "SearchBySerialNoCommand"
+        }
+      ]
+    },
+    "HelloLoginModeCommandsGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "TillClosingCommand",
+          "description": "TillClosing_Command"
+        },
+        {
+          "name": "PrintXReportCommand",
+          "description": "XReport_Print_Command"
+        }
+      ]
+    },
+    "ItemAllreadyWasScanned": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ConfirmCommand",
+          "description": "ConfirmCommand"
+        }
+      ]
+    },
+    "ItemGroupActionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "AddManualTareCommand",
+          "description": "AddManualTareCommand"
+        }
+      ]
+    },
+    "ItemNotFoundErrorCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToDepartmentCommand",
+          "description": "GoToDepartmentCommand"
+        }
+      ]
+    },
+    "ItemsPostSaleCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CancelItemFromLineItemCommand",
+          "description": "Void_One_Command"
+        },
+        {
+          "name": "CancelLineItemCommand",
+          "description": "Void_All_Command"
+        },
+        {
+          "name": "EnhancedPriceOverrideCommand",
+          "description": "Enhanced_Price_Overide_Command"
+        },
+        {
+          "name": "SetCancelItemStateCommand",
+          "description": "Void_Next_Item_Command"
+        },
+        {
+          "name": "PreSalePriceOverrideCommand",
+          "description": "PreSalePrice_Override_Command"
+        }
+      ]
+    },
+    "ItemWithTareCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CancelLineItemCommand",
+          "description": "Void_All_Command"
+        },
+        {
+          "name": "CancelItemFromLineItemCommand",
+          "description": "Void_One_Command"
+        },
+        {
+          "name": "EnhancedPriceOverrideCommand",
+          "description": "Enhanced_Price_Overide_Command"
+        },
+        {
+          "name": "ModifyTareCommand",
+          "description": "ModifyTare_Command"
+        },
+        {
+          "name": "PriceOverrideCommand",
+          "description": "Price_Overide_Command"
+        },
+        {
+          "name": "SetCancelItemStateCommand",
+          "description": "Void_Next_Item_Command"
+        }
+      ]
+    },
+    "LoginModeCommandsGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ForgotPasswordCommand",
+          "description": "ForgotPassword_Command"
+        }
+      ]
+    },
+    "ManualPromotionModeCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CancelManualPromotionLineCommand",
+          "description": "Void_ManualPromotion_Line"
+        }
+      ]
+    },
+    "ManualSegmentState": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "Segment1",
+          "description": "Segment1",
+          "parameters": []
+        },
+        {
+          "name": "Segment2",
+          "description": "Segment2",
+          "parameters": []
+        },
+        {
+          "name": "Segment3",
+          "description": "Segment3",
+          "parameters": []
+        }
+      ]
+    },
+    "NoSaleTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "EFTAdminMenuCommand",
+          "description": "EFT_Admin_Menu_Command",
+          "parameters": [
+            {
+              "name": "commandName",
+              "value": "test"
+            }
+          ]
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        },
+        {
+          "name": "LoyaltyBalanceInquiryCommand",
+          "description": "Loyalty_Balance_Inquiry_Command",
+          "parameters": []
+        },
+        {
+          "name": "HardwareErrorsListCommand",
+          "description": "Hardware_ErrorsList_Command"
+        },
+        {
+          "name": "SearchCommand",
+          "description": "Search"
+        },
+        {
+          "name": "GiftReceiptSelectionCommand",
+          "description": "GiftReciept_Command"
+        },
+        {
+          "name": "PriceQueryCommand",
+          "description": "Price_Query_Command"
+        },
+        {
+          "name": "RetrieveSelfScanTransactionCommand",
+          "description": "Retrieve_SSC_Command"
+        },
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "DeviceStatusCommand",
+          "description": "DeviceStatus_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "DeclarationCommand",
+          "description": "Declaration_Command"
+        },
+        {
+          "name": "TenderPickupCommand",
+          "description": "TenderPickup_Command"
+        },
+        {
+          "name": "ReturnTransactionBeginCommand",
+          "description": "Return_Transaction"
+        },
+        {
+          "name": "ManualWeightCommand",
+          "description": "Manual_Weight_Command"
+        },
+        {
+          "name": "DepartmentSaleCommand",
+          "description": "Department_Sale_Command"
+        },
+        {
+          "name": "ChangePasswordCommand",
+          "description": "Change_Password_Command"
+        },
+        {
+          "name": "SignOffCommand",
+          "description": "Sign_Off_Command"
+        },
+        {
+          "name": "ResumeTransactionCommand",
+          "description": "Recall_Command"
+        },
+        {
+          "name": "PreSalePriceOverrideCommand",
+          "description": "PreSalePrice_Override_Command"
+        },
+        {
+          "name": "BlindPickupCommand",
+          "description": "BlindPickup_Command"
+        },
+        {
+          "name": "TillClosingCommand",
+          "description": "TillClosing_Command"
+        },
+        {
+          "name": "TopUpCommand",
+          "description": "Top_Up_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "WicTransactionCommand",
+          "description": "WIC_Transaction_Command"
+        },
+        {
+          "name": "WicCvvTransactionCommand",
+          "description": "WICCVV_Transaction_Command"
+        },
+        {
+          "name": "RePrintTransactionCommand",
+          "description": "Re_Print_Command"
+        },
+        {
+          "name": "EnhancedRePrintTransactionCommand",
+          "description": "EnhancedRePrint_Command"
+        },
+        {
+          "name": "AddLoanCommand",
+          "description": "AddLoan_Command"
+        },
+        {
+          "name": "OpenCashDrawerCommand",
+          "description": "Open_Cash_Drawer_Command"
+        },
+        {
+          "name": "PaidInCommand",
+          "description": "Paid_In_Command"
+        },
+        {
+          "name": "PaidOutCommand",
+          "description": "Paid_Out_Command"
+        },
+        {
+          "name": "OwnBagSelectionCommand",
+          "description": "OwnBagSelection_Command",
+          "parameters": []
+        },
+        {
+          "name": "EatInCommand",
+          "description": "Eat_In_Command"
+        },
+        {
+          "name": "ExemptTransactionTaxesCommand",
+          "description": "Exempt_Transaction_Taxes_Command"
+        },
+        {
+          "name": "SetGetItemToReturnStateCommand",
+          "description": "Return_Item_Command"
+        },
+        {
+          "name": "TaxDiscountCommand",
+          "description": "Tax_Discount_Command"
+        },
+        {
+          "name": "PrintCertificateCommand",
+          "description": "Print_Certificate_Command"
+        },
+        {
+          "name": "TransactionBasedReturnCommand",
+          "description": "Transaction_Based_Return_Command"
+        },
+        {
+          "name": "ReturnAllTransactionCommand",
+          "description": "Return_All_Transaction_Command"
+        },
+        {
+          "name": "ReturnTransactionBySerialCommand",
+          "description": "TransactionBasedReturn_SearchBy_SerialNo"
+        },
+        {
+          "name": "CustomerDepositCommand",
+          "description": "CustomerDeposit_Command"
+        },
+        {
+          "name": "BottleDepositCommand",
+          "description": "DepositBottles_Command"
+        },
+        {
+          "name": "CashierBarcodeCommand",
+          "description": "CashierBarcode_Command"
+        },
+        {
+          "name": "InterventionListCommand",
+          "description": "Intervention_List_Command"
+        },
+        {
+          "name": "ReprintCommand",
+          "description": "ReprintCommand"
+        },
+        {
+          "name": "GoToReprintCommand",
+          "description": "Reprint"
+        },
+        {
+          "name": "PrintXReportCommand",
+          "description": "XReport_Print_Command"
+        },
+        {
+          "name": "ManualVolumeCommand",
+          "description": "ManualVolume_Command"
+        },
+        {
+          "name": "ReprintTransactionMainCommands",
+          "description": "ReprintTransactionMainCommands"
+        },
+        {
+          "name": "ReprintTransactionAdditionalCommands",
+          "description": "ReprintTransactionAdditionalCommands"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "SearchCustomerCommand",
+          "description": "SearchCustomer_Command"
+        },
+        {
+          "name": "MergeTransactionCommand",
+          "description": "Merge_Transaction_Command"
+        }
+      ]
+    },
+    "NotAllLinesReturnedError": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "GoToTransactionReturnCommand",
+          "description": "GoToTransactionReturnCommand"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "PriceOverrideAllItemsCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "PriceOverrideLineCommand",
+          "description": "PriceOverride_OverrideThisItemOnly"
+        },
+        {
+          "name": "PriceOverrideAllItemsCommand",
+          "description": "PriceOverride_OverrideAllItems"
+        }
+      ]
+    },
+    "PriceOverrideCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ApproveRequestCommand",
+          "description": "PriceOverride_Override"
+        },
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        }
+      ]
+    },
+    "PriceQueryCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        }
+      ]
+    },
+    "RePrintOptions": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "RePrintTransactionCommand",
+          "description": "Re_Print_Command"
+        }
+      ]
+    },
+    "ReprintTransactionAdditionalCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToBasicManualEntryCommand",
+          "description": "GoToBasicManualEntryCommand"
+        },
+        {
+          "name": "ReprintByCodeCommand",
+          "description": "ReprintByCodeCommand"
+        }
+      ]
+    },
+    "ReprintTransactionBasicManualEntryCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "ReprintCommand",
+          "description": "ReprintCommand"
+        },
+        {
+          "name": "GoBackCommand",
+          "description": "GoBackCommand"
+        }
+      ]
+    },
+    "ReprintTransactionMainCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ReprintLastTransactionCommand",
+          "description": "ReprintLastTransactionCommand"
+        }
+      ]
+    },
+    "ReprintTransactionSearchOptionsViewModelCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "SearchByPOSParametersCommand",
+          "description": "SearchByPOSParametersCommand"
+        },
+        {
+          "name": "SearchByCreditCardCommand",
+          "description": "SearchByCreditCardCommand"
+        },
+        {
+          "name": "SearchBySerialNoCommand",
+          "description": "SearchBySerialNoCommand"
+        }
+      ]
+    },
+    "ReturnAllTransactionByBarcode": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToTransactionReturnCommand",
+          "description": "GoToTransactionReturnCommand"
+        },
+        {
+          "name": "GoToReturnTransactionSearchByCommand",
+          "description": "TransactionBasedReturn_SearchOptions"
+        },
+        {
+          "name": "NonReceiptTransactionReturnCommand",
+          "description": "TransactionReturn_NonReceiptedReturn"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "ReturnItemNotFoundErrorCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToDepartmentCommand",
+          "description": "GoToDepartmentCommand"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "ReturnTransactionBasedCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "PriceQueryCommand",
+          "description": "Price_Query_Command"
+        },
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "ManualWeightCommand",
+          "description": "Manual_Weight_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "SuspendTransactionCommand",
+          "description": "Save_Command"
+        },
+        {
+          "name": "RemoveCustomerFromTransactionCommand",
+          "description": "Remove_Customer_Command"
+        },
+        {
+          "name": "GoToSaleModeCommand",
+          "description": "Go_To_Sale_Mode_Command"
+        },
+        {
+          "name": "DepartmentReturnCommand",
+          "description": "Department_Return_Command"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "ReturnTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "PriceQueryCommand",
+          "description": "Price_Query_Command"
+        },
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "ManualWeightCommand",
+          "description": "Manual_Weight_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "SuspendTransactionCommand",
+          "description": "Save_Command"
+        },
+        {
+          "name": "RemoveCustomerFromTransactionCommand",
+          "description": "Remove_Customer_Command"
+        },
+        {
+          "name": "GoToSaleModeCommand",
+          "description": "Go_To_Sale_Mode_Command"
+        },
+        {
+          "name": "DepartmentReturnCommand",
+          "description": "Department_Return_Command"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        },
+        {
+          "name": "EFTAdminMenuCommand",
+          "description": "EFT_Admin_Menu_Command",
+          "parameters": [
+            {
+              "name": "commandName",
+              "value": "test"
+            }
+          ]
+        }
+      ]
+    },
+    "ReturnTransactionItemsPostSaleCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "EnhancedPriceOverrideCommand",
+          "description": "Enhanced_Price_Overide_Command"
+        },
+        {
+          "name": "PriceOverrideCommand",
+          "description": "Price_Overide_Command"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "SaleTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "VoucherBarcodeCommand",
+          "description": "VoucherBarcode_Command"
+        },
+        {
+          "name": "HardwareErrorsListCommand",
+          "description": "Hardware_ErrorsList_Command"
+        },
+        {
+          "name": "SearchCommand",
+          "description": "Search"
+        },
+        {
+          "name": "GiftReceiptSelectionCommand",
+          "description": "GiftReciept_Command"
+        },
+        {
+          "name": "PriceQueryCommand",
+          "description": "Price_Query_Command"
+        },
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "ManualWeightCommand",
+          "description": "Manual_Weight_Command"
+        },
+        {
+          "name": "DepartmentSaleCommand",
+          "description": "Department_Sale_Command"
+        },
+        {
+          "name": "SignOffCommand",
+          "description": "Sign_Off_Command"
+        },
+        {
+          "name": "PreSalePriceOverrideCommand",
+          "description": "PreSalePrice_Override_Command"
+        },
+        {
+          "name": "TopUpCommand",
+          "description": "Top_Up_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "EatInCommand",
+          "description": "Eat_In_Command"
+        },
+        {
+          "name": "SetGetItemToReturnStateCommand",
+          "description": "Return_Item_Command"
+        },
+        {
+          "name": "TaxDiscountCommand",
+          "description": "Tax_Discount_Command"
+        },
+        {
+          "name": "InterventionListCommand",
+          "description": "Intervention_List_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "ForceFullRescan",
+          "description": "Force_Rescan"
+        },
+        {
+          "name": "SuspendTransactionCommand",
+          "description": "Save_Command"
+        },
+        {
+          "name": "SetCancelItemStateCommand",
+          "description": "Void_Next_Item_Command"
+        },
+        {
+          "name": "RepeatCommand",
+          "description": "Repeat_Command"
+        },
+        {
+          "name": "ManualCouponCommand",
+          "description": "Manual_Coupon_Command"
+        },
+        {
+          "name": "RemoveCustomerFromTransactionCommand",
+          "description": "Remove_Customer_Command"
+        },
+        {
+          "name": "ApplyTransactionTaxExemptionCommand",
+          "description": "Exempt_Transaction_Taxes_Command"
+        },
+        {
+          "name": "ApplyItemTaxExemptionCommand",
+          "description": "Exempt_Item_Taxes_Command"
+        },
+        {
+          "name": "WhyDidntGetCommand",
+          "description": "Why_Didnt_Get_Command"
+        },
+        {
+          "name": "VoidAllCouponsCommand",
+          "description": "Void_All_Coupons_Command"
+        },
+        {
+          "name": "ManualPromotionCommand",
+          "description": "Manual_Promotion"
+        },
+        {
+          "name": "TaxesReversalCommand",
+          "description": "Tax_Reversal_Command"
+        },
+        {
+          "name": "ManualVolumeCommand",
+          "description": "ManualVolume_Command"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "SearchCustomerCommand",
+          "description": "SearchCustomer_Command"
+        },
+        {
+          "name": "MergeTransactionCommand",
+          "description": "Merge_Transaction_Command"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        },
+        {
+          "name": "EFTAdminMenuCommand",
+          "description": "EFT_Admin_Menu_Command",
+          "parameters": [
+            {
+              "name": "commandName",
+              "value": "test"
+            }
+          ]
+        },
+        {
+          "name": "ManualSegmentState",
+          "description": "ManualSegmentState",
+          "parameters": []
+        }
+      ]
+    },
+    "SelfCheckOut_FootPanelCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ManualBarcodeEntryCommand",
+          "description": "ManualBarcodeEntryCommand"
+        },
+        {
+          "name": "PLUGroupCommand",
+          "description": "PLUGroupCommand"
+        }
+      ]
+    },
+    "SmartWicBalanceInquiryCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "SmartWicBalanceInquiryCommand",
+          "description": "SmartWicBalanceInquiryCommand"
+        }
+      ]
+    },
+    "TenderAligibilityConfirmationCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ConfirmCommand",
+          "description": "ConfirmCommand"
+        },
+        {
+          "name": "CancelCommand",
+          "description": "CancelCommand"
+        }
+      ]
+    },
+    "TenderCashTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "SuspendTransactionCommand",
+          "description": "Save_Command"
+        }
+      ]
+    },
+    "TenderDetailsViewCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "VoidTenderCommand",
+          "description": "Void_Tender"
+        }
+      ]
+    },
+    "TenderModeCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "EFTCommand",
+          "description": "EFT_Command"
+        }
+      ]
+    },
+    "TenderTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "DepartmentSaleCommand",
+          "description": "Department_Sale_Command"
+        },
+        {
+          "name": "SignOffCommand",
+          "description": "Sign_Off_Command"
+        },
+        {
+          "name": "PreSalePriceOverrideCommand",
+          "description": "PreSalePrice_Override_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "SuspendTransactionCommand",
+          "description": "Save_Command"
+        },
+        {
+          "name": "RemoveCustomerFromTransactionCommand",
+          "description": "Remove_Customer_Command"
+        },
+        {
+          "name": "VoidAllCouponsCommand",
+          "description": "Void_All_Coupons_Command"
+        },
+        {
+          "name": "ManualPromotionCommand",
+          "description": "Manual_Promotion"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        },
+        {
+          "name": "EFTAdminMenuCommand",
+          "description": "EFT_Admin_Menu_Command",
+          "parameters": [
+            {
+              "name": "commandName",
+              "value": "test"
+            }
+          ]
+        },
+        {
+          "name": "ManualSegmentState",
+          "description": "ManualSegmentState",
+          "parameters": []
+        }
+      ]
+    },
+    "ThresholdRuleError": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseCommand",
+          "description": "Close"
+        }
+      ]
+    },
+    "TicketIdentifiersCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "GiftReceiptSummaryCommand",
+          "description": "Gift_Receipt_Command"
+        },
+        {
+          "name": "PromotionCommand",
+          "description": "Promotion_Command"
+        },
+        {
+          "name": "TransactionCouponCommand",
+          "description": "Transaction_Coupon_Command"
+        },
+        {
+          "name": "TicketIdentifierMemberCardCommand",
+          "description": "Member_Card_Command"
+        },
+        {
+          "name": "TicketIdentifierOfflineMemberCardCommand",
+          "description": "Offline_Member_Card_Command"
+        },
+        {
+          "name": "CustomerIdentificationTicketIdentifierCommand",
+          "description": "Customer_Identification_Ticket_Identifier_Command"
+        }
+      ]
+    },
+    "TransactionBasedGiftReceiptByBarcodeCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToTransactionBasedGiftReceiptSearchCommand",
+          "description": "TransactionBasedReturn_SearchOptions"
+        }
+      ]
+    },
+    "TransactionBasedReturnByBarcode": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "GoToTransactionReturnCommand",
+          "description": "GoToTransactionReturnCommand"
+        },
+        {
+          "name": "GoToReturnTransactionSearchByCommand",
+          "description": "TransactionBasedReturn_SearchOptions"
+        },
+        {
+          "name": "NonReceiptTransactionReturnCommand",
+          "description": "TransactionReturn_NonReceiptedReturn"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "TransactionBasedReturnErrorNoLog": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "GoToTransactionReturnCommand",
+          "description": "GoToTransactionReturnCommand"
+        },
+        {
+          "name": "CloseCommand",
+          "description": "Close"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "TransactionBasedReturnInvalidBarcodeError": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "LoyaltyAddCommand",
+          "description": "LoyaltyAdd_Command",
+          "parameters": []
+        }
+      ]
+    },
+    "TransactionBasedSearchTransaction": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "CloseViewCommand",
+          "description": "CloseViewCommand"
+        },
+        {
+          "name": "CancelCommand",
+          "description": "CancelCommand"
+        },
+        {
+          "name": "GoBackCommand",
+          "description": "GoBackCommand"
+        }
+      ]
+    },
+    "TransactionOptionsCommandGroup": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "ReturnAllTransactionCommand",
+          "description": "Return_All_Transaction_Command"
+        },
+        {
+          "name": "GoToTransactionBasedReturnCommand",
+          "description": "TransactionBasedReturn_Command"
+        },
+        {
+          "name": "GoToReturnAllCommand",
+          "description": "ReturnAll_Command"
+        },
+        {
+          "name": "ReprintCommand",
+          "description": "ReprintCommand"
+        },
+        {
+          "name": "GoToReprintCommand",
+          "description": "Reprint"
+        },
+        {
+          "name": "GoToGiftReceiptSelectionCommand",
+          "description": "GoToGiftReceiptSelectionCommand"
+        }
+      ]
+    },
+    "TransactionReturnByReceiptSearchOptionsCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "SearchByPOSParametersCommand",
+          "description": "SearchByPOSParametersCommand"
+        },
+        {
+          "name": "SearchByCreditCardCommand",
+          "description": "SearchByCreditCardCommand"
+        },
+        {
+          "name": "SearchBySerialNoCommand",
+          "description": "SearchBySerialNoCommand"
+        }
+      ]
+    },
+    "WicSaleTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "HardwareErrorsListCommand",
+          "description": "Hardware_ErrorsList_Command"
+        },
+        {
+          "name": "SearchCommand",
+          "description": "Search"
+        },
+        {
+          "name": "PriceQueryCommand",
+          "description": "Price_Query_Command"
+        },
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "AlertTemplateLookupCommand",
+          "description": "Alert_Template_Lookup_Command"
+        },
+        {
+          "name": "ManualWeightCommand",
+          "description": "Manual_Weight_Command"
+        },
+        {
+          "name": "DepartmentSaleCommand",
+          "description": "Department_Sale_Command"
+        },
+        {
+          "name": "PreSalePriceOverrideCommand",
+          "description": "PreSalePrice_Override_Command"
+        },
+        {
+          "name": "TopUpCommand",
+          "description": "Top_Up_Command"
+        },
+        {
+          "name": "OnlineItemBalanceQueryCommand",
+          "description": "OnlineItem_Balanace_Inquiry_Command"
+        },
+        {
+          "name": "EatInCommand",
+          "description": "Eat_In_Command"
+        },
+        {
+          "name": "TaxDiscountCommand",
+          "description": "Tax_Discount_Command"
+        },
+        {
+          "name": "InterventionListCommand",
+          "description": "Intervention_List_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "SetCancelItemStateCommand",
+          "description": "Void_Next_Item_Command"
+        },
+        {
+          "name": "RepeatCommand",
+          "description": "Repeat_Command"
+        },
+        {
+          "name": "ManualCouponCommand",
+          "description": "Manual_Coupon_Command"
+        },
+        {
+          "name": "ApplyTransactionTaxExemptionCommand",
+          "description": "Exempt_Transaction_Taxes_Command"
+        },
+        {
+          "name": "ApplyItemTaxExemptionCommand",
+          "description": "Exempt_Item_Taxes_Command"
+        },
+        {
+          "name": "WhyDidntGetCommand",
+          "description": "Why_Didnt_Get_Command"
+        },
+        {
+          "name": "VoidAllCouponsCommand",
+          "description": "Void_All_Coupons_Command"
+        },
+        {
+          "name": "ManualPromotionCommand",
+          "description": "Manual_Promotion"
+        },
+        {
+          "name": "TaxesReversalCommand",
+          "description": "Tax_Reversal_Command"
+        },
+        {
+          "name": "ManualVolumeCommand",
+          "description": "ManualVolume_Command"
+        },
+        {
+          "name": "CustomerDataCommand",
+          "description": "Customer_Data_Command"
+        },
+        {
+          "name": "SearchCustomerCommand",
+          "description": "SearchCustomer_Command"
+        }
+      ]
+    },
+    "WicTenderTransactionCommands": {
+      "isPermittedForCurrentUser": true,
+      "commandsList": [
+        {
+          "name": "LockCommand",
+          "description": "Lock_Command"
+        },
+        {
+          "name": "VoidTransactionCommand",
+          "description": "Void_Transaction_Command"
+        },
+        {
+          "name": "ManualPromotionCommand",
+          "description": "Manual_Promotion"
+        }
+      ]
+    }
+  },
+  "focusMenu": {
+    "commands": [
+      {
+        "commandId": "VoidTransactionCommand",
+        "commandIcon": "",
+        "commandOrder": "1",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "PriceQueryCommand",
+        "commandIcon": "",
+        "commandOrder": "2",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "PreSalePriceOverrideCommand",
+        "commandIcon": "",
+        "commandOrder": "3",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "permissions": {
+          "allowedRoles": ["EMERALD_PRE_SALE_PRICE_OVERRIDE_COMMAND"],
+          "allowBypassApproval": true
+        },
+        "allowOverride": true,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "SetGetItemToReturnStateCommand",
+        "commandIcon": "",
+        "commandOrder": "4",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "permissions": {
+          "allowedRoles": ["EMERALD_RETURN_ITEM_COMMAND"],
+          "allowBypassApproval": false
+        },
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "ApplyTransactionTaxExemptionCommand",
+        "commandIcon": "",
+        "commandOrder": "5",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "ApplyItemTaxExemptionCommand",
+        "commandIcon": "",
+        "commandOrder": "6",
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "GoToSaleModeCommand",
+        "commandIcon": "",
+        "commandOrder": "7",
+        "states": [
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "DepartmentReturnCommand",
+        "commandIcon": "",
+        "commandOrder": "8",
+        "states": [
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "VoidTenderCommand",
+        "commandIcon": "",
+        "commandOrder": "9",
+        "states": [
+          {
+            "state": "TenderDetailsViewCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "CancelLineItemCommand",
+        "commandIcon": "",
+        "commandOrder": "10",
+        "states": [
+          {
+            "state": "ItemsPostSaleCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemWithTareCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemsPostSaleFuelCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "CancelItemFromLineItemCommand",
+        "commandIcon": "",
+        "commandOrder": "11",
+        "states": [
+          {
+            "state": "ItemsPostSaleCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "SetCancelItemStateCommand",
+        "commandIcon": "",
+        "commandOrder": "12",
+        "states": [
+          {
+            "state": "ItemsPostSaleCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "PriceOverrideCommand",
+        "commandIcon": "",
+        "commandOrder": "13",
+        "states": [
+          {
+            "state": "ReturnTransactionItemsPostSaleCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemsPostSaleCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemWithTareCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "EnhancedPriceOverrideCommand",
+        "commandIcon": "",
+        "commandOrder": "14",
+        "states": [
+          {
+            "state": "ReturnTransactionItemsPostSaleCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemsPostSaleCommands",
+            "enabled": true
+          },
+          {
+            "state": "ItemWithTareCommands",
+            "enabled": false
+          }
+        ],
+        "permissions": {
+          "allowedRoles": ["EMERALD_ENHANCED_PRICE_OVERRIDE_COMMAND"],
+          "allowBypassApproval": true
+        },
+        "allowOverride": true,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "ModifyTareCommand",
+        "commandIcon": "",
+        "commandOrder": "15",
+        "states": [
+          {
+            "state": "ItemWithTareCommands",
+            "enabled": false
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "CancelCouponLineCommand",
+        "commandIcon": "",
+        "commandOrder": "16",
+        "states": [
+          {
+            "state": "CouponModeCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "CouponRewardOverrideCommand",
+        "commandIcon": "",
+        "commandOrder": "17",
+        "states": [
+          {
+            "state": "CouponModeCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "CancelManualPromotionLineCommand",
+        "commandIcon": "",
+        "commandOrder": "18",
+        "states": [
+          {
+            "state": "ManualPromotionModeCommands",
+            "enabled": true
+          }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      }
+    ],
+    "menuType": "Focus"
+  },
+  "customerMenu": {
+    "commands": [
+      {
+        "commandId": "AddCustomerCommand",
+        "commandIcon": "add-customer",
+        "commandOrder": "0",
+        "parameters": [],
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          { "state": "NoSaleTransactionCommands", "enabled": true },
+          { "state": "TenderTransactionCommands", "enabled": true }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "ReplaceCustomerCommand",
+        "commandIcon": "",
+        "commandOrder": "1",
+        "parameters": [],
+        "states": [
+          { "state": "SaleTransactionCommands", "enabled": true },
+          { "state": "NoSaleTransactionCommands", "enabled": true },
+          { "state": "TenderTransactionCommands", "enabled": true }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "RemoveCustomerCommand",
+        "commandIcon": "",
+        "commandOrder": "2",
+        "parameters": [],
+        "states": [
+          { "state": "SaleTransactionCommands", "enabled": true },
+          { "state": "NoSaleTransactionCommands", "enabled": true },
+          { "state": "TenderTransactionCommands", "enabled": true }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      }
+    ],
+    "menuType": "Customer"
+  },
+  "infoMenu": {
+    "commands": [
+      {
+        "commandId": "ShowCouponsCommand",
+        "commandIcon": "",
+        "commandOrder": "0",
+        "parameters": [],
+        "states": [
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          { "state": "NoSaleTransactionCommands", "enabled": true },
+          { "state": "TenderTransactionCommands", "enabled": true }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      },
+      {
+        "commandId": "ShowPromotionsCommand",
+        "commandIcon": "",
+        "commandOrder": "1",
+        "parameters": [],
+        "states": [
+          { "state": "SaleTransactionCommands", "enabled": true },
+          { "state": "NoSaleTransactionCommands", "enabled": true },
+          { "state": "TenderTransactionCommands", "enabled": true }
+        ],
+        "allowOverride": false,
+        "checkRole": false,
+        "userHasPermission": true
+      }
+    ],
+    "menuType": "Info"
+  },
+  "userMenu": {
+    "commands": [
+      {
+        "commandId": "ShowCashierPreferencesCommand",
+        "commandIcon": "",
+        "commandOrder": "0",
+        "parameters": [],
+        "states": [
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "TenderTransactionCommands",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "commandId": "SupportCommand",
+        "commandIcon": "",
+        "commandOrder": "1",
+        "parameters": [],
+        "states": [
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "TenderTransactionCommands",
+            "enabled": true
+          }
+        ]
+      }
+    ],
+    "menuType": "User"
+  },
+  "tabMenu": {
+    "menuType": "Tabs",
+    "tabs": [
+      {
+        "tabId": "customer-service",
+        "tabOrder": 0,
+        "name": "Customer Service",
+        "isReserved": false,
+        "commands": [],
+        "groups": [
+          {
+            "groupId": "returnGroup",
+            "groupOrder": "0",
+            "descriptions": [
+              {
+                "culture": "en-US",
+                "value": "Return"
+              }
+            ],
+            "commands": [
+              {
+                "commandId": "ReturnTransactionCommand",
+                "commandIcon": "",
+                "commandOrder": "0",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "TransactionBasedReturnCommand",
+                "commandIcon": "",
+                "commandOrder": "1",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "BottleReturnCommand",
+                "commandIcon": "",
+                "commandOrder": "2",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabId": "cash-office",
+        "tabOrder": 1,
+        "name": "Cash Office",
+        "isReserved": false,
+        "commands": [],
+        "groups": [
+          {
+            "groupId": "cashOfficeGroup",
+            "groupOrder": "0",
+            "descriptions": [
+              {
+                "culture": "en-US",
+                "value": "Cash Office"
+              }
+            ],
+            "commands": [
+              {
+                "commandId": "PaidInCommand",
+                "commandIcon": "",
+                "commandOrder": "0",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "PaidOutCommand",
+                "commandIcon": "",
+                "commandOrder": "1",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "TenderPickupCommand",
+                "commandIcon": "",
+                "commandOrder": "2",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "DeclarationCommand",
+                "commandIcon": "",
+                "commandOrder": "3",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "TillClosingCommand",
+                "commandIcon": "",
+                "commandOrder": "4",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "AddLoanCommand",
+                "commandIcon": "",
+                "commandOrder": "5",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              },
+              {
+                "commandId": "BlindPickupCommand",
+                "commandIcon": "",
+                "commandOrder": "6",
+                "states": [
+                  {
+                    "state": "NoSaleTransactionCommands",
+                    "enabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "popularMenu": {
+    "menuType": "Popular",
+    "commands": [
+      {
+        "commandId": "SearchCommand",
+        "commandIcon": "Search",
+        "commandOrder": "1",
+        "states": [
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "TenderTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "commandId": "DeviceStatusCommand",
+        "commandIcon": "Wifi",
+        "commandOrder": "2",
+        "states": [
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "TenderTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "commandId": "LockTerminalCommand",
+        "commandIcon": "LockOutlined",
+        "commandOrder": "3",
+        "states": [
+          {
+            "state": "NoSaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "SaleTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "TenderTransactionCommands",
+            "enabled": true
+          },
+          {
+            "state": "ReturnTransactionCommands",
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+}

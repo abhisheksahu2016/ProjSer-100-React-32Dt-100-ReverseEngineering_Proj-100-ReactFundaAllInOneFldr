@@ -1,0 +1,16 @@
+[
+    {
+      "Id": "CashierNeedABreak",
+      "Descriptions": [
+        { "value": "Cashier Needs A Break", "culture": "en-GB" },
+        { "value": "Cashier Needs A Break" }
+      ],
+      "Name": "Cashier Needs A Break"
+    },
+    {
+      "Id": "Test1234",
+      "Descriptions": [{ "value": "Need A Break", "culture": "en-GB" }, { "value": "Need A Break" }],
+      "Name": "Need A Break"
+    }
+  ]
+  

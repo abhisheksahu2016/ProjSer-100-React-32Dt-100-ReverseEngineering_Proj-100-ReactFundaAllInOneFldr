@@ -1,0 +1,109 @@
+{
+    "transaction": {
+        "cartId": "G88RXFGRTV",
+        "sequenceNumber": 396,
+        "cartInfo": {
+            "businessDate": "2022-01-05",
+            "beginDateTime": "2022-01-05T13:32:06.712",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 5.98,
+                "netAmount": 5.98,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 2,
+                "balanceDue": 5.98,
+                "discountAmount": 4,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Tapped",
+                    "itemId": {
+                        "value": "466",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 2,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Long ONION",
+                "description": "ONION",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 9.98,
+                "extendedAmount": 9.98,
+                "securityScale": true,
+                "imageUrl": "http://10.190.29.48/Resources/onions 4068.jpg",
+                "price": {
+                    "unitPrice": 4.99,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 4.99,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "linkedLines": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 2,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    1
+                ],
+                "rewardAmount": -4,
+                "promotionId": "1117",
+                "rewardedItems": [
+                    {
+                        "lineId": 1,
+                        "quantity": {
+                            "value": 2
+                        },
+                        "rewardAmount": 9.98,
+                        "description": "ONION"
+                    }
+                ],
+                "netPrice": 9.98,
+                "status": "Active",
+                "rewardType": "AmountOff",
+                "promotionDescription": "You got 2$ Off",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": false,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": true
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "sessionId": "",
+  "status": "Started",
+  "action": "",
+  "actionDate": "",
+  "payload": {
+    "amount": null,
+    "preTenderAmount": null,
+    "sessionId": "",
+    "paymentTranId": "",
+    "cardDetails": {
+      "cardId": "",
+      "entryMethod": "",
+      "accountNumber": "",
+      "cardType": ""
+    },
+    "tenderId": "",
+    "authCode": ""
+  }
+}

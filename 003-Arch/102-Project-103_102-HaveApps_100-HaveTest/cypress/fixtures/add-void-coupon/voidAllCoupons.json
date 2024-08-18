@@ -1,0 +1,120 @@
+{
+  "cartId": "3c33cdc9-792d-4ad9-994a-d6f1d31d0f87",
+  "sequenceNumber": 1954,
+  "cartInfo": {
+    "businessDate": "2021-06-24",
+    "beginDateTime": "2021-06-24T01:13:32.3951757",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 12,
+      "netAmount": 12,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "excluded": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 2,
+      "balanceDue": 12,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [{
+    "lineId": 17,
+    "entryMethod": "Automatic",
+    "rewardAmount": 0,
+    "promotionId": "6666615283-3",
+    "itemLink": 11,
+    "status": "Cancelled",
+    "rewardType": "Tender",
+    "promotionDescription": "",
+    "promotionDetails": {
+      "isEndOfTicketPromotion": false,
+      "rewardAsTender": true,
+      "isManualPromotion": false,
+      "isTriggeredByTender": false,
+      "isSingleLineDiscount": false,
+      "tenderName": "RewardAsTender",
+      "couponId": "566666152830"
+    },
+    "approval": {
+      "status": "NotRequired"
+    }
+  }, {
+    "lineId": 18,
+    "entryMethod": "Automatic",
+    "rewardAmount": 0,
+    "promotionId": "6666615296-7",
+    "itemLink": 10,
+    "status": "Cancelled",
+    "rewardType": "Tender",
+    "promotionDescription": "",
+    "promotionDetails": {
+      "isEndOfTicketPromotion": false,
+      "rewardAsTender": true,
+      "isManualPromotion": false,
+      "isTriggeredByTender": false,
+      "isSingleLineDiscount": false,
+      "tenderName": "RewardAsTender",
+      "couponId": "566666152960"
+    },
+    "approval": {
+      "status": "NotRequired"
+    }
+  }],
+  "coupons": [{
+    "redeptionStates": {
+      "unused": 1
+    },
+    "quantity": 1,
+    "couponRedemptionIds": [],
+    "couponId": "566666152810",
+    "entryMethod": "Scanned",
+    "sequenceNumber": 14,
+    "lastRedeemedId": "6666615225-3",
+    "status": "Cancelled",
+    "isVirtualCoupon": false,
+    "itemLink": 2
+  },{
+    "redeptionStates": {
+      "unused": 1
+    },
+    "quantity": 1,
+    "couponRedemptionIds": [],
+    "couponId": "566666152250",
+    "entryMethod": "Scanned",
+    "sequenceNumber": 15,
+    "status": "Cancelled",
+    "isVirtualCoupon": false,
+    "itemLink": 9
+  },{
+    "redeptionStates": {
+      "unused": 1
+    },
+    "quantity": 1,
+    "couponRedemptionIds": [],
+    "couponId": "566666152960",
+    "entryMethod": "Scanned",
+    "sequenceNumber": 16,
+    "lastRedeemedId": "6666615296-7",
+    "status": "Cancelled",
+    "isVirtualCoupon": false,
+    "itemLink": 7
+  }],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

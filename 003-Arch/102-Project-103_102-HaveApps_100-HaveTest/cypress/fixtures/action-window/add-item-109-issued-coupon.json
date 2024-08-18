@@ -1,0 +1,98 @@
+{
+	"transaction": {
+		"cartId": "FYZTAZWG4M",
+		"sequenceNumber": 440,
+		"cartInfo": {
+			"businessDate": "2023-03-16",
+			"beginDateTime": "2023-03-16T11:29:47.627",
+			"status": "Itemization",
+			"totals": {
+				"grandAmount": 15,
+				"netAmount": 15,
+				"taxAmounts": {
+					"taxAmount": 0,
+					"itemFee": 0,
+					"transactionFee": 0
+				},
+				"itemsCount": 1,
+				"balanceDue": 15,
+				"discountAmount": 0,
+				"grossAmount": 0
+			},
+			"defaultCurrency": "USD"
+		},
+		"manualSegments": [],
+		"items": [
+			{
+				"lineItem": {
+					"EntryMethod": "Keyed",
+					"itemId": {
+						"value": "109",
+						"type": "SKU"
+					},
+					"quantity": {
+						"value": 1,
+						"entryMethod": "Automatic"
+					}
+				},
+				"fullDescription": "electronic calculator",
+				"description": "calculator",
+				"itemType": "Stock",
+				"lineId": 1,
+				"amount": 15,
+				"extendedAmount": 15,
+				"securityScale": true,
+				"imageUrl": "",
+				"price": {
+					"unitPrice": 15,
+					"currency": "USD",
+					"quantity": 1
+				},
+				"netAmount": 15,
+				"regularPrice": {
+					"unitPrice": 15,
+					"currency": "USD",
+					"quantity": 1
+				},
+				"status": "Active",
+				"taxes": []
+			}
+		],
+		"rewards": [
+			{
+				"lineId": 2,
+				"entryMethod": "Automatic",
+				"triggeredProducts": [
+					1
+				],
+				"status": "Active",
+				"rewardType": "Coupon",
+				"promotionDescription": "coupon issued with message",
+				"promotionDetails": {
+					"isEndOfTicketPromotion": false,
+					"rewardAsTender": false,
+					"isManualPromotion": false,
+					"isTriggeredByTender": false,
+					"isSingleLineDiscount": false
+				},
+				"approval": {
+					"status": "NotRequired"
+				}
+			}
+		],
+		"coupons": [],
+		"payments": [],
+		"returns": [],
+		"identifiers": {
+			"taxExempt": false,
+			"taxDiscount": false,
+			"accessorialFlag": false,
+			"returnType": "NoneReceiptedReturn",
+			"isWic": false,
+			"isWicCvv": false,
+			"typeCode": "SaleTransaction"
+		},
+		"ewicReceipts": [],
+		"receipts": []
+	}
+}

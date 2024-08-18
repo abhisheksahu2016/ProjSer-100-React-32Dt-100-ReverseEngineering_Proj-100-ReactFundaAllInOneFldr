@@ -1,0 +1,14 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "03582610283",
+            "description": "Store Brand AVOCADO $0.01-500",
+            "longDescription": "Store Brand AVOCADO $0.01-500",
+            "sellable": true,
+            "linkedItemsGroup": {
+                "groupCategory": "BlackhawkSVTransactionComplete",
+                "linkedItems": []
+            }
+        }
+    ]
+}

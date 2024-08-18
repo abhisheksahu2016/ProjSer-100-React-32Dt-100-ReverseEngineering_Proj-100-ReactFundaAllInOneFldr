@@ -1,0 +1,217 @@
+{
+  "cartInfo": {
+    "status": "Tender",
+    "totals": {
+      "netAmount": 11.78,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 0,
+      "cashbackAmount": 0,
+      "discountAmount": 0.25,
+      "itemsCount": 3
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "f4d2nuyiBk2gxtHMqEJohA",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 1702,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "ItemId",
+          "value": "000007592530622",
+          "id": "000007592530622"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 2
+        }
+      },
+      "extendedAmount": 7.5,
+      "itemType": "Normal",
+      "lineId": 1,
+      "fullDescription": "Crystal Farms White Cheddar EWIC Eligible",
+      "description": "Crystal Farms White Cheddar EWIC Eligible",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 3.75,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 3.75
+      },
+      "amount": 7.5,
+      "taxes": [],
+      "securityScale": true,
+      "additionalData": {
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Automatic",
+      "sequence": "638120680074301274"
+    },
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "ItemId",
+          "value": "000003680039694",
+          "id": "000003680039694"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 1
+        }
+      },
+      "extendedAmount": 2.49,
+      "itemType": "Normal",
+      "lineId": 2,
+      "fullDescription": "CREAMY PEANUT BUTTER EWIC Eligible",
+      "description": "CREAMY PB EWIC Eligible",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 2.49,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 2.49
+      },
+      "amount": 2.49,
+      "taxes": [],
+      "securityScale": true,
+      "additionalData": {
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Automatic",
+      "sequence": "638120680147811981"
+    }
+  ],
+  "payments": [
+    {
+      "sequenceNumber": 8,
+      "sequence": "638120696994024706",
+      "lineId": 8,
+      "tenderId": "42",
+      "tenderType": "eWIC",
+      "tenderName": "eWIC",
+      "amount": 9.74,
+      "cashBackAmount": 0,
+      "status": "authorized",
+      "epsData": {
+        "paymentTranId": "075112"
+      },
+      "usage": "Payment",
+      "authorization": {
+        "electronicPayment": {
+          "authorizationType": "Online",
+          "authorizationCode": "075112",
+          "referenceNumber": "075112",
+          "responseCode": "A00",
+          "requestedAmount": 9.74,
+          "maskedAccountNumber": "************2011",
+          "customerReceipt": [
+            "",
+            "",
+            " 2023-02-15 14:55:17",
+            " Total:     USD $9.74",
+            " eWIC eWic",
+            " Entry Method: Swiped",
+            " CARD #: 2011",
+            " CompleteAuthorization   - APPROVED",
+            " AUTH CODE: 075112",
+            "",
+            " ",
+            " MID: 313803   TID: 001   RRN: 41374",
+            "",
+            ""
+          ],
+          "drawerReceipt": [
+            "",
+            "",
+            " 2023-02-15 14:55:17",
+            " Total:     USD $9.74",
+            " eWIC eWic",
+            " Entry Method: Swiped",
+            " CARD #: 2011",
+            " CompleteAuthorization   - APPROVED",
+            " AUTH CODE: 075112",
+            "",
+            " ",
+            " MID: 313803   TID: 001   RRN: 41374",
+            "",
+            ""
+          ],
+          "epsProvider": {}
+        }
+      }
+    }
+  ],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [
+    {
+      "lineId": null,
+      "promotionId": "143",
+      "promotionDescription": "10% OFF BEANS",
+      "rewardAmount": 0.25,
+      "rewardType": "STANDARD",
+      "rewardedItems": [
+        {
+          "lineId": "1",
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          },
+          "rewardAmount": 0,
+          "rewardRefundAmount": 0.19,
+          "rewardUnits": [
+            {
+              "unitId": "1",
+              "rewardAmount": 0,
+              "rewardRefundAmount": 0.09
+            },
+            {
+              "unitId": "2",
+              "rewardAmount": 0,
+              "rewardRefundAmount": 0.1
+            }
+          ]
+        },
+        {
+          "lineId": "2",
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          },
+          "rewardAmount": 0.25,
+          "rewardRefundAmount": 0.06,
+          "rewardUnits": [
+            {
+              "unitId": "1",
+              "rewardAmount": 0.25,
+              "rewardRefundAmount": 0.06
+            }
+          ]
+        }
+      ],
+      "triggeredCoupons": [],
+      "promotionDetails": {
+        "promotionLevel": "ITEM_LEVEL"
+      },
+      "message": {}
+    }
+  ],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {}
+}

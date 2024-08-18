@@ -1,0 +1,11 @@
+{
+  "code": "ReceiptMissingData",
+  "message": "Receipt production data is missing in the request",
+  "severity": "Error",
+  "data": {
+    "paperReceiptPolicy": "Always",
+    "digitalReceiptEmailRequested": true,
+    "digitalReceiptPhoneRequested": true,
+    "shouldShowCustomerContactData": false
+  }
+}

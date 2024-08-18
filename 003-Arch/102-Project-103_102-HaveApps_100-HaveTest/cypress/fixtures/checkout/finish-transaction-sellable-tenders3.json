@@ -1,0 +1,187 @@
+{
+  "code": "PaymentRequired",
+  "message": "Payment Required",
+  "severity": "Error",
+  "data": {
+    "sellableTenders": [
+      {
+        "id": "1",
+        "isActive": true,
+        "description": "CashEng",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "YesWithSuggestedAmounts",
+        "isVoidBlocked": false,
+        "isProcessedByEps": false,
+        "isAccountNumberRequired": false,
+        "epsSignatureVerificationPolicy": "None",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "type": "Cash"
+      },
+      {
+        "id": "10",
+        "isActive": true,
+        "description": "Visa_AutoReconcile",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "No",
+        "isVoidBlocked": false,
+        "isProcessedByEps": true,
+        "isAccountNumberRequired": false,
+        "epsSignatureVerificationPolicy": "Verification",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "type": "CreditDebit",
+        "tenderReferences": [
+          "1600",
+          "EPS_Visa",
+          "VI",
+          "VS",
+          "VSVISA"
+        ]
+      },
+      {
+        "id": "11",
+        "isActive": true,
+        "description": "MasterCard",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "No",
+        "isVoidBlocked": false,
+        "isProcessedByEps": true,
+        "isAccountNumberRequired": false,
+        "epsSignatureVerificationPolicy": "Verification",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "type": "CreditDebit",
+        "tenderReferences": [
+          "1100",
+          "EPS_MasterCard",
+          "MC",
+          "MC Mastercard",
+          "TM"
+        ]
+      },
+      {
+        "id": "110",
+        "isActive": true,
+        "description": "CashChequeWithAllParameters",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "YesWithDefault",
+        "isVoidBlocked": false,
+        "isProcessedByEps": false,
+        "isAccountNumberRequired": true,
+        "epsSignatureVerificationPolicy": "None",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "type": "Cheque"
+      },
+      {
+        "id": "1101",
+        "isActive": true,
+        "description": "CashChequeWithAllParametersNorth",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "YesWithDefault",
+        "isVoidBlocked": false,
+        "isProcessedByEps": false,
+        "isAccountNumberRequired": true,
+        "epsSignatureVerificationPolicy": "None",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "calculateCashOverTender": false,
+        "type": "Check"
+      },
+      {
+        "id": "11011",
+        "isActive": true,
+        "description": "NONE_ECC_NorthAmerica_Check",
+        "serialNumberRequired": false,
+        "requestForTendering": true,
+        "suggestedAmounts": [
+          10
+        ],
+        "amountEntryRequired": "YesWithDefault",
+        "isVoidBlocked": false,
+        "isProcessedByEps": true,
+        "isAccountNumberRequired": true,
+        "epsSignatureVerificationPolicy": "None",
+        "isMobile": false,
+        "hasAllowedAmountRestriction": false,
+        "maxAllowedAmount": 0,
+        "currency": {
+          "symbol": "$",
+          "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "exchangeRate": 1,
+        "exactAmount": 10,
+        "isProcessedByAtm": false,
+        "calculateCashOverTender": false,
+        "type": "Check"
+      }
+    ]
+  }
+}

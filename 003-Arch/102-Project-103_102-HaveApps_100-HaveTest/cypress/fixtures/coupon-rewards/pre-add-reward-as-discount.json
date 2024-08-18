@@ -1,0 +1,41 @@
+{
+	"cartId": "G9R8XDFPIG",
+	"sequenceNumber": 684,
+	"cartInfo": {
+		"businessDate": "2023-05-26",
+		"beginDateTime": "2023-05-30T06:56:53.452",
+		"status": "Tender",
+		"totals": {
+			"grandAmount": 20,
+			"netAmount": 20,
+			"taxAmounts": {
+				"taxAmount": 0,
+				"itemFee": 0,
+				"transactionFee": 0
+			},
+			"itemsCount": 6,
+			"balanceDue": 20,
+			"discountAmount": 34,
+			"grossAmount": 0
+		},
+		"defaultCurrency": "USD"
+	},
+	"manualSegments": [],
+	"items": [],
+	"rewards": [],
+	"coupons": [],
+	"payments": [],
+	"returns": [],
+	"identifiers": {
+		"taxExempt": false,
+		"taxDiscount": false,
+		"accessorialFlag": false,
+		"returnType": "NoneReceiptedReturn",
+		"isWic": false,
+		"isWicCvv": false,
+		"typeCode": "SaleTransaction",
+		"openTillDrawer": false
+	},
+	"ewicReceipts": [],
+	"receipts": []
+}

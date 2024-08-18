@@ -1,0 +1,112 @@
+{
+    "transaction": {
+        "cartId": "IDWB11ZF3K",
+        "sequenceNumber": 3461,
+        "cartInfo": {
+            "businessDate": "2021-11-02",
+            "beginDateTime": "2021-11-22T21:33:28.799",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 2460,
+                "netAmount": 2100,
+                "taxAmounts": {
+                    "taxAmount": 360,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 2460,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "888",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "LG TV",
+                "description": "LG TV",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 2100,
+                "extendedAmount": 2000,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 2000,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 2000,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "itemIndicators": [
+                    "C"
+                ],
+                "linkedLines": [
+                    {
+                        "lineItem": {
+                            "EntryMethod": "Automatic",
+                            "itemId": {
+                                "value": "99900053",
+                                "type": "SKU"
+                            },
+                            "quantity": {
+                                "value": 1,
+                                "entryMethod": "Automatic"
+                            }
+                        },
+                        "fullDescription": "One Year Warranty",
+                        "description": "One Year Warranty",
+                        "itemType": "Warranty",
+                        "lineId": 2,
+                        "amount": 100,
+                        "extendedAmount": 100,
+                        "securityScale": true,
+                        "imageUrl": "",
+                        "price": {
+                            "unitPrice": 100,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "regularPrice": {
+                            "unitPrice": 100,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "status": "Active",
+                        "taxes": []
+                    }
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 20,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 20,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 2
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "DbJQgaZstkSFFuYx6ZnSIg",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 3955,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "000000000003284",
+                        "id": "000000000003284"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 2
+                    },
+                    "priceModifier": {
+                        "amount": 0.9900000000000002,
+                        "newPrice": 10,
+                        "newTotalPrice": 20,
+                        "totalPriceDifference": -1.9800000000000004,
+                        "percentage": 0.09008189262966337
+                    }
+                },
+                "extendedAmount": 20,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "APPLES Red Delicious",
+                "description": "APPLES Red Delicious",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": true,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10.99
+                },
+                "amount": 20,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638269972888175905"
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

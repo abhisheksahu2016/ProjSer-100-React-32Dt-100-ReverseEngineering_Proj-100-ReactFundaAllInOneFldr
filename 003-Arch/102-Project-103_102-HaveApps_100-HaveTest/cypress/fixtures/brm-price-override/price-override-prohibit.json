@@ -1,0 +1,17 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "ruleId": "Price override Percentage",
+            "type": "ProhibitAction",
+            "message": {
+                "caption": "Prohibit",
+                "message": "This operation is prohibited"
+            },
+            "requiresAttendant": false,
+            "isDelayedSolution": false
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+  "cartId": "7C62ZDJREC",
+  "sequenceNumber": 107,
+  "cartInfo": {
+    "businessDate": "2023-07-25",
+    "beginDateTime": "2023-07-25T14:57:08.031",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": -44.95,
+      "netAmount": -44.95,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 2,
+      "balanceDue": -44.95,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "manualSegments": [],
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "returns": [
+    {
+      "lineItem": {
+        "EntryMethod": "Keyed",
+        "itemId": {
+          "value": "22",
+          "type": "SKU"
+        },
+        "quantity": {
+          "unitOfMeasure": "Kg",
+          "units": 5,
+          "value": 1,
+          "entryMethod": "Weighed"
+        }
+      },
+      "fullDescription": "Large Oval Tomatoes",
+      "description": "Oval Tomatoes",
+      "itemType": "Stock",
+      "lineId": 2,
+      "amount": 34.95,
+      "extendedAmount": 34.95,
+      "securityScale": true,
+      "imageUrl": "",
+      "price": {
+        "unitPrice": 6.99,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 6.99,
+        "currency": "USD",
+        "quantity": 1
+      },
+      "status": "Returned",
+      "taxes": []
+    }
+  ],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "ReturnTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

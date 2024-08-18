@@ -1,0 +1,870 @@
+[
+    {
+        "id": "1",
+        "description": "CashEng",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": true,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash",
+        "denominations": {
+            "id": "2",
+            "name": "Dollar",
+            "description": "Dollar",
+            "currencySymbol": "USD",
+            "denomination": [
+                {
+                    "id": "1",
+                    "amount": "100.000",
+                    "description": "100x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "2",
+                    "amount": "50.000",
+                    "description": "50x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "3",
+                    "amount": "20.000",
+                    "description": "20x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "4",
+                    "amount": "0.200",
+                    "description": "20 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "5",
+                    "amount": "0.500",
+                    "description": "50 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "6",
+                    "amount": "10.000",
+                    "description": "10 pound",
+                    "type": "Coin"
+                },
+                {
+                    "id": "7",
+                    "amount": "0.010",
+                    "description": "1 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "8",
+                    "amount": "10.000",
+                    "description": "10x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "9",
+                    "amount": "5.000",
+                    "description": "5x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "10",
+                    "amount": "1.000",
+                    "description": "1x1",
+                    "type": "Note"
+                },
+                {
+                    "id": "11",
+                    "amount": "0.050",
+                    "description": "5 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "12",
+                    "amount": "0.100",
+                    "description": "10 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "13",
+                    "amount": "1.000",
+                    "description": "1 pound",
+                    "type": "Coin"
+                },
+                {
+                    "id": "14",
+                    "amount": "0.020",
+                    "description": "2 p",
+                    "type": "Coin"
+                },
+                {
+                    "id": "15",
+                    "amount": "2.000",
+                    "description": "2 pound",
+                    "type": "Coin"
+                },
+                {
+                    "id": "16",
+                    "amount": "5.000",
+                    "description": "5 pound",
+                    "type": "Coin"
+                }
+            ]
+        }
+    },
+    {
+        "id": "10",
+        "description": "Visa_AutoReconcile",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "EPS_Visa",
+                    "VI",
+                    "VS",
+                    "VSVISA"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "11",
+        "description": "MasterCard",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "EPS_MasterCard",
+                    "MC",
+                    "MC Mastercard",
+                    "TM"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "110",
+        "description": "CashChequeWithAllParameters",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "111",
+        "description": "CashChequeWithBankId",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "112",
+        "description": "CashChequeWithBranch",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "113",
+        "description": "CashChequeAccountNumber",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "114",
+        "description": "CashChequeIsPrintingRequired",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "12",
+        "description": "AmericanExpress",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "AX",
+                    "AX AmericanExpresss",
+                    "EPS_AmericanExpress"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "1231",
+        "description": "FSA",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": "HB"
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "13",
+        "description": "Discover",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "DS",
+                    "EPS_Discover"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "1337",
+        "description": "CashEngRemodNotAccForSale",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cash"
+    },
+    {
+        "id": "1338",
+        "description": "CashEngRemodVoidBlock",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "1339",
+        "description": "ChequeEngRemodNotAccForSale",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "1340",
+        "description": "ChequeEngRemodVoidBlock",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cheque"
+    },
+    {
+        "id": "1341",
+        "description": "CreditDebitEngRemodNotAccForSale",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "1342",
+        "description": "CreditDebitEngRemodVoidBlock",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "1343",
+        "description": "VoucherEngRemodNotAccForSale",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "1344",
+        "description": "VoucherEngRemodVoidBlock",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "15",
+        "description": "OverTenderAllowed",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cash"
+    },
+    {
+        "id": "1548",
+        "description": "VoucherS",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "1549",
+        "description": "VoucherS2",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "2",
+        "description": "CashForSafeTransfer",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cash"
+    },
+    {
+        "id": "20",
+        "description": "GiftCard",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "EPS_GiftCard",
+                    "GC",
+                    "GC GiftCards"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "21",
+        "description": "Debit",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": [
+                    "DB",
+                    "TD"
+                ]
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "25",
+        "description": "OverTenderNotAllowed",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Cash"
+    },
+    {
+        "id": "26",
+        "description": "Cachedollar",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "Cash"
+    },
+    {
+        "id": "3",
+        "description": "VoucherS3",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "31",
+        "description": "EBT",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": "EF"
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "32",
+        "description": "coupon",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "Voucher"
+    },
+    {
+        "id": "333",
+        "description": "Points",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "PointsTender"
+    },
+    {
+        "id": "39",
+        "description": "EBT Cash",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [
+            {
+                "ReferenceId": "EC"
+            }
+        ],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "5",
+        "description": "CashCheque",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "$",
+            "isoSymbol": "USD"
+        },
+        "isForeignCurrency": false,
+        "type": "Cheque"
+    },
+    {
+        "id": "548",
+        "description": "VoucherX",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "549",
+        "description": "VoucherY",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "720888",
+        "description": "StarbuckGiftCard",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "770",
+        "description": "Mobile",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": true,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Mobile"
+    },
+    {
+        "id": "8",
+        "description": "EFT Manual",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "9",
+        "description": "EFT General",
+        "isProcessedByEps": true,
+        "exchangeRate": 1,
+        "amountEntryRequired": "No",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "CreditDebit"
+    },
+    {
+        "id": "90",
+        "description": "Voucher",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "91",
+        "description": "SecondVoucher",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "95",
+        "description": "RewardAsTender",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Reward"
+    },
+    {
+        "id": "98",
+        "description": "Wic",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    },
+    {
+        "id": "99",
+        "description": "WicCvv",
+        "isProcessedByEps": false,
+        "exchangeRate": 1,
+        "amountEntryRequired": "YesWithoutDefault",
+        "tenderReferences": [],
+        "isByDenomination": false,
+        "isMobile": false,
+        "currency": {
+            "symbol": "£",
+            "isoSymbol": "GBP"
+        },
+        "isForeignCurrency": true,
+        "type": "Voucher"
+    } 
+]

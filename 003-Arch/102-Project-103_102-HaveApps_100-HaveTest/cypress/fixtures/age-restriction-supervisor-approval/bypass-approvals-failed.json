@@ -1,0 +1,33 @@
+{
+    "code": "RuleResultNotSatisfiedForUserWithInsufficientRoles",
+    "severity": "Error",
+    "data": {
+      "lineId": 1,
+      "restrictionType": "AgeRestriction",
+      "restrictionOn": "Items",
+      "ruleId": "RestrictedUnder21sForTokenTestNICK",
+      "messages": [
+        {
+          "culture": "en-US",
+          "caption": "Age Verfication",
+          "body": "Enter Customer's date of birth for verification. Customer must be over 21 to purchase item"
+        }
+      ],
+      "restrictedLines": [],
+      "priority": 0,
+      "additionalData": {
+        "restrictionCode": "RuleResultNotSatisfiedForUserWithInsufficientRoles",
+        "ageConfirmation": {
+          "approveRejectRequired": false,
+          "birthDateRequired": false,
+          "rejectedReason": "NotAuthorized"
+        }
+      },
+      "restrictionScope": "Cart",
+      "attendantRequired": false
+    },
+  "status": 400,
+  "options": {},
+  "message": "Enter Customer's date of birth for verification. Customer must be over 21 to purchase item",
+  "name": "EmeraldException"
+}

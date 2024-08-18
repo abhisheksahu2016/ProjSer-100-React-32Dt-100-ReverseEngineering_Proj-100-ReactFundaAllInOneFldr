@@ -1,0 +1,51 @@
+{
+    "cartId": "J53CEFQPAC",
+    "sequenceNumber": 1101,
+    "cartInfo": {
+        "businessDate": "2022-01-02",
+        "beginDateTime": "2022-01-02T19:19:26.502",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 6,
+            "netAmount": 6,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 5.6,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "unused": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "566666152230",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 4,
+            "status": "Active",
+            "isVirtualCoupon": false
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

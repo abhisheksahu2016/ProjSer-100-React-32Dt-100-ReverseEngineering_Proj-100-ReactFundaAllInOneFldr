@@ -1,0 +1,48 @@
+{
+  "cartId": "b805bdd9-3112-4122-bf27-5c8689110309",
+  "sequenceNumber": "20",
+  "cartInfo": {
+    "businessDate": "2021-01-25",
+    "beginDateTime": "2021-01-25T08:06:28.9668869",
+    "status": "Finalization",
+    "totals": {
+      "grandAmount": 4.99,
+      "netAmount": 4.99,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "excluded": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 0,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [
+    {
+      "amount": 4.99,
+      "localAmount": 4.99,
+      "currencySymbol": "$",
+      "tenderName": "CashEng",
+      "tenderId": "1",
+      "sequenceNumber": 4,
+      "isProcessedByAtm": false,
+      "isProcessedByEps": false
+    }
+  ],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  }
+}

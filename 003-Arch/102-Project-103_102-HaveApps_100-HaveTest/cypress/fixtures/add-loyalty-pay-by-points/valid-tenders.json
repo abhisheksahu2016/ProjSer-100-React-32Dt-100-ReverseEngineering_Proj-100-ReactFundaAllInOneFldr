@@ -1,0 +1,539 @@
+{
+  "cartId": "JY3YH6NGN4",
+  "sequenceNumber": 234,
+  "cartInfo": {
+    "businessDate": "2022-12-16",
+    "beginDateTime": "2022-12-16T14:52:23.247",
+    "totals": {
+      "grandAmount": 4.43,
+      "netAmount": 4.43,
+      "taxAmounts": { "taxAmount": 0, "itemFee": 0, "transactionFee": 0 },
+      "itemsCount": 1,
+      "balanceDue": 0,
+      "discountAmount": 0.07,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [
+    {
+      "lineId": 7,
+      "entryMethod": "Automatic",
+      "triggeredProducts": [1],
+      "rewardAmount": -0.07,
+      "promotionId": "2216",
+      "rewardedItems": [
+        {
+          "lineId": 1,
+          "quantity": { "value": 1 },
+          "rewardAmount": 4.5,
+          "sequences": [{ "sequence": 1, "rewardContributionAmount": 0.07 }],
+          "description": "kale"
+        }
+      ],
+      "netPrice": 4.5,
+      "status": "Active",
+      "rewardType": "PercentageOff",
+      "promotionDescription": "5%off for visa ",
+      "promotionDetails": {
+        "isEndOfTicketPromotion": false,
+        "rewardAsTender": false,
+        "isManualPromotion": false,
+        "isTriggeredByTender": true,
+        "isSingleLineDiscount": false
+      },
+      "approval": { "status": "NotRequired" }
+    }
+  ],
+  "coupons": [],
+  "payments": [
+    {
+      "amount": 1.3,
+      "localAmount": 1.3,
+      "currencySymbol": "$",
+      "tenderName": "Visa_AutoReconcile",
+      "tenderId": "10",
+      "sequenceNumber": 8,
+      "isProcessedByAtm": false,
+      "isProcessedByEps": true,
+      "thirdPartySessionId": "73fac196-e11b-422a-b2e3-6192390b747b",
+      "change": 0.07,
+      "tenderChangeId": "1",
+      "tenderChangeName": "CashEng",
+      "loyaltyRedemptionInfo": {},
+      "epsData": {
+        "paymentTranId": "000127",
+        "authCode": "21232838",
+        "providerData": "full payment",
+        "paymentSessionId": ""
+      }
+    }
+  ],
+  "returns": [],
+  "customer": {
+    "consumerAccountNumber": "0420200000333",
+    "firstName": "Tony",
+    "lastName": "Jaa",
+    "points": 480,
+    "isAuthenticatedOffline": false,
+    "programBalances": [
+      {
+        "id": "100",
+        "programId": "account 100",
+        "name": "account 100",
+        "earnedPoints": 480,
+        "originalPoints": 500
+      },
+      {
+        "id": "2000",
+        "programId": "account 2000",
+        "name": "account 2000",
+        "earnedPoints": 500,
+        "originalPoints": 500
+      }
+    ],
+    "message": "<table><th><td>ExpiryDate</td><td>LinkPoints($)</td></th><tr><td>31/12/22</td><td>50</td></tr><tr><td>31/1/23</td><td>60</td></tr><tr><td>31/4/23</td><td>40</td></tr></table>",
+    "emailAddress": "3@3",
+    "mobilePhoneNumber": "string"
+  },
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": true
+  },
+  "ewicReceipts": [],
+  "receipts": [
+    {
+      "documents": [
+        {
+          "commands": [
+            { "bitmapId": "1" },
+            {
+              "text": "Brooklyn",
+              "printAttributes": { "bold": true },
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "King Cross",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "216-664-234",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Take Out",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "kale                     ", "printAttributes": {} },
+            { "text": "    ", "printAttributes": {} },
+            { "text": "   ", "printAttributes": {} },
+            {
+              "text": "   $4.50",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "5%off for visa           ", "printAttributes": {} },
+            { "text": "    ", "printAttributes": {} },
+            {
+              "text": "     -0.07$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Subtotal:         ", "printAttributes": {} },
+            {
+              "text": "     $4.50",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Total Savings:    ", "printAttributes": {} },
+            {
+              "text": "    -0.07$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Net Sales:        ", "printAttributes": {} },
+            {
+              "text": "     $4.43",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Tax:              ", "printAttributes": {} },
+            {
+              "text": "     $0.00",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Total:            ", "printAttributes": {} },
+            {
+              "text": "     $4.43",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Sold Items:       ", "printAttributes": {} },
+            {
+              "text": "         1",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "            ", "printAttributes": {} },
+            {
+              "text": "Paid:                       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            {
+              "text": "Points                      ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "2.00 GBP x 1.600  ", "printAttributes": {} },
+            {
+              "text": "     $3.20",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Visa_AutoReconcile", "printAttributes": {} },
+            {
+              "text": "     $1.30",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "            ", "printAttributes": {} },
+            { "text": "Change:           ", "printAttributes": {} },
+            {
+              "text": "    -0.07$",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "----------------------------------------",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Member account details:",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "Tony Jaa 100",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Points Earned:   0.00                   ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Points Reedemed: 20.00                  ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Open Balance:    500.00                 ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Closing Balance: 480.00                 ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "----------------------------------------",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "1 1(1) Brooklyn",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "1 234 16/12/2022 14:56",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "barcode": {
+                "data": "6290001001023412162022",
+                "symbology": "Code128",
+                "height": 100,
+                "width": 1,
+                "alignment": "Center"
+              }
+            },
+            {
+              "text": "6290001001023412162022",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "feedLines": 6 },
+            { "cutPaper": true, "cutPercent": 50 },
+            { "feedLines": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "documents": [
+        {
+          "commands": [
+            { "bitmapId": "1" },
+            {
+              "text": "                Brooklyn                ",
+              "printAttributes": { "bold": true },
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "               King Cross               ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "              216-664-234               ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "     --- EFT Slip for receipt No.       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "       6290001001023412162022       ", "printAttributes": {} },
+            { "text": "--- ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": " Visa             #514961******2229   ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " Auth # 21232837 Exp Date **/**       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " Lane # 12       Cashier # 1          ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " 04/02/14 13:19  Ref/Seq # 005178     ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " EPS Sequence    # 005178             ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "feedLines": 6 },
+            { "cutPaper": true, "cutPercent": 50 },
+            { "feedLines": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "documents": [
+        {
+          "commands": [
+            { "bitmapId": "1" },
+            {
+              "text": "                Brooklyn                ",
+              "printAttributes": { "bold": true },
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "               King Cross               ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "              216-664-234               ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "     --- EFT Slip for receipt No.       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "       6290001001023412162022       ", "printAttributes": {} },
+            { "text": "--- ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": " Visa             #514961******2229   ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " Auth # 21232837 Exp Date **/**       ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " Lane # 12       Cashier # 1          ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " 04/02/14 13:19  Ref/Seq # 005178     ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " EPS Sequence    # 005178             ",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Left",
+              "cpl": 42
+            },
+            { "text": "", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            { "text": " ", "printAttributes": {}, "feedLines": 1, "align": "Left", "cpl": 42 },
+            {
+              "text": "1 1(1) Brooklyn",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            {
+              "text": "1 234 16/12/2022 14:56",
+              "printAttributes": {},
+              "feedLines": 1,
+              "align": "Center",
+              "cpl": 42
+            },
+            { "feedLines": 6 },
+            { "cutPaper": true, "cutPercent": 50 },
+            { "feedLines": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}

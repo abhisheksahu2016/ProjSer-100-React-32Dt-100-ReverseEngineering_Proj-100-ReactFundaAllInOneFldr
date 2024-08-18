@@ -1,0 +1,75 @@
+{
+  "transaction": {
+    "cartId": "d536ec6e-b739-41d3-93b2-528f1ea5377f",
+    "sequenceNumber": "1378",
+    "cartInfo": {
+      "businessDate": "2021-01-21",
+      "beginDateTime": "2021-01-20T20:44:28.2862765",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 12,
+        "netAmount": 12,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "excluded": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 2,
+        "balanceDue": 12,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "19913",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 2,
+            "entryMethod": "Keyed"
+          }
+        },
+        "fullDescription": "Small Red Bamba",
+        "description": "Red Bamba",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 12,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 6,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 6,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": [],
+        "itemIndicators": [
+          "S"
+        ]
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+	{
+	  "ruleId": "PackageWeightChangeNotification",
+	  "type": "NotificationAction",
+	  "message": {
+		"caption": "Package Weight Change Notification",
+		"message": "The package of the item was changed the new package."
+	  }
+	}
+  ]
+}

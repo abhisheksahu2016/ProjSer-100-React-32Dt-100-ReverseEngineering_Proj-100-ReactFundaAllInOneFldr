@@ -1,0 +1,89 @@
+{
+    "cartId": "FFH163FCNN",
+    "sequenceNumber": 236,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-03T13:32:39.072",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 8.7,
+            "netAmount": 8.7,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 3,
+            "balanceDue": 6.8,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 9,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                2,
+                8
+            ],
+            "rewardAmount": 0.85,
+            "promotionId": "UPC5.637768064713322895",
+            "rewardedItems": [
+                {
+                    "lineId": 2,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 6,
+                    "description": "Red Bamba"
+                }
+            ],
+            "netPrice": 6,
+            "status": "Active",
+            "rewardType": "AmountOff",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "566666152850",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 8,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

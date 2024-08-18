@@ -1,0 +1,29 @@
+{
+    "code": "BRMException",
+    "message": "BRM restrictions",
+    "severity": "Error",
+    "data": [
+        {
+            "lineId": "1",
+            "ruleId": "MinAllowedPertransactionTenderExchg",
+            "restrictionType": "Payment",
+            "type": "ConfirmationAction",
+            "message": {
+                "caption": "Confirmation",
+                "message": "Please confirm this operation, or click CANCEL."
+            },
+            "culturedMessages": [
+                {
+                    "caption": "Confirmation",
+                    "message": "Please confirm this operation, or click CANCEL.",
+                    "culture": "en-US"
+                }
+            ],
+            "reasons": [],
+            "restrictedLines": [
+                "1"
+            ],
+            "delayable": false
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "cartInfo": {
+    "status": "Total",
+    "totals": {
+      "netAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": -2.5,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "Tk4TVrRCwEOvLhKdQSOg7g",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 4374,
+  "items": [],
+  "payments": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "638276275816757244",
+      "lineId": 1,
+      "tenderId": "90",
+      "tenderType": "Voucher",
+      "tenderName": "Coinstar Voucher",
+      "amount": 2.5,
+      "cashBackAmount": 0,
+      "status": "authorized",
+      "usage": "ExchangePay"
+    }
+  ],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {}
+}

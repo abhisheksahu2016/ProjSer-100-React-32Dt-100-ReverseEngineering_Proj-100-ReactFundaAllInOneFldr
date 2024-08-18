@@ -1,0 +1,102 @@
+{
+  "transaction": {
+    "cartId": "5GOZCBX3ZR",
+    "sequenceNumber": 157,
+    "cartInfo": {
+      "businessDate": "2023-11-28",
+      "beginDateTime": "2023-11-29T11:58:21.114",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 10,
+        "netAmount": 10,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 10,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Automatic",
+          "itemId": {
+            "value": "224",
+            "type": "POSDepartment"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          },
+          "priceModifier": {
+            "method": "RequiredPrice",
+            "newPrice": 10,
+            "amount": 0,
+            "totalPriceDifference": 0,
+            "newTotalPrice": 10
+          }
+        },
+        "fullDescription": "Candy and Chocolate",
+        "description": "Candy and Chocolate",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 10,
+        "extendedAmount": 10,
+        "securityScale": false,
+        "price": {
+          "unitPrice": 10,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 10,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "rewards": [],
+        "taxes": [],
+        "lineModifiers": ["RequiredPrice"]
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction"
+    },
+    "formsData": [
+      {
+        "formName": "Configurable Form",
+        "fields": [
+          {
+            "fieldName": "key1",
+            "value": "25"
+          },
+          {
+            "fieldName": "key2",
+            "value": "26"
+          },
+          {
+            "fieldName": "key3",
+            "value": "26"
+          }
+        ]
+      }
+    ],
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

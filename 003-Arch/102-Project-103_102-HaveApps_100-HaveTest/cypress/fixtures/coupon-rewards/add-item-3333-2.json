@@ -1,0 +1,74 @@
+{
+    "transaction": {
+        "cartId": "MBT1BIJE1G",
+        "sequenceNumber": 1194,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T12:49:41.505",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 7.83,
+                "netAmount": 7.83,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 3,
+                "balanceDue": 7.83,
+                "discountAmount": 3.5,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "3333",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Long Dress",
+                "description": "Dress",
+                "itemType": "Stock",
+                "lineId": 5,
+                "amount": 3.5,
+                "extendedAmount": 3.5,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 3.5,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 3.5,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

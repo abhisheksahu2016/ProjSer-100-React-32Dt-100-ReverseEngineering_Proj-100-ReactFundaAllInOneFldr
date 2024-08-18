@@ -1,0 +1,11 @@
+{
+  "refundTender": [
+    {
+      "id": "1",
+      "description": null,
+      "amount": 10,
+      "usage": "Refund"
+    }
+  ],
+  "refundableTenders": []
+}

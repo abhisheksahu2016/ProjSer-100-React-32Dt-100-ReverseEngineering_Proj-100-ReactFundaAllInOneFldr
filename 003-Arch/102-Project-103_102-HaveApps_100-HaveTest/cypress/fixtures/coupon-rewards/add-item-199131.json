@@ -1,0 +1,76 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 10,
+                "taxAmounts": {
+                    "taxAmount": 1,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 11,
+                "discountAmount": 0,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "pdUeL9zTSUuANriD5JUP8g",
+        "sequenceNumber": 123,
+        "isTransactionTotaled": false,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "199131",
+                        "id": "00000001991310"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 10,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Small Blue Bamba",
+                "description": "Blue Bamba",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10
+                },
+                "amount": 10,
+                "taxes": [
+                    {
+                        "code": "25101",
+                        "amount": 1,
+                        "exemptAmount": 0,
+                        "authorityId": "CouponTaxTestAuthority"
+                    }
+                ],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "637895919850149114"
+            }
+        ],
+        "payments": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "identifiers": {}
+    }
+}

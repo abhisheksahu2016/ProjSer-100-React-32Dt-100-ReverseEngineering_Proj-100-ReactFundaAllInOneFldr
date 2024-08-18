@@ -1,0 +1,125 @@
+{
+    "transaction": {
+        "cartId": "4PGGBKXR4J",
+        "sequenceNumber": 8,
+        "cartInfo": {
+            "businessDate": "2023-09-21",
+            "beginDateTime": "2023-09-21T11:57:01.438",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 146.4,
+                "netAmount": 120,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 2,
+                "balanceDue": 146.4,
+                "discountAmount": 120,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "1",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 2,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Exclusive Bedding Set",
+                "description": "Bedding Set",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 240,
+                "extendedAmount": 240,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 120,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "netAmount": 120,
+                "regularPrice": {
+                    "unitPrice": 120,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [
+                    {
+                        "lineId": 1,
+                        "authorityId": "First Authority",
+                        "amount": 26.4,
+                        "taxableAmount": 120,
+                        "exemptAmount": 0
+                    }
+                ]
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 2,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    1
+                ],
+                "rewardAmount": -120,
+                "promotionId": "47",
+                "rewardedItems": [
+                    {
+                        "lineId": 1,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 120,
+                        "sequences": [
+                            {
+                                "sequence": 1,
+                                "rewardContributionAmount": 120
+                            }
+                        ],
+                        "description": "Bedding Set"
+                    }
+                ],
+                "netPrice": 120,
+                "status": "Active",
+                "rewardType": "FreeItem",
+                "promotionDescription": " 1 + 1 CHEAPEST FREE ",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": false,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

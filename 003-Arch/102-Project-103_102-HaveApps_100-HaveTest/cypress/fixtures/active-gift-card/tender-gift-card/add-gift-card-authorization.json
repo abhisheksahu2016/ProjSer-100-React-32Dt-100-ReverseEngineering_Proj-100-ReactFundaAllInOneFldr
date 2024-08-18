@@ -1,0 +1,11 @@
+{
+  "code": "AuthorizationExternalIdRequired",
+  "message": "Online Authorization External Id Required",
+  "severity": "Error",
+  "data": {
+    "restrictionCode": "AuthorizationExternalIdRequired",
+    "onlineItem": {
+      "authorizationExternalIdType": "Card"
+    }
+  }
+}

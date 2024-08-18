@@ -1,0 +1,474 @@
+{
+    "cart": {
+        "cartInfo": {
+            "status": "Finalization",
+            "totals": {
+                "netAmount": -8.8,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 0,
+                "discountAmount": 0,
+                "itemsCount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "cfVF3qsLRk2h1x9fVedTQA",
+        "sequenceNumber": 123,
+        "isTransactionTotaled": false,
+        "items": [],
+        "payments": [],
+        "receipts": [
+            {
+                "documents": [
+                    {
+                        "commands": [
+                            {
+                                "bitmapId": "1"
+                            },
+                            {
+                                "text": "                Brooklyn                ",
+                                "printAttributes": {
+                                    "bold": true
+                                },
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "                                        ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "                                        ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "                  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": ",",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "                     ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "                                        ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "***ITEM RETURN***",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "Guiness Beer   ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "1048450605    ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "    -8.80",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "8  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " @ ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "    -1.10",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": " EACH",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "                    ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Subtotal:         ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "  -USD8.80",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Total Savings:    ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "   USD0.00",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Net Sales:        ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "  -USD8.80",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Tax:              ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "   USD0.00",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Total:            ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "  -USD8.80",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Returned Items:   ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "         8",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Refund:           ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "  ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "Cash              ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "          ",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42
+                            },
+                            {
+                                "text": "      8.80",
+                                "printAttributes": {},
+                                "align": "Left",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "                              ",
+                                "printAttributes": {},
+                                "align": "Center",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "() Brooklyn",
+                                "printAttributes": {},
+                                "align": "Center",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "1 10630 09/15/2021 07:35 AM",
+                                "printAttributes": {},
+                                "align": "Center",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "text": "",
+                                "printAttributes": {},
+                                "align": "Center",
+                                "cpl": 42,
+                                "feedLines": 1
+                            },
+                            {
+                                "feedLines": 6
+                            },
+                            {
+                                "cutPaper": true,
+                                "cutPercent": 50
+                            },
+                            {
+                                "feedLines": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "returns": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "1",
+                        "value": "1048450605",
+                        "id": "00010484506059"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 8
+                    }
+                },
+                "itemType": "Normal",
+                "lineId": 1,
+                "parentLineId": null,
+                "fullDescription": "Guiness Beer Bottle",
+                "description": "Guiness Beer",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 1.1,
+                    "quantity": 1
+                },
+                "amount": 8.8,
+                "securityScale": true,
+                "exchangeRequired": false
+            }
+        ],
+        "refunds": [
+            {
+                "sequenceNumber": 1,
+                "tenderId": "1",
+                "tenderName": "Cash",
+                "amount": 8.8
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "identifiers": {}
+    },
+    "balance": {
+        "cartAlreadyBalanced": true,
+        "cartCanBeBalanced": false,
+        "balanceInstructions": []
+    }
+}

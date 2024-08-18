@@ -1,0 +1,93 @@
+{
+    "cartId": "CBLP4FBCU3",
+    "sequenceNumber": 229,
+    "cartInfo": {
+        "businessDate": "2022-01-03",
+        "beginDateTime": "2022-01-03T11:45:41.192",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 98.68,
+            "netAmount": 98.68,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 11,
+            "balanceDue": 86.18,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 16,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                6,
+                7,
+                2,
+                11,
+                4,
+                15
+            ],
+            "rewardAmount": 2.5,
+            "promotionId": "UPC5.637768014816045952",
+            "rewardedItems": [
+                {
+                    "lineId": 4,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 2.5,
+                    "description": "Pancake"
+                }
+            ],
+            "netPrice": 2.5,
+            "status": "Active",
+            "rewardType": "FreeItem",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "566666000020",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 15,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

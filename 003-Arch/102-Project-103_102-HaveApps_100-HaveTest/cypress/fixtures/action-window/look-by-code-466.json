@@ -1,0 +1,35 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "466",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "1"
+                }
+            ],
+            "sellable": true,
+            "alternativeItemIds": [
+                "466"
+            ],
+            "description": "ONION",
+            "longDescription": "Long ONION",
+            "requiredPrice": false,
+            "hasPrice": true,
+            "unitPrice": 5.99,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 5.99,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "unitsOfMeasure": "EA",
+            "imageName": "http://10.190.29.48/Resources/onions 4068.jpg",
+            "isManualTarePercentageEnabled": false,
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": []
+        }
+    ]
+}

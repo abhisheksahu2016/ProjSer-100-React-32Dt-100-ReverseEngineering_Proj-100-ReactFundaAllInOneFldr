@@ -1,0 +1,26 @@
+{
+  "code": "BRMException",
+  "message": "BRM restrictions",
+  "severity": "Error",
+  "data": [
+    {
+      "lineId": "1",
+      "ruleId": "MinAllowedPerTransactionSales",
+      "restrictionType": "Payment",
+      "type": "ProhibitAction",
+      "message": {
+        "caption": "Prohibited action",
+        "message": "This action is Prohibited for Tender amount under the limit"
+      },
+      "culturedMessages": [
+        {
+          "caption": "Prohibited action",
+          "message": "This action is Prohibited for Tender amount under the limit",
+          "culture": "en-US"
+        }
+      ],
+      "isDelayedSolution": false,
+      "requiresAttendant": false
+    }
+  ]
+}

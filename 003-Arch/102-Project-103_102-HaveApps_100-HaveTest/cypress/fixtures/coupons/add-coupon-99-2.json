@@ -1,0 +1,5 @@
+{
+    "code": "MaxAllowedCouponsExceeded",
+    "message": "Only 1 same barcode coupons from Series 99 lenght 15 are allowed to be scanned in a single transaction",
+    "severity": "Error"
+}

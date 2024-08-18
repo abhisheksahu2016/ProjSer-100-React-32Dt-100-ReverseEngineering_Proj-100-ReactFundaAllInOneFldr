@@ -1,0 +1,47 @@
+{
+  "transactionId": "1ea82083-a1fd-4771-9340-e9433d858302",
+  "sequenceNumber": "2169",
+  "beginDate": "2021-01-14T04:49:59.9351466",
+  "businessDate": "2021-01-14",
+  "typeCode": "SaleTransaction",
+  "cartInfo": {
+    "status": "Total",
+    "totals": {
+      "netAmount": 2.99,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 1.99,
+      "discountAmount": 2,
+      "itemsCount": 1
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "promotions": [],
+  "coupons": [],
+  "tenders": [
+    {
+      "amount": 1,
+      "localAmount": 1,
+      "currencySymbol": "$",
+      "tenderName": "Cash",
+      "tenderId": "1",
+      "sequenceNumber": 5,
+      "isProcessedByAtm": false,
+      "isProcessedByEps": false
+    }
+  ],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  }
+}

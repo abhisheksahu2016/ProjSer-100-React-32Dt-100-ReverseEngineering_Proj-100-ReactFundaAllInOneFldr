@@ -1,0 +1,96 @@
+{
+    "cartId": "YZDXJOFKZC",
+    "sequenceNumber": 214,
+    "cartInfo": {
+        "businessDate": "2021-12-29",
+        "beginDateTime": "2021-12-29T16:01:36.253",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 26.51,
+            "netAmount": 26.51,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 5,
+            "balanceDue": 26.51,
+            "discountAmount": 1.41,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 4,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2,
+                3
+            ],
+            "rewardAmount": -1.41,
+            "promotionId": "41",
+            "rewardedItems": [
+                {
+                    "lineId": 1,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 12,
+                    "description": "Banana"
+                },
+                {
+                    "lineId": 2,
+                    "quantity": {
+                        "value": 3
+                    },
+                    "rewardAmount": 11.94,
+                    "description": "Girl Shirt"
+                }
+            ],
+            "netPrice": 23.939999999999998,
+            "status": "Active",
+            "rewardType": "AmountOff",
+            "promotionDescription": " Coupon 99 15 ",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": false,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "990000000000000",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 3,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "promotionDescription": " Coupon 99 15 "
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

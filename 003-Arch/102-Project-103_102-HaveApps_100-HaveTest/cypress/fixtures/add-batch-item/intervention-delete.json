@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "responseType": "SET_DEVICE_ENABLED",
+    "message": null,
+    "error": null,
+    "metaDataMap": {
+        "logicalName": "Emulator",
+        "deviceEnabled": "false"
+    }
+}

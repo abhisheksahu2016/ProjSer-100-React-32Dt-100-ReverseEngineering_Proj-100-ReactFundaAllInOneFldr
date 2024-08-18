@@ -1,0 +1,19 @@
+{
+    "total": 1,
+    "productListings": [{
+        "itemId": "6001",
+        "description": "Regular Gasoline",
+        "longDescription": "Regular Gasoline",
+        "unitPrice": 15,
+        "hasPrice": true,
+        "sellable": true,
+        "regularSalesUnitPrice": {
+            "price": {
+                "value": 15,
+                "currency": "USD"
+            },
+            "quantity": 1
+        },
+        "unitsOfMeasure": "LTR"
+    }]
+}

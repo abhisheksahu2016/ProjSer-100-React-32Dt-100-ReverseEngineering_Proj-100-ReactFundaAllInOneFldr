@@ -1,0 +1,89 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 1,
+        "grossReturnsAmount": 0,
+        "taxAmounts": {
+          "taxAmount": 0.2,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 1.2,
+        "cashbackAmount": 0,
+        "discountAmount": 0,
+        "itemsCount": 1,
+        "tenderEligibleAmounts": [
+          {
+            "tenderId": "26",
+            "amount": 1.2
+          }
+        ]
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "ujEqUQqHx0iYQirUCDS7IQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 5004,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "000000000094044",
+            "id": "000000000094044"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 1,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "Peaches Taxable EWIC Eligible",
+        "description": "Peaches Taxable EWIC Eligible",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 1,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 1
+        },
+        "amount": 1,
+        "taxes": [
+          {
+            "code": "Rate01",
+            "amount": 0.2,
+            "exemptAmount": 0,
+            "authorityId": "gov-assist",
+            "exemptable": true
+          }
+        ],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "638384878670473709",
+        "indicators": {}
+      }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+  }
+}

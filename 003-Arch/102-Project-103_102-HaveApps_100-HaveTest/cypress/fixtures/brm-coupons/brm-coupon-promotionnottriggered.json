@@ -1,0 +1,24 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "ruleId": "BrmCoupon",
+      "type": "ProhibitAction",
+      "message": {
+        "caption": "Coupon limit exceeded",
+        "message": "This coupon cannot be processed"
+      },
+      "culturedMessages": [
+        {
+          "caption": "Coupon limit exceeded",
+          "message": "This coupon cannot be processed",
+          "culture": "en-GB"
+        }
+      ],
+      "requiresAttendant": false,
+      "isDelayedSolution": false
+    }
+  ]
+}

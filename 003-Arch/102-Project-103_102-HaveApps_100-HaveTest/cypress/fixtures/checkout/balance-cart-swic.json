@@ -1,0 +1,179 @@
+{
+   "cart": {
+       "cartInfo": {
+           "status": "Tender",
+           "totals": {
+               "netAmount": 4.77,
+               "grossReturnsAmount": 0,
+               "taxAmounts": {
+                   "taxAmount": 0,
+                   "included": 0,
+                   "itemFee": 0,
+                   "transactionFee": 0,
+                   "taxExemptAmount": 0
+               },
+               "balanceDue": 0,
+               "cashbackAmount": 0,
+               "discountAmount": 0,
+               "itemsCount": 1
+           },
+           "defaultCurrency": "USD"
+       },
+       "cartId": "KCn4H3gE8keltKq6GcO59g",
+       "isTransactionTotaled": false,
+       "sequenceNumber": 1964,
+       "items": [
+           {
+               "lineItem": {
+                   "itemId": {
+                       "type": "ItemId",
+                       "value": "000002663821400",
+                       "id": "000002663821400"
+                   },
+                   "quantity": {
+                       "unitOfMeasure": "EA",
+                       "value": 1
+                   }
+               },
+               "extendedAmount": 4.77,
+               "itemType": "Normal",
+               "lineId": 1,
+               "fullDescription": "American Cheese EWIC Eligible",
+               "description": "American Cheese EWIC Eligible",
+               "price": {
+                   "unitOfMeasure": "EA",
+                   "specialPrice": false,
+                   "unitPrice": 4.77,
+                   "quantity": 1
+               },
+               "regularPrice": {
+                   "unitPrice": 4.77
+               },
+               "amount": 4.77,
+               "taxes": [],
+               "securityScale": true,
+               "additionalData": {
+                   "ItemSaleType": "SALES"
+               },
+               "entryMethod": "Automatic",
+               "sequence": "638388349430291532",
+               "indicators": {}
+           }
+       ],
+       "payments": [
+           {
+               "sequenceNumber": 2,
+               "sequence": "638388356938917774",
+               "lineId": 2,
+               "tenderId": "434343",
+               "tenderType": "sWIC",
+               "tenderName": "sWIC",
+               "amount": 4.77,
+               "cashBackAmount": 0,
+               "status": "authorized",
+               "epsData": {
+                   "paymentTranId": "3-117"
+               },
+               "usage": "Payment",
+               "authorization": {
+                   "electronicPayment": {
+                       "authorizationType": "Online",
+                       "authorizationCode": "601e5c2300000004210548b4",
+                       "referenceNumber": "3-117",
+                       "epsProvider": {}
+                   },
+                   "paymentsInfo": [
+                       {
+                           "key": "paymentTranId",
+                           "value": "3-117"
+                       },
+                       {
+                           "key": "sessionId",
+                           "value": "116"
+                       },
+                       {
+                           "key": "cardType",
+                           "value": ""
+                       },
+                       {
+                           "key": "entryMethod",
+                           "value": ""
+                       },
+                       {
+                           "key": "maskedAccountNumber",
+                           "value": ""
+                       },
+                       {
+                           "key": "referenceNumber",
+                           "value": "3-117"
+                       },
+                       {
+                           "key": "authorizationCode",
+                           "value": "601e5c2300000004210548b4"
+                       },
+                       {
+                           "key": "tenderId",
+                           "value": "434343"
+                       },
+                       {
+                           "key": "processedByEps",
+                           "value": "true"
+                       },
+                       {
+                           "key": "cancel",
+                           "value": "false"
+                       },
+                       {
+                           "key": "cancelReason",
+                           "value": ""
+                       },
+                       {
+                           "key": "preTenderAmount",
+                           "value": ""
+                       },
+                       {
+                           "key": "amount",
+                           "value": "4.77"
+                       },
+                       {
+                           "key": "cashBack",
+                           "value": ""
+                       },
+                       {
+                           "key": "customerReceipt"
+                       },
+                       {
+                           "key": "merchantReceipt"
+                       }
+                   ]
+               }
+           },
+           {
+               "sequenceNumber": null,
+               "sequence": "638388356579620051",
+               "lineId": 1,
+               "tenderId": "1",
+               "tenderType": "Cash",
+               "tenderName": "Cash",
+               "amount": 4.77,
+               "voidedLineId": "1",
+               "status": "preTender"
+           }
+       ],
+       "taxExemptions": [],
+       "surcharges": [],
+       "receipts": [],
+       "returns": [],
+       "refunds": [],
+       "rewards": [],
+       "coupons": [],
+       "restrictions": [],
+       "customerPrograms": [],
+       "identifiers": {}
+   },
+   "balance": {
+       "cartAlreadyBalanced": true,
+       "cartCanBeBalanced": false,
+       "balanceInstructions": []
+   }
+}

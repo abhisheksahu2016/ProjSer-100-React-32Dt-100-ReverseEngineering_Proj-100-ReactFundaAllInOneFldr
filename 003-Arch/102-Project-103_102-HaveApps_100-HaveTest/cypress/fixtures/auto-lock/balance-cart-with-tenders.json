@@ -1,0 +1,607 @@
+{
+  "cartInfo": {
+      "status": "Finalization",
+      "totals": {
+          "netAmount": 10,
+          "taxAmounts": {
+              "taxAmount": 0,
+              "included": 0,
+              "itemFee": 0,
+              "transactionFee": 0,
+              "taxExemptAmount": 0
+          },
+          "balanceDue": 0,
+          "cashbackAmount": 0,
+          "discountAmount": 0,
+          "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+  },
+  "cartId": "ZS4zfUL-wUydOmQlwH1Xw",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 5858,
+  "items": [
+      {
+          "lineItem": {
+              "itemId": {
+                  "type": "0",
+                  "value": "103",
+                  "id": "00000000001030"
+              },
+              "quantity": {
+                  "unitOfMeasure": "EA",
+                  "value": 1
+              }
+          },
+          "extendedAmount": 10,
+          "itemType": "Normal",
+          "lineId": 1,
+          "fullDescription": "sprite",
+          "description": "sprite",
+          "price": {
+              "unitOfMeasure": "EA",
+              "specialPrice": false,
+              "unitPrice": 10,
+              "quantity": 1
+          },
+          "regularPrice": {
+              "unitPrice": 10
+          },
+          "amount": 10,
+          "taxes": [],
+          "securityScale": true,
+          "additionalData": {
+              "ItemSaleType": "SALES"
+          },
+          "entryMethod": "Keyed",
+          "sequence": "638042830549819708"
+      }
+  ],
+  "payments": [
+      {
+          "sequenceNumber": 2,
+          "sequence": "638042899352832915",
+          "lineId": 2,
+          "tenderId": "1",
+          "tenderType": "Cash",
+          "tenderName": "Cash",
+          "amount": 1,
+          "cashBackAmount": 0,
+          "status": "authorized",
+          "usage": "Payment",
+          "change": 11
+      },
+      {
+          "sequenceNumber": 6,
+          "sequence": "638043090939529433",
+          "lineId": 6,
+          "tenderId": "1",
+          "tenderType": "Cash",
+          "tenderName": "Cash",
+          "amount": 20,
+          "cashBackAmount": 0,
+          "status": "authorized",
+          "usage": "Payment"
+      }
+  ],
+  "surcharges": [],
+  "receipts": [
+      {
+          "documents": [
+              {
+                  "commands": [
+                      {
+                          "bitmapId": "1"
+                      },
+                      {
+                          "text": "                Brooklyn                ",
+                          "printAttributes": {
+                              "bold": true
+                          },
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "               King Cross               ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "                 London                 ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "                UK",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": ",",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "34356                ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "              -216-664-234              ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "sprite         ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "103           ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "   $10.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Subtotal:         ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "    $10.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Total Savings:    ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "     $0.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Net Sales:        ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "    $10.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Tax:              ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "     $0.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Total:            ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "    $10.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Sold Items:       ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "         1",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Paid:                       ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Cash              ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "     $1.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Cash              ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "    $20.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Change:           ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "  ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "Cash              ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "          ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42
+                      },
+                      {
+                          "text": "   -$11.00",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": " ",
+                          "printAttributes": {},
+                          "align": "Left",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "Store Hours: 10AM to 10PM     ",
+                          "printAttributes": {
+                              "italic": false,
+                              "bold": false,
+                              "underline": false,
+                              "doubleHeight": false,
+                              "doubleWidth": false,
+                              "invert": false
+                          },
+                          "align": "Center",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "Friday 12:00 to 18:00         ",
+                          "printAttributes": {
+                              "italic": false,
+                              "bold": false,
+                              "underline": false,
+                              "doubleHeight": false,
+                              "doubleWidth": false,
+                              "invert": false
+                          },
+                          "align": "Center",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "(cc250556) Brooklyn",
+                          "printAttributes": {},
+                          "align": "Center",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "text": "1 5858 11/17/2022 07:11 PM",
+                          "printAttributes": {},
+                          "align": "Center",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "barcode": {
+                              "data": "629352950015858111820220",
+                              "symbology": "Code128",
+                              "height": 100,
+                              "width": 1,
+                              "alignment": "Center"
+                          }
+                      },
+                      {
+                          "text": "629352950015858111820220",
+                          "printAttributes": {},
+                          "align": "Center",
+                          "cpl": 42,
+                          "feedLines": 1
+                      },
+                      {
+                          "feedLines": 6
+                      },
+                      {
+                          "cutPaper": true,
+                          "cutPercent": 50
+                      },
+                      {
+                          "feedLines": 1
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "returns": [],
+  "refunds": [
+      {
+          "sequenceNumber": 1,
+          "sequence": "638043090983448122",
+          "lineId": 1,
+          "tenderId": "1",
+          "tenderType": "Cash",
+          "tenderName": "Cash",
+          "amount": 11,
+          "status": "authorized",
+          "usage": "Change",
+          "authorization": {
+              "electronicPayment": {
+                  "epsProvider": {}
+              },
+              "paymentsInfo": [
+                  {
+                      "key": "tenderSequence",
+                      "value": "638043090939529433"
+                  }
+              ]
+          }
+      }
+  ],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {
+      "openTillDrawer": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "interventionInfo": [
+    {
+      "type": "QRCodeBadItemFormating",
+      "isDelayed": true,
+      "transactionId": "4U7WO8OSBD",
+      "operationName": "Invalid QR Code structure",
+      "interventionId": "51",
+      "itemId": "00000000000030001002",
+      "approvable": true,
+      "quantity": 1,
+      "itemSequenceNumber": 0
+    }
+  ]
+}

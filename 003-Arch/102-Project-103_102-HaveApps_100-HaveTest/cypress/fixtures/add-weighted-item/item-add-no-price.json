@@ -1,0 +1,100 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 0,
+                "grossReturnsAmount": 0,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 0,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 2
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "txAmNu8GGk2IYPO8PiDZ6A",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 4421,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "299",
+                        "id": "00000000002990"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "LBR",
+                        "value": 3
+                    },
+                    "priceModifier": {
+                        "method": "ResetPrice",
+                        "amount": 4.5,
+                        "newPrice": 0,
+                        "newTotalPrice": 0,
+                        "totalPriceDifference": -13.5,
+                        "percentage": 1
+                    }
+                },
+                "extendedAmount": 0,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Long Lettuce 2017-11-21",
+                "description": "Lettuce",
+                "price": {
+                    "unitOfMeasure": "LBR",
+                    "specialPrice": false,
+                    "unitPrice": 0,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitOfMeasure": "LBR",
+                    "unitPrice": 4.5,
+                    "quantity": 1
+                },
+                "amount": 0,
+                "taxes": [
+                    {
+                        "code": "lemonade",
+                        "amount": 0,
+                        "exemptAmount": 0,
+                        "authorityId": "lemonade",
+                        "exemptable": true
+                    }
+                ],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638423803607963404",
+                "indicators": {
+                    "eligibilityIndicators": [
+                        {
+                            "symbol": ""
+                        }
+                    ]
+                }
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "refundVoidTenders": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

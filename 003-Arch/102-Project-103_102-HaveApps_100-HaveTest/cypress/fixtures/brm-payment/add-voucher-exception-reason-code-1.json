@@ -1,0 +1,43 @@
+{
+  "code": "BRMException",
+  "message": "BRM restrictions",
+  "severity": "Error",
+  "data": [
+    {
+      "lineId": "1",
+      "ruleId": "ReasonCodeMinAllowedPerTransaction",
+      "restrictionType": "Payment",
+      "type": "ReasonCodeAction",
+      "message": {
+        "caption": "Reason Code",
+        "message": "Reason Code required for Total Tender amount Under the limit"
+      },
+      "culturedMessages": [
+        {
+          "caption": "Reason Code",
+          "message": "Reason Code required for Total Tender amount Under the limit",
+          "culture": "en-US"
+        }
+      ],
+      "reasons": [
+        {
+          "isEnabled": true,
+          "value": "79",
+          "description": "No ID"
+        },
+        {
+          "isEnabled": true,
+          "value": "11005",
+          "description": "Under Age"
+        },
+        {
+          "isEnabled": true,
+          "value": "80",
+          "description": "Incorrect ID"
+        }
+      ],
+      "restrictedLines": ["1"],
+      "delayable": false
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+    "transaction": {
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 59,
+            "grossReturnsAmount": 0,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": -17,
+            "cashbackAmount": 0,
+            "discountAmount": 0,
+            "itemsCount": 2
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "5RKJ3Xc3fU28XcWVSDXH2A",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 2683,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "101",
+                    "id": "00000000001010"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 10,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "cola",
+            "description": "cola",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 10,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 10,
+                "quantity": 1
+            },
+            "amount": 10,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638439920190383237",
+            "indicators": {
+                "eligibilityIndicators": []
+            }
+        },
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "5001",
+                    "id": "00000000050010"
+                },
+                "quantity": {
+                    "unitOfMeasure": "GLL",
+                    "value": 25.222
+                },
+                "priceModifier": {
+                    "amount": 1.1399999999999997,
+                    "newPrice": 1.999,
+                    "newTotalPrice": 49,
+                    "totalPriceDifference": -30.171858,
+                    "percentage": 0.3631729850270786
+                }
+            },
+            "extendedAmount": 49,
+            "itemType": "Fuel",
+            "lineId": 2,
+            "fullDescription": "Unleaded",
+            "description": "Unleaded",
+            "price": {
+                "unitOfMeasure": "GLL",
+                "specialPrice": false,
+                "unitPrice": 1.999,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitOfMeasure": "GLL",
+                "unitPrice": 3.139,
+                "quantity": 1
+            },
+            "amount": 49,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "fuelItem": {
+                    "fuelItemId": "5001",
+                    "controllerSequenceNumber": "5001",
+                    "endFuelingTime": {
+                        "nominalValue": "2023-12-31T20:02:00",
+                        "offset": "-05:00:00"
+                    },
+                    "fuelingPointId": "2",
+                    "fuelShiftId": "0",
+                    "fuelItemSaleType": "PREPAY",
+                    "nozzleId": "2",
+                    "serviceType": "SELF",
+                    "startFuelingTime": {
+                        "nominalValue": "2023-12-31T20:01:00",
+                        "offset": "-05:00:00"
+                    },
+                    "fuelBlendInfo": [
+                        {
+                            "gradeId": "5001",
+                            "tankId": "0",
+                            "blendPercent": 100,
+                            "dispensedVolume": {
+                                "quantity": 25.222
+                            }
+                        }
+                    ],
+                    "unitPriceForRewards": 1.989
+                },
+                "prepayFuelItem": {
+                    "controllerSequenceNumber": "5f11d894-2cbf-4729-8a6c-8eb88a57b98e",
+                    "prepayType": "AMOUNT",
+                    "serviceType": "SELF",
+                    "fuelingPointId": "2",
+                    "fuelSale": [
+                        {
+                            "itemId": "6000",
+                            "description": "Diesel",
+                            "unitPrice": 2.999,
+                            "unitPriceForRewards": 2.989,
+                            "netUnitPrice": 2.149,
+                            "unitOfMeasure": "GLL",
+                            "discountsToApply": [
+                                {
+                                    "promotionId": "139",
+                                    "unitAmount": 0.85
+                                }
+                            ]
+                        },
+                        {
+                            "itemId": "5001",
+                            "description": "Unleaded",
+                            "unitPrice": 1.999,
+                            "unitPriceForRewards": 1.989,
+                            "netUnitPrice": 1.999,
+                            "unitOfMeasure": "GLL"
+                        },
+                        {
+                            "itemId": "6001",
+                            "description": "Unleaded Premium",
+                            "unitPrice": 3.999,
+                            "unitPriceForRewards": 3.989,
+                            "netUnitPrice": 3.999,
+                            "unitOfMeasure": "GLL"
+                        }
+                    ],
+                    "prepayValue": 66
+                },
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Automatic",
+            "sequence": "638439920336072187",
+            "indicators": {
+                "eligibilityIndicators": []
+            }
+        }
+    ],
+    "payments": [
+        {
+            "sequenceNumber": 4,
+            "sequence": "638439922435167942",
+            "lineId": 4,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 76,
+            "cashBackAmount": 0,
+            "status": "authorized",
+            "usage": "Payment"
+        },
+        {
+            "sequenceNumber": 1,
+            "sequence": "638439920498472118",
+            "lineId": 1,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 76,
+            "voidedLineId": "1",
+            "status": "preTender"
+        },
+        {
+            "sequenceNumber": 2,
+            "sequence": "638439921792699901",
+            "lineId": 2,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 76,
+            "voidedLineId": "2",
+            "status": "preTender"
+        },
+        {
+            "sequenceNumber": 3,
+            "sequence": "638439922134787245",
+            "lineId": 3,
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 80,
+            "voidedLineId": "3",
+            "status": "preTender"
+        }
+    ],
+    "taxExemptions": [],
+    "surcharges": [],
+    
+    "returns": [],
+    "refunds": [],
+    "refundVoidTenders": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}}

@@ -1,0 +1,34 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "378",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "201"
+                }
+            ],
+            "sellable": true,
+            "alternativeItemIds": [
+                "378"
+            ],
+            "description": "Wine B",
+            "longDescription": "Wine B",
+            "requiredPrice": false,
+            "hasPrice": true,
+            "unitPrice": 6,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 6,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "unitsOfMeasure": "EA",
+            "isManualTarePercentageEnabled": false,
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": []
+        }
+    ]
+}

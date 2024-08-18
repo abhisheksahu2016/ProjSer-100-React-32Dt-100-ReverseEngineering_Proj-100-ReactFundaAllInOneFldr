@@ -1,0 +1,476 @@
+{
+  "cartInfo": {
+    "status": "Finalization",
+    "totals": {
+      "netAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 0,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "SC1Lt0LJ9kCKdIrbUZ-KA",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 4376,
+  "items": [],
+  "payments": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "638276291524574880",
+      "lineId": 1,
+      "tenderId": "90",
+      "tenderType": "Voucher",
+      "tenderName": "Coinstar Voucher",
+      "amount": 2.5,
+      "cashBackAmount": 0,
+      "status": "authorized",
+      "usage": "ExchangePay",
+      "change": 0
+    }
+  ],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [
+    {
+      "documents": [
+        {
+          "commands": [
+            {
+              "bitmapId": "1"
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "bold": true,
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "                Brooklyn                "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "               King Cross               "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "                 London                 "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "                UK"
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": ","
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "34356                "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "              -216-664-234              "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Center",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "*** Tender Exchange ***"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "       "
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "Paid       "
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "Coinstar Vouc"
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "    $2.50"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "       "
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "Received   "
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "Cash         "
+                      },
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "   -$2.50"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Left",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Center",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "(cc250556) Brooklyn"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Center",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "1 4376 08/DD/YYYY 04:59 PM"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "barcode": {
+                "data": "629352950014376081420230",
+                "symbology": "Code128",
+                "height": 100,
+                "width": 1,
+                "alignment": "Center",
+                "sizeType": "Dots",
+                "textPosition": "None",
+                "outputOptions": "All"
+              }
+            },
+            {
+              "textObject": {
+                "outputOptions": "All",
+                "textLines": [
+                  {
+                    "linePrintAttributes": {
+                      "align": "Center",
+                      "cpl": 42,
+                      "fontStyle": "medium"
+                    },
+                    "textLines": [
+                      {
+                        "printAttributes": {
+                          "fontSize": 42,
+                          "fontStyle": "medium"
+                        },
+                        "text": "629352950014376081420230"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "feedLines": 1
+            },
+            {
+              "feedLines": 6
+            },
+            {
+              "cutPaper": true,
+              "cutPercent": 100
+            },
+            {
+              "feedLines": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "returns": [],
+  "refunds": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "638276291752057319",
+      "lineId": 1,
+      "tenderId": "1",
+      "tenderType": "Cash",
+      "tenderName": "Cash",
+      "amount": 2.5,
+      "status": "authorized",
+      "usage": "ExchangeReceive",
+      "authorization": {
+        "electronicPayment": {
+          "authorizationType": "",
+          "authorizationCode": "",
+          "referenceNumber": "",
+          "responseCode": "",
+          "maskedAccountNumber": "",
+          "epsProvider": {}
+        }
+      }
+    }
+  ],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {
+    "openTillDrawer": true
+  }
+}

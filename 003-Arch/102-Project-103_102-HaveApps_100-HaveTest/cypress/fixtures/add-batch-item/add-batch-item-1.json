@@ -1,0 +1,142 @@
+{
+  "transaction": {
+    "cartId": "PAGPJGMJVH",
+    "sequenceNumber": 48,
+    "cartInfo": {
+      "businessDate": "2023-06-21",
+      "beginDateTime": "2023-06-21T18:49:33.129",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": -22.03,
+        "netAmount": -18.85,
+        "taxAmounts": {
+          "taxAmount": -3.18,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": -22.03,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [
+      {
+        "lineItem": {
+          "EntryMethod": "Automatic",
+          "itemId": {
+            "value": "20",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1
+          }
+        },
+        "fullDescription": "Arak",
+        "description": "Arak",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 18.849999999999998,
+        "extendedAmount": 17.65,
+        "securityScale": true,
+        "imageUrl": "",
+        "entryMode": "BarcodeOrder",
+        "price": {
+          "unitPrice": 17.65,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 17.65,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Returned",
+        "taxes": [
+          {
+            "lineId": 1,
+            "authorityId": "First Authority",
+            "amount": -1.41,
+            "taxableAmount": -17.65,
+            "exemptAmount": 0
+          },
+          {
+            "lineId": 2,
+            "authorityId": "First Authority",
+            "amount": -1.77,
+            "taxableAmount": -17.65,
+            "exemptAmount": 0
+          }
+        ],
+        "itemIndicators": [
+          "C"
+        ],
+        "itemBatchInfo": {
+          "type": "QRCodeOrder",
+          "label": "PH",
+          "identifier": "3400001371",
+          "grouping": true
+        },
+        "linkedLines": [
+          {
+            "lineItem": {
+              "EntryMethod": "Automatic",
+              "itemId": {
+                "value": "7991439",
+                "type": "SKU"
+              },
+              "quantity": {
+                "value": 1,
+                "entryMethod": "Automatic"
+              }
+            },
+            "fullDescription": "Long Deposit Bottle Bottle 75cc",
+            "description": "Deposit Bottle Bottle 75cc",
+            "itemType": "Deposit",
+            "lineId": 2,
+            "amount": 1.2,
+            "extendedAmount": 1.2,
+            "securityScale": true,
+            "imageUrl": "",
+            "entryMode": "BarcodeOrder",
+            "price": {
+              "unitPrice": 1.2,
+              "currency": "USD",
+              "quantity": 1
+            },
+            "regularPrice": {
+              "unitPrice": 1.2,
+              "currency": "USD",
+              "quantity": 1
+            },
+            "status": "Returned",
+            "taxes": [],
+            "itemBatchInfo": {
+              "type": "QRCodeOrder",
+              "label": "PH",
+              "identifier": "3400001371",
+              "grouping": true
+            }
+          }
+        ]
+      }
+    ],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "ReturnTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

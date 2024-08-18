@@ -1,0 +1,60 @@
+{
+    "cartId": "QDKZG4AW8W",
+    "sequenceNumber": 122,
+    "cartInfo": {
+        "businessDate": "2023-11-27",
+        "beginDateTime": "2023-11-27T15:59:08.006",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 120,
+            "netAmount": 120,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 120,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "formsData": [
+        {
+            "formName": "Configurable Form",
+            "fields": [
+                {
+                    "fieldName": "key1",
+                    "value": "25"
+                },
+                {
+                    "fieldName": "key2",
+                    "value": "26"
+                },
+                {
+                    "fieldName": "key3",
+                    "value": ""
+                }
+            ]
+        }
+    ],
+    "ewicReceipts": [],
+    "receipts": []
+}

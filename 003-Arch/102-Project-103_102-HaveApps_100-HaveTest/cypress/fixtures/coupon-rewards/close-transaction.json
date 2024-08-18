@@ -1,0 +1,5 @@
+{
+    "code": "CartWithUnusedCouponsCannotBeFinalized",
+    "message": "Cart contains unused coupons. Please void all unused coupons before finalization",
+    "severity": "Error"
+}

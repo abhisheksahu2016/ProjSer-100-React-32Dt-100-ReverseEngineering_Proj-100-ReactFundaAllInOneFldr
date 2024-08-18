@@ -1,0 +1,153 @@
+{
+    "message": "SUCCESS",
+    "code": "SUCCESS",
+    "statusCode": 0,
+    "response": {
+        "header": null,
+        "message": {
+            "amounts": {
+                "activationAmount": null,
+                "amountApproved": "3.47",
+                "amountDue": "10.00",
+                "amountTendered": "3.47",
+                "discountAmount": null,
+                "feeAmount": null,
+                "reloadAmount": null,
+                "taxAmount": null,
+                "tipAmount": null,
+                "cashbackAmount": null,
+                "cashbackAmountApproved": null,
+                "fsaamounts": null
+            },
+            "cardDetails": [
+                {
+                    "altID": null,
+                    "cardBrand": null,
+                    "cardCode": "EC",
+                    "cardNumber": null,
+                    "cardLength": 16,
+                    "cardName": "Cash Benefits",
+                    "cardType": "EBTCash",
+                    "entryMethod": "Swiped",
+                    "extendedData": {
+                        "applicationCryptogram": null,
+                        "applicationEffectiveDate": null,
+                        "applicationInterchangeProfile": null,
+                        "applicationPreferredName": null,
+                        "cardHolderName": null,
+                        "cardHolderVerificationMethod": null,
+                        "expirationDate": "2512",
+                        "issuerApplicationData": null,
+                        "issuerCountryCode": null,
+                        "serviceCode": "100"
+                    },
+                    "expiryDate": null,
+                    "firstSix": "610434",
+                    "lastFour": "6789",
+                    "paymentTranID": "12",
+                    "stateCode": null,
+                    "track": null,
+                    "track1": null,
+                    "track2": null,
+                    "pan": null,
+                    "upc": null,
+                    "emvtags": null,
+                    "aid": null,
+                    "fsaeligible": null
+                }
+            ],
+            "checkDetails": null,
+            "clientID": "POS1",
+            "configOptions": null,
+            "connectionInfo": null,
+            "customInputData": null,
+            "customOutputData": null,
+            "deviceConnectionType": null,
+            "deviceData": null,
+            "smartWICData": null,
+            "hostData": null,
+            "messageType": "Response",
+            "operation": "Purchase",
+            "customerData": null,
+            "paymentDetails": {
+                "authCode": "117434",
+                "allowOffline": null,
+                "feeType": null,
+                "paymentTranID": "5",
+                "paymentTokenID": null,
+                "responseCode": "00",
+                "responseMessage": "Approved 117434",
+                "sessionTranID": "8",
+                "stan": "441228",
+                "verificationMethod": "Signature",
+                "offline": false,
+                "needsSignature": null,
+                "signatureData": null,
+                "imageType": null
+            },
+            "promptDetails": null,
+            "transactionDetails": null,
+            "posOptions": null,
+            "posTranID": null,
+            "settlement": null,
+            "adjustmentData": null,
+            "receipts": [
+                {
+                    "receiptLines": [
+                        "               Your Store               ",
+                        "               Your Street              ",
+                        "           City, State zipcode          ",
+                        "             (555) 555-1212             "
+                    ],
+                    "receiptSection": "Header",
+                    "receiptType": "Merchant"
+                },
+                {
+                    "receiptLines": [
+                        "",
+                        "",
+                        " 2018-05-31 09:16:09",
+                        " TOTAL: USD $146.40",
+                        " Visa Credit",
+                        " Entry Method: Swiped",
+                        " CARD #: 0009",
+                        " Purchase   - APPROVED",
+                        " AUTH CODE: 117434",
+                        "",
+                        " Mode: ",
+                        " MID: 1   TID: 44   RRN: 441228",
+                        "",
+                        " I agree to pay above total amount",
+                        " according to card issuer agreement.",
+                        " (Merchant agreement if Credit Voucher)",
+                        " Retain this copy for your records",
+                        "",
+                        " Signature:______________________________"
+                    ],
+                    "receiptSection": "Body",
+                    "receiptType": "Merchant"
+                },
+                {
+                    "receiptLines": [
+                        "              THANK YOU FOR             ",
+                        "            SHOPPING WITH US!           "
+                    ],
+                    "receiptSection": "Footer",
+                    "receiptType": "Merchant"
+                }
+            ],
+            "requestID": "5",
+            "signatureDetails": null,
+            "status": "Failed",
+            "statusCode": 205,
+            "statusMessage": null,
+            "transactionDateTime": null,
+            "transactionDateTimeUTC": null,
+            "version": "2.3.0",
+            "versionInfo": null,
+            "timeout": null,
+            "saf": null,
+            "ewicdata": null
+        }
+    }
+}

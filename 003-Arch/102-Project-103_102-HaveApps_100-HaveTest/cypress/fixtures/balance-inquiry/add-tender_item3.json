@@ -1,0 +1,51 @@
+{
+  "cartId": "OCZ68ZJ388",
+  "sequenceNumber": 47,
+  "cartInfo": {
+    "businessDate": "2022-09-01",
+    "beginDateTime": "2022-09-01T12:09:21.601",
+    "status": "Tender",
+    "totals": {
+      "grandAmount": 12,
+      "netAmount": 12,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 2,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [
+    {
+      "amount": 10,
+      "localAmount": 10,
+      "currencySymbol": "$",
+      "tenderName": "CashEng",
+      "tenderId": "1",
+      "sequenceNumber": 5,
+      "isProcessedByAtm": false,
+      "isProcessedByEps": false
+    }
+  ],
+  "returns": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": false
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

@@ -1,0 +1,82 @@
+{
+  "transaction": {
+    "cartId": "4U7WO8OSBD",
+    "sequenceNumber": 59,
+    "cartInfo": {
+      "businessDate": "2023-06-21",
+      "beginDateTime": "2023-06-22T11:15:39.683",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": -39.02,
+        "netAmount": -35.84,
+        "taxAmounts": {
+          "taxAmount": -3.18,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 3,
+        "balanceDue": -39.02,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [
+      {
+        "lineItem": {
+          "EntryMethod": "Automatic",
+          "itemId": {
+            "value": "466",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1
+          }
+        },
+        "fullDescription": "Long ONION",
+        "description": "ONION",
+        "itemType": "Stock",
+        "lineId": 4,
+        "amount": 4.99,
+        "extendedAmount": 4.99,
+        "securityScale": true,
+        "imageUrl": "http://10.190.29.48/Resources/onions 4068.jpg",
+        "entryMode": "BarcodeOrder",
+        "price": {
+          "unitPrice": 4.99,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 4.99,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Returned",
+        "taxes": [],
+        "itemBatchInfo": {
+          "type": "QRCodeOrder",
+          "label": "PH",
+          "identifier": "3400001373",
+          "grouping": true
+        }
+      }
+    ],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "ReturnTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

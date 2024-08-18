@@ -1,0 +1,12 @@
+{
+  "interventionInfo": [{
+    "type": "RestrictedByRule",
+    "isDelayed": true,
+    "transactionId": "8XFIIW4T6H",
+    "operationName": "Dolls",
+    "interventionId": "42",
+    "itemId": "354",
+    "approvable": false,
+    "itemSequenceNumber": 2
+  }]
+}

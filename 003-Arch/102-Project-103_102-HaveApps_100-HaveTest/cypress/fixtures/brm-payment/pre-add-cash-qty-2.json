@@ -1,0 +1,95 @@
+{
+  "cartInfo": {
+    "status": "Tender",
+    "totals": {
+      "netAmount": 10,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 10,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 1
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "EIVui21FRUCWSs-PS7kagQ",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 2593,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "0",
+          "value": "101",
+          "id": "00000000001010"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 1
+        }
+      },
+      "extendedAmount": 10,
+      "itemType": "Normal",
+      "lineId": 1,
+      "fullDescription": "cola",
+      "description": "cola",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 10,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 10
+      },
+      "amount": 10,
+      "taxes": [],
+      "securityScale": true,
+      "additionalData": {
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Keyed",
+      "sequence": "638251853751987252"
+    }
+  ],
+  "payments": [
+    {
+      "sequenceNumber": 2,
+      "sequence": "638251854547048258",
+      "lineId": 2,
+      "tenderId": "1",
+      "tenderType": "Cash",
+      "tenderName": "Cash",
+      "amount": 2,
+      "cashBackAmount": 0,
+      "status": "preTender",
+      "usage": "Payment"
+    },
+    {
+      "sequenceNumber": null,
+      "sequence": "638251854082070641",
+      "lineId": 1,
+      "tenderId": "1",
+      "tenderType": "Cash",
+      "tenderName": "Cash",
+      "amount": 10,
+      "voidedLineId": "1",
+      "status": "preTender"
+    }
+  ],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "customerPrograms": [],
+  "identifiers": {}
+}

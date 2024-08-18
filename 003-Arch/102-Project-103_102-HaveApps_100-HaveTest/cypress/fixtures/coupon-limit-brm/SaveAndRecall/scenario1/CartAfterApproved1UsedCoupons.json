@@ -1,0 +1,89 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 76.3,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 76.3,
+            "cashbackAmount": 0,
+            "discountAmount": 0.2,
+            "itemsCount": 3
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "gzGQ2VFAvUicJ0DXvinJYw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 4508,
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "12",
+            "promotionDescription": "Selling 10% coupon",
+            "rewardAmount": 0.2,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.2,
+                    "rewardRefundAmount": 0.2,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 0.2,
+                            "rewardRefundAmount": 0.2
+                        }
+                    ],
+                    "itemId": "989898614"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "770000555123",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "770000555123",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638288724727830487",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "12"
+            ]
+        }
+    ],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

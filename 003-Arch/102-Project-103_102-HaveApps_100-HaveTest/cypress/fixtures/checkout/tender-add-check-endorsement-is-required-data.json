@@ -1,0 +1,5 @@
+{
+  "code": "TenderEndorsementIsRequired",
+  "message": "Tender cannot be authorized, Endorsement is Requiered",
+  "severity": "Error"
+}

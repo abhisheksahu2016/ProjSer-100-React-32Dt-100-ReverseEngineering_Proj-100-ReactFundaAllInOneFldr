@@ -1,0 +1,6 @@
+{
+  "code": "CustomerNotFound",
+  "message": "Customer Not Found",
+  "severity": "Error",
+  "data": null
+}

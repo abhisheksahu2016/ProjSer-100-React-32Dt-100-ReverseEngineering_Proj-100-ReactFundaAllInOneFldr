@@ -1,0 +1,13 @@
+{
+  "transactionLookups": [
+    {
+      "sequenceNumber": 16,
+      "transactionId": "CDBBOXPWFI",
+      "touchPointId": "1",
+      "workstationId": "1",
+      "beginDateTime": "2022-12-20T18:13:50.303",
+      "totalAmount": 146.4,
+      "customerOrderId": "3L7BHBIIQT"
+    }
+  ]
+}

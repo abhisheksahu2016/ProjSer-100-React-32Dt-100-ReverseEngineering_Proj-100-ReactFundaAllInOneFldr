@@ -1,0 +1,8 @@
+{
+    "notifications": [
+        {
+            "type": "ExceedDrawerLimitNotification",
+            "value": false
+        }
+    ]
+}

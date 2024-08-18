@@ -1,0 +1,120 @@
+{
+    "transaction": {
+        "cartId": "IPW47BUPJ4",
+        "sequenceNumber": 3476,
+        "cartInfo": {
+            "businessDate": "2021-11-02",
+            "beginDateTime": "2021-11-23T09:22:20.085",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 33.93,
+                "netAmount": 33.93,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 33.93,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "13077",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "weightQuantity": {
+                            "tare": {
+                                "isTareOverride": true,
+                                "tareValue": 0.02,
+                                "isManualPercentage": false,
+                                "isManualFixedTare": false,
+                                "grossWeight": 1
+                            }
+                        },
+                        "unitOfMeasure": "Kg",
+                        "units": 0.98,
+                        "value": 1,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Long Filled Cookies",
+                "description": "Filled Cookies",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 33.93,
+                "extendedAmount": 33.91,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 34.6,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 34.6,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "linkedLines": [
+                    {
+                        "lineItem": {
+                            "EntryMethod": "Automatic",
+                            "itemId": {
+                                "value": "99900052",
+                                "type": "SKU"
+                            },
+                            "quantity": {
+                                "value": 1,
+                                "entryMethod": "Automatic"
+                            }
+                        },
+                        "fullDescription": "Long Big box",
+                        "description": "Big box",
+                        "itemType": "Tare",
+                        "lineId": 2,
+                        "amount": 0.02,
+                        "extendedAmount": 0.02,
+                        "securityScale": true,
+                        "imageUrl": "",
+                        "price": {
+                            "unitPrice": 0.02,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "regularPrice": {
+                            "unitPrice": 0.02,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "status": "Active",
+                        "taxes": []
+                    }
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

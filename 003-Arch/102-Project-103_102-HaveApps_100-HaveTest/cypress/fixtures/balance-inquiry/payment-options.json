@@ -1,0 +1,11 @@
+{
+  "amountEntryOption": "YesWithoutDefault",
+  "suggestedAmounts": [],
+  "openTillDrawerOption": "AlwaysOpen",
+  "signatureVerificationPolicy": "",
+  "blockPartialPayment": false,
+  "priority": 0,
+  "check21OffLineThresholdAmount": null,
+  "calculateCashOverTender": null,
+  "requestForTendering": [{ "enterpriseUnitId": null, "touchPointGroupId": null, "value": false }]
+}

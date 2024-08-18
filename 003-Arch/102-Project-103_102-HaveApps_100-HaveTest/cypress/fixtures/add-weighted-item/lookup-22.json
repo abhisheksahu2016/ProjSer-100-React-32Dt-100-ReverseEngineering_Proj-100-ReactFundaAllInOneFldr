@@ -1,0 +1,35 @@
+{
+  "itemLookupData": [
+    {
+      "itemId": "22",
+      "merchandiseHierarchy": [
+        {
+          "hierarchyType": "Merchandise",
+          "nodeId": "1"
+        }
+      ],
+      "sellable": true,
+      "alternativeItemIds": [
+        "0000000000222",
+        "22"
+      ],
+      "description": "Oval Tomatoes",
+      "longDescription": "Large Oval Tomatoes",
+      "requiredPrice": false,
+      "hasPrice": true,
+      "unitPrice": 6.99,
+      "unitsOfMeasure": "Kg",
+      "regularSalesUnitPrice": {
+        "price": {
+          "value": 6.99,
+          "currency": "USD"
+        },
+        "quantity": 1
+      },
+      "isManualTarePercentageEnabled": false,
+      "tarePercentage": [],
+      "priceLevels": [],
+      "depositItems": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [{
+    "ruleId": "Cashier Underage",
+    "actionId": "UserAge",
+    "type": "RestrictionProhibitAction",
+    "message": {
+      "caption": "BRM: Age Verfication",
+      "message": "Customer is underaged and can't buy this product"
+    },
+    "needRejectedInfoWindow": true,
+    "restrictedItems": ["16662"],
+    "voidTransactionOnDecline": false
+  }]
+}

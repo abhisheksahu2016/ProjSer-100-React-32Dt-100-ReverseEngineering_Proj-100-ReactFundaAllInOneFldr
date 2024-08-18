@@ -1,0 +1,153 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 640,
+            "taxAmounts": {
+                "taxAmount": 64,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 699.5,
+            "cashbackAmount": 0,
+            "discountAmount": 4.5,
+            "itemsCount": 8
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "94D0YbAkQ0WOtx0fIhawqw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 1653,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "2134",
+                    "id": "00000000021340"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 8
+                }
+            },
+            "extendedAmount": 640,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "White potato",
+            "description": "Potato",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 80,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 80
+            },
+            "amount": 640,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638265638630606545"
+        }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "565758-3",
+            "promotionDescription": "MFR Coupon",
+            "rewardAmount": 4.5,
+            "rewardType": "GS1_MANUFACTURER_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 4.5,
+                    "rewardRefundAmount": 4.5,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 4.5,
+                            "rewardRefundAmount": 4.5
+                        }
+                    ],
+                    "itemId": "00000000021340"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "81100666666565758315011015290001",
+                "rewardAsTender": true,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardedTenderLineId": "1",
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "81100666666565758315011015290001",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 3,
+            "entryMethod": "Keyed",
+            "sequence": "638265639960083865",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 3,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "565758-3"
+            ]
+        },
+        {
+            "sequenceNumber": 2,
+            "couponId": "81100666667565758310011015390001",
+            "status": "Active",
+            "lineId": 2,
+            "quantity": 3,
+            "entryMethod": "Keyed",
+            "sequence": "638265640261906850",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 0,
+                "unused": 3
+            },
+            "couponRedemptionIds": []
+        }
+    ],
+    "restrictions": [
+        {
+            "lineId": "1",
+            "restrictionType": "UnusedCoupon",
+            "restrictionOn": "Coupons",
+            "restrictedLines": [
+                "2"
+            ],
+            "priority": 0,
+            "additionalData": {}
+        }
+    ],
+    "customerPrograms": [],
+    "identifiers": {}
+}

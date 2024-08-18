@@ -1,0 +1,75 @@
+{
+    "cartId": "HHXSKJ3VW3",
+    "sequenceNumber": 202,
+    "cartInfo": {
+        "businessDate": "2023-08-07",
+        "beginDateTime": "2023-08-07T11:16:33.264",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 15,
+            "netAmount": 15,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 15,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [
+        {
+            "lineItem": {
+                "EntryMethod": "Keyed",
+                "itemId": {
+                    "value": "19",
+                    "type": "SKU"
+                },
+                "quantity": {
+                    "value": 1,
+                    "entryMethod": "Automatic"
+                }
+            },
+            "fullDescription": "Long Similac",
+            "description": "Similac",
+            "itemType": "Stock",
+            "lineId": 1,
+            "amount": 15,
+            "extendedAmount": 15,
+            "securityScale": true,
+            "imageUrl": "",
+            "price": {
+                "unitPrice": 15,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "netAmount": 15,
+            "regularPrice": {
+                "unitPrice": 15,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "status": "Active",
+            "taxes": []
+        }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

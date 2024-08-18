@@ -1,0 +1,1382 @@
+{
+    "cart": {
+        "transaction": {
+            "cartInfo": {
+                "status": "Finalization",
+                "totals": {
+                    "netAmount": 0,
+                    "taxAmounts": {
+                        "taxAmount": 0,
+                        "included": 0,
+                        "itemFee": 0,
+                        "transactionFee": 0,
+                        "taxExemptAmount": 0
+                    },
+                    "balanceDue": 0,
+                    "cashbackAmount": 0,
+                    "discountAmount": 8,
+                    "itemsCount": 1
+                },
+                "defaultCurrency": "USD"
+            },
+            "cartId": "iFBwjakFrE6AXhpNkZ8i8w",
+            "isTransactionTotaled": false,
+            "sequenceNumber": 176,
+            "items": [
+                {
+                    "lineItem": {
+                        "itemId": {
+                            "type": "0",
+                            "value": "5310073070",
+                            "id": "5310073070"
+                        },
+                        "quantity": {
+                            "unitOfMeasure": "LBR",
+                            "value": 2,
+                            "weightQuantity": {
+                                "netValue": 2
+                            }
+                        }
+                    },
+                    "extendedAmount": 8,
+                    "itemType": "Normal",
+                    "lineId": 1,
+                    "fullDescription": "PANADOL INFANT",
+                    "description": "VOLCANIC OIL",
+                    "price": {
+                        "unitOfMeasure": "LBR",
+                        "specialPrice": false,
+                        "unitPrice": 4,
+                        "quantity": 1
+                    },
+                    "regularPrice": {
+                        "unitPrice": 4
+                    },
+                    "amount": 8,
+                    "taxes": [
+                        {
+                            "code": "Rate1",
+                            "amount": 0,
+                            "exemptAmount": 0,
+                            "authorityId": "Authority01",
+                            "exemptable": true
+                        },
+                        {
+                            "code": "Rate2",
+                            "amount": 0,
+                            "exemptAmount": 0,
+                            "authorityId": "Authority1",
+                            "exemptable": true
+                        }
+                    ],
+                    "securityScale": true,
+                    "additionalData": {
+                        "ItemSaleType": "SALES"
+                    },
+                    "entryMethod": "Keyed",
+                    "sequence": "638198459896350419"
+                }
+            ],
+            "payments": [],
+            "taxExemptions": [],
+            "surcharges": [],
+            "receipts": [
+                {
+                    "documents": [
+                        {
+                            "commands": [
+                                {
+                                    "bitmapId": "1"
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "                Brooklyn                "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "               King Cross               "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "                 London                 "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "                UK"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": ","
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "34356                "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "              -216-664-234              "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "VOLCANIC OIL   "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "5310073070    "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "    $8.00"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "MAN WT"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "2.00 "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "lb  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " @ "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     4.00"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "/"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "lb "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "         "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "P1549 OTC Rew  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "              "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "    -$8.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Subtotal:         "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "          "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Tax:              "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "          "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Total:            "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "          "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Sold Items:       "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "          "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "         1"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "-------------- Tax Summary --------------"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Ind "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Name      "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Method  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     Rate"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     Amount"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "A   "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Authorit"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  Percent "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     10.0"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "      $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "C   "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Authorit"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "  Percent "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     10.0"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "      $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "         Tax Total:"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "                  $0.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "-----------------------------------------"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Healthy Savings  "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "2513                    "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "underline": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Savings Summary  "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "   "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "TOTAL DISCOUNTS "
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "     1"
+                                                    },
+                                                    {
+                                                        "printAttributes": {
+                                                            "bold": true,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "         -$4.00"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Left",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": " "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "italic": false,
+                                                            "bold": false,
+                                                            "underline": false,
+                                                            "doubleHeight": false,
+                                                            "doubleWidth": false,
+                                                            "invert": false,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Store Hours: 10AM to 10PM     "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "italic": false,
+                                                            "bold": false,
+                                                            "underline": false,
+                                                            "doubleHeight": false,
+                                                            "doubleWidth": false,
+                                                            "invert": false,
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "Friday 12:00 to 18:00         "
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "(Cashier) Brooklyn"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "3 176 05/16/2023 03:00 PM"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "barcode": {
+                                        "data": "629352950030176051620230",
+                                        "symbology": "Code128",
+                                        "height": 100,
+                                        "width": 1,
+                                        "alignment": "Center"
+                                    }
+                                },
+                                {
+                                    "textObject": {
+                                        "outputOptions": "All",
+                                        "textLines": [
+                                            {
+                                                "linePrintAttributes": {
+                                                    "align": "Center",
+                                                    "cpl": 42,
+                                                    "fontStyle": "medium"
+                                                },
+                                                "textLines": [
+                                                    {
+                                                        "printAttributes": {
+                                                            "fontSize": 42,
+                                                            "fontStyle": "medium"
+                                                        },
+                                                        "text": "629352950030176051620230"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "feedLines": 1
+                                },
+                                {
+                                    "feedLines": 6
+                                },
+                                {
+                                    "cutPaper": true,
+                                    "cutPercent": 100
+                                },
+                                {
+                                    "feedLines": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "returns": [],
+            "refunds": [],
+            "rewards": [
+                {
+                    "lineId": null,
+                    "promotionId": "1549",
+                    "promotionDescription": "P1549 OTC Rew",
+                    "rewardAmount": 8,
+                    "rewardType": "PROMOTIONAL_DISCOUNT",
+                    "rewardedItems": [
+                        {
+                            "lineId": "1",
+                            "quantity": {
+                                "unitOfMeasure": "LBR",
+                                "value": 2
+                            },
+                            "rewardAmount": 8,
+                            "rewardRefundAmount": 8,
+                            "rewardUnits": [
+                                {
+                                    "unitId": "1",
+                                    "rewardAmount": 8,
+                                    "rewardRefundAmount": 8
+                                }
+                            ],
+                            "itemId": "5310073070"
+                        }
+                    ],
+                    "triggeredCoupons": [],
+                    "promotionDetails": {},
+                    "message": {}
+                }
+            ],
+            "coupons": [],
+            "restrictions": [],
+            "customerPrograms": [
+                {
+                    "lineId": "1",
+                    "type": "SOLUTRAN",
+                    "accountId": "******2513"
+                }
+            ],
+            "identifiers": {}
+        }
+    },
+    "balance": { "cartAlreadyBalanced": true, "cartCanBeBalanced": false, "balanceInstructions": [] }
+}

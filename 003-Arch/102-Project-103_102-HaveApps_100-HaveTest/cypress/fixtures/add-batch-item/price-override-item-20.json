@@ -1,0 +1,178 @@
+{
+    "cartId": "G8MA7TZHII",
+    "sequenceNumber": 426,
+    "cartInfo": {
+        "businessDate": "2023-09-12",
+        "beginDateTime": "2023-09-12T15:48:46.567",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 15.71,
+            "netAmount": 15.33,
+            "taxAmounts": {
+                "taxAmount": 0.38,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 15.71,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [
+        {
+            "lineId": 4,
+            "parentLineId": 1,
+            "status": "Cancelled",
+            "cancelReason": "",
+            "lineItem": {
+                "itemId": {
+                    "value": "20"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "EntryMethod": "Automatic",
+                "itemId": {
+                    "value": "20",
+                    "type": "SKU"
+                },
+                "quantity": {
+                    "value": 1
+                },
+                "priceModifier": {
+                    "method": "PriceOverride",
+                    "newPrice": 3.33,
+                    "amount": 15.52,
+                    "percentage": 82.33,
+                    "totalPriceDifference": -15.52,
+                    "newTotalPrice": 3.33
+                }
+            },
+            "fullDescription": "Arak",
+            "description": "Arak",
+            "itemType": "Stock",
+            "lineId": 5,
+            "amount": 3.33,
+            "extendedAmount": 2.13,
+            "securityScale": true,
+            "imageUrl": "",
+            "entryMode": "BarcodeOrder",
+            "price": {
+                "unitPrice": 2.13,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "netAmount": 2.13,
+            "regularPrice": {
+                "unitPrice": 17.65,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "status": "Updated",
+            "rewards": [],
+            "taxes": [
+                {
+                    "lineId": 1,
+                    "authorityId": "First Authority",
+                    "amount": 0.21,
+                    "taxableAmount": 2.13,
+                    "exemptAmount": 0
+                },
+                {
+                    "lineId": 2,
+                    "authorityId": "First Authority",
+                    "amount": 0.17,
+                    "taxableAmount": 2.13,
+                    "exemptAmount": 0
+                }
+            ],
+            "priceModifierReasonCode": "PriceOverride",
+            "lineModifiers": [
+                "PriceOverride"
+            ],
+            "parentLineId": 1,
+            "itemIndicators": [
+                "C"
+            ],
+            "itemBatchInfo": {
+                "type": "QRCodeOrder",
+                "label": "PH",
+                "identifier": "3400001371",
+                "grouping": true
+            },
+            "linkedLines": [
+                {
+                    "lineItem": {
+                        "EntryMethod": "Automatic",
+                        "itemId": {
+                            "value": "7991439",
+                            "type": "SKU"
+                        },
+                        "quantity": {
+                            "value": 1,
+                            "entryMethod": "Automatic"
+                        }
+                    },
+                    "fullDescription": "Long Deposit Bottle Bottle 75cc",
+                    "description": "Deposit Bottle Bottle 75cc",
+                    "itemType": "Deposit",
+                    "lineId": 7,
+                    "amount": 1.2,
+                    "extendedAmount": 1.2,
+                    "securityScale": true,
+                    "imageUrl": "",
+                    "entryMode": "BarcodeOrder",
+                    "price": {
+                        "unitPrice": 1.2,
+                        "currency": "USD",
+                        "quantity": 1
+                    },
+                    "netAmount": 1.2,
+                    "regularPrice": {
+                        "unitPrice": 1.2,
+                        "currency": "USD",
+                        "quantity": 1
+                    },
+                    "status": "Active",
+                    "taxes": [],
+                    "itemBatchInfo": {
+                        "type": "QRCodeOrder",
+                        "label": "PH",
+                        "identifier": "3400001371",
+                        "grouping": true
+                    }
+                }
+            ]
+        },
+        {
+            "lineId": 6,
+            "parentLineId": 2,
+            "status": "Cancelled",
+            "cancelReason": "",
+            "lineItem": {
+                "itemId": {
+                    "value": "7991439"
+                }
+            }
+        }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

@@ -1,0 +1,20 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "00000000000380",
+            "description": "Oval Tomatoes",
+            "longDescription": "Large Oval Tomatoes - U2017_11_21",
+            "sellable": true,
+            "unitPrice": 1.99,
+            "hasPrice": true,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 1.99,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "unitsOfMeasure": "Kg"
+        }
+    ]
+}

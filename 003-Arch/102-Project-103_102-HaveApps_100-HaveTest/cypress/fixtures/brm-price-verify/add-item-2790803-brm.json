@@ -1,0 +1,1 @@
+{"code":"BRMException","message":"BRM exception","severity":"Error","data":[{"isDelayedSolution":false,"requiresAttendant":false,"ruleId":"Price verify Decrease","type":"ApprovalAction","message":{"caption":"Supervisor authorisation required","message":"Please enter supervisor details"}}]}

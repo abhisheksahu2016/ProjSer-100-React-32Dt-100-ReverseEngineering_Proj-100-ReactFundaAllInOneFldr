@@ -1,0 +1,146 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 10,
+                "grossReturnsAmount": 0,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": -40,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "5PmbIM5cpE6QaVa32bvD2g",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 6475,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "101",
+                        "id": "00000000001010"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 10,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "cola",
+                "description": "cola",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "amount": 10,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES",
+                    "catalogDynamicAttributes": []
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638486858100415423",
+                "indicators": {
+                    "eligibilityIndicators": []
+                }
+            },
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "PREPAY",
+                        "value": "PREPAY",
+                        "id": "PREPAY"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "GLL"
+                    }
+                },
+                "extendedAmount": 50,
+                "itemType": "Fuel",
+                "lineId": 2,
+                "status": "Cancelled",
+                "fullDescription": "Fuel Prepay",
+                "description": "PREPAY",
+                "amount": 50,
+                "securityScale": true,
+                "additionalData": {
+                    "prepayFuelItem": {
+                        "controllerSequenceNumber": "a3ac2258-8c7f-4a07-9b8d-1ffa267e061f",
+                        "prepayType": "AMOUNT",
+                        "serviceType": "SELF",
+                        "fuelingPointId": "1",
+                        "fuelSale": [
+                            {
+                                "itemId": "6000",
+                                "description": "Diesel",
+                                "unitPrice": 3.959,
+                                "unitPriceForRewards": 3.949,
+                                "netUnitPrice": 3.109,
+                                "unitOfMeasure": "GLL",
+                                "discountsToApply": [
+                                    {
+                                        "promotionId": "139",
+                                        "unitAmount": 0.85
+                                    }
+                                ]
+                            }
+                        ],
+                        "prepayValue": 50
+                    },
+                    "ItemSaleType": "PREPAY",
+                    "catalogDynamicAttributes": []
+                },
+                "entryMethod": "Automatic",
+                "sequence": "638486858777896139",
+                "indicators": {
+                    "eligibilityIndicators": []
+                }
+            }
+        ],
+        "payments": [
+            {
+                "sequenceNumber": 1,
+                "sequence": "638486858357112945",
+                "lineId": 1,
+                "tenderId": "1",
+                "tenderType": "Cash",
+                "tenderName": "Cash",
+                "amount": 50,
+                "cashBackAmount": 0,
+                "status": "authorized",
+                "usage": "Payment"
+            }
+        ],
+        "taxExemptions": [],
+        "surcharges": [],
+        "returns": [],
+        "refunds": [],
+        "refundVoidTenders": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 106,
+                "taxAmounts": {
+                    "taxAmount": 20.2,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 126.2,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 4
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "2NjjdTd0R0C7eDn3NH8VjQ",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 165,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "101",
+                        "id": "00000000001010"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 10,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "cola",
+                "description": "cola",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 10,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10
+                },
+                "amount": 10,
+                "taxes": [
+                    {
+                        "code": "Rate1",
+                        "amount": 1,
+                        "exemptAmount": 0,
+                        "authorityId": "Authority01",
+                        "exemptable": true
+                    }
+                ],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638198355704196779"
+            },
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "7535398275",
+                        "id": "7535398275"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 3
+                    }
+                },
+                "extendedAmount": 96,
+                "itemType": "Normal",
+                "lineId": 2,
+                "fullDescription": "Mainstays softex cushion bath mat, assorted colors",
+                "description": "Mainstays softex cushion bath mat, assorted colors",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 32,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 32
+                },
+                "amount": 96,
+                "taxes": [
+                    {
+                        "code": "Rate1",
+                        "amount": 9.6,
+                        "exemptAmount": 0,
+                        "authorityId": "Authority01",
+                        "exemptable": true
+                    },
+                    {
+                        "code": "Rate2",
+                        "amount": 9.6,
+                        "exemptAmount": 0,
+                        "authorityId": "Authority1",
+                        "exemptable": true
+                    }
+                ],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638198358094647628"
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

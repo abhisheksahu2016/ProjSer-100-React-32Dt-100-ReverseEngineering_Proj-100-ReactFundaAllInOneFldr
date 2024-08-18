@@ -1,0 +1,39 @@
+{
+  "cartId": "KGYOI31VE1",
+  "sequenceNumber": 1108,
+  "cartInfo": {
+    "businessDate": "2022-01-02",
+    "beginDateTime": "2022-01-02T20:15:59.268",
+    "status": "Tender",
+    "totals": {
+      "grandAmount": 0.25,
+      "netAmount": 0.25,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": -0.15,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": false
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

@@ -1,0 +1,133 @@
+{
+   "cart": {
+    "cartInfo": {
+      "status": "Tender",
+      "totals": {
+        "netAmount": 14.77,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 8,
+        "discountAmount": 0,
+        "itemsCount": 2
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "wRqH2DZE80SJo2D0Hq1itw",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "ItemId",
+            "value": "000002663821400",
+            "id": "000002663821400"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 4.77,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "American Cheese EWIC Eligible",
+        "description": "American Cheese EWIC Eligible",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 4.77,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 4.77
+        },
+        "amount": 4.77,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Automatic",
+        "sequence": "637830276163257281"
+      },
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "101",
+            "id": "00000000001010"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 10,
+        "itemType": "Normal",
+        "lineId": 2,
+        "fullDescription": "cola",
+        "description": "cola",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 10,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 10
+        },
+        "amount": 10,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "637830276263763592"
+      }
+    ],
+    "payments": [
+      {
+        "sequenceNumber": 2,
+        "sequence": "637830276721630494",
+        "lineId": "2",
+        "tenderId": "1",
+        "tenderType": "Cash",
+        "tenderName": "Cash",
+        "amount": 2,
+        "status": "authorized"
+      },
+      {
+        "sequenceNumber": 1,
+        "sequence": "637830276511812004",
+        "lineId": "1",
+        "tenderId": "42",
+        "tenderType": "eWIC",
+        "tenderName": "eWIC",
+        "amount": 4.77,
+        "status": "authorized",
+        "epsData": {
+          "paymentTranId": "123456"
+        }
+      }
+    ],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "identifiers": {}
+  }
+  ,
+   "balance": {
+      "cartAlreadyBalanced": false,
+      "cartCanBeBalanced": false,
+      "balanceInstructions": []
+   }
+}

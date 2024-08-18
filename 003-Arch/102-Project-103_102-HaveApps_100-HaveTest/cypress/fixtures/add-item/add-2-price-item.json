@@ -1,0 +1,89 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 3.50,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 3.50,
+        "discountAmount": 1.5,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "tQgfFPYaik2Ffs8MLz9hKg",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "37",
+            "id": "989877371"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 5,
+        "itemType": "Normal",
+        "lineId": 3,
+        "fullDescription": "Lipton Black Tea",
+        "description": "Lipton Black Tea",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 5,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 5
+        },
+        "amount": 5,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "637840520829839151"
+      }
+    ],
+    "payments": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+      {
+        "lineId": 0,
+        "promotionId": "A11",
+        "promotionDescription": "Non Loyalty Discount",
+        "rewardAmount": 1.5,
+        "rewardType": "TEMP_PRICE_REDUCTION",
+        "rewardedItems": [
+          {
+            "lineId": "3",
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "value": 1
+            },
+            "rewardAmount": 1.5
+          }
+        ],
+        "triggeredCoupons": [],
+        "message": {}
+      }
+    ],
+    "coupons": [],
+    "restrictions": [],
+    "identifiers": {}
+  }
+}

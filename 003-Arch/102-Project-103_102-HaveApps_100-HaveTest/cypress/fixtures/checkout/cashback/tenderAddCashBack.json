@@ -1,0 +1,58 @@
+{
+    "cartId": "FSR4R5J2R5",
+    "sequenceNumber": 776,
+    "cartInfo": {
+        "businessDate": "2022-05-15",
+        "beginDateTime": "2022-05-15T14:41:03.74",
+        "totals": {
+            "grandAmount": 12,
+            "netAmount": 12,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 0,
+            "discountAmount": 0,
+            "cashbackAmount": 20,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "amount": 12,
+            "cashBackAmount": 20,
+            "localAmount": 12,
+            "currencySymbol": "$",
+            "tenderName": "Visa_AutoReconcile",
+            "tenderId": "10",
+            "sequenceNumber": 3,
+            "isProcessedByAtm": false,
+            "isProcessedByEps": true,
+            "thirdPartySessionId": "42313a6c-28c1-4bc8-8145-eb68d2dbbeb1",
+            "epsData": {
+                "paymentTranId": "000123",
+                "authCode": "24163207",
+                "paymentSessionId": ""
+            }
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": true
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

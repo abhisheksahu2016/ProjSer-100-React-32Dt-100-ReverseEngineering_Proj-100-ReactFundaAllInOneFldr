@@ -1,0 +1,79 @@
+{
+   "cart": {
+      "cartInfo": {
+         "status": "Total",
+         "totals": {
+            "netAmount": -4.77,
+            "taxAmounts": {
+               "taxAmount": 0,
+               "included": 0,
+               "itemFee": 0,
+               "transactionFee": 0,
+               "taxExemptAmount": 0
+            },
+            "balanceDue": 0,
+            "discountAmount": 0,
+            "itemsCount": 0
+         },
+         "defaultCurrency": "USD"
+      },
+      "cartId": "QAWH0ScpsEC9COTHO6CzBQ",
+      "sequenceNumber": 123,
+      "isTransactionTotaled": false,
+      "items": [],
+      "payments": [],
+      "receipts": [],
+      "returns": [
+         {
+            "lineItem": {
+               "itemId": {
+                  "type": "ItemId",
+                  "value": "000002663821400",
+                  "id": "000002663821400"
+               },
+               "quantity": {
+                  "unitOfMeasure": "EA",
+                  "value": 1
+               }
+            },
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "American Cheese EWIC Eligible",
+            "description": "American Cheese EWIC Eligible",
+            "price": {
+               "unitOfMeasure": "EA",
+               "specialPrice": false,
+               "unitPrice": 4.77,
+               "quantity": 1
+            },
+            "amount": 4.77,
+            "extendedAmount": 4.77,
+            "securityScale": true,
+            "exchangeRequired": false,
+            "originalPurchasedLineId": 1,
+            "sequence": "637847526766842475"
+         }
+      ],
+      "refunds": [
+         {
+            "sequenceNumber": 1,
+            "sequence": "637847526976408477",
+            "lineId": "1",
+            "tenderId": "1",
+            "tenderType": "Cash",
+            "tenderName": "Cash",
+            "amount": 4.77,
+            "status": "authorized"
+         }
+      ],
+      "rewards": [],
+      "coupons": [],
+      "restrictions": [],
+      "identifiers": {}
+   },
+   "balance": {
+      "cartAlreadyBalanced": true,
+      "cartCanBeBalanced": false,
+      "balanceInstructions": []
+   }
+}

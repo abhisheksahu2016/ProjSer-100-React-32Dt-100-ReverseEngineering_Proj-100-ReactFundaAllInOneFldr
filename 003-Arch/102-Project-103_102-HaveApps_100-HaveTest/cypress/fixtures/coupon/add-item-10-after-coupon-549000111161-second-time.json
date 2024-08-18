@@ -1,0 +1,114 @@
+{
+    "transaction": {
+        "cartId": "YSL5JFC5S1",
+        "sequenceNumber": 249,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T17:26:15.928",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 168.43,
+                "netAmount": 142.03,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 6,
+                "balanceDue": 164.1,
+                "discountAmount": 10.7,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "10",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Aqua Blue Sheet Set",
+                "description": "Sheet Set",
+                "itemType": "Stock",
+                "lineId": 11,
+                "amount": 10.7,
+                "extendedAmount": 10.7,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 12,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    8,
+                    11,
+                    2,
+                    6
+                ],
+                "rewardAmount": 4.33,
+                "promotionId": "UPC5.637768204414200122",
+                "itemLink": 7,
+                "rewardedItems": [
+                    {
+                        "lineId": 2,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 4.33,
+                        "description": "Boy Pants"
+                    }
+                ],
+                "netPrice": 4.33,
+                "status": "Updated",
+                "rewardType": "FreeItem",
+                "promotionDescription": "UPC5 Coupon",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "32"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

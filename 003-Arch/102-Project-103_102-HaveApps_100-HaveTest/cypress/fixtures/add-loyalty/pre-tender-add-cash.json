@@ -1,0 +1,59 @@
+{
+    "cartId": "35HPYHGRLV",
+    "sequenceNumber": 341,
+    "cartInfo": {
+        "businessDate": "2024-03-01",
+        "beginDateTime": "2024-03-01T15:54:01.833",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 147.6,
+            "netAmount": 121.2,
+            "taxAmounts": {
+                "taxAmount": 26.4,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 146.6,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "customer": {
+        "consumerAccountNumber": "12343333",
+        "firstName": "Tal",
+        "lastName": "Bar",
+        "points": 228,
+        "isAuthenticatedOffline": false,
+        "programBalances": [
+            {
+                "id": "100",
+                "programId": "account 100",
+                "name": "account 100",
+                "earnedPoints": 228,
+                "originalPoints": 228
+            }
+        ],
+        "emailAddress": "Wira.Nolly@retalix.com",
+        "eligibleForPayment": false
+    },
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

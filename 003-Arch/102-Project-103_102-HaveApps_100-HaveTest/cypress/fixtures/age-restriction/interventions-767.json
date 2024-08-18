@@ -1,0 +1,14 @@
+{
+    "interventionInfo": [
+        {
+            "type": "RestrictedByRule",
+            "isDelayed": true,
+            "transactionId": "MMRKYZFCFE",
+            "operationName": "901",
+            "interventionId": "5",
+            "itemId": "16662",
+            "approvable": false,
+            "itemSequenceNumber": 2
+        }
+    ]
+}

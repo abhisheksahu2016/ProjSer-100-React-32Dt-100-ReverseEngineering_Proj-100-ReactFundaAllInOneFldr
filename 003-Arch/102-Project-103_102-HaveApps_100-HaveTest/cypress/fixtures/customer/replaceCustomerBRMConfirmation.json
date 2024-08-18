@@ -1,0 +1,15 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "ruleId": "Switch Customer Confirmation BRM",
+            "type": "ConfirmationAction",
+            "message": {
+                "caption": "TV Licence",
+                "message": "Please complete the TV Licence"
+            }
+        }
+    ]
+}

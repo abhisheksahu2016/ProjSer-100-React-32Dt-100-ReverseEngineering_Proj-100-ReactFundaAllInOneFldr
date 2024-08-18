@@ -1,0 +1,6 @@
+{
+  "id": "BlackhawkSVItemSale",
+  "behaviorType": "OnlineProduct",
+  "authorizationTrigger": "TransactionComplete",
+  "authorizationExternalIdType": "Card"
+}

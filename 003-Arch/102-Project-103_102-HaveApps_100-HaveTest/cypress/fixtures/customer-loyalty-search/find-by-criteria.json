@@ -1,0 +1,13 @@
+{
+  "totalResults": 1,
+  "lastPage": true,
+  "pageContent": [
+    {
+      "consumerAccountNumber": "",
+      "ulpOffline": true,
+      "isActive": true,
+      "alternateId": "123"
+    }
+  ],
+  "totalPages": 1
+}

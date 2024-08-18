@@ -1,0 +1,109 @@
+{
+    "transaction": {
+        "cartId": "MBT1BIJE1G",
+        "sequenceNumber": 1194,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T12:49:41.505",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 4.33,
+                "netAmount": 4.33,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 2,
+                "balanceDue": 4.33,
+                "discountAmount": 3.5,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "4444",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Long Boy Pants",
+                "description": "Boy Pants",
+                "itemType": "Stock",
+                "lineId": 2,
+                "amount": 4.33,
+                "extendedAmount": 4.33,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 4.33,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 4.33,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 3,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    2,
+                    1
+                ],
+                "rewardAmount": -3.5,
+                "promotionId": "47",
+                "rewardedItems": [
+                    {
+                        "lineId": 1,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 3.5,
+                        "description": "Dress"
+                    }
+                ],
+                "netPrice": 3.5,
+                "status": "Active",
+                "rewardType": "FreeItem",
+                "promotionDescription": " 1 + 1 CHEAPEST FREE ",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": false,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

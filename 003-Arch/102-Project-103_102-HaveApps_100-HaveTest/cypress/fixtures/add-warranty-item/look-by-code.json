@@ -1,0 +1,55 @@
+{
+    "itemLookupData":[
+       {
+          "itemId":"888",
+          "description":"LG TV",
+          "longDescription":"LG TV - U 2017-08-22",
+          "linkedItemsGroup":{
+             "linkedItems":[
+                {
+                   "itemId":"99900046",
+                   "description":"Regular warranty",
+                   "longDescription":"Regular warranty",
+                   "unitPrice":0,
+                   "hasPrice":true,
+                   "regularSalesUnitPrice":{
+                      "price":{
+                         "value":0,
+                         "currency":"USD"
+                      },
+                      "quantity":1
+                   },
+                   "unitsOfMeasure":"EA"
+                },
+                {
+                   "itemId":"99900070",
+                   "description":"Two Year Warranty",
+                   "longDescription":"Two Year Warranty",
+                   "unitPrice":200,
+                   "hasPrice":true,
+                   "regularSalesUnitPrice":{
+                      "price":{
+                         "value":200,
+                         "currency":"USD"
+                      },
+                      "quantity":1
+                   },
+                   "unitsOfMeasure":"EA"
+                }
+             ],
+             "linkedGroupCode":"warrantygroup1",
+             "groupCategory":"Warranty"
+          },
+          "unitPrice":2000,
+          "hasPrice":true,
+          "regularSalesUnitPrice":{
+             "price":{
+                "value":2000,
+                "currency":"USD"
+             },
+             "quantity":1
+          },
+          "unitsOfMeasure":"EA"
+       }
+    ]
+ }

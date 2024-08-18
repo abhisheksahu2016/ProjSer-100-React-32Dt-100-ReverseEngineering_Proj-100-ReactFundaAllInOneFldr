@@ -1,0 +1,77 @@
+{
+  "LineItems": [],
+  "LinePromotions": [
+    {
+      "SequenceNumber": 3,
+      "EntryMethod": "Automatic",
+      "Status": "Active",
+      "Description": "",
+      "LongDescription": "",
+      "Descriptions": [
+        {
+          "culture": "en-US",
+          "value": ""
+        }
+      ],
+      "LongDescriptions": [],
+      "IsEndOfTicketPromotion": true,
+      "IsManualPromotion": false,
+      "RewardAsTender": true,
+      "TenderName": "RewardAsTender",
+      "IsTrigByTender": false,
+      "IsSingleLineDiscount": false,
+      "RewardType": "Tender",
+      "CouponId": "566666108183",
+      "Amount": 2.6,
+      "PromotionId": "6666610818-3",
+      "EligibilityInfo": [
+        {
+          "Quantity": 1,
+          "DiscountId": "6666610818-3",
+          "NetPrice": 2.5,
+          "ReferenceId": "19915",
+          "Sequences": [
+            {
+              "SequenceNumber": 1,
+              "RewardContribution": 2.6
+            }
+          ],
+          "Description": "Pancake"
+        }
+      ]
+    }
+  ],
+  "SequenceNumber": 27,
+  "TransactionExternalId": "0f0350e9-62c9-46a4-a696-7d271f87a228",
+  "BeginDateTime": "2021-02-10T02:54:24.8230394",
+  "BusinessDayDate": "2021-02-10",
+  "TypeCode": "SaleTransaction",
+  "Status": "InProcess",
+  "LineCoupons": [
+    {
+      "SequenceNumber": 2,
+      "Barcode": "566666108183",
+      "Type": "Coupon",
+      "IsVirtualCoupon": false,
+      "CouponRewardType": "Amount",
+      "RedemptionState": {
+        "Redeemed": 1
+      },
+      "CouponRedemptionsIds": [
+        "6666610818-3"
+      ],
+      "Quantity": 1,
+      "Status": "Active",
+      "PromotionDescription": ""
+    }
+  ],
+  "LineTender": [],
+  "Total": {
+    "subTotal": 2.5,
+    "tax": 0,
+    "total": 2.5,
+    "savings": 0,
+    "currencyCode": "USD",
+    "quantity": 1
+  }
+}

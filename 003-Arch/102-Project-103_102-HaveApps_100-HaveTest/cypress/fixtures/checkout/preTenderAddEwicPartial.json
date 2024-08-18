@@ -1,0 +1,10 @@
+{
+  "code": "TenderAmountExceededEligibilityAmount",
+  "message": "Tender eWIC has invalid eligibility. Remaining eligible amount: 5.00 (USD)",
+  "severity": "Error",
+  "data": {
+    "eligibility": {
+      "maxEligibleAmount": "5"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "transaction": {
+      "cartId": "LUXRVBCFYM",
+      "sequenceNumber": 68,
+      "cartInfo": {
+          "businessDate": "2021-12-22",
+          "beginDateTime": "2021-12-22T16:35:48.422",
+          "status": "Itemization",
+          "totals": {
+              "grandAmount": 156.38,
+              "netAmount": 129.98,
+              "taxAmounts": {
+                  "taxAmount": 26.4,
+                  "itemFee": 0,
+                  "transactionFee": 0
+              },
+              "itemsCount": 3,
+              "balanceDue": 156.38,
+              "discountAmount": 0,
+              "grossAmount": 0
+          },
+          "defaultCurrency": "USD"
+      },
+      "items": [
+          {
+              "lineItem": {
+                  "EntryMethod": "Keyed",
+                  "itemId": {
+                      "value": "466",
+                      "type": "SKU"
+                  },
+                  "quantity": {
+                      "value": 2,
+                      "entryMethod": "Keyed"
+                  }
+              },
+              "fullDescription": "Long ONION",
+              "description": "ONION",
+              "itemType": "Stock",
+              "lineId": 2,
+              "amount": 9.98,
+              "extendedAmount": 9.98,
+              "securityScale": true,
+              "imageUrl": "http://10.190.29.48/Resources/onions 4068.jpg",
+              "price": {
+                  "unitPrice": 4.99,
+                  "currency": "USD",
+                  "quantity": 1
+              },
+              "regularPrice": {
+                  "unitPrice": 4.99,
+                  "currency": "USD",
+                  "quantity": 1
+              },
+              "status": "Active",
+              "taxes": []
+          }
+      ],
+      "rewards": [],
+      "coupons": [],
+      "payments": [],
+      "identifiers": {
+          "taxExempt": false,
+          "taxDiscount": false,
+          "accessorialFlag": false,
+          "returnType": "NoneReceiptedReturn",
+          "isWic": false,
+          "isWicCvv": false,
+          "typeCode": "SaleTransaction"
+      },
+      "ewicReceipts": [],
+      "receipts": []
+  }
+}

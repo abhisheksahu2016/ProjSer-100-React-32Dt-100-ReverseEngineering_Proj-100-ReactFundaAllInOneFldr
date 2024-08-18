@@ -1,0 +1,110 @@
+{
+  "_id": "b52c07fa-9a4e-4a9f-884b-6c485d2f01b9",
+  "name": "",
+  "organization": "rbs-hacks-1",
+  "enterpriseUnit": "00000000000000000000000000035295",
+  "configSettings": {
+    "sourceActivities": {
+      "BLIND_PICKUP": true,
+      "PAY_IN": true,
+      "PAY_OUT": true
+    },
+    "targetActivities": {
+      "BLIND_PICKUP": true,
+      "PAY_IN": true,
+      "PAY_OUT": true
+    },
+    "endOfDayActivities": {
+      "BLIND_PICKUP": true,
+      "PAY_IN": true
+    },
+    "orderedEndOfDayActivities": [
+      "BLIND_PICKUP",
+      "PAY_IN",
+      "PAY_OUT",
+      "SAFE_DROP",
+      "ADD_LOAN",
+      "COUNT"
+    ],
+    "suspendReasonThreshold": {
+      "overReasonThreshold": 0,
+      "overReasonThresholdType": "Amount",
+      "shortReasonThreshold": 0,
+      "shortReasonThresholdType": "Amount",
+      "overOverridePermissionThreshold": 0,
+      "overOverridePermissionThresholdType": "Amount",
+      "shortOverridePermissionThreshold": 0,
+      "shortOverridePermissionThresholdType": "Amount"
+    },
+    "requiresBalancing": true,
+    "openAmountStrategy": {
+      "strategy": "Constant",
+      "tenderAmounts": {
+        "tender-1": 100
+      },
+      "triggerEvent": ""
+    },
+    "incomeLimits": {
+      "prohibitPaidInUpperThreshold": 0,
+      "prohibitPaidInLowerThreshold": 0,
+      "managerApprovalPaidInUpperThreshold": 0,
+      "managerApprovalPaidInLowerThreshold": 0,
+      "managerApprovalMessage": "string",
+      "managerApprovalRoles": [
+        "Manager"
+      ]
+    },
+    "expenseLimits": {
+      "prohibitPaidInUpperThreshold": 0,
+      "prohibitPaidInLowerThreshold": 0,
+      "managerApprovalPaidInUpperThreshold": 0,
+      "managerApprovalPaidInLowerThreshold": 0,
+      "managerApprovalMessage": "string",
+      "managerApprovalRoles": [
+        "Manager"
+      ]
+    },
+    "taxAssociation": false,
+    "sellableMedia": true,
+    "fuelPrepaySettings": false
+  },
+  "accountTypeId": "5f4d2d4b-31a7-492f-9e46-f861ed38b1e6",
+  "accountType": {
+    "_id": "570a7ab0-20ed-4b9d-ae70-b69b2daed5aa",
+    "name": "DRAWER",
+    "organization": "rbs-hacks-1",
+    "enterpriseUnit": "00000000000000000000000000035295",
+    "configOptions": {
+      "enabledFeatures": {
+        "suspendReasonThreshold": false,
+        "requiresBalancing": false,
+        "openAmountStrategy": false,
+        "endOfDayActivities": true,
+        "incomeLimits": false,
+        "expenseLimits": false,
+        "taxAssociation": false,
+        "sellableMedia": false,
+        "fuelPrepaySettings": false,
+        "allowComments": false,
+        "requiresTenderDenomination": false
+      },
+      "sourceActivities": {
+        "ADD_LOAN": false,
+        "BLIND_PICKUP": true,
+        "COUNT": true,
+        "OPEN_LOAN": false,
+        "SAFE_DROP": true
+      },
+      "targetActivities": {
+        "ADD_LOAN": true,
+        "BLIND_PICKUP": false,
+        "COUNT": true,
+        "OPEN_LOAN": true,
+        "SAFE_DROP": false
+      },
+      "endOfDayActivities": null
+    },
+    "defaultAccountProfileId": "DRAWER",
+    "description": ""
+  }
+}

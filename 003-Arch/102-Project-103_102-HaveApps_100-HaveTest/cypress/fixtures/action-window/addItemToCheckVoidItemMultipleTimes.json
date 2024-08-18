@@ -1,0 +1,77 @@
+{
+    "transaction": {
+        "cartId": "VRPB6B7F3T",
+        "sequenceNumber": 143,
+        "cartInfo": {
+            "businessDate": "2023-07-05",
+            "beginDateTime": "2023-07-06T06:04:30.657",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 120,
+                "netAmount": 120,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 10,
+                "balanceDue": 120,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "3",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 10,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Long Banana",
+                "description": "Banana",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 120,
+                "extendedAmount": 120,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "netAmount": 120,
+                "regularPrice": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

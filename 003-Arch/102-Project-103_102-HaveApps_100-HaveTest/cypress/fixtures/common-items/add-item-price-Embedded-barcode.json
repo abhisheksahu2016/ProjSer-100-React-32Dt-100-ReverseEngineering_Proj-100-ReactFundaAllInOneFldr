@@ -1,0 +1,89 @@
+{
+   "transaction": {
+       "cartId": "PB8NDYN3YU",
+       "sequenceNumber": 2089,
+       "cartInfo": {
+           "businessDate": "2022-01-10",
+           "beginDateTime": "2022-01-16T09:45:26.698",
+           "status": "Itemization",
+           "totals": {
+               "grandAmount": 30,
+               "netAmount": 30,
+               "taxAmounts": {
+                   "taxAmount": 0,
+                   "itemFee": 0,
+                   "transactionFee": 0
+               },
+               "itemsCount": 3,
+               "balanceDue": 30,
+               "discountAmount": 0,
+               "grossAmount": 0
+           },
+           "defaultCurrency": "USD"
+       },
+       "items": [
+           {
+               "lineItem": {
+                   "EntryMethod": "Keyed",
+                   "itemId": {
+                       "value": "299",
+                       "type": "SKU"
+                   },
+                   "quantity": {
+                       "value": 3,
+                       "entryMethod": "Keyed"
+                   },
+                   "priceModifier": {
+                       "method": "PriceOverride",
+                       "newPrice": 10,
+                       "amount": -5.01,
+                       "percentage": -100.4,
+                       "totalPriceDifference": 15.03,
+                       "newTotalPrice": 30
+                   }
+               },
+               "fullDescription": "Long Lettuce",
+               "description": "Lettuce",
+               "itemType": "Stock",
+               "lineId": 1,
+               "amount": 30,
+               "extendedAmount": 30,
+               "securityScale": true,
+               "imageUrl": "http://10.190.29.48/Resources/Iceberg Lettuce 4634.jpg",
+               "price": {
+                   "unitPrice": 10,
+                   "currency": "USD",
+                   "quantity": 1
+               },
+               "regularPrice": {
+                   "unitPrice": 4.99,
+                   "currency": "USD",
+                   "quantity": 1
+               },
+               "status": "Active",
+               "rewards": [],
+               "taxes": [],
+               "priceModifierReasonCode": "EmbeddedPrice",
+               "lineModifiers": [
+                   "PriceOverride"
+               ],
+               "linkedLines": [],
+               "embeddedBarcodeType": "EmbeddedPrice"
+           }
+       ],
+       "rewards": [],
+       "coupons": [],
+       "payments": [],
+       "identifiers": {
+           "taxExempt": false,
+           "taxDiscount": false,
+           "accessorialFlag": false,
+           "returnType": "NoneReceiptedReturn",
+           "isWic": false,
+           "isWicCvv": false,
+           "typeCode": "SaleTransaction"
+       },
+       "ewicReceipts": [],
+       "receipts": []
+   }
+}

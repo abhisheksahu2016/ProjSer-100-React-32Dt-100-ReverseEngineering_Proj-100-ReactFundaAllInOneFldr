@@ -1,0 +1,37 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "needRejectedInfoWindow": true,
+      "approveRejectRequired": true,
+      "birthDateRequired": true,
+      "ruleId": "121",
+      "type": "AgeRestrictionAction",
+      "message": {
+        "caption": "BRM: Age Verfication",
+        "message": "Customer is underaged and can't buy this product"
+      },
+      "key": "CustomerAge",
+      "subAspectType": "KnownAge",
+      "errorMessage": "",
+      "reasons": [],
+      "scanDriversLicense": true,
+      "expectedAge": "15",
+      "itemId": "",
+      "culturedMessages": [
+        {
+          "culture": "en-US",
+          "caption": "BRM: Age Verfication",
+          "message": "Customer is underaged and can't buy this product"
+        },
+        {
+          "culture": "fr-CA",
+          "caption": "BRM: Le Age Verfication",
+          "message": "Le Customer is underaged and can't buy this product"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "code": "PaymentRequired",
+  "message": "Payment Required",
+  "severity": "Error",
+  "data": {
+    "sellableTenders": []
+  }
+}

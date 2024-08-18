@@ -1,0 +1,15 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "ruleId": "BRM Confirmation",
+      "type": "ConfirmationAction",
+      "message": {
+        "caption": "Confirmation",
+        "message": "Please confirm this operation, or click CANCEL."
+      }
+    }
+  ]
+}

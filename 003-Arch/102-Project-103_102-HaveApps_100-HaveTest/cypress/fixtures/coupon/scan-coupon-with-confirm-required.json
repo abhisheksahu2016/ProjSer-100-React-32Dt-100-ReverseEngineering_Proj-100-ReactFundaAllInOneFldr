@@ -1,0 +1,78 @@
+{
+    "cartId": "RN7H32OPL1",
+    "sequenceNumber": 17,
+    "cartInfo": {
+        "businessDate": "2024-03-18",
+        "beginDateTime": "2024-03-18T11:40:55.241",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 12,
+            "netAmount": 12,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 12,
+            "discountAmount": 3,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 3,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2
+            ],
+            "rewardAmount": -3,
+            "promotionId": "240",
+            "status": "Active",
+            "rewardType": "PercentOffPerTicket",
+            "promotionDescription": "coupon issued with message",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": false,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "30333330000000023001001220311000000559001",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 2,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "promotionDescription": "coupon issued with message"
+        }
+    ],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

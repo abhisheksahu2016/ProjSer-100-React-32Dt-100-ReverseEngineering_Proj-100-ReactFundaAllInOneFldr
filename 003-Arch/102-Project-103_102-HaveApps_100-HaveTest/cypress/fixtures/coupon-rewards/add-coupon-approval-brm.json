@@ -1,0 +1,32 @@
+{
+    "code": "BRMException",
+    "message": "BRM restrictions",
+    "severity": "Error",
+    "data": [
+        {
+            "lineId": "2",
+            "ruleId": "unusedCouponApprovalReq",
+            "restrictionOn": "Coupons",
+            "restrictionType": "UnusedCoupon",
+            "type": "ApprovalAction",
+            "message": {
+                "caption": "Unused Coupon - Approval Required",
+                "message": "Unused coupon in cart. Enter manager/supervisor credentials to proceed."
+            },
+            "culturedMessages": [
+                {
+                    "caption": "Unused Coupon - Approval Required",
+                    "message": "Unused coupon in cart. Enter manager/supervisor credentials to proceed.",
+                    "culture": "en-US"
+                }
+            ],
+            "reasons": [],
+            "restrictedLines": [
+                "1"
+            ],
+            "isDelayedSolution": false,
+            "requiresAttendant": true,
+            "rejectedReason": "ApprovalDataMissing"
+        }
+    ]
+}

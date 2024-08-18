@@ -1,0 +1,109 @@
+{
+    "transaction": {
+        "cartId": "DNENZDME7X",
+        "sequenceNumber": 51,
+        "cartInfo": {
+            "businessDate": "2022-03-16",
+            "beginDateTime": "2022-03-15T22:22:19.631",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 47.58,
+                "netAmount": 47.58,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 2,
+                "balanceDue": 47.58,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "484129",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 2,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Red Merlot Wine",
+                "description": "Red Wine",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 47.58,
+                "extendedAmount": 45.18,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 22.59,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 22.59,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "linkedLines": [
+                    {
+                        "lineItem": {
+                            "EntryMethod": "Automatic",
+                            "itemId": {
+                                "value": "7991439",
+                                "type": "SKU"
+                            },
+                            "quantity": {
+                                "value": 2,
+                                "entryMethod": "Automatic"
+                            }
+                        },
+                        "fullDescription": "Long Deposit Bottle Bottle 75cc",
+                        "description": "Deposit Bottle Bottle 75cc",
+                        "itemType": "Deposit",
+                        "lineId": 2,
+                        "amount": 2.4,
+                        "extendedAmount": 2.4,
+                        "securityScale": true,
+                        "imageUrl": "",
+                        "price": {
+                            "unitPrice": 1.2,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "regularPrice": {
+                            "unitPrice": 1.2,
+                            "currency": "USD",
+                            "quantity": 1
+                        },
+                        "status": "Active",
+                        "taxes": []
+                    }
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

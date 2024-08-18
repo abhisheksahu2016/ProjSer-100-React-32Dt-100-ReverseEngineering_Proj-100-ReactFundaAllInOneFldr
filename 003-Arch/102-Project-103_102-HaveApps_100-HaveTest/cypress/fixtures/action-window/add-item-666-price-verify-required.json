@@ -1,0 +1,5 @@
+{
+    "code": "PriceVerifyRequired",
+    "message": "Please verify the item's price for #666: \"Bread\"",
+    "severity": "Error"
+}

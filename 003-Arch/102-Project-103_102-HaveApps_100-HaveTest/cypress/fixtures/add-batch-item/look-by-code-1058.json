@@ -1,0 +1,34 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "1058",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "201"
+                }
+            ],
+            "sellable": true,
+            "alternativeItemIds": [
+                "1058"
+            ],
+            "description": "Nikon Camera",
+            "longDescription": "Nikon Digital Camera",
+            "requiredPrice": false,
+            "hasPrice": true,
+            "unitPrice": 100,
+            "unitsOfMeasure": "EA",
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 100,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "isManualTarePercentageEnabled": false,
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": []
+        }
+    ]
+}

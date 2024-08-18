@@ -1,0 +1,95 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 116,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 116,
+            "cashbackAmount": 0,
+            "discountAmount": 6,
+            "itemsCount": 6
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "6RzZMNa18Euai2GKzXYgnQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 3956,
+    "items": [],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "565758-9",
+            "promotionDescription": "",
+            "rewardAmount": 6,
+            "rewardType": "GS1_STORE_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "3",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 2
+                    },
+                    "rewardAmount": 6,
+                    "rewardRefundAmount": 6,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 3,
+                            "rewardRefundAmount": 3
+                        },
+                        {
+                            "unitId": "2",
+                            "rewardAmount": 3,
+                            "rewardRefundAmount": 3
+                        }
+                    ],
+                    "itemId": "000780462807135"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "81100666667565758330011015390011",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "81100666667565758330011015390011",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 2,
+            "entryMethod": "Keyed",
+            "sequence": "638269998836246944",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 2,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "565758-9"
+            ]
+        }
+    ],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

@@ -1,0 +1,13 @@
+{
+  "code": "DataAddRequired",
+  "message": "Additional action needs to be performed",
+  "severity": "Error",
+  "data": {
+    "dataInformation": {
+      "type": "CustomerProgram",
+      "scanData": "63681102000003613",
+      "id": "63681102000003613",
+      "customerProgramType": "Solutran"
+    }
+  }
+}

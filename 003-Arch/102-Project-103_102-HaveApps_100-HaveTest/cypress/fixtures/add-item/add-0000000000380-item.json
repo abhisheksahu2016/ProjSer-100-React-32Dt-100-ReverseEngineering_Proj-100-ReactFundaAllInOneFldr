@@ -1,0 +1,115 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 9.4,
+                "grossReturnsAmount": 0,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 9.4,
+                "cashbackAmount": 0,
+                "discountAmount": 0.55,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "43nfyuaSEUG8bbRYLlrAg",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 49,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "00000000000380",
+                        "id": "00000000000380"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "Kg",
+                        "value": 5
+                    }
+                },
+                "extendedAmount": 9.95,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Large Oval Tomatoes - U2017_11_21",
+                "description": "Oval Tomatoes",
+                "price": {
+                    "unitOfMeasure": "KGM",
+                    "specialPrice": false,
+                    "unitPrice": 1.99,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitOfMeasure": "KGM",
+                    "specialPrice": false,
+                    "unitPrice": 1.99,
+                    "quantity": 1
+                },
+                "amount": 9.95,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES",
+                    "catalogDynamicAttributes": []
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638483206060850900",
+                "indicators": {
+                    "eligibilityIndicators": []
+                }
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "refundVoidTenders": [],
+        "rewards": [
+            {
+                "lineId": null,
+                "promotionId": "130",
+                "promotionDescription": "test",
+                "rewardAmount": 0.55,
+                "rewardType": "STANDARD",
+                "rewardedItems": [
+                    {
+                        "lineId": "1",
+                        "quantity": {
+                            "unitOfMeasure": "KGM",
+                            "value": 5
+                        },
+                        "rewardAmount": 0.55,
+                        "rewardRefundAmount": 0.55,
+                        "rewardUnits": [
+                            {
+                                "unitId": "1",
+                                "rewardAmount": 0.55,
+                                "rewardRefundAmount": 0.55
+                            }
+                        ]
+                    }
+                ],
+                "triggeredCoupons": [],
+                "promotionDetails": {
+                    "promotionLevel": "ITEM_LEVEL",
+                    "rewardAsTender": false
+                },
+                "message": {},
+                "rewardDisplay": "Separate line"
+            }
+        ],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

@@ -1,0 +1,151 @@
+{
+  "storeId": "1",
+  "touchPointGroupId": "1",
+  "touchPointId": "%TouchPointId%",
+  "accountExternalId": "%TouchPointExternalId%",
+  "manualTouchPointType": "POS",
+  "entryTouchPointType": "POS",
+  "passwordRequiredForBarcode": false,
+  "protectCustomerPersonalInformation": true,
+  "enableFuel": false,
+  "deviceConfigurations": [
+    {
+      "deviceConfigurationName": "CCLLane2"
+    },
+    {
+      "deviceConfigurationName": "NCR Scale 7879"
+    }
+  ],
+  "systemParams": [
+    {
+      "parameterKey": "DefaultWeightUnitOfMeasure",
+      "parameterValue": "Kg"
+    },
+    {
+      "parameterKey": "DefaultVolumeUnitOfMeasure",
+      "parameterValue": "GLL"
+    },
+    {
+      "parameterKey": "DefaultWeightUnitOfMeasurePrecision",
+      "parameterValue": "3"
+    },
+    {
+      "parameterKey": "DefaultTemperatureUnitOfMeasure",
+      "parameterValue": "Fahrenheit"
+    },
+    {
+      "parameterKey": "DefaultLengthUnitOfMeasure",
+      "parameterValue": "Inch"
+    },
+    {
+      "parameterKey": "ProductAvailabilityRadiusFromPOS",
+      "parameterValue": "100"
+    },
+    {
+      "parameterKey": "MeasurementSystemType",
+      "parameterValue": "Mile"
+    },
+    {
+      "parameterKey": "SCOCouponNotPutInSensorTimeout",
+      "parameterValue": "10000"
+    },
+    {
+      "parameterKey": "PaymentCardConfirmationRequired",
+      "parameterValue": "1"
+    },
+    {
+      "parameterKey": "DisplayOnlyItemsInVariety"
+    },
+    {
+      "parameterKey": "TouchPointIdleTime",
+      "parameterValue": "00:00:00"
+    },
+    {
+      "parameterKey": "SSC_AvailForRegisteredShoppers",
+      "parameterValue": "1"
+    },
+    {
+      "parameterKey": "SSC_AvailForNonRegisteredShoppers",
+      "parameterValue": "1"
+    },
+    {
+      "parameterKey": "SCOScaleDigression",
+      "parameterValue": "0"
+    },
+    {
+      "parameterKey": "SCOBagWeightTolerance",
+      "parameterValue": "0.22"
+    },
+    {
+      "parameterKey": "SCOUnattendedWeightTimeout",
+      "parameterValue": "0"
+    },
+    {
+      "parameterKey": "SCOItemNotPlacedInBagTimeout",
+      "parameterValue": "20"
+    },
+    {
+      "parameterKey": "SCOWeightMismatchThreshold",
+      "parameterValue": "4"
+    },
+    {
+      "parameterKey": "NumberOfOwnBagThershold",
+      "parameterValue": "4"
+    },
+    {
+      "parameterKey": "SaleTransactionBeginWithCustomerIdentification",
+      "parameterValue": false
+    }
+  ],
+  "isSaleTransactionBeginWithCustomerIdentification": false,
+  "displayOnlyItemsInVariety": false,
+  "alternateIdMinLength": "7",
+  "alternateIdMaxLength": "11",
+  "deviceList": [
+    {
+      "LogicalName": "PrinterProfile",
+      "UniqueId": "PrinterLane3",
+      "Description": "PrinterLane3",
+      "Type": "Printer"
+    }
+  ],
+  "shouldGetDeviceListFromLocal": false,
+  "cdmAlternateIdSource": "AlternateIDOnly",
+  "paymentCardConfirmationRequired": true,
+  "currencySymbol": "£",
+  "currencyCode": "GBP",
+  "defaultWeighUnitOfMeasure": "Kg",
+  "defaultWeightUnitOfMeasurePrecision": 3,
+  "idleTime": "%TouchPointIdleTime%",
+  "configuration": {
+    "posAutoLockThresholdInMinutes": 1
+  },
+  "defaultTemperatureUnitOfMeasure": "Fahrenheit",
+  "defaultLengthUnitOfMeasure": "Inch",
+  "productAvailabilityRadiusFromPOS": 100,
+  "measurementSystemType": "Mile",
+  "autoSelectFirstFuelItem": true,
+  "scoConfiguration": {
+    "bagWeightTolerance": 0.22,
+    "securityScaleDigression": 0,
+    "unattendedWeightTimeout": 0,
+    "itemNotPlaceInBagTimeout": 20,
+    "notAllQtySaleItemsPlacedInBagTimeout": 30,
+    "couponNotPutInSensorTimeout": 10000,
+    "numberOfOwnBagThreshold": 4,
+    "securityScaleValidation": "None"
+  },
+  "sscConfiguration": {
+    "availForRegisteredShoppers": true,
+    "availForNonRegisteredShoppers": true
+  },
+  "ownBagConfiguration": {
+    "ownBagEnabled": false,
+    "productId": "20122200003",
+    "methodOfWork": "TriggeredOnSale",
+    "ownBagLimit": 5
+  },
+  "posParametersConfiguration": {
+    "isTotalTaxVisible": true
+  }
+}

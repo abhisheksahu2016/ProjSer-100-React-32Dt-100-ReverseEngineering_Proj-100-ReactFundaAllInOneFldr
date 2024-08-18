@@ -1,0 +1,24 @@
+{
+  "code": "BRMException",
+  "message": "BRM restrictions",
+  "severity": "Error",
+  "data": [
+      {
+          "lineId": "1",
+          "ruleId": "cigs",
+          "restrictionType": "AgeRestriction",
+          "type": "ApprovalAction",
+          "message": {
+              "caption": "Age Verfication",
+              "message": "Enter Customer's date of birth for verification. Customer must be over 18 to purchase item"
+          },
+          "reasons": [],
+          "restrictedLines": [
+              "1"
+          ],
+          "isDelayedSolution": false,
+          "requiresAttendant": true,
+          "rejectedReason": "ApprovalDataMissing"
+      }
+  ]
+}

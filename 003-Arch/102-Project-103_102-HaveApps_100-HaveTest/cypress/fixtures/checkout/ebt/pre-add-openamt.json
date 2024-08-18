@@ -1,0 +1,64 @@
+{
+  "cartInfo": {
+    "status": "Tender",
+    "totals": {
+      "netAmount": 18.13,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 1.81
+      },
+      "balanceDue": 18.13,
+      "discountAmount": 0,
+      "itemsCount": 1
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "jEMVCGm-D0CFtTc-rmbGHQ",
+  "sequenceNumber": 123,
+  "isTransactionTotaled": false,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": { "type": "1", "value": "484181121", "id": "00004841811214" },
+        "quantity": { "unitOfMeasure": "EA", "value": 1 }
+      },
+      "extendedAmount": 18.13,
+      "itemType": "Normal",
+      "lineId": 1,
+      "fullDescription": "Not Vodka Long",
+      "description": "Not Vodka",
+      "price": { "unitOfMeasure": "EA", "specialPrice": false, "unitPrice": 18.13, "quantity": 1 },
+      "regularPrice": { "unitPrice": 18.13 },
+      "amount": 18.13,
+      "taxes": [
+        { "code": "testEBT", "amount": 0, "exemptAmount": 1.81, "authorityId": "TestEBTFS" }
+      ],
+      "securityScale": true,
+      "additionalData": { "ItemSaleType": "SALES" },
+      "entryMethod": "Keyed",
+      "sequence": "637898456772336561"
+    }
+  ],
+  "payments": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "637898457231371693",
+      "lineId": 1,
+      "tenderId": "31",
+      "tenderType": "CreditDebit",
+      "tenderName": "EBT",
+      "amount": 0.01,
+      "status": "preTender"
+    }
+  ],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "identifiers": {}
+}

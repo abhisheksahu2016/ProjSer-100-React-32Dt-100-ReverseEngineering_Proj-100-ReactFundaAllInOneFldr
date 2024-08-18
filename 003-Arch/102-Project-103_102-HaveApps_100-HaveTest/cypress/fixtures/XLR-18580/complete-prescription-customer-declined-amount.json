@@ -1,0 +1,6 @@
+{
+  "message": "Failure",
+  "code": "PMI_REQUEST_FAILURE",
+  "statusCode": 202,
+  "response": {}
+}

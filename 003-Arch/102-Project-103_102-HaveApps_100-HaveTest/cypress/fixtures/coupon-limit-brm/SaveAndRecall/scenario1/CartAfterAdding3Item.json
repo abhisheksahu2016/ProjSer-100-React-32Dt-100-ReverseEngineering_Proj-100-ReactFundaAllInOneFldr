@@ -1,0 +1,73 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 76.5,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 76.5,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 3
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "axC5T-dm9keDPs6xo9UCaQ",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 4509,
+        "items": [
+                       {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "000001540080783",
+                        "id": "000001540080783"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    }
+                },
+                "extendedAmount": 4.5,
+                "itemType": "Normal",
+                "lineId": 3,
+                "fullDescription": "Shurfine Cheddar Shredde",
+                "description": "Shurfine Cheddar Shredde",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 4.5,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 4.5
+                },
+                "amount": 4.5,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638288742992817470"
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

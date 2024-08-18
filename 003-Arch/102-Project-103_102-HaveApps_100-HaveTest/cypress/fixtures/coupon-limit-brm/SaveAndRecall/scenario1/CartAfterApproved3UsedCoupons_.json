@@ -1,0 +1,63 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 72.8,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 72.8,
+            "cashbackAmount": 0,
+            "discountAmount": 3.7,
+            "itemsCount": 3
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "gzGQ2VFAvUicJ0DXvinJYw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 4508,
+    "items": [],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [
+        {
+            "sequenceNumber": 3,
+            "couponId": "771000335904",
+            "status": "Active",
+            "lineId": 3,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638288726542154176",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 0,
+                "unused": 1
+            },
+            "couponRedemptionIds": []
+        }
+    ],
+    "restrictions": [
+        {
+            "lineId": "1",
+            "restrictionType": "UnusedCoupon",
+            "restrictionOn": "Coupons",
+            "restrictedLines": [
+                "3"
+            ],
+            "priority": 0,
+            "additionalData": {},
+            "delayable": false
+        }
+    ],
+    "customerPrograms": [],
+    "identifiers": {}
+}

@@ -1,0 +1,65 @@
+{
+  "cartId": "7UJTBSQ3MR",
+  "sequenceNumber": 540,
+  "cartInfo": {
+      "businessDate": "2021-11-30",
+      "beginDateTime": "2021-11-30T11:03:08.715",
+      "status": "Finalization",
+      "totals": {
+          "grandAmount": 10,
+          "netAmount": 10,
+          "taxAmounts": {
+              "taxAmount": 0,
+              "itemFee": 0,
+              "transactionFee": 0
+          },
+          "itemsCount": 1,
+          "balanceDue": 0,
+          "discountAmount": 0,
+          "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [
+      {
+          "amount": 20,
+          "localAmount": 20,
+          "currencySymbol": "$",
+          "tenderName": "CashEng",
+          "tenderId": "26",
+          "sequenceNumber": 5,
+          "isProcessedByAtm": false,
+          "isProcessedByEps": false,
+          "change": 10,
+          "tenderChangeId": "1"
+      }
+  ],
+  "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction",
+      "openTillDrawer": true
+  },
+  "ewicReceipts": [],
+  "receipts": [],
+  "refunds":[
+    {
+      "sequenceNumber": 1,
+      "sequence": "637878703263338964",
+      "lineId": 1,
+      "tenderId": "1",
+      "tenderType": "Cash",
+      "tenderName": "Cash",
+      "amount": 10.00,
+      "status": "authorized",
+      "usage": "Change"
+    }
+  ]
+}

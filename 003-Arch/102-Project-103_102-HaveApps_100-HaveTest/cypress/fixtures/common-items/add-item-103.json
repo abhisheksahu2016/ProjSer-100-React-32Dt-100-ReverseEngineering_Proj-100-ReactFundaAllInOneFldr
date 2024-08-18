@@ -1,0 +1,53 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 10,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "balanceDue": 10,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "tvJS5cWFT0yePxOSmNjuXg",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "103",
+            "id": "00000000001030"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "sprite",
+        "description": "sprite",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 10,
+          "quantity": 1
+        },
+        "amount": 10,
+        "securityScale": true
+      }
+    ],
+    "payments": [],
+    "receipts": [],
+    "returns": []
+  }
+}

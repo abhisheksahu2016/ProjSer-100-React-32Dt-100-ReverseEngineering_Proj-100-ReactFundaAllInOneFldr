@@ -1,0 +1,38 @@
+{
+  "cartId": "9RLS23CZ6T",
+  "sequenceNumber": 3,
+  "cartInfo": {
+      "businessDate": "2022-04-12",
+      "beginDateTime": "2022-04-12T12:02:05.641",
+      "status": "Itemization",
+      "totals": {
+          "grandAmount": 6,
+          "netAmount": 6,
+          "taxAmounts": {
+              "taxAmount": 0,
+              "itemFee": 0,
+              "transactionFee": 0
+          },
+          "itemsCount": 1,
+          "balanceDue": 3.75,
+          "discountAmount": 0,
+          "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

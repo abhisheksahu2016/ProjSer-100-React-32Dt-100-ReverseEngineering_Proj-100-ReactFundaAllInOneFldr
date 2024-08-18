@@ -1,0 +1,59 @@
+{
+  "code": "LinkedItemHandlingRequired",
+  "message": "Additional action needs to be performed",
+  "severity": "Error",
+  "data": {
+    "itemLookups": [{
+      "hasPrice": true,
+      "unitPrice": 21.2,
+      "regularSalesUnitPrice": {
+        "price": {
+          "value": 21.2,
+          "currency": "USD"
+        }
+      },
+      "unitsOfMeasure": "Kg",
+      "description": "Chocolate Chip Cookies",
+      "longDescription": "Long Chocolate Chip Cookies",
+      "itemId": "13088",
+      "requiredPrice": false,
+      "linkedItemsGroup": {
+        "groupCategory": "Tare",
+        "requiredForSale": false,
+        "linkedItems": [{
+          "itemId": "399900045",
+          "description": "Tare"
+        }, {
+          "itemId": "399900052",
+          "description": "Tare"
+        }, {
+          "itemId": "399900054",
+          "description": "Tare"
+        }, {
+          "itemId": "399900069",
+          "description": "Tare"
+        }, {
+          "itemId": "399900076",
+          "description": "Tare"
+        }]
+      },
+      "depositItems": [],
+      "merchandiseHierarchy": [{
+        "hierarchyType": "Tax",
+        "nodeId": "3"
+      }, {
+        "hierarchyType": "Merchandise",
+        "nodeId": "1"
+      }],
+      "sellable": true,
+      "itemMeasurements": {
+        "weight": 0,
+        "unitsOfMeasure": "EA"
+      },
+      "isManualTarePercentageEnabled": true,
+      "tarePercentage": [5, 10],
+      "inVariety": false,
+      "alternativeItemIds": ["0000000130882", "13088"]
+    }]
+  }
+}

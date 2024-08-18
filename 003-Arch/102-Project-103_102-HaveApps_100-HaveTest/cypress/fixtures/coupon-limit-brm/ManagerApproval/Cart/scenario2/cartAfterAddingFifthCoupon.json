@@ -1,0 +1,102 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 116,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 113,
+            "cashbackAmount": 0,
+            "discountAmount": 9,
+            "itemsCount": 6
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "6RzZMNa18Euai2GKzXYgnQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 3956,
+    "items": [],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "565758-15",
+            "promotionDescription": "MFR Coupon",
+            "rewardAmount": 1,
+            "rewardType": "GS1_MANUFACTURER_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 1,
+                    "rewardRefundAmount": 1,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 1,
+                            "rewardRefundAmount": 1
+                        }
+                    ],
+                    "itemId": "000000000003284"
+                }
+            ],
+            "triggeredCoupons": [
+                "4"
+            ],
+            "promotionDetails": {
+                "couponId": "81100666667565758310011015390001",
+                "rewardAsTender": true,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardedTenderLineId": "1",
+            "rewardDisplay": "Separate line"
+        }
+	],
+    "coupons": [
+        {
+            "sequenceNumber": 4,
+            "couponId": "81100666667565758310011015390001",
+            "status": "Active",
+            "lineId": 4,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638269999962495665",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "565758-15"
+            ]
+        }
+    ],
+    "restrictions": [
+        {
+            "lineId": "1",
+            "restrictionType": "UnusedCoupon",
+            "restrictionOn": "Coupons",
+            "restrictedLines": [
+                "3"
+            ],
+            "priority": 0,
+            "additionalData": {}
+        }
+    ],
+    "customerPrograms": [],
+    "identifiers": {}
+}

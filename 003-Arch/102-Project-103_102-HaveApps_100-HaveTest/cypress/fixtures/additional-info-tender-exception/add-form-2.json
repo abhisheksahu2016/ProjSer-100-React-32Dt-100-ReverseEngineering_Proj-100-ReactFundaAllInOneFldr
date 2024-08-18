@@ -1,0 +1,40 @@
+{
+    "cartId": "JS5X9XVFKC",
+    "sequenceNumber": 243,
+    "cartInfo": {
+        "businessDate": "2024-03-17",
+        "beginDateTime": "2024-03-17T16:20:31.875",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 12,
+            "netAmount": 12,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 12,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

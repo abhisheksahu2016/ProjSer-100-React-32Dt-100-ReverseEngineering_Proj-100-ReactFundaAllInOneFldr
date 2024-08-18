@@ -1,0 +1,124 @@
+{
+    "cartInfo": {
+        "status": "Total",
+        "totals": {
+            "netAmount": 0,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 0,
+            "cashbackAmount": 0,
+            "discountAmount": 0,
+            "itemsCount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "8JHRrDdoKEiN7QOji-uDFQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 8848,
+    "items": [],
+    "payments": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "638136913655242061",
+            "lineId": 1,
+            "tenderId": "0",
+            "tenderType": "Check",
+            "tenderName": "EPS ECC Personal",
+            "amount": 0,
+            "cashBackAmount": 0,
+            "status": "declined",
+            "usage": "ExchangePay",
+            "authorization": {
+                "electronicPayment": {
+                    "authorizationCode": "DECLINE",
+                    "epsProvider": {}
+                },
+                "checkPayment": {
+                    "isEndorsed": true,
+                    "isECCConverted": false
+                },
+                "paymentsInfo": [
+                    {
+                        "key": "RawData",
+                        "value": ""
+                    },
+                    {
+                        "key": "TransitNumber",
+                        "value": "395972465"
+                    },
+                    {
+                        "key": "AccountNumber",
+                        "value": "00267914"
+                    },
+                    {
+                        "key": "ChequeNumber",
+                        "value": "4490"
+                    },
+                    {
+                        "key": "paymentTranId",
+                        "value": ""
+                    },
+                    {
+                        "key": "sessionId",
+                        "value": ""
+                    },
+                    {
+                        "key": "entryMethod",
+                        "value": "Automatic"
+                    },
+                    {
+                        "key": "referenceNumber",
+                        "value": ""
+                    },
+                    {
+                        "key": "authorizationCode",
+                        "value": "DECLINE"
+                    },
+                    {
+                        "key": "tenderId",
+                        "value": "0"
+                    },
+                    {
+                        "key": "processedByEps",
+                        "value": "true"
+                    },
+                    {
+                        "key": "cancel",
+                        "value": "false"
+                    },
+                    {
+                        "key": "cancelReason",
+                        "value": ""
+                    },
+                    {
+                        "key": "preTenderAmount",
+                        "value": ""
+                    },
+                    {
+                        "key": "amount",
+                        "value": "0"
+                    },
+                    {
+                        "key": "cashBack",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

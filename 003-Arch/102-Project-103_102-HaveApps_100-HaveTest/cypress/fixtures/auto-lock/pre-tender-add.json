@@ -1,0 +1,22 @@
+{
+  "tender": {
+      "tenderType": "Cash",
+      "currency": "$",
+      "entryMethod": "Keyed",
+      "cancel": false,
+      "processedByEps": false,
+      "isEcc": false,
+      "checkType": null,
+      "tenderId": "1",
+      "tenderName": "Cash",
+      "shopperIdentificationsIds": [
+          "DRIVER_LICENSE"
+      ],
+      "shopperIdentificationRequired": false
+  },
+  "amount": {
+      "amount": 1,
+      "amountEntryMethod": "Manual"
+  },
+  "receiptPreferences": {}
+}

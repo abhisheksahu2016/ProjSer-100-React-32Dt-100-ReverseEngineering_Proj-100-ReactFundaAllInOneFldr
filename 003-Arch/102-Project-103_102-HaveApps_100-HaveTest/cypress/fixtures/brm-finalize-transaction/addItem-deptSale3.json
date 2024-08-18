@@ -1,0 +1,103 @@
+{
+    "transaction": {
+        "cartId": "HLHG7IIATN",
+        "sequenceNumber": 1702,
+        "cartInfo": {
+            "businessDate": "2023-06-02",
+            "beginDateTime": "2023-06-02T10:02:01.236",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 234.82,
+                "netAmount": 199,
+                "taxAmounts": {
+                    "taxAmount": 35.82,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 234.82,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Tapped",
+                    "itemId": {
+                        "value": "223",
+                        "type": "POSDepartment"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    },
+                    "priceModifier": {
+                        "method": "RequiredPrice",
+                        "newPrice": 199,
+                        "amount": 0,
+                        "totalPriceDifference": 0,
+                        "newTotalPrice": 199
+                    }
+                },
+                "fullDescription": "Cheese",
+                "description": "Cheese",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 199,
+                "extendedAmount": 199,
+                "securityScale": false,
+                "price": {
+                    "unitPrice": 199,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 199,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "rewards": [],
+                "taxes": [
+                    {
+                        "lineId": 1,
+                        "authorityId": "First Authority",
+                        "amount": 15.92,
+                        "taxableAmount": 199,
+                        "exemptAmount": 0
+                    },
+                    {
+                        "lineId": 2,
+                        "authorityId": "First Authority",
+                        "amount": 19.9,
+                        "taxableAmount": 199,
+                        "exemptAmount": 0
+                    }
+                ],
+                "lineModifiers": [
+                    "RequiredPrice"
+                ],
+                "itemIndicators": [
+                    "C"
+                ]
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

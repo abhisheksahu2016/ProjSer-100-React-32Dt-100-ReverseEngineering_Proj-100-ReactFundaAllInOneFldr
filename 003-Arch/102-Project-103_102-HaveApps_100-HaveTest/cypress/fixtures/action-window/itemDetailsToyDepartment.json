@@ -1,0 +1,20 @@
+{
+    "itemLookupData": [
+        {
+            "itemId": "1-1-5B",
+            "description": "Toys Department Sales",
+            "longDescription": "Toys Department Sales",
+            "sellable": true,
+            "unitPrice": 0,
+            "hasPrice": true,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 0,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "unitsOfMeasure": "EA"
+        }
+    ]
+}

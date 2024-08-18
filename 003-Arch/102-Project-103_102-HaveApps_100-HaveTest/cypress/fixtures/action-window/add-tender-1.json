@@ -1,0 +1,55 @@
+{
+    "cartId": "F6X6I9ESR7",
+    "sequenceNumber": 176,
+    "cartInfo": {
+        "businessDate": "2024-02-06",
+        "beginDateTime": "2024-02-12T15:46:41.415",
+        "status": "Tender",
+        "totals": {
+            "grandAmount": 146.4,
+            "netAmount": 120,
+            "taxAmounts": {
+                "taxAmount": 26.4,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 145.15,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "amount": 2,
+            "currencyCode": "EUR",
+            "localAmount": 1.25,
+            "currencySymbol": "€",
+            "exchangeRate": 0.625,
+            "tenderName": "Cachedollar",
+            "tenderId": "26",
+            "sequenceNumber": 5,
+            "isProcessedByAtm": false,
+            "isProcessedByEps": false,
+            "loyaltyRedemptionInfo": {}
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": false
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

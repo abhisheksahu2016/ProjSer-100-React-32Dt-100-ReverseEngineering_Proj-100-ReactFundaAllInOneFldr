@@ -1,0 +1,24 @@
+{
+  "code": "BRMException",
+  "message": "BRM exception",
+  "severity": "Error",
+  "data": [
+    {
+      "ruleId": "Finalize Transaction",
+      "type": "ProhibitAction",
+      "message": {
+        "caption": "Supervisor authorisation required",
+        "message": "Please enter supervisor details"
+      },
+      "culturedMessages": [
+        {
+          "caption": "Supervisor authorisation required",
+          "message": "Please enter supervisor details",
+          "culture": "en-GB"
+        }
+      ],
+      "requiresAttendant": false,
+      "isDelayedSolution": false
+    }
+  ]
+}

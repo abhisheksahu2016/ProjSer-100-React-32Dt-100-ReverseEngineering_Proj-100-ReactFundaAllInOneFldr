@@ -1,0 +1,5 @@
+{
+  "code": "OperationProhibitedDueToWicTenderOnOrder",
+  "message": "This operation is prohibited because order has WIC tender.",
+  "severity": "Error"
+}

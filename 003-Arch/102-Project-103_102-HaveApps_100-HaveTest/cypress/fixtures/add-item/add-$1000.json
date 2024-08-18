@@ -1,0 +1,74 @@
+{
+    "transaction": {
+      "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+          "netAmount": 1001,
+          "taxAmounts": {
+            "taxAmount": 0,
+            "included": 0,
+            "itemFee": 0,
+            "transactionFee": 0,
+            "taxExemptAmount": 0
+          },
+          "balanceDue": 1001,
+          "cashbackAmount": 0,
+          "discountAmount": 0,
+          "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+      },
+      "cartId": "j7wnDJeywUqudxbA0BBwZw",
+      "isTransactionTotaled": false,
+      "sequenceNumber": 1130,
+      "items": [
+        {
+          "lineItem": {
+            "itemId": {
+              "type": "0",
+              "value": "101",
+              "id": "00000000001010"
+            },
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "value": 1
+            }
+          },
+          "extendedAmount": 1001,
+          "itemType": "Normal",
+          "lineId": 1,
+          "fullDescription": "cola",
+          "description": "cola",
+          "price": {
+            "unitOfMeasure": "EA",
+            "specialPrice": false,
+            "unitPrice": 1001,
+            "quantity": 1
+          },
+          "regularPrice": {
+            "unitPrice": 1001
+          },
+          "amount": 1001,
+          "taxes": [],
+          "securityScale": true,
+          "additionalData": {
+            "ItemSaleType": "SALES"
+          },
+          "entryMethod": "Keyed",
+          "sequence": "638239969373836050"
+        }
+      ],
+      "payments": [],
+      "taxExemptions": [],
+      "surcharges": [],
+      "receipts": [],
+      "returns": [],
+      "refunds": [],
+      "rewards": [],
+      "coupons": [],
+      "restrictions": [],
+      "customerPrograms": [],
+      "identifiers": {}
+    }
+  }
+  

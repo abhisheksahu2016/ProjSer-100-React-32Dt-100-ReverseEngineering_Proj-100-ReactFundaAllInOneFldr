@@ -1,0 +1,77 @@
+{
+  "cart": {
+    "cartInfo": {
+      "status": "Tender",
+      "totals": {
+        "netAmount": 18.13,
+        "taxAmounts": {
+          "taxAmount": 0.81,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 1
+        },
+        "balanceDue": 8.94,
+        "discountAmount": 0,
+        "itemsCount": 1,
+        "tenderEligibleAmounts": [
+          { "tenderId": "31", "amount": 8.13 },
+          { "tenderId": "7", "amount": 8.94 }
+        ]
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "z8bIVF06o0u758zP6lk9Zw",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": { "type": "1", "value": "484181121", "id": "00004841811214" },
+          "quantity": { "unitOfMeasure": "EA", "value": 1 }
+        },
+        "extendedAmount": 18.13,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "Not Vodka Long",
+        "description": "Not Vodka",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 18.13,
+          "quantity": 1
+        },
+        "regularPrice": { "unitPrice": 18.13 },
+        "amount": 18.13,
+        "taxes": [
+          { "code": "testEBT", "amount": 0.81, "exemptAmount": 1, "authorityId": "TestEBTFS" }
+        ],
+        "securityScale": true,
+        "additionalData": { "ItemSaleType": "SALES" },
+        "entryMethod": "Keyed",
+        "sequence": "637898658212845901"
+      }
+    ],
+    "payments": [
+      {
+        "sequenceNumber": 1,
+        "sequence": "637898658688373678",
+        "lineId": 1,
+        "tenderId": "31",
+        "tenderType": "CreditDebit",
+        "tenderName": "EBT",
+        "amount": 10,
+        "status": "authorized",
+        "epsData": { "paymentTranId": "5" }
+      }
+    ],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "identifiers": {}
+  },
+  "balance": { "cartAlreadyBalanced": false, "cartCanBeBalanced": false, "balanceInstructions": [] }
+}

@@ -1,0 +1,27 @@
+{
+  "code": "BRMException",
+  "message": "BRM restrictions",
+  "severity": "Error",
+  "data": [
+    {
+      "lineId": "1",
+      "ruleId": "age-limit-21-alcohol",
+      "restrictionType": "AgeRestriction",
+      "type": "AgeRestrictionAction",
+      "message": {
+        "caption": "Verify Age",
+        "message": "Verify the customer is at least 21 years old to purchase this item."
+      },
+      "reasons": [
+        {
+          "isEnabled": true,
+          "value": "rejected",
+          "description": "Under_Age",
+          "isDefault": true
+        }
+      ],
+      "approveRejectRequired": true,
+      "birthDateRequired": true
+    }
+  ]
+}

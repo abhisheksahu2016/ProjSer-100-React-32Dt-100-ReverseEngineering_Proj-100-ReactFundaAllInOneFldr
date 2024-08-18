@@ -1,0 +1,161 @@
+{
+	"transaction": {
+		"cartId": "G9R8XDFPIG",
+		"sequenceNumber": 684,
+		"cartInfo": {
+			"businessDate": "2023-05-26",
+			"beginDateTime": "2023-05-30T06:56:53.452",
+			"status": "Itemization",
+			"totals": {
+				"grandAmount": 20,
+				"netAmount": 20,
+				"taxAmounts": {
+					"taxAmount": 0,
+					"itemFee": 0,
+					"transactionFee": 0
+				},
+				"itemsCount": 6,
+				"balanceDue": 20,
+				"discountAmount": 34,
+				"grossAmount": 0
+			},
+			"defaultCurrency": "USD"
+		},
+		"manualSegments": [],
+		"items": [
+			{
+				"lineItem": {
+					"EntryMethod": "Keyed",
+					"itemId": {
+						"value": "2223619168",
+						"type": "SKU"
+					},
+					"quantity": {
+						"value": 3,
+						"entryMethod": "Keyed"
+					}
+				},
+				"fullDescription": "Long History calendar",
+				"description": "History calendar",
+				"itemType": "Stock",
+				"lineId": 4,
+				"amount": 30,
+				"extendedAmount": 30,
+				"securityScale": true,
+				"imageUrl": "",
+				"price": {
+					"unitPrice": 10,
+					"currency": "USD",
+					"quantity": 1
+				},
+				"netAmount": 10,
+				"regularPrice": {
+					"unitPrice": 10,
+					"currency": "USD",
+					"quantity": 1
+				},
+				"status": "Active",
+				"taxes": []
+			}
+		],
+		"rewards": [
+			{
+				"lineId": 7,
+				"entryMethod": "Automatic",
+				"triggeredProducts": [
+					4,
+					1,
+					6
+				],
+				"rewardAmount": -34,
+				"promotionId": "1580",
+				"itemLink": 3,
+				"rewardedItems": [
+					{
+						"lineId": 4,
+						"quantity": {
+							"value": 3
+						},
+						"rewardAmount": 30,
+						"sequences": [
+							{
+								"sequence": 4,
+								"rewardContributionAmount": 20
+							}
+						],
+						"description": "History calendar"
+					},
+					{
+						"lineId": 1,
+						"quantity": {
+							"value": 3
+						},
+						"rewardAmount": 24,
+						"sequences": [
+							{
+								"sequence": 1,
+								"rewardContributionAmount": 14
+							}
+						],
+						"description": "Wall calendar"
+					}
+				],
+				"netPrice": 54,
+				"status": "Updated",
+				"rewardType": "NewPrice",
+				"promotionDescription": "3 for 10 with coupon",
+				"promotionDetails": {
+					"isEndOfTicketPromotion": false,
+					"rewardAsTender": false,
+					"isManualPromotion": false,
+					"isTriggeredByTender": false,
+					"isSingleLineDiscount": false
+				},
+				"approval": {
+					"status": "NotRequired"
+				}
+			}
+		],
+		"coupons": [
+			{
+				"redeptionStates": {
+					"redeemed": 1
+				},
+				"quantity": 1,
+				"couponRedemptionIds": [],
+				"couponId": "9900000000545",
+				"entryMethod": "Scanned",
+				"sequenceNumber": 5,
+				"status": "Cancelled",
+				"isVirtualCoupon": false,
+				"itemLink": 2
+			},
+			{
+				"redeptionStates": {
+					"redeemed": 1
+				},
+				"quantity": 1,
+				"couponRedemptionIds": [],
+				"couponId": "9900000000545",
+				"entryMethod": "Scanned",
+				"sequenceNumber": 6,
+				"status": "Updated",
+				"isVirtualCoupon": false,
+				"itemLink": 2
+			}
+		],
+		"payments": [],
+		"returns": [],
+		"identifiers": {
+			"taxExempt": false,
+			"taxDiscount": false,
+			"accessorialFlag": false,
+			"returnType": "NoneReceiptedReturn",
+			"isWic": false,
+			"isWicCvv": false,
+			"typeCode": "SaleTransaction"
+		},
+		"ewicReceipts": [],
+		"receipts": []
+	}
+}

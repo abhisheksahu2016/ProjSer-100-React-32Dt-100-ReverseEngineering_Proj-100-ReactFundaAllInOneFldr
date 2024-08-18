@@ -1,0 +1,353 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 16.79,
+            "taxAmounts": {
+                "taxAmount": 0.48,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 17.02,
+            "cashbackAmount": 0,
+            "discountAmount": 4.45,
+            "itemsCount": 3,
+            "tenderEligibleAmounts": [
+                {
+                    "tenderId": "26",
+                    "amount": 17.02
+                }
+            ]
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "CeBodZ165Em-SOmzlaLMsA",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 5810,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "19913",
+                    "id": "00000000199130"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 6,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "Small Red Bamba",
+            "description": "Red Bamba",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 6,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 6
+            },
+            "amount": 6,
+            "taxes": [
+                {
+                    "code": "universal",
+                    "amount": 0.48,
+                    "exemptAmount": 0,
+                    "authorityId": "universal",
+                    "exemptable": true
+                }
+            ],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638398040400145776",
+            "indicators": {}
+        },
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "466",
+                    "id": "00000000004660"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 4.99,
+            "extendedAmountWithInlineDiscount": 3.79,
+            "priceWithInlineDiscount": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 3.79,
+                "quantity": 1
+            },
+            "itemType": "Normal",
+            "lineId": 2,
+            "fullDescription": "Long ONION_T",
+            "description": "ONION",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 4.99,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 4.99
+            },
+            "amount": 4.99,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638398040574951439",
+            "indicators": {}
+        },
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "ItemId",
+                    "value": "101",
+                    "id": "00000000001010"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                }
+            },
+            "extendedAmount": 10,
+            "itemType": "Normal",
+            "lineId": 3,
+            "fullDescription": "cola",
+            "description": "cola",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 10,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 10
+            },
+            "amount": 10,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "638398040951604134",
+            "indicators": {}
+        }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "170",
+            "promotionDescription": "DC saving $1.00",
+            "rewardAmount": 1,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 1,
+                    "rewardRefundAmount": 1,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 1,
+                            "rewardRefundAmount": 1
+                        }
+                    ],
+                    "itemId": "00000000199130"
+                }
+            ],
+            "triggeredCoupons": [],
+            "promotionDetails": {
+                "promotionLevel": "ITEM_LEVEL",
+                "rewardAsTender": false
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        },
+        {
+            "lineId": null,
+            "promotionId": "15225-7",
+            "promotionDescription": "RewardAsTender",
+            "rewardAmount": 0.25,
+            "rewardType": "UPC5_COUPON",
+            "rewardedItems": [
+                {
+                    "lineId": "1",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.25,
+                    "rewardRefundAmount": 0.25,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 0.25,
+                            "rewardRefundAmount": 0.25
+                        }
+                    ],
+                    "itemId": "00000000199130"
+                }
+            ],
+            "triggeredCoupons": [
+                "1"
+            ],
+            "promotionDetails": {
+                "couponId": "500000152250",
+                "rewardAsTender": true,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardedTenderLineId": "1",
+            "rewardDisplay": "Separate line"
+        },
+        {
+            "lineId": null,
+            "promotionId": "41",
+            "promotionDescription": "Bananen",
+            "rewardAmount": 2,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "2",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 2,
+                    "rewardRefundAmount": 2,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 2,
+                            "rewardRefundAmount": 2
+                        }
+                    ],
+                    "itemId": "00000000004660"
+                }
+            ],
+            "triggeredCoupons": [],
+            "promotionDetails": {
+                "promotionLevel": "ITEM_LEVEL",
+                "rewardAsTender": false
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        },
+        {
+            "lineId": null,
+            "promotionId": "42",
+            "promotionDescription": "Banana Off",
+            "rewardAmount": 1,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "2",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 1,
+                    "rewardRefundAmount": 1,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 1,
+                            "rewardRefundAmount": 1
+                        }
+                    ],
+                    "itemId": "00000000004660"
+                }
+            ],
+            "triggeredCoupons": [],
+            "promotionDetails": {
+                "promotionLevel": "ITEM_LEVEL",
+                "rewardAsTender": false
+            },
+            "message": {},
+            "rewardDisplay": "Inline"
+        },
+        {
+            "lineId": null,
+            "promotionId": "69",
+            "promotionDescription": "Banana Off",
+            "rewardAmount": 0.2,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "2",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 0.2,
+                    "rewardRefundAmount": 0.2,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 0.2,
+                            "rewardRefundAmount": 0.2
+                        }
+                    ],
+                    "itemId": "00000000004660"
+                }
+            ],
+            "triggeredCoupons": [],
+            "promotionDetails": {
+                "promotionLevel": "ITEM_LEVEL",
+                "rewardAsTender": false
+            },
+            "message": {},
+            "rewardDisplay": "Inline"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 1,
+            "couponId": "500000152250",
+            "status": "Active",
+            "lineId": 1,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638398043232081164",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "15225-7"
+            ]
+        }
+    ],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

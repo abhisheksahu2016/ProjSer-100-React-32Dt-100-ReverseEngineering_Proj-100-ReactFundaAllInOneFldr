@@ -1,0 +1,52 @@
+{
+    "total": 1,
+    "productListings": [
+        {
+            "itemId": "20",
+            "merchandiseHierarchy": [
+                {
+                    "hierarchyType": "Tax",
+                    "nodeId": "3"
+                },
+                {
+                    "hierarchyType": "Merchandise",
+                    "nodeId": "1"
+                }
+            ],
+            "alternativeItemIds": [
+                "20"
+            ],
+            "description": "Arak",
+            "longDescription": "Arak",
+            "requiredPrice": false,
+            "hasPrice": true,
+            "unitPrice": 18.85,
+            "sellable": true,
+            "regularSalesUnitPrice": {
+                "price": {
+                    "value": 18.85,
+                    "currency": "USD"
+                },
+                "quantity": 1
+            },
+            "linkedItemsGroup": {
+                "groupCategory": "Deposit",
+                "requiredForSale": true,
+                "linkedItems": [
+                    {
+                        "itemId": "7991439",
+                        "description": "Deposit"
+                    }
+                ]
+            },
+            "tarePercentage": [],
+            "priceLevels": [],
+            "depositItems": [
+                {
+                    "id": "7991439",
+                    "amount": 1.2
+                }
+            ]
+        }
+    ]
+}

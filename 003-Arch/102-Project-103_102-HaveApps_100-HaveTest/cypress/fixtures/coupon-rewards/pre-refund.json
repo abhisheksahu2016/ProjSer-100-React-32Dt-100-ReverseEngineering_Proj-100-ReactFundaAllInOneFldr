@@ -1,0 +1,15 @@
+{
+    "amount": {
+        "amount": 0.15,
+        "amountEntryMethod": "Automatic"
+    },
+    "receiptPreferences": {},
+    "tender": {
+        "cancel": false,
+        "entryMethod": "Automatic",
+        "processedByEps": false,
+        "tenderId": "1",
+        "tenderType": "Cash"
+    },
+    "typeCode": "Refund"
+}

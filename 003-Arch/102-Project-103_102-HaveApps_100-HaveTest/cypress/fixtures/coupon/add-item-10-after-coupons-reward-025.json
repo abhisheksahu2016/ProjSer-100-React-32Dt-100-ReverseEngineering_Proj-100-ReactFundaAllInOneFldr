@@ -1,0 +1,178 @@
+{
+    "transaction": {
+        "cartId": "LY7AU7KLHI",
+        "sequenceNumber": 248,
+        "cartInfo": {
+            "businessDate": "2022-03-17",
+            "beginDateTime": "2022-03-17T13:54:18.906",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 157.1,
+                "netAmount": 130.7,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 3,
+                "balanceDue": 156.6,
+                "discountAmount": 10.7,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "10",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Aqua Blue Sheet Set",
+                "description": "Sheet Set",
+                "itemType": "Stock",
+                "lineId": 10,
+                "amount": 10.7,
+                "extendedAmount": 10.7,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 10.7,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "linkedLines": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 13,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    2,
+                    12
+                ],
+                "rewardAmount": 0.25,
+                "promotionId": "UPC5.637831149131593246",
+                "rewardedItems": [
+                    {
+                        "lineId": 2,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 120,
+                        "description": "Bedding Set"
+                    }
+                ],
+                "netPrice": 120,
+                "status": "Active",
+                "rewardType": "AmountOff",
+                "promotionDescription": "UPC5 Coupon",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "32"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            },
+            {
+                "lineId": 14,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    10,
+                    4
+                ],
+                "rewardAmount": 0.25,
+                "promotionId": "UPC5.637831148591224569",
+                "itemLink": 5,
+                "rewardedItems": [
+                    {
+                        "lineId": 10,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 10.7,
+                        "description": "Sheet Set"
+                    }
+                ],
+                "netPrice": 10.7,
+                "status": "Updated",
+                "rewardType": "AmountOff",
+                "promotionDescription": "UPC5 Coupon",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": true,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false,
+                    "tenderName": "",
+                    "tenderId": "32"
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [
+            {
+                "redeptionStates": {
+                    "redeemed": 1
+                },
+                "quantity": 1,
+                "couponRedemptionIds": [],
+                "couponId": "549000111253",
+                "entryMethod": "Scanned",
+                "sequenceNumber": 11,
+                "status": "Cancelled",
+                "isVirtualCoupon": false,
+                "itemLink": 6,
+                "rewardType": "Amount"
+            },
+            {
+                "redeptionStates": {
+                    "redeemed": 1
+                },
+                "quantity": 1,
+                "couponRedemptionIds": [],
+                "couponId": "549000111253",
+                "entryMethod": "Scanned",
+                "sequenceNumber": 12,
+                "status": "Updated",
+                "isVirtualCoupon": false,
+                "itemLink": 6,
+                "rewardType": "Amount"
+            }
+        ],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

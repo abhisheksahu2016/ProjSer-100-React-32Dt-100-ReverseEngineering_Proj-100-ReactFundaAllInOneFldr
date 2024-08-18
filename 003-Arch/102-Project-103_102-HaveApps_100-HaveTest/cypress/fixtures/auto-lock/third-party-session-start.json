@@ -1,0 +1,22 @@
+{
+  "action": "EFTSwipePay",
+  "transactionId": "CN6LXFCiCUyd7JvIRWKXg",
+  "lineId": "1",
+  "currency": "USD",
+  "status": "preTender",
+  "authorizationType": "Online",
+  "payload": {
+    "amount": 10,
+    "preTenderAmount": 10,
+    "sessionId": "8",
+    "paymentTranId": "1",
+    "cardDetails": {
+      "cardId": "AX",
+      "entryMethod": "Swiped",
+      "accountNumber": "123456******5678",
+      "cardType": "Credit"
+    },
+    "tenderId": "12",
+    "authCode": "117434"
+  }
+}

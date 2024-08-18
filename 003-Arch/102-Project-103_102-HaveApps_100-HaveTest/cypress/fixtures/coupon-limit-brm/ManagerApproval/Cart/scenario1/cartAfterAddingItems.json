@@ -1,0 +1,73 @@
+{
+    "transaction": {
+        "cartInfo": {
+            "status": "Itemization",
+            "totals": {
+                "netAmount": 240,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": 240,
+                "cashbackAmount": 0,
+                "discountAmount": 0,
+                "itemsCount": 3
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "94D0YbAkQ0WOtx0fIhawqw",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 1653,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "2134",
+                        "id": "00000000021340"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 3
+                    }
+                },
+                "extendedAmount": 240,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "White potato",
+                "description": "Potato",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 80,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 80
+                },
+                "amount": 240,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "638265638630606545"
+            }
+        ],
+        "payments": [],
+        "taxExemptions": [],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "customerPrograms": [],
+        "identifiers": {}
+    }
+}

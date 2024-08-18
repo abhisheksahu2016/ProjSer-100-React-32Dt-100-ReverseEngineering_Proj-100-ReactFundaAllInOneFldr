@@ -1,0 +1,129 @@
+{
+    "cartId": "2DHJZ76JP1",
+    "sequenceNumber": 1105,
+    "cartInfo": {
+        "businessDate": "2022-01-02",
+        "beginDateTime": "2022-01-02T19:36:09.143",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 0.25,
+            "netAmount": 0.25,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": -0.15,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [
+        {
+            "lineId": 4,
+            "parentLineId": 1,
+            "status": "Cancelled"
+        },
+        {
+            "lineItem": {
+                "EntryMethod": "Keyed",
+                "itemId": {
+                    "value": "19913",
+                    "type": "SKU"
+                },
+                "quantity": {
+                    "value": 1,
+                    "entryMethod": "Automatic"
+                },
+                "priceModifier": {
+                    "method": "PriceOverride",
+                    "newPrice": 0.25,
+                    "amount": 5.75,
+                    "percentage": 95.83,
+                    "totalPriceDifference": -5.75,
+                    "newTotalPrice": 0.25
+                }
+            },
+            "fullDescription": "Small Red Bamba",
+            "description": "Red Bamba",
+            "itemType": "Stock",
+            "lineId": 5,
+            "amount": 0.25,
+            "extendedAmount": 0.25,
+            "securityScale": true,
+            "imageUrl": "",
+            "price": {
+                "unitPrice": 0.25,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 6,
+                "currency": "USD",
+                "quantity": 1
+            },
+            "status": "Updated",
+            "rewards": [],
+            "taxes": [],
+            "priceModifierReasonCode": "PriceOverride",
+            "lineModifiers": [
+                "PriceOverride"
+            ],
+            "parentLineId": 1
+        }
+    ],
+    "rewards": [
+        {
+            "lineId": 6,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                5,
+                2
+            ],
+            "rewardAmount": 0.25,
+            "promotionId": "UPC5.637767418093578149",
+            "itemLink": 3,
+            "rewardedItems": [
+                {
+                    "lineId": 5,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 0.25,
+                    "description": "Red Bamba"
+                }
+            ],
+            "netPrice": 0.25,
+            "status": "Updated",
+            "rewardType": "AmountOff",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

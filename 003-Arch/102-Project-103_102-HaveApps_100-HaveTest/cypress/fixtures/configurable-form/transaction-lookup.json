@@ -1,0 +1,22 @@
+{
+    "transactionLookups": [
+        {
+            "sequenceNumber": 1188,
+            "transactionId": "45L1QWJ5C2",
+            "touchPointId": "1",
+            "workstationId": "1",
+            "beginDateTime": "2024-02-16T16:34:16.47",
+            "totalAmount": 12,
+            "customerOrderId": "U3KDFXEHV1"
+        },
+        {
+            "sequenceNumber": 1189,
+            "transactionId": "D7XTS8A66A",
+            "touchPointId": "1",
+            "workstationId": "1",
+            "beginDateTime": "2024-02-16T16:36:15.793",
+            "totalAmount": 12,
+            "customerOrderId": "U8QANXBSMZ"
+        }
+    ]
+}

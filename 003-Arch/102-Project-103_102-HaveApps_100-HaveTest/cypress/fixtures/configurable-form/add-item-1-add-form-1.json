@@ -1,0 +1,58 @@
+{
+  "cartId": "KBE788AR7B",
+  "sequenceNumber": 144,
+  "cartInfo": {
+    "businessDate": "2023-11-28",
+    "beginDateTime": "2023-11-28T16:08:18.314",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 0,
+      "netAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 0,
+      "balanceDue": 0,
+      "discountAmount": 0,
+      "grossAmount": 0
+    }
+  },
+  "manualSegments": [],
+  "items": [],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "returns": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction"
+  },
+  "formsData": [
+    {
+      "formName": "Configurable Form",
+      "fields": [
+        {
+          "fieldName": "key1",
+          "value": "!"
+        },
+        {
+          "fieldName": "key2",
+          "value": "@#"
+        },
+        {
+          "fieldName": "key3",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "ewicReceipts": [],
+  "receipts": []
+}

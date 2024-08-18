@@ -1,0 +1,19 @@
+{
+  "sessionId": "73fac196-e11b-422a-b2e3-6192390b747b",
+  "status": "Finished",
+  "action": "EFTSwipePay",
+  "actionDate": "2022-12-16T14:56:28.4266151+05:30",
+  "payload": {
+    "amount": "1.3",
+    "preTenderAmount": "1.3",
+    "sessionId": "",
+    "paymentTranId": "",
+    "cardDetails": {
+      "cardId": "VSVISA",
+      "entryMethod": "",
+      "accountNumber": "undefinedundefined",
+      "cardType": ""
+    },
+    "tenderId": "VSVISA"
+  }
+}

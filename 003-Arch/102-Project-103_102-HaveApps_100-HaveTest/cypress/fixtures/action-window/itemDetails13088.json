@@ -1,0 +1,56 @@
+{
+   "itemLookupData": [{
+      "itemId": "13088",
+      "merchandiseHierarchy": [{
+         "hierarchyType": "Tax",
+         "nodeId": "3"
+      }, {
+         "hierarchyType": "Merchandise",
+         "nodeId": "1"
+      }],
+      "sellable": true,
+      "alternativeItemIds": ["0000000130882", "13088"],
+      "description": "Chocolate Chip Cookies",
+      "longDescription": "Long Chocolate Chip Cookies",
+        "inVariety": true,
+      "requiredPrice": false,
+      "hasPrice": true,
+      "unitPrice": 21.2,
+      "regularSalesUnitPrice": {
+         "price": {
+            "value": 21.2,
+            "currency": "USD"
+         },
+         "quantity": 1
+      },
+      "unitsOfMeasure": "Kg",
+      "linkedItemsGroup": {
+         "groupCategory": "Tare",
+         "requiredForSale": false,
+         "linkedItems": [{
+            "itemId": "399900045",
+            "description": "Tare"
+         }, {
+            "itemId": "399900052",
+            "description": "Tare"
+         }, {
+            "itemId": "399900054",
+            "description": "Tare"
+         }, {
+            "itemId": "399900069",
+            "description": "Tare"
+         }, {
+            "itemId": "399900076",
+            "description": "Tare"
+         }]
+      },
+      "isManualTarePercentageEnabled": true,
+      "tarePercentage": [],
+      "priceLevels": [{
+         "value": 21.2,
+         "currency": "USD",
+         "levelPrice": "Default"
+      }],
+      "depositItems": []
+   }]
+}

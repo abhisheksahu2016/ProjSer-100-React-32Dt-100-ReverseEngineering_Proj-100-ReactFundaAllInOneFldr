@@ -1,0 +1,81 @@
+{
+  "transaction": {
+    "cartId": "EAVR983XTD",
+    "sequenceNumber": 80,
+    "cartInfo": {
+      "businessDate": "2023-07-25",
+      "beginDateTime": "2023-07-25T09:05:34.674",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 10,
+        "netAmount": 10,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 10,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "22",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          },
+          "packQuantity": {
+            "unitPrice": 10,
+            "value": 1
+          }
+        },
+        "fullDescription": "Large Oval Tomatoes",
+        "description": "Oval Tomatoes",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 10,
+        "extendedAmount": 10,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 10,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "netAmount": 10,
+        "regularPrice": {
+          "unitPrice": 6.99,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": []
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

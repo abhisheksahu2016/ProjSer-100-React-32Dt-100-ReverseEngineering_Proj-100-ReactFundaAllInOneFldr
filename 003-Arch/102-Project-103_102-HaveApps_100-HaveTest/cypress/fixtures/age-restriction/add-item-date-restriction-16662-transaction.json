@@ -1,0 +1,13 @@
+[{
+  "sequenceNumber": "783",
+  "transactionId": "SXUIZVBD92",
+  "touchPointId": "1",
+  "totalOrderAmount": "9.2",
+  "suspendTime": "2021-12-14T14:32:49.969"
+}, {
+  "sequenceNumber": "635",
+  "transactionId": "BDEZR4MV2E",
+  "touchPointId": "1",
+  "totalOrderAmount": "44.99",
+  "suspendTime": "2021-12-02T10:24:01.039"
+}]

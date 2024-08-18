@@ -1,0 +1,92 @@
+{
+    "adjustmentDat": null,
+    "amounts": {
+        "activationAmount": null,
+        "amountApproved": 5000,
+        "amountDue": 5000,
+        "amountTendered": null,
+        "cardBalance": null,
+        "cashbackAmount": null,
+        "cashbackAmountApproved": 0,
+        "reloadAmount": null,
+        "tipAmount": null
+    },
+    "cardDetails": [
+        {
+            "aid": null,
+            "cardBrand": null,
+            "cardCode": "GC",
+            "cardLength": null, 
+            "cardName": "GiftCard",
+            "cardType": "GiftCard",
+            "entryMethod": null,
+            "expiryDate": null,
+            "extendedData": null,
+            "firstSix": null,
+            "lastFour": null,
+            "paymentTranID": null,
+            "trackData": null,
+            "trackOneData": null,
+            "trackTwoData": null,
+            "stateCode": null,
+            "merchantNumber": "0171"
+        }
+    ],
+    "checkDetails": null,
+    "clientID": null,
+    "configOptions": null,
+    "connectionInfo": null,
+    "deviceData": null,
+    "hostData": null,
+    "paymentDetails": {
+        "authCode": "27095222",
+        "needsSignature": false,
+        "offline": null,
+        "partialApproval": null,
+        "paymentTranID": "000129",
+        "responseCode": null,
+        "responseMessage": null,
+        "sessionTranID": null,
+        "stan": null,
+        "verificationMethod": null,
+        "providerData": "*"
+    },
+    "receipts": [
+        {
+            "receiptLines": [
+                "",
+                " Giftcard         #514961******2229   ",
+                " Auth # 27095222 Exp Date **/**       ",
+                " Lane # 1        Cashier # 1          ",
+                " 04/02/14 13:19  Ref/Seq # 005178     ",
+                " EPS Sequence    # 005178             ",
+                ""
+            ],
+            "receiptSection": null,
+            "receiptType": "Merchant"
+        },
+        {
+            "receiptLines": [
+                "",
+                " Giftcard         #514961******2229   ",
+                " Auth # 27095222 Exp Date **/**       ",
+                " Lane # 1        Cashier # 1          ",
+                " 04/02/14 13:19  Ref/Seq # 005178     ",
+                " EPS Sequence    # 005178             ",
+                ""
+            ],
+            "receiptSection": null,
+            "receiptType": "Merchant"
+        }
+    ],
+    "requestID": null,
+    "signatureDetails": null,
+    "status": "Success",
+    "statusCode": 200,
+    "statusMessage": null,
+    "version": null,
+    "posTranID": null,
+    "ewicData": null,
+    "trainingMode": false,
+    "code": null
+}

@@ -1,0 +1,15 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "ruleId": "recallTransactionConfirmation",
+            "type": "ConfirmationAction",
+            "message": {
+                "caption": "Confirmation Required",
+                "message": "Please confirm the recall"
+            }
+        }
+    ]
+}

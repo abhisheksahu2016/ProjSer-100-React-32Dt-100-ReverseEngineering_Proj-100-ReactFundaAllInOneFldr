@@ -1,0 +1,5 @@
+{
+    "code": "FuelDataRequiredForFuelItem",
+    "message": "Missing fuel Data for fuel item 00000000050010",
+    "severity": "Error"
+}

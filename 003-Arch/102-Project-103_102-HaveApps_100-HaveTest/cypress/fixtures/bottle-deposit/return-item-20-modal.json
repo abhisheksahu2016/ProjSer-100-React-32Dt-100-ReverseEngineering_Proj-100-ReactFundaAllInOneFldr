@@ -1,0 +1,12 @@
+{
+  "code": "ReturnPolicyRequired",
+  "message": "Sorry. We encountered an unexpected error.",
+  "severity": "Error",
+  "data": {
+    "type": "ReturnRule_IsOpenInputRequired",
+    "message": {
+      "caption": "ReturnRule_IsOpenInputRequired",
+      "message": "User input is required in order to resolve the return of the current item."
+    }
+  }
+}

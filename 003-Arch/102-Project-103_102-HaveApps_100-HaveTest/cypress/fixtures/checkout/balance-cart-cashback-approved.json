@@ -1,0 +1,852 @@
+{
+  "cartInfo": {
+    "status": "Finalization",
+    "totals": {
+      "netAmount": 10.43,
+      "cashbackAmount": 50,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 0,
+      "discountAmount": 0,
+      "itemsCount": 1
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "LnjvXs7Nv0mSawLbs2dmg",
+  "sequenceNumber": 123,
+  "isTransactionTotaled": false,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "0",
+          "value": "1",
+          "id": "00000000000001"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 1
+        }
+      },
+      "extendedAmount": 10.43,
+      "itemType": "1",
+      "lineId": 1,
+      "fullDescription": "Bedding Set",
+      "description": "Bedding Set",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 10.43,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 10.43
+      },
+      "amount": 10.43,
+      "taxes": [],
+      "securityScale": true,
+      "additionalData": {
+        "onlineItem": {
+          "authorizationExternalId": "6010560000000030",
+          "initialBalance": 0,
+          "currentBalance": 0
+        },
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Scanned",
+      "sequence": "000000000001"
+    }
+  ],
+  "payments": [
+    {
+      "sequenceNumber": 1,
+      "sequence": "637850072031241097",
+      "lineId": "1",
+      "tenderId": "21",
+      "cashBackAmount":50.00,
+      "epsData":{},
+      "tenderType": "CreditDebit",
+      "tenderName": "Debit",
+      "amount": 10.43,
+      "status": "authorized",
+      "usage": "Payment"
+    }
+  ],
+  "receipts": [
+    {
+      "documents": [
+        {
+          "commands": [
+            {
+              "bitmapId": "1"
+            },
+            {
+              "text": "           Brooklyn Fun Store           ",
+              "printAttributes": {
+                "bold": true
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "            Nostrand Av 1324            ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                New York                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "          New York",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": ",",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "11216                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "             44-6787323274              ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                                        ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "     EFT Slip No. 6290001002362012292021",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "() Brooklyn Fun Store",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "2 3620 12/29/2021 11:27 AM",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "feedLines": 6
+            },
+            {
+              "cutPaper": true,
+              "cutPercent": 50
+            },
+            {
+              "feedLines": 1
+            }
+          ]
+        },
+        {
+          "commands": [
+            {
+              "bitmapId": "1"
+            },
+            {
+              "text": "           Brooklyn Fun Store           ",
+              "printAttributes": {
+                "bold": true
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "            Nostrand Av 1324            ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                New York                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "          New York",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": ",",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "11216                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "             44-6787323274              ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "     Store contact: George Burdell      ",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "Not Vodka      ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "484181121     ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "    18.13",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": " ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Subtotal:         ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "    $18.13",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Total Savings:    ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     $0.00",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Net Sales:        ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "    $18.13",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Tax:              ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     $0.00",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Tax Exemption:    ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     $1.81",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Total:            ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "    $18.13",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Sold Items:       ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "         1",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Paid:                       ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "EBT               ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "          ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     18.13",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "-------------- Tax Summary --------------",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "Ind ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Name      ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Method  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     Rate",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     Amount",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "         Tax Total:",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "                  $0.00",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "-----------------------------------------",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "--------- Tax Exemption Summary ---------",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "Ind  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Name     ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Method  ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     Rate",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     Amount",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "     ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "EBT Foods",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "Percent ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "     10.0",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "       1.81",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "         Tax Exemption Total:",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "         1.81",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "----------------------------------------",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                              ",
+              "printAttributes": {
+                "italic": false,
+                "bold": false,
+                "underline": false,
+                "doubleHeight": false,
+                "doubleWidth": false,
+                "invert": false
+              },
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "() Brooklyn Fun Store",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "2 3620 12/29/2021 11:27 AM",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "barcode": {
+                "data": "6290001002362012292021",
+                "symbology": "Code128",
+                "height": 100,
+                "width": 1,
+                "alignment": "Center"
+              }
+            },
+            {
+              "text": "6290001002362012292021",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "feedLines": 6
+            },
+            {
+              "cutPaper": true,
+              "cutPercent": 50
+            },
+            {
+              "feedLines": 1
+            }
+          ]
+        },
+        {
+          "commands": [
+            {
+              "bitmapId": "1"
+            },
+            {
+              "text": "           Brooklyn Fun Store           ",
+              "printAttributes": {
+                "bold": true
+              },
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "            Nostrand Av 1324            ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                New York                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "          New York",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": ",",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42
+            },
+            {
+              "text": "11216                ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "             44-6787323274              ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "                                        ",
+              "printAttributes": {},
+              "align": "Left",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "     EFT Slip No. 6290001002362012292021",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "() Brooklyn Fun Store",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "text": "2 3620 12/29/2021 11:27 AM",
+              "printAttributes": {},
+              "align": "Center",
+              "cpl": 42,
+              "feedLines": 1
+            },
+            {
+              "feedLines": 6
+            },
+            {
+              "cutPaper": true,
+              "cutPercent": 50
+            },
+            {
+              "feedLines": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "returns": [],
+  "refunds": [
+    {
+      "authorization": {
+        "electronicPayment": {
+            "epsProvider": {}
+        },
+        "paymentsInfo": [
+            {
+                "key": "tenderSequence",
+                "value": "637850072031241097"
+            }
+        ]
+    },
+    "sequenceNumber": 1,
+    "sequence": "637878703263338964",
+    "lineId": 1,
+    "tenderId": "1",
+    "tenderType": "Cash",
+    "tenderName": "Cash",
+    "amount": 50.00,
+    "status": "authorized",
+    "usage": "CashBack"
+  }
+  ],
+  "rewards": [],
+  "coupons": [],
+  "identifiers": {
+    "openTillDrawer": true
+  }
+}

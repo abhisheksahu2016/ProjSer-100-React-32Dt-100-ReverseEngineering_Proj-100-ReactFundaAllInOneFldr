@@ -1,0 +1,314 @@
+{
+    "cartId": "Z4X72XNDX2",
+    "sequenceNumber": 241,
+    "cartInfo": {
+        "businessDate": "2024-04-11",
+        "beginDateTime": "2024-04-14T11:13:55.598",
+        "endDateTime": "2024-04-14T11:14:51.956",
+        "status": "Finalization",
+        "totals": {
+            "grandAmount": 12,
+            "netAmount": 12,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 0,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "amount": 12,
+            "currencyCode": "USD",
+            "localAmount": 12,
+            "currencySymbol": "$",
+            "tenderName": "CashEng",
+            "tenderId": "1",
+            "sequenceNumber": 3,
+            "isProcessedByAtm": false,
+            "isProcessedByEps": false,
+            "loyaltyRedemptionInfo": {}
+        }
+    ],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": true
+    },
+    "ewicReceipts": [],
+    "receipts": [
+        {
+            "documents": [
+                {
+                    "commands": [
+                        {
+                            "bitmapId": "1"
+                        },
+                        {
+                            "text": "Brooklyn",
+                            "printAttributes": {
+                                "bold": true
+                            },
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "King Cross",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "216-664-234",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Take Out",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Banana                   ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "  $12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Subtotal:         ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    $12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Total Savings:    ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "     $0.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Net Sales:        ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    $12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Tax:              ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "     $0.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Total:            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    $12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Sold Items:       ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "         1",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Paid:                       ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "CashEng           ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    $12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "1 1(1) Brooklyn",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "1 241 4/14/2024 11:14 AM",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "barcode": {
+                                "data": "6290001001024104142024",
+                                "symbology": "Code128",
+                                "height": 100,
+                                "width": 1,
+                                "alignment": "Center"
+                            }
+                        },
+                        {
+                            "text": "6290001001024104142024",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "feedLines": 6
+                        },
+                        {
+                            "cutPaper": true,
+                            "cutPercent": 50
+                        },
+                        {
+                            "feedLines": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

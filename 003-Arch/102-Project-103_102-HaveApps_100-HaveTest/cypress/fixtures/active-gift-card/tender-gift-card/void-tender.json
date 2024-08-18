@@ -1,0 +1,60 @@
+{
+  "cartInfo": {
+    "status": "Itemization",
+    "totals": {
+      "netAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 0,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "yeS3nb5ftUyQyoVo0aNdLA",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 5057,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": { "type": "0", "value": "07675042209", "id": "07675042209" },
+        "quantity": { "unitOfMeasure": "EA", "value": 1 },
+        "priceModifier": {
+          "method": "ResetPrice",
+          "amount": -50,
+          "newPrice": 50,
+          "newTotalPrice": 50,
+          "totalPriceDifference": 50,
+          "percentage": null
+        }
+      },
+      "extendedAmount": 50,
+      "itemType": "16",
+      "lineId": 1,
+      "status": "Cancelled",
+      "fullDescription": "CS Store Brand NAT PHYS $0.01-500",
+      "description": "CS Store Brand NAT PHYS $0.01-500",
+      "price": { "unitOfMeasure": "EA", "specialPrice": false, "unitPrice": 50, "quantity": 1 },
+      "regularPrice": { "unitPrice": 0 },
+      "amount": 50,
+      "securityScale": true,
+      "entryMethod": "Keyed",
+      "sequence": "638022073219688290"
+    }
+  ],
+  "payments": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [],
+  "restrictions": [],
+  "identifiers": {}
+}

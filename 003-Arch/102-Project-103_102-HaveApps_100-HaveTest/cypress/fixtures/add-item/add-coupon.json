@@ -1,0 +1,156 @@
+{
+  "cartInfo": {
+    "status": "Itemization",
+    "totals": {
+      "netAmount": 325,
+      "grossReturnsAmount": 0,
+      "taxAmounts": {
+        "taxAmount": 31.5,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0,
+        "taxExemptAmount": 0
+      },
+      "balanceDue": 356.5,
+      "cashbackAmount": 0,
+      "discountAmount": 0,
+      "itemsCount": 51,
+      "tenderEligibleAmounts": [
+        {
+          "tenderId": "26",
+          "amount": 356.5
+        }
+      ]
+    },
+    "defaultCurrency": "USD"
+  },
+  "cartId": "GtYTFlSsc0u3cCJDtUOodw",
+  "isTransactionTotaled": false,
+  "sequenceNumber": 5165,
+  "items": [
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "0",
+          "value": "1549",
+          "id": "00000000015490"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 50
+        }
+      },
+      "extendedAmount": 315,
+      "itemType": "Normal",
+      "lineId": 1,
+      "fullDescription": "Butter Lurpak",
+      "description": "Butter Lurpak",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 6.3,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 6.3
+      },
+      "amount": 315,
+      "taxes": [
+        {
+          "code": "testEBT",
+          "amount": 31.5,
+          "exemptAmount": 0,
+          "authorityId": "gov-assist",
+          "exemptable": true
+        }
+      ],
+      "securityScale": true,
+      "additionalData": {
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Keyed",
+      "sequence": "638385757906672903",
+      "indicators": {
+        "eligibilityIndicators": [
+          {
+            "symbol": "F",
+            "priority": 100
+          }
+        ]
+      }
+    },
+    {
+      "lineItem": {
+        "itemId": {
+          "type": "ItemId",
+          "value": "101",
+          "id": "00000000001010"
+        },
+        "quantity": {
+          "unitOfMeasure": "EA",
+          "value": 1
+        }
+      },
+      "extendedAmount": 10,
+      "itemType": "Normal",
+      "lineId": 2,
+      "fullDescription": "cola",
+      "description": "cola",
+      "price": {
+        "unitOfMeasure": "EA",
+        "specialPrice": false,
+        "unitPrice": 10,
+        "quantity": 1
+      },
+      "regularPrice": {
+        "unitPrice": 10
+      },
+      "amount": 10,
+      "taxes": [],
+      "securityScale": true,
+      "additionalData": {
+        "ItemSaleType": "SALES"
+      },
+      "entryMethod": "Keyed",
+      "sequence": "638385758259495307",
+      "indicators": {}
+    }
+  ],
+  "payments": [],
+  "taxExemptions": [],
+  "surcharges": [],
+  "receipts": [],
+  "returns": [],
+  "refunds": [],
+  "rewards": [],
+  "coupons": [
+    {
+      "sequenceNumber": 1,
+      "couponId": "770000555123",
+      "status": "Active",
+      "lineId": 1,
+      "quantity": 1,
+      "entryMethod": "Keyed",
+      "sequence": "638385759073133594",
+      "voidedLineId": null,
+      "redeptionStates": {
+        "redeemed": 0,
+        "unused": 1
+      },
+      "couponRedemptionIds": []
+    }
+  ],
+  "restrictions": [
+    {
+      "lineId": "1",
+      "restrictionType": "UnusedCoupon",
+      "restrictionOn": "Coupons",
+      "restrictedLines": ["1"],
+      "priority": 0,
+      "additionalData": {},
+      "delayable": false
+    }
+  ],
+  "customerPrograms": [],
+  "identifiers": {}
+}

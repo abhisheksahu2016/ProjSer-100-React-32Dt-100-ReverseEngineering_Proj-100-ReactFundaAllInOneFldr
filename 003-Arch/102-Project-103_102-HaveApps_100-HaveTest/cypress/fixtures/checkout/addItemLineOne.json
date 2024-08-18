@@ -1,0 +1,74 @@
+{
+  "transaction": {
+    "cartId": "FSQDZT5MZD",
+    "sequenceNumber": 649,
+    "cartInfo": {
+      "businessDate": "2022-02-08",
+      "beginDateTime": "2022-03-01T23:16:41.828",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 146.4,
+        "netAmount": 120,
+        "taxAmounts": {
+          "taxAmount": 26.4,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 146.4,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "1",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          }
+        },
+        "fullDescription": "Exclusive Bedding Set",
+        "description": "Bedding Set",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 120,
+        "extendedAmount": 120,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 120,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 120,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": []
+      }
+    ],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false,
+      "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+  }
+}

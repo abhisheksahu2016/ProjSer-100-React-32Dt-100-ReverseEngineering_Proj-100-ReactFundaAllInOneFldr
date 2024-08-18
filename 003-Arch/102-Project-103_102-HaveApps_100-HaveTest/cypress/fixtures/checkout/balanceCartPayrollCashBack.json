@@ -1,0 +1,192 @@
+{
+    "cart": {
+        "cartInfo": {
+            "status": "Tender",
+            "totals": {
+                "netAmount": 90.95,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "included": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0,
+                    "taxExemptAmount": 0
+                },
+                "balanceDue": -20,
+                "cashbackAmount": 20,
+                "discountAmount": 0,
+                "itemsCount": 1
+            },
+            "defaultCurrency": "USD"
+        },
+        "cartId": "W1YkGfn1e0qytI3AOvoU4g",
+        "isTransactionTotaled": false,
+        "sequenceNumber": 2198,
+        "items": [
+            {
+                "lineItem": {
+                    "itemId": {
+                        "type": "0",
+                        "value": "666",
+                        "id": "00000000006660"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "priceModifier": {
+                        "method": "PriceVerify",
+                        "amount": -78.95,
+                        "newPrice": 90.95,
+                        "newTotalPrice": 90.95,
+                        "totalPriceDifference": 78.95,
+                        "percentage": -6.579166666666667
+                    }
+                },
+                "extendedAmount": 90.95,
+                "itemType": "Normal",
+                "lineId": 1,
+                "fullDescription": "Long Bread",
+                "description": "Bread",
+                "price": {
+                    "unitOfMeasure": "EA",
+                    "specialPrice": false,
+                    "unitPrice": 90.95,
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 12
+                },
+                "amount": 90.95,
+                "taxes": [],
+                "securityScale": true,
+                "additionalData": {
+                    "ItemSaleType": "SALES"
+                },
+                "entryMethod": "Keyed",
+                "sequence": "637987495124404489"
+            }
+        ],
+        "payments": [
+            {
+                "sequenceNumber": 2,
+                "sequence": "637987495317391956",
+                "lineId": 2,
+                "tenderId": "44",
+                "tenderType": "Check",
+                "tenderName": "Payroll Check",
+                "amount": 110.95,
+                "cashBackAmount": 20,
+                "status": "authorized",
+                "epsData": {
+                    "paymentTranId": "2-36"
+                },
+                "usage": "Payment",
+                "authorization": {
+                    "electronicPayment": {
+                        "authorizationType": "Online",
+                        "authorizationCode": "244258",
+                        "referenceNumber": "2-36",
+                        "traceId": "1000000000013162591",
+                        "requestedAmount": 110.95,
+                        "epsProvider": {}
+                    },
+                    "checkPayment": {
+                        "isEndorsed": true,
+                        "isECCConverted": true
+                    },
+                    "paymentsInfo": [
+                        {
+                            "key": "IssueDate",
+                            "value": "20220908"
+                        },
+                        {
+                            "key": "RawData",
+                            "value": ""
+                        },
+                        {
+                            "key": "TransitNumber",
+                            "value": "396671881"
+                        },
+                        {
+                            "key": "AccountNumber",
+                            "value": "14361724"
+                        },
+                        {
+                            "key": "ChequeNumber",
+                            "value": "2484"
+                        },
+                        {
+                            "key": "paymentTranId",
+                            "value": "2-36"
+                        },
+                        {
+                            "key": "sessionId",
+                            "value": "34"
+                        },
+                        {
+                            "key": "entryMethod",
+                            "value": "Automatic"
+                        },
+                        {
+                            "key": "referenceNumber",
+                            "value": "2-36"
+                        },
+                        {
+                            "key": "authorizationCode",
+                            "value": "244258"
+                        },
+                        {
+                            "key": "tenderId",
+                            "value": "44"
+                        },
+                        {
+                            "key": "processedByEps",
+                            "value": "true"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "false"
+                        },
+                        {
+                            "key": "cancelReason",
+                            "value": ""
+                        },
+                        {
+                            "key": "preTenderAmount",
+                            "value": "110.95"
+                        },
+                        {
+                            "key": "amount",
+                            "value": "110.95"
+                        },
+                        {
+                            "key": "cashBack",
+                            "value": "20"
+                        }
+                    ]
+                }
+            }
+        ],
+        "surcharges": [],
+        "receipts": [],
+        "returns": [],
+        "refunds": [],
+        "rewards": [],
+        "coupons": [],
+        "restrictions": [],
+        "identifiers": {}
+    },
+    "balance": {
+        "cartAlreadyBalanced": false,
+        "cartCanBeBalanced": true,
+        "balanceInstructions": [
+            {
+                "tenderType": "Cash",
+                "tenderId": "1",
+                "description": "Cash",
+                "usage": "CashBack",
+                "amount": 20
+            }
+        ]
+    }
+}

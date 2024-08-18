@@ -1,0 +1,472 @@
+{
+    "cartId": "FIY995WCSO",
+    "sequenceNumber": 371,
+    "cartInfo": {
+        "businessDate": "2024-03-01",
+        "beginDateTime": "2024-03-04T10:58:56.061",
+        "endDateTime": "2024-03-04T11:32:19.187",
+        "status": "Finalization",
+        "totals": {
+            "grandAmount": 131.76,
+            "netAmount": 108,
+            "taxAmounts": {
+                "taxAmount": 23.76,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": 0,
+            "discountAmount": 12,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [
+        {
+            "amount": 82.35,
+            "currencyCode": "GBP",
+            "localAmount": 131.76,
+            "currencySymbol": "£",
+            "exchangeRate": 1.6,
+            "tenderName": "Voucher",
+            "tenderId": "90",
+            "sequenceNumber": 12,
+            "isProcessedByAtm": false,
+            "isProcessedByEps": false,
+            "loyaltyRedemptionInfo": {}
+        }
+    ],
+    "returns": [],
+    "customer": {
+        "consumerAccountNumber": "0005",
+        "firstName": "Ben",
+        "lastName": "Yom",
+        "points": 228,
+        "isAuthenticatedOffline": false,
+        "programBalances": [
+            {
+                "id": "100",
+                "programId": "account 100",
+                "name": "account 100",
+                "earnedPoints": 228,
+                "originalPoints": 228
+            }
+        ],
+        "emailAddress": "Wira.Nolly@retalix.com",
+        "eligibleForPayment": false
+    },
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction",
+        "openTillDrawer": true
+    },
+    "ewicReceipts": [],
+    "receipts": [
+        {
+            "documents": [
+                {
+                    "commands": [
+                        {
+                            "bitmapId": "1"
+                        },
+                        {
+                            "text": "Brooklyn",
+                            "printAttributes": {
+                                "bold": true
+                            },
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "King Cross",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "216-664-234",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Take Out",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Bedding Set              ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": " $120.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Get Percent off 10% the ticket",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   -$12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Subtotal:         ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   $120.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Total Savings:    ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   -$12.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Net Sales:        ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   $108.00",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Tax:              ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "    $23.76",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Total:            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   $131.76",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Sold Items:       ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "         1",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Paid:                       ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Voucher                     ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "82.35 GBP x 1.600 ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "   $131.76",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "            ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Expiration date: 31/12/9999",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "-------------- Tax Summary --------------",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "Ind  ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Name     ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Method  ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "     Rate",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "     Amount",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "     ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "First Aut",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "Percent ",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "  22.0000",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "     $23.76",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "         Tax Total:",
+                            "printAttributes": {}
+                        },
+                        {
+                            "text": "                $23.76",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "-----------------------------------------",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "----------------------------------------",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "----------------------------------------",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": " ",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Left",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "1 1(1) Brooklyn",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "text": "1 371 04/03/2024 11:32",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "barcode": {
+                                "data": "6290001001037103042024",
+                                "symbology": "Code128",
+                                "height": 100,
+                                "width": 1,
+                                "alignment": "Center"
+                            }
+                        },
+                        {
+                            "text": "6290001001037103042024",
+                            "printAttributes": {},
+                            "feedLines": 1,
+                            "align": "Center",
+                            "cpl": 42
+                        },
+                        {
+                            "feedLines": 6
+                        },
+                        {
+                            "cutPaper": true,
+                            "cutPercent": 50
+                        },
+                        {
+                            "feedLines": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

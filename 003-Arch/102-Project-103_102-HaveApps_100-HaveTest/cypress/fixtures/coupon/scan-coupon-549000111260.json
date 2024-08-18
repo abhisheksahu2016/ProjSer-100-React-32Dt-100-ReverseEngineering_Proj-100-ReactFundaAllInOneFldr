@@ -1,0 +1,89 @@
+{
+    "cartId": "KEO2WEG35N",
+    "sequenceNumber": 184,
+    "cartInfo": {
+        "businessDate": "2021-12-28",
+        "beginDateTime": "2021-12-28T15:19:57.583",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 3.98,
+            "netAmount": 3.98,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 1,
+            "balanceDue": -0.58,
+            "discountAmount": 0,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "items": [],
+    "rewards": [
+        {
+            "lineId": 3,
+            "entryMethod": "Automatic",
+            "triggeredProducts": [
+                1,
+                2
+            ],
+            "rewardAmount": 2.85,
+            "promotionId": "UPC5.637762945958064745",
+            "rewardedItems": [
+                {
+                    "lineId": 1,
+                    "quantity": {
+                        "value": 1
+                    },
+                    "rewardAmount": 3.98,
+                    "description": "Girl Shirt"
+                }
+            ],
+            "netPrice": 3.98,
+            "status": "Active",
+            "rewardType": "AmountOff",
+            "promotionDescription": "UPC5 Coupon",
+            "promotionDetails": {
+                "isEndOfTicketPromotion": false,
+                "rewardAsTender": true,
+                "isManualPromotion": false,
+                "isTriggeredByTender": false,
+                "isSingleLineDiscount": false,
+                "tenderName": "",
+                "tenderId": "32"
+            },
+            "approval": {
+                "status": "NotRequired"
+            }
+        }
+    ],
+    "coupons": [
+        {
+            "redeptionStates": {
+                "redeemed": 1
+            },
+            "quantity": 1,
+            "couponRedemptionIds": [],
+            "couponId": "549000111260",
+            "entryMethod": "Scanned",
+            "sequenceNumber": 2,
+            "status": "Active",
+            "isVirtualCoupon": false,
+            "rewardType": "Amount"
+        }
+    ],
+    "payments": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

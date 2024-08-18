@@ -1,0 +1,65 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 2,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "balanceDue": 2,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "DzHn8PlyrUaias1eA3Utw",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "ItemId",
+            "value": "101",
+            "id": "00000000001010"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          },
+          "priceModifier": {
+            "method": "PriceOverride",
+            "amount": 8,
+            "newPrice": 2,
+            "newTotalPrice": 2,
+            "totalPriceDifference": -8,
+            "percentage": 0.8
+          }
+        },
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "cola",
+        "description": "cola",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 2,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitOfMeasure": "EA",
+          "unitPrice": 10,
+          "quantity": 1
+        },
+        "amount": 2,
+        "securityScale": true
+      }
+    ],
+    "payments": [],
+    "receipts": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+        {
+            "isDelayedSolution": false,
+            "requiresAttendant": false,
+            "ruleId": "SuspendApprovalRequired",
+            "type": "ApprovalAction",
+            "message": {
+                "caption": "Approval Required",
+                "message": "Suspend requires Supervisor approval. Please enter supervisor details."
+            }
+        }
+    ]
+  }

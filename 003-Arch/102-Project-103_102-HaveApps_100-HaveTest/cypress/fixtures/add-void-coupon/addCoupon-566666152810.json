@@ -1,0 +1,79 @@
+{
+  "cartId": "7f73e6c4-357c-4e8e-97db-e163d9f35aca",
+  "sequenceNumber": "1435",
+  "cartInfo": {
+    "businessDate": "2021-02-02",
+    "beginDateTime": "2021-02-03T06:17:15.8006461",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 6,
+      "netAmount": 6,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "excluded": 0,
+        "included": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 4.25,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [{
+    "lineId": 3,
+    "entryMethod": "Automatic",
+    "rewardAmount": 2.25,
+    "promotionId": "6666615281-3",
+    "rewardedItems": [{
+      "lineId": 1,
+      "quantity": {
+        "value": 1
+      },
+      "rewardAmount": 1.75,
+      "description": "Red Bamba"
+    }],
+    "netPrice": 6,
+    "status": "Active",
+    "rewardType": "Tender",
+    "promotionDescription": "",
+    "promotionDetails": {
+      "isEndOfTicketPromotion": false,
+      "rewardAsTender": true,
+      "isManualPromotion": false,
+      "isTriggeredByTender": false,
+      "isSingleLineDiscount": false,
+      "tenderName": "RewardAsTender",
+      "couponId": "566666152810"
+    },
+    "approval": {
+      "status": "NotRequired"
+    }
+  }],
+  "coupons": [{
+    "redeptionStates": {
+      "redeemed": 1
+    },
+    "quantity": 1,
+    "couponRedemptionIds": ["6666615281-3"],
+    "couponId": "566666152810",
+    "entryMethod": "Scanned",
+    "sequenceNumber": 2,
+    "status": "Updated",
+    "isVirtualCoupon": false,
+    "rewardType": "Amount"
+  }],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false
+  },
+  "receipts": []
+}

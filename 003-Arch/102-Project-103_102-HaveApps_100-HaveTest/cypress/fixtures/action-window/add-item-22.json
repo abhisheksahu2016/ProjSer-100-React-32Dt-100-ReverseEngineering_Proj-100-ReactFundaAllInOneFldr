@@ -1,0 +1,76 @@
+{
+    "transaction": {
+        "cartId": "PRBGET744O",
+        "sequenceNumber": 4520,
+        "cartInfo": {
+            "businessDate": "2021-12-06",
+            "beginDateTime": "2021-12-06T12:43:58.157",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 20.97,
+                "netAmount": 20.97,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 20.97,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "22",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "unitOfMeasure": "Kg",
+                        "units": 3,
+                        "value": 1,
+                        "entryMethod": "Keyed"
+                    }
+                },
+                "fullDescription": "Large Oval Tomatoes",
+                "description": "Oval Tomatoes",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 20.97,
+                "extendedAmount": 20.97,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 6.99,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 6.99,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "cartId": "NTDY6JBGHF",
+    "sequenceNumber": 108,
+    "cartInfo": {
+        "businessDate": "2023-03-02",
+        "beginDateTime": "2023-03-02T11:15:55.27",
+        "status": "Itemization",
+        "totals": {
+            "grandAmount": 110,
+            "netAmount": 110,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "itemFee": 0,
+                "transactionFee": 0
+            },
+            "itemsCount": 2,
+            "balanceDue": 110,
+            "discountAmount": 2,
+            "grossAmount": 0
+        },
+        "defaultCurrency": "USD"
+    },
+    "manualSegments": [],
+    "items": [],
+    "rewards": [],
+    "coupons": [],
+    "payments": [],
+    "returns": [],
+    "identifiers": {
+        "taxExempt": false,
+        "taxDiscount": false,
+        "accessorialFlag": false,
+        "returnType": "NoneReceiptedReturn",
+        "isWic": false,
+        "isWicCvv": false,
+        "typeCode": "SaleTransaction"
+    },
+    "ewicReceipts": [],
+    "receipts": []
+}

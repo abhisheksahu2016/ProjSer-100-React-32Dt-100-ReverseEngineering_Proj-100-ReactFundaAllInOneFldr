@@ -1,0 +1,42 @@
+{
+  "cartId": "WJCB2EIYVE",
+  "sequenceNumber": 708,
+  "cartInfo": {
+    "businessDate": "2021-12-08",
+    "beginDateTime": "2021-12-08T14:34:34.168",
+    "status": "Itemization",
+    "totals": {
+      "grandAmount": 15,
+      "netAmount": 15,
+      "taxAmounts": {
+        "taxAmount": 0,
+        "itemFee": 0,
+        "transactionFee": 0
+      },
+      "itemsCount": 1,
+      "balanceDue": 15,
+      "discountAmount": 0,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [{
+    "lineId": 3,
+    "parentLineId": 1,
+    "status": "Cancelled"
+  }],
+  "rewards": [],
+  "coupons": [],
+  "payments": [],
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction"
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

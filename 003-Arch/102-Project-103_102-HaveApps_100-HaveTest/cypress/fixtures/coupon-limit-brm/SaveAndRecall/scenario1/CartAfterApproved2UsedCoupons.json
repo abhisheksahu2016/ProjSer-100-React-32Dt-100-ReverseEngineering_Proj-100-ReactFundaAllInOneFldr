@@ -1,0 +1,91 @@
+{
+    "cartInfo": {
+        "status": "Itemization",
+        "totals": {
+            "netAmount": 72.8,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 72.8,
+            "cashbackAmount": 0,
+            "discountAmount": 3.7,
+            "itemsCount": 3
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "gzGQ2VFAvUicJ0DXvinJYw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 4508,
+ 
+       
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [
+        {
+            "lineId": null,
+            "promotionId": "107",
+            "promotionDescription": "5% on Trael Backpa",
+            "rewardAmount": 3.5,
+            "rewardType": "STANDARD",
+            "rewardedItems": [
+                {
+                    "lineId": "2",
+                    "quantity": {
+                        "unitOfMeasure": "EA",
+                        "value": 1
+                    },
+                    "rewardAmount": 3.5,
+                    "rewardRefundAmount": 3.5,
+                    "rewardUnits": [
+                        {
+                            "unitId": "1",
+                            "rewardAmount": 3.5,
+                            "rewardRefundAmount": 3.5
+                        }
+                    ],
+                    "itemId": "9898116678"
+                }
+            ],
+            "triggeredCoupons": [
+                "2"
+            ],
+            "promotionDetails": {
+                "couponId": "776500111992",
+                "rewardAsTender": false,
+                "promotionLevel": "ITEM_LEVEL"
+            },
+            "message": {},
+            "rewardDisplay": "Separate line"
+        }
+    ],
+    "coupons": [
+        {
+            "sequenceNumber": 2,
+            "couponId": "776500111992",
+            "status": "Active",
+            "lineId": 2,
+            "quantity": 1,
+            "entryMethod": "Keyed",
+            "sequence": "638288725276441345",
+            "voidedLineId": null,
+            "redeptionStates": {
+                "redeemed": 1,
+                "unused": 0
+            },
+            "couponRedemptionIds": [
+                "107"
+            ]
+        }
+    ],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+}

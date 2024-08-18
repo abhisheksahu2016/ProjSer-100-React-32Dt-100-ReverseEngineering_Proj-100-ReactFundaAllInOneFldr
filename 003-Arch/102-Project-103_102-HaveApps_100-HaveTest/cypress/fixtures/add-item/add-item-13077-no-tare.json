@@ -1,0 +1,84 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 34.6,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 34.6,
+        "cashbackAmount": 0,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "S1gfaQPzqUKalyfDymimgQ",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 8600,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "13077",
+            "id": "00000000130770"
+          },
+          "quantity": {
+            "unitOfMeasure": "LBR",
+            "value": 1,
+            "weightQuantity": {
+              "netValue": 1,
+              "tare": {
+                "grossWeight": 1,
+                "isTareOverride": true,
+                "tareValue": 0,
+                "linkedTareValue": 0,
+                "isManualFixedTare": false
+              }
+            },
+            "units": 1
+          }
+        },
+        "extendedAmount": 34.6,
+        "itemType": "Normal",
+        "lineId": 1,
+        "fullDescription": "Long Filled Cookies - U 2017-10-31",
+        "description": "Filled Cookies",
+        "price": {
+          "unitOfMeasure": "LBR",
+          "specialPrice": false,
+          "unitPrice": 34.6,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 34.6
+        },
+        "amount": 34.6,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "638326377723202273"
+      }
+    ],
+    "payments": [],
+    "taxExemptions": [],
+    "surcharges": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "customerPrograms": [],
+    "identifiers": {}
+  }
+}

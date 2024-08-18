@@ -1,0 +1,71 @@
+{
+  "transaction": {
+    "cartId": "38b93162-4db2-4198-9e82-1b7eded20868",
+    "sequenceNumber": "32",
+    "cartInfo": {
+      "businessDate": "2021-01-25",
+      "beginDateTime": "2021-01-25T08:51:56.2969929",
+      "status": "Itemization",
+      "totals": {
+        "grandAmount": 0,
+        "netAmount": 0,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "excluded": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0
+        },
+        "itemsCount": 1,
+        "balanceDue": 0,
+        "discountAmount": 0,
+        "grossAmount": 0
+      },
+      "defaultCurrency": "USD"
+    },
+    "items": [
+      {
+        "lineItem": {
+          "EntryMethod": "Keyed",
+          "itemId": {
+            "value": "62",
+            "type": "SKU"
+          },
+          "quantity": {
+            "value": 1,
+            "entryMethod": "Automatic"
+          }
+        },
+        "fullDescription": "Potato chips",
+        "description": "Potato",
+        "itemType": "Stock",
+        "lineId": 1,
+        "amount": 0,
+        "securityScale": true,
+        "imageUrl": "",
+        "price": {
+          "unitPrice": 0,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 0,
+          "currency": "USD",
+          "quantity": 1
+        },
+        "status": "Active",
+        "taxes": []
+      }
+    ],
+    "coupons": [],
+    "payments": [],
+    "identifiers": {
+      "taxExempt": false,
+      "taxDiscount": false,
+      "accessorialFlag": false,
+      "returnType": "NoneReceiptedReturn",
+      "isWic": false,
+      "isWicCvv": false
+    }
+  }
+}

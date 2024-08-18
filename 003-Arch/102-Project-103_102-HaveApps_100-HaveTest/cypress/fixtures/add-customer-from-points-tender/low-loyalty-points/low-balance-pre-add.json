@@ -1,0 +1,26 @@
+{
+    "code": "BalanceBelowMinRequiredValueForPointRedemptionErrorCode",
+    "message": "Balance is below minimum required value for points redemption",
+    "severity": "Error",
+    "data": {
+        "$": {
+            "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xmlns": "uri:Retalix_Extension"
+        },
+        "DataEntry": [
+            {
+                "_": "100.000000",
+                "$": {
+                    "Key": "MinimumPointsRequired"
+                }
+            },
+            {
+                "_": "5",
+                "$": {
+                    "Key": "AccountBalance"
+                }
+            }
+        ]
+    }
+}

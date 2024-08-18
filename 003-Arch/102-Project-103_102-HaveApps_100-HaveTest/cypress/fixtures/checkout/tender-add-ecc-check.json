@@ -1,0 +1,111 @@
+{
+    "cartInfo": {
+        "status": "Tender",
+        "totals": {
+            "netAmount": 90.95,
+            "taxAmounts": {
+                "taxAmount": 0,
+                "included": 0,
+                "itemFee": 0,
+                "transactionFee": 0,
+                "taxExemptAmount": 0
+            },
+            "balanceDue": 0,
+            "cashbackAmount": 0,
+            "discountAmount": 0,
+            "itemsCount": 1
+        },
+        "defaultCurrency": "USD"
+    },
+    "cartId": "fakG1rzzEOT0EZgpemRXw",
+    "isTransactionTotaled": false,
+    "sequenceNumber": 8966,
+    "items": [
+        {
+            "lineItem": {
+                "itemId": {
+                    "type": "0",
+                    "value": "666",
+                    "id": "00000000006660"
+                },
+                "quantity": {
+                    "unitOfMeasure": "EA",
+                    "value": 1
+                },
+                "priceModifier": {
+                    "method": "PriceVerify",
+                    "amount": -78.95,
+                    "newPrice": 90.95,
+                    "newTotalPrice": 90.95,
+                    "totalPriceDifference": 78.95,
+                    "percentage": -6.579166666666667
+                }
+            },
+            "extendedAmount": 90.95,
+            "itemType": "Normal",
+            "lineId": 1,
+            "fullDescription": "Long Bread",
+            "description": "Bread",
+            "price": {
+                "unitOfMeasure": "EA",
+                "specialPrice": false,
+                "unitPrice": 90.95,
+                "quantity": 1
+            },
+            "regularPrice": {
+                "unitPrice": 12
+            },
+            "amount": 90.95,
+            "taxes": [],
+            "securityScale": true,
+            "additionalData": {
+                "ItemSaleType": "SALES"
+            },
+            "entryMethod": "Keyed",
+            "sequence": "637965108751060464"
+        }
+    ],
+    "payments": [
+        {
+            "sequenceNumber": 1,
+            "sequence": "637965108844723576",
+            "lineId": 1,
+            "tenderId": "11010",
+            "tenderType": "Check",
+            "tenderName": "ECC Check",
+            "amount": 90.95,
+            "cashBackAmount": 0,
+            "status": "authorized",
+            "usage": "Payment",
+            "authorization": {
+                "electronicPayment": {
+                    "epsProvider": {}
+                },
+                "checkPayment": {
+                    "isEndorsed": true
+                },
+                "paymentsInfo": [
+                    {
+                        "key": "TransitNumber",
+                        "value": "321270742"
+                    },
+                    {
+                        "key": "AccountNumber",
+                        "value": "012547854"
+                    },
+                    {
+                        "key": "ChequeNumber",
+                        "value": "1098765432"
+                    }
+                ]
+            }
+        }
+    ],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "identifiers": {}
+}

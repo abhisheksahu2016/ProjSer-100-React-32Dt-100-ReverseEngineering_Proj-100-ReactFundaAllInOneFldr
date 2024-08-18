@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "CashierNeedABreak",
+    "Descriptions": [
+      { "value": "Cashier Needs A Break", "culture": "en-GB" },
+      { "value": "Cashier Needs A Break" }
+    ],
+    "Name": "Cashier Needs A Break"
+  }
+]

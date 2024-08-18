@@ -1,0 +1,17 @@
+{
+    "code": "BRMException",
+    "message": "BRM exception",
+    "severity": "Error",
+    "data": [
+      {
+        "isDelayedSolution": false,
+        "requiresAttendant": false,
+        "ruleId": "PaidInManagerApprovalRestriction995",
+        "type": "ApprovalAction",
+        "message": {
+          "caption": "",
+          "message": "Supervisor function. Please enter supervisor details"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,69 @@
+{
+  "transaction": {
+    "cartInfo": {
+      "status": "Itemization",
+      "totals": {
+        "netAmount": 4.50,
+        "taxAmounts": {
+          "taxAmount": 0,
+          "included": 0,
+          "itemFee": 0,
+          "transactionFee": 0,
+          "taxExemptAmount": 0
+        },
+        "balanceDue": 4.50,
+        "discountAmount": 0,
+        "itemsCount": 1
+      },
+      "defaultCurrency": "USD"
+    },
+    "cartId": "tQgfFPYaik2Ffs8MLz9hKg",
+    "sequenceNumber": 123,
+    "isTransactionTotaled": false,
+    "items": [
+      {
+        "lineItem": {
+          "itemId": {
+            "type": "0",
+            "value": "37",
+            "id": "989877371"
+          },
+          "quantity": {
+            "unitOfMeasure": "EA",
+            "value": 1
+          }
+        },
+        "extendedAmount": 4.5,
+        "itemType": "Normal",
+        "lineId": 3,
+        "fullDescription": "Lipton Green Tea",
+        "description": "Lipton Green Tea",
+        "price": {
+          "unitOfMeasure": "EA",
+          "specialPrice": false,
+          "unitPrice": 4.5,
+          "quantity": 1
+        },
+        "regularPrice": {
+          "unitPrice": 4.5
+        },
+        "amount": 4.5,
+        "taxes": [],
+        "securityScale": true,
+        "additionalData": {
+          "ItemSaleType": "SALES"
+        },
+        "entryMethod": "Keyed",
+        "sequence": "637840520829839151"
+      }
+    ],
+    "payments": [],
+    "receipts": [],
+    "returns": [],
+    "refunds": [],
+    "rewards": [],
+    "coupons": [],
+    "restrictions": [],
+    "identifiers": {}
+  }
+}

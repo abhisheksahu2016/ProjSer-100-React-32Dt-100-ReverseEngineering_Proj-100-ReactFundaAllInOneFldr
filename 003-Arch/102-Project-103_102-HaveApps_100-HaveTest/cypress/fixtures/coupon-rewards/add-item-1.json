@@ -1,0 +1,120 @@
+{
+    "transaction": {
+        "cartId": "FV7BCCP3ZG",
+        "sequenceNumber": 1207,
+        "cartInfo": {
+            "businessDate": "2022-01-03",
+            "beginDateTime": "2022-01-03T21:04:52.583",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 149.9,
+                "netAmount": 123.5,
+                "taxAmounts": {
+                    "taxAmount": 26.4,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 4,
+                "balanceDue": 149.9,
+                "discountAmount": 7.83,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "1",
+                        "type": "SKU"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Exclusive Bedding Set",
+                "description": "Bedding Set",
+                "itemType": "Stock",
+                "lineId": 6,
+                "amount": 120,
+                "extendedAmount": 120,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 120,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "regularPrice": {
+                    "unitPrice": 120,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": []
+            }
+        ],
+        "rewards": [
+            {
+                "lineId": 7,
+                "entryMethod": "Automatic",
+                "triggeredProducts": [
+                    6,
+                    2,
+                    1,
+                    5
+                ],
+                "rewardAmount": -7.83,
+                "promotionId": "47",
+                "itemLink": 3,
+                "rewardedItems": [
+                    {
+                        "lineId": 2,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 4.33,
+                        "description": "Boy Pants"
+                    },
+                    {
+                        "lineId": 5,
+                        "quantity": {
+                            "value": 1
+                        },
+                        "rewardAmount": 3.5,
+                        "description": "Dress"
+                    }
+                ],
+                "netPrice": 7.83,
+                "status": "Updated",
+                "rewardType": "FreeItem",
+                "promotionDescription": " 1 + 1 CHEAPEST FREE ",
+                "promotionDetails": {
+                    "isEndOfTicketPromotion": false,
+                    "rewardAsTender": false,
+                    "isManualPromotion": false,
+                    "isTriggeredByTender": false,
+                    "isSingleLineDiscount": false
+                },
+                "approval": {
+                    "status": "NotRequired"
+                }
+            }
+        ],
+        "coupons": [],
+        "payments": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

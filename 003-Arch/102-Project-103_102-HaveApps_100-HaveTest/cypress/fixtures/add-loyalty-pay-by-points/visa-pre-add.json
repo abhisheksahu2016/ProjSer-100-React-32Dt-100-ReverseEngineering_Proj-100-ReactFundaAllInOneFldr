@@ -1,0 +1,91 @@
+{
+  "cartId": "JY3YH6NGN4",
+  "sequenceNumber": 234,
+  "cartInfo": {
+    "businessDate": "2022-12-16",
+    "beginDateTime": "2022-12-16T14:52:23.247",
+    "status": "Tender",
+    "totals": {
+      "grandAmount": 4.43,
+      "netAmount": 4.43,
+      "taxAmounts": { "taxAmount": 0, "itemFee": 0, "transactionFee": 0 },
+      "itemsCount": 1,
+      "balanceDue": 1.23,
+      "discountAmount": 0.07,
+      "grossAmount": 0
+    },
+    "defaultCurrency": "USD"
+  },
+  "items": [],
+  "rewards": [
+    {
+      "lineId": 7,
+      "entryMethod": "Automatic",
+      "triggeredProducts": [1],
+      "rewardAmount": -0.07,
+      "promotionId": "2216",
+      "rewardedItems": [
+        {
+          "lineId": 1,
+          "quantity": { "value": 1 },
+          "rewardAmount": 4.5,
+          "sequences": [{ "sequence": 1, "rewardContributionAmount": 0.07 }],
+          "description": "kale"
+        }
+      ],
+      "netPrice": 4.5,
+      "status": "Active",
+      "rewardType": "PercentageOff",
+      "promotionDescription": "5%off for visa ",
+      "promotionDetails": {
+        "isEndOfTicketPromotion": false,
+        "rewardAsTender": false,
+        "isManualPromotion": false,
+        "isTriggeredByTender": true,
+        "isSingleLineDiscount": false
+      },
+      "approval": { "status": "NotRequired" }
+    }
+  ],
+  "coupons": [],
+  "payments": [],
+  "returns": [],
+  "customer": {
+    "consumerAccountNumber": "0420200000333",
+    "firstName": "Tony",
+    "lastName": "Jaa",
+    "points": 480,
+    "isAuthenticatedOffline": false,
+    "programBalances": [
+      {
+        "id": "100",
+        "programId": "account 100",
+        "name": "account 100",
+        "earnedPoints": 480,
+        "originalPoints": 500
+      },
+      {
+        "id": "2000",
+        "programId": "account 2000",
+        "name": "account 2000",
+        "earnedPoints": 500,
+        "originalPoints": 500
+      }
+    ],
+    "message": "<table><th><td>ExpiryDate</td><td>LinkPoints($)</td></th><tr><td>31/12/22</td><td>50</td></tr><tr><td>31/1/23</td><td>60</td></tr><tr><td>31/4/23</td><td>40</td></tr></table>",
+    "emailAddress": "3@3",
+    "mobilePhoneNumber": "string"
+  },
+  "identifiers": {
+    "taxExempt": false,
+    "taxDiscount": false,
+    "accessorialFlag": false,
+    "returnType": "NoneReceiptedReturn",
+    "isWic": false,
+    "isWicCvv": false,
+    "typeCode": "SaleTransaction",
+    "openTillDrawer": false
+  },
+  "ewicReceipts": [],
+  "receipts": []
+}

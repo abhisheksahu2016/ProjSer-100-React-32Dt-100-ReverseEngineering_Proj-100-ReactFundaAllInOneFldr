@@ -1,0 +1,132 @@
+{
+    "message": "Failure",
+    "code": "PMI_REQUEST_FAILURE",
+    "statusCode": 77,
+    "response": {
+        "header": null,
+        "message": {
+            "amounts": {
+                "activationAmount": null,
+                "amountApproved": "10.00",
+                "amountDue": "10.00",
+                "amountTendered": "10.00",
+                "cardBalance": null,
+                "discountAmount": null,
+                "feeAmount": null,
+                "reloadAmount": null,
+                "taxAmount": null,
+                "tipAmount": null,
+                "cashbackAmount": null,
+                "cashbackAmountApproved": null,
+                "fsaamounts": null
+            },
+            "cardDetails": null,
+            "checkDetails": {
+                "checkAccountNumber": null,
+                "checkIssueDate": null,
+                "checkMICRData": null,
+                "checkRawMICRData": null,
+                "checkRoutingNumber": null,
+                "checkSequenceNumber": "2233",
+                "checkType": "Personal",
+                "loyaltyCardStatus": null,
+                "ecceligible": null
+            },
+            "clientID": "POS1",
+            "configOptions": null,
+            "connectionInfo": null,
+            "customInputData": null,
+            "customOutputData": null,
+            "deviceConnectionType": null,
+            "deviceData": {
+                "serialNumber": "803529904",
+                "terminalApplicationVersionNumber": null,
+                "terminalCapabilities": null,
+                "terminalCountryCode": null,
+                "terminalType": null,
+                "terminalVerificationResults": null
+            },
+            "smartWICData": null,
+            "hostData": {
+                "addressVerificationResult": null,
+                "accountSecurityCodeValid": null,
+                "errorCode": null,
+                "errorMessage": null,
+                "hostType": null,
+                "merchantCategoryCode": null,
+                "networkSpecInfo": null,
+                "referenceID": "29383c6c68304896980f8e730ce3c20c",
+                "traceID": null,
+                "returnCheckNote": null
+            },
+            "messageType": "Response",
+            "operation": "CheckPurchase",
+            "customerData": null,
+            "paymentDetails": {
+                "authCode": null,
+                "allowOffline": null,
+                "feeType": null,
+                "paymentTranID": "3-17648",
+                "paymentTokenID": null,
+                "responseCode": null,
+                "responseMessage": null,
+                "sessionTranID": "17647",
+                "stan": "31209",
+                "verificationMethod": "NotRequired",
+                "offline": true,
+                "needsSignature": null,
+                "signatureData": null,
+                "imageType": null
+            },
+            "promptDetails": null,
+            "transactionDetails": null,
+            "posOptions": null,
+            "posTranID": "n6eCw9QSU6xficddLm6A",
+            "settlement": null,
+            "adjustmentData": null,
+            "receipts": [
+                {
+                    "receiptLines": [
+                        "               Your Store               ",
+                        "               Your Street              ",
+                        "           City, State zipcode          ",
+                        "            (555) 555-1212              "
+                    ],
+                    "receiptSection": "Header",
+                    "receiptType": "Merchant"
+                },
+                {
+                    "receiptLines": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "receiptSection": "Body",
+                    "receiptType": "Merchant"
+                },
+                {
+                    "receiptLines": [
+                        "             THANK YOU FOR              ",
+                        "            SHOPPING WITH US!           "
+                    ],
+                    "receiptSection": "Footer",
+                    "receiptType": "Merchant"
+                }
+            ],
+            "requestID": "1938e0df-5feb-4d56-8a53-a0617dff9cf0",
+            "signatureDetails": null,
+            "status": "Failure",
+            "statusCode": 77,
+            "statusMessage": "Host Offline",
+            "transactionDateTime": "2022-08-31 12:15:23",
+            "transactionDateTimeUTC": "2022-08-31 16:15:23",
+            "version": "3.3.0",
+            "versionInfo": null,
+            "timeout": null,
+            "marketBasketData": null,
+            "saf": null,
+            "ewicdata": null
+        }
+    }
+}

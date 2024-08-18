@@ -1,0 +1,82 @@
+{
+    "transaction": {
+        "cartId": "VEHKFIO7PE",
+        "sequenceNumber": 249,
+        "cartInfo": {
+            "businessDate": "2024-04-14",
+            "beginDateTime": "2024-04-14T11:41:22.289",
+            "status": "Itemization",
+            "totals": {
+                "grandAmount": 12,
+                "netAmount": 12,
+                "taxAmounts": {
+                    "taxAmount": 0,
+                    "itemFee": 0,
+                    "transactionFee": 0
+                },
+                "itemsCount": 1,
+                "balanceDue": 12,
+                "discountAmount": 0,
+                "grossAmount": 0
+            },
+            "defaultCurrency": "USD"
+        },
+        "manualSegments": [],
+        "items": [
+            {
+                "lineItem": {
+                    "EntryMethod": "Keyed",
+                    "itemId": {
+                        "value": "3",
+                        "type": "SKU",
+                        "id": "3"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "entryMethod": "Automatic"
+                    }
+                },
+                "fullDescription": "Long Banana",
+                "description": "Banana",
+                "itemType": "Stock",
+                "lineId": 1,
+                "amount": 12,
+                "extendedAmount": 12,
+                "securityScale": true,
+                "imageUrl": "",
+                "price": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "netAmount": 12,
+                "regularPrice": {
+                    "unitPrice": 12,
+                    "currency": "USD",
+                    "quantity": 1
+                },
+                "status": "Active",
+                "taxes": [],
+                "securityWeightScaleDetails": {
+                    "securityScaleRequired": true,
+                    "securityScaleWeightBehaviorType": "ValidateWeight"
+                }
+            }
+        ],
+        "rewards": [],
+        "coupons": [],
+        "payments": [],
+        "returns": [],
+        "identifiers": {
+            "taxExempt": false,
+            "taxDiscount": false,
+            "accessorialFlag": false,
+            "returnType": "NoneReceiptedReturn",
+            "isWic": false,
+            "isWicCvv": false,
+            "typeCode": "SaleTransaction"
+        },
+        "ewicReceipts": [],
+        "receipts": []
+    }
+}

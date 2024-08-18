@@ -1,0 +1,22 @@
+{
+  "action": "EFTSwipePay",
+  "transactionId": "z8bIVF06o0u758zP6lk9Zw",
+  "lineId": "2",
+  "currency": "USD",
+  "status": "preTender",
+  "authorizationType": "Online",
+  "payload": {
+    "amount": 8.94,
+    "preTenderAmount": 8.94,
+    "sessionId": "8",
+    "paymentTranId": "7",
+    "cardDetails": {
+      "cardId": "EC",
+      "entryMethod": "Swiped",
+      "accountNumber": "415928******0009",
+      "cardType": "CreditDebit"
+    },
+    "tenderId": "39",
+    "authCode": null
+  }
+}

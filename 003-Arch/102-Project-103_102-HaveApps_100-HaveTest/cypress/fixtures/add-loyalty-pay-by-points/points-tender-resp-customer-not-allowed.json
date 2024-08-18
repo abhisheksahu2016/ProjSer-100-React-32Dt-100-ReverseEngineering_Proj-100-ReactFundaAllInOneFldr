@@ -1,0 +1,5 @@
+{
+  "code": "CustomerBlockedForPayByPointsServiceErrorCode",
+  "message": "Customer can't pay with points",
+  "severity": "Error"
+}
