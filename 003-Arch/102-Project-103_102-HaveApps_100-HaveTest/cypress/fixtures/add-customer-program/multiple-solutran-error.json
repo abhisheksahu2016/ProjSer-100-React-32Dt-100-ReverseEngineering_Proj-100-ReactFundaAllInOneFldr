@@ -1,5 +1,0 @@
-{
-  "code": "MultipleSolutranCustmerPrograms",
-  "message": "Only a single instance of the Solutra customer program is supported. You can either leave the existing one or replace it.",
-  "severity": "Error"
-}

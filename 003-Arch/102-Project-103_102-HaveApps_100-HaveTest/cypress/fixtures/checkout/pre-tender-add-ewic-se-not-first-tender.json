@@ -1,5 +1,0 @@
-{
-    "code": "TendersOrderViolation",
-    "message": "The selected tender cannot be used after the previous tenders",
-    "severity": "Error"
-}

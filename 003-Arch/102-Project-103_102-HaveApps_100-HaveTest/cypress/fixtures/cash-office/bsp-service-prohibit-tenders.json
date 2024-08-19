@@ -1,5 +1,0 @@
-{
-  "code": "BspServiceProhibitError",
-  "message": "Unauthorized: Required role [CASHOFFICE_TENDER_READER] not present in token",
-  "severity": "Error"
-}

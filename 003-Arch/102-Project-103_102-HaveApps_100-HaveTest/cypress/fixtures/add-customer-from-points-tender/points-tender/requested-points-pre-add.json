@@ -1,6 +1,0 @@
-{
-    "code": "RequestedPointAmountForRedemptionIsInvalidErrorCode",
-    "message": "Requested points amount for redemption is invalid",
-    "severity": "Error",
-    "data": 5
-}

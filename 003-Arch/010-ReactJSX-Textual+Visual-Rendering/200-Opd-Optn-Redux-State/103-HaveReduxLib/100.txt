@@ -1,2 +1,0 @@
-npm install redux --save
-yarn add redux

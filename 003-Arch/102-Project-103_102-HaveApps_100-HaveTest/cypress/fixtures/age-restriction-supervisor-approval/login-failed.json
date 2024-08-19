@@ -1,5 +1,0 @@
-{
-  "statusCode": 401,
-  "message": "USER_CREDENTIALS - The user credentials are invalid",
-  "error": "Unauthorized"
-}

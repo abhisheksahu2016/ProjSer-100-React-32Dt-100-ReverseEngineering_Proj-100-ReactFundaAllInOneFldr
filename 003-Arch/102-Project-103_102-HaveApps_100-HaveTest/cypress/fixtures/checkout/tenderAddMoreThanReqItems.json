@@ -1,5 +1,0 @@
-{
-  "code": "TooManyUniqueWicItems",
-  "message": "Maximum number of unique WIC items exceeded. Please void items and sell in new ticket.",
-  "severity": "Error"
-}

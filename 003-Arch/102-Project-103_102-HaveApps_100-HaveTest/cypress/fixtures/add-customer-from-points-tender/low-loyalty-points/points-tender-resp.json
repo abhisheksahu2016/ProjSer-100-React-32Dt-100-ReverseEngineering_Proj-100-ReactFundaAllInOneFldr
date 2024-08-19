@@ -1,5 +1,0 @@
-{
-  "code": "CustomerNotFoundForPayByPointsServiceErrorCode",
-  "message": "Customer not found for pay by points service",
-  "severity": "Error"
-}

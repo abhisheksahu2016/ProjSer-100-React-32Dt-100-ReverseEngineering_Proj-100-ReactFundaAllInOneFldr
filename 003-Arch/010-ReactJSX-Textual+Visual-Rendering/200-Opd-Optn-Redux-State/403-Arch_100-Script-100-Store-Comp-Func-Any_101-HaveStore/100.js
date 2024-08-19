@@ -1,1 +1,0 @@
-let sample_store = createStore(count) 

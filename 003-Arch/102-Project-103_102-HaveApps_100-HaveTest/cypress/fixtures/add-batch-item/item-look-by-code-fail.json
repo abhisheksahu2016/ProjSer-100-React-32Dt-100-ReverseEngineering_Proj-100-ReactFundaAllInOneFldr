@@ -1,5 +1,0 @@
-{
-  "statusCode": 404,
-  "message": "Cannot POST /api/items/get-item-details/",
-  "error": "Not Found"
-}

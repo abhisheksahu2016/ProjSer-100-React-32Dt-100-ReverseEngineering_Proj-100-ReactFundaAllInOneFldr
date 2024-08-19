@@ -1,5 +1,0 @@
-{
-    "code": "WicMixedTransactionRestriction",
-    "message": "You cannot pay with eWIC if there are return items in the same transaction.",
-    "severity": "Error"
-}

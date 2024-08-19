@@ -1,5 +1,0 @@
-{
-    "code": "InhibitQuantityKeyed",
-    "message": "This item can't have quantity, according to definition",
-    "severity": "Error"
-}

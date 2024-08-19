@@ -1,6 +1,0 @@
-{
-  "code": "DataAddRequired",
-  "message": "Additional action needs to be performed",
-  "severity": "Error",
-  "data": {"dataInformation": {"type":"Coupon","scanData":"566666152830"}}
-}

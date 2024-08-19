@@ -1,5 +1,0 @@
-{
-  "code": "PriceEntryRequired",
-  "message": "Item 049000009972 cannot be added to the transaction, without price entry",
-  "severity": "Error"
-}

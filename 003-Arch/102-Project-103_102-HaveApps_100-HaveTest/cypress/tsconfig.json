@@ -1,8 +1,0 @@
-{
-  "extends": "../tsconfig.json",
-  "include": ["../node_modules/cypress", "*/*.ts", "support/commands.js", "support/index.js"],
-  "exclude": ["*/*.js"],
-  "compilerOptions": {
-    "noEmit": false
-  }
-}
