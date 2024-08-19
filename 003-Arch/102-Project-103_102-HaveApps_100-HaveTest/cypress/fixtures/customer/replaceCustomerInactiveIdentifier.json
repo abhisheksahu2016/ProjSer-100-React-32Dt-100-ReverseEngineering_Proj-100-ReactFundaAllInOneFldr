@@ -1,0 +1,6 @@
+{
+    "code":"CustomerHasNoActiveIdentification",
+    "message":"Identifier is not active",
+    "severity":"Error",
+    "data":null
+}
