@@ -1,0 +1,5 @@
+{
+    "code": "ResourceNotFound",
+    "message": "Entity Selling Behavior#Deposit not found",
+    "severity": "Error"
+}

@@ -1,0 +1,32 @@
+{
+    "code": "BRMException",
+    "message": "BRM restrictions",
+    "severity": "Error",
+    "data": [
+        {
+            "lineId": "1",
+            "ruleId": "delayRuleTest",
+            "restrictionType": "SellProduct",
+            "type": "ApprovalAction",
+            "message": {
+                "caption": "Confirmation",
+                "message": "delayRuleTest"
+            },
+            "culturedMessages": [
+                {
+                    "caption": "Confirmation",
+                    "message": "delayRuleTest",
+                    "culture": "en-US"
+                }
+            ],
+            "reasons": [],
+            "restrictedLines": [
+                "1"
+            ],
+            "delayable": true,
+            "isDelayedSolution": false,
+            "requiresAttendant": true,
+            "rejectedReason": "ApprovalDataMissing"
+        }
+    ]
+}

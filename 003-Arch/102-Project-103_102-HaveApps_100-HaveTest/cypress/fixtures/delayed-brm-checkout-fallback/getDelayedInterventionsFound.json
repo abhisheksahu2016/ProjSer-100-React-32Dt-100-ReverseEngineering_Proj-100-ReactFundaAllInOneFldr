@@ -1,0 +1,21 @@
+{
+    "policies": [
+        {
+            "storePolicy": "SellProduct",
+            "interventions": [
+                {
+                    "lineId": "1",
+                    "restrictionType": "SellProduct",
+                    "restrictionTypeLabel": "SellProduct",
+                    "restrictionOn": "Items",
+                    "restrictionScope": "Cart",
+                    "restrictedLines": [
+                        "1"
+                    ],
+                    "ruleId": "ProductSale_3Spoons_Eran",
+                    "requiredAction": "AuthorizationRequired"
+                }
+            ]
+        }
+    ]
+}

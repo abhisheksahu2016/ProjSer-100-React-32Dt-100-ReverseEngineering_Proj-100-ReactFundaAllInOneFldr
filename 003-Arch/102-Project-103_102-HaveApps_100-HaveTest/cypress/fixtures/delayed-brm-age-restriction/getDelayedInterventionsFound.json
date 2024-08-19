@@ -1,0 +1,40 @@
+{
+    "policies": [
+        {
+            "storePolicy": "AgeRestriction",
+            "interventions": [
+                {
+                    "lineId": "1",
+                    "restrictionType": "AgeRestriction",
+                    "restrictionOn": "Items",
+                    "restrictionScope": "Cart",
+                    "restrictedLines": [
+                        "1"
+                    ],
+                    "ruleId": "AgeRestriction_Lettuce",
+                    "requiredAction": "AgeConfirmationRequired",
+                    "messages": [
+                        {
+                            "culture": "en-US",
+                            "caption": "Age Verification",
+                            "body": "Is Customer aged 18 and up?"
+                        }
+                    ],
+                    "additionalData": {
+                        "approveRejectRequired": true,
+                        "birthDateRequired": true,
+                        "rejectedReason": "MissingInput",
+                        "reasons": [
+                            {
+                                "isEnabled": true,
+                                "value": "rejected",
+                                "description": "Under_Age",
+                                "isDefault": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

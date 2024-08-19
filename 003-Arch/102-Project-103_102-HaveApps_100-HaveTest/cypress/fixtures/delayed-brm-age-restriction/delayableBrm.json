@@ -1,0 +1,36 @@
+{
+    "code": "BRMException",
+    "message": "BRM restrictions",
+    "severity": "Error",
+    "data": [
+        {
+            "lineId": "1",
+            "ruleId": "er185126_AgeRestriction_WineE",
+            "restrictionType": "AgeRestriction",
+            "type": "AgeRestrictionAction",
+            "message": {
+                "caption": "Age Verification",
+                "message": "Is Customer aged 18 and up?"
+            },
+            "culturedMessages": [
+                {
+                    "caption": "Age Verification",
+                    "message": "Is Customer aged 18 and up?",
+                    "culture": "en-US"
+                }
+            ],
+            "reasons": [
+                {
+                    "isEnabled": true,
+                    "value": "rejected",
+                    "description": "Under_Age",
+                    "isDefault": true
+                }
+            ],
+            "approveRejectRequired": true,
+            "birthDateRequired": true,
+            "rejectedReason": "MissingInput",
+            "delayable": true
+        }
+    ]
+}
